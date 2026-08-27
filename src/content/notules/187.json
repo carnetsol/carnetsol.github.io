@@ -1,0 +1,80 @@
+{
+ "postId": 187,
+ "titre": "Mise en forme des commentaires",
+ "slug": "mise-en-forme-des-commentaires",
+ "url": "/css/2006/04/13/187-mise-en-forme-des-commentaires/",
+ "date": "2006-04-13T12:13:33",
+ "modifie": "2006-04-14T13:05:26",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Vous pouvez à présent mettre en forme les commentaires à l'aide des balises de BBCode. Ci-joint, en commentaire, une démonstration.</p>",
+ "notesHtml": "",
+ "extrait": "Vous pouvez à présent mettre en forme les commentaires à l'aide des balises de BBCode. Ci-joint, en commentaire, une démonstration.",
+ "nbCommentaires": 8,
+ "commentaires": [
+  {
+   "id": 379,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-04-13T12:14:16",
+   "contenu": "<p>Le texte est standard et n'est pas de moi. Voici le code : <br />\r\n<br />\r\n<br />\r\n[p]Voici un paragraphe, contenant des mots en [b]gras[/b], en [i]italique[/i], d'autres [u]soulignés[/u], et même [s]certains rayés[/s][/p]<br />\r\nVous pouvez bien entendu mettre des [color=red]couleurs[/color] ([color=#EF453E]l'index HTML fonctionne aussi[/color]).Bien entendu la taille est [size=12]mo[/size][size=20]difiable[/size] et vous pouvez insérer des [url=http://www.newdimension-fr.net]liens[/url].Vous pouvez également insérer des images [img]http://operacritiques.free.fr/css/themes/default/images/cello.jpg[/img]<br />\r\nVous pouvez même reprendre un précédent commentaire [quote=dlm]Valérie Millot est la grande prêtresse de la diction française.[/quote]<br />\r\nEt mettre un lien vers une adresse de courriel [email]sp@misbad.com[/email]<br />\r\n[center]Vous pouvez mettre du contenu centré[/center]<br />\r\n[right]Ou même aligner à droite[/right]<br />\r\nNotez que les balises faisant apparaître un argument (quote et url) peuvent être utilisées avec ou sans, et l'argument entouré par des \" \" ou pas.<br />\r\nDe même les balises qui ont été accidentalement mal fermées, ou oubliées, sont proprement corrigées et traitées.</p>"
+  },
+  {
+   "id": 380,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-04-13T12:27:42",
+   "contenu": "<p><p>Voici un paragraphe, contenant des mots en <strong>gras</strong>, en <em>italique</em>, d'autres <u>soulignés</u>, et même <del>certains rayés</del></p><br />\r\nVous pouvez bien entendu mettre des <span style=\"color: red\">couleurs</span> (<span style=\"color: #EF453E\">l'index HTML fonctionne aussi</span>).Bien entendu la taille est <span style=\"font-size: 12px; line-height: normal\">mo</span><span style=\"font-size: 20px; line-height: normal\">difiable</span> et vous pouvez insérer des <a href=\"http://www.newdimension-fr.net\" target=\"_blank\">liens</a>.Vous pouvez également insérer des images <img src='http://operacritiques.free.fr/css/themes/default/images/cello.jpg' alt='' /><br />\r\nVous pouvez même reprendre un précédent commentaire </p><blockquote><span style=\"font-size: 11px; line-height: normal\"><b>dlm : </b><br/>Valérie Millot est la grande prêtresse de la diction française.</span></blockquote><p><br />\r\nEt mettre un lien vers une adresse de courriel <a href=\"mailto:sp@misbad.com\">sp@misbad.com</a><br />\r\n</p><div align=\"center\"><p>Vous pouvez mettre du contenu centré</p></div><p><br />\r\n</p><div align=\"right\"><p>Ou même aligner à droite</p></div><p><br />\r\nNotez que les balises faisant apparaître un argument (quote et url) peuvent être utilisées avec ou sans, et l'argument entouré par des \" \" ou pas.<br />\r\nDe même les balises qui ont été accidentalement mal fermées, ou oubliées, sont proprement corrigées et traitées.</p>"
+  },
+  {
+   "id": 387,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-04-14T12:25:52",
+   "contenu": "<p>personnellement je préfère faire dans le sobre (mes débuts dans le usenet ont du jouer...) mais pour les url, c'est ma foi bien pratique ! ;)<br />\r\n<br />\r\nA +</p>"
+  },
+  {
+   "id": 388,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-04-14T13:07:42",
+   "contenu": "<p>Coucou Christian !<br />\r\n<br />\r\nCa a tout de même de gros avantages : <br />\r\n- rendre lisible les commentaires longs<br />\r\n- pouvoir faire des citations lisibles<br />\r\n- rendre le format plus compatible que la syntaxe Wiki. Par exemple, il suffit de remplacer automatiquement les balises pour passer en html.</p>"
+  },
+  {
+   "id": 10935,
+   "auteur": "Golisande",
+   "site": "",
+   "date": "2015-06-21T15:53:43",
+   "contenu": "<p>Salut David.<br />\r\n<br />\r\nJe n'ai rien dit jusqu'à présent parce que je pensais que c'était stérile (je le pense toujours), et que tu as déjà fourni des répliques incontestables à des remarques semblables, mais comme je vois que d'autres n'ont pas de tels scrupules et qu'après tout ça ne coûte rien, voilà : tes choix concernant certains corpora (allez hop) me laissent comme deux ronds de flan. Ainsi Bruckner (élimination pure et simple des deux seules symphonies que j'aime vraiment), Brahms (élimination pure et simple de ma symphonie préférée), Mahler (deux étoiles pour la 2, zéro pour 6, 7 et 10), RVW (une étoile pour la 1, présence dégradante de la 5, mais exit 3 et 6), à un moindre degré Tchaïkovski (pas de Pathétique du tout alors que 4 et 5 se prennent deux étoiles dans la face : je trouve ça très exagéré) et Bax (une étoile pour les 4 et 5, zéro pour la 6 –qui est pourtant beaucoup mieux, si si, j'insiste, c'est là un fait absolument objectif).<br />\r\nEt à côté de ça, une foule d'œuvres dont, parmi les quelques-unes qui ne me sont pas inconnues, plusieurs me semblent là autant pour faire une place à leur auteur que pour leur valeur intrinsèque, qui n'est peut-être pas si supérieure à celle d'œuvres non citées de compositeurs plus connus ou plus prolifiques (autrement dit, que tu n'aurais peut-être pas citées, ou moins bien cotées, en supposant (vainement) qu'elles aient été sécrétées par l'un de ces derniers).<br />\r\n<br />\r\nCela dit, j'imagine bien que tu ne seras guère d'accord avec le dernier point, et que par ailleurs tu assumes totalement tes choix : c'était juste histoire de pinailler un peu (on est là pour ça) –– même si certains motifs de pinaillage me semblent tout de même assez sérieux (ça manque de smiley Spiderman, par ici)...</p>"
+  },
+  {
+   "id": 11997,
+   "auteur": "Oedipe",
+   "site": "",
+   "date": "2016-12-15T17:17:04",
+   "contenu": "<p>Dans le programme d'Oedipe à Covent Garden il a été écrit qu'il s'agit d'une coproduction avec l'Opéra de Paris. Est-ce que quelqu'un sait quand ou même si Oedipe sera présenté à Paris?<br />\r\n<br />\r\nVeuillez m'excuser de ne pas bien écrire en français.</p>"
+  },
+  {
+   "id": 11998,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2016-12-15T23:08:43",
+   "contenu": "Bonsoir <b>Œdipe </b>!<br><br>\r\n\r\nJ'avais effectivement entendu ça dans les prévisions pour les années à venir… mais je n'ai pas d'information sur l'année !  Désolé.<br><br>\r\n\r\n(moi un peu moins, je ne suis pas complètement persuadé que ce soit une grande œuvre, plus proche de la Pénélope de Fauré que de Juliette de Martinů…)"
+  },
+  {
+   "id": 12008,
+   "auteur": "Marcel Québire",
+   "site": "",
+   "date": "2016-12-21T14:59:55",
+   "contenu": "<p>SAISON 2017 – 2018  OPERA DE PARIS<br />\r\n<br />\r\nLa Veuve joyeuse   (15) Bastille  du 9/09 au  21/10  - Jorge Lavelli – Jakub Hrusa / Marius Stieghorst<br />\r\nVéronique Gens / Thomas Hampson / José van Dam<br />\r\n<br />\r\nCosi fan tutte   (14)  Garnier du 12/09 au 21/10  - A-T de Keersmaeker – Philippe Jordan / Marius Stieghorst<br />\r\nJacquelyn Wagner / Ida Falk Winland  – Michèle Losier / Stéphanie Lauricella  – Philippe Sly  / Edwin Crossley-Mercer<br />\r\nFrédéric Antoun / Cyrille Dubois  – Ginger Costa-Jackson / Maria Celeng  – Paulo Szot / Simone Del Savio<br />\r\n<br />\r\nPelléas et Mélisande   (5) Bastille du 19/09 au 6/10  - Robert Wilson – Philippe Jordan<br />\r\nEtienne Dupuis - Elena Tsalagova  - Luca Pisaroni  - Franz-Josef Selig<br />\r\n<br />\r\nDon Carlos  (11) Bastille du 10/10 au 11/11 - Krzysztof Warlikowski – Philippe Jordan<br />\r\nJonas Kaufmann  - Ludovic Tézier - Elina Garanca  - Sonya Yoncheva  -  Ildar Abdrazakov<br />\r\n<br />\r\nFalstaff   (7) Bastille du 26/10 au 16/11 - Dominique Pitoiset – Fabio Luisi<br />\r\nBryn Terfel  - Franco Vassalo  - Francesco Demuro  -  Aleksandra Kurzak -  Varduhi Abrahamyan<br />\r\n<br />\r\nLa Clemenza di Tito  (15) Garnier du 15/11 au 25/12 - Willy Decker – Dan Ettinger<br />\r\nRamon Vargas / Michael Spyres  –  Amanda Majeski / Aleksandra Kurzak  –  Stéphanie d’Oustrac / Marianne Crebassa<br />\r\n<br />\r\nDe la Maison des morts   (6) Bastille du 18/11 au 2/12 - Patrice Chéreau – Esa-Pekka Salonen<br />\r\nAndreas Conrad  – Peter Mattei  – Stefan Margita  - Willard White<br />\r\n<br />\r\nLa Bohème   (12) Bastille du 1/12 au 31/12 - Claus Guth – Gustavo Dudamel / Manuel Lopez- Gomez<br />\r\nSonya Yontcheva / Nicole Car  –  Atalla Ayan / Benjamin Bernheim  – Artur Rucinski  – Arturo Tagliavini  – Aida Garifullina <br />\r\n<br />\r\n Jephta   (8) Garnier du 13/01 au 30/01 - Claus Guth – William Christie (Les Arts Florissants)<br />\r\nIan Bostridge – Marie-Nicole Lemieux – Philippe Sly – Katherine Watson – Tim Mead<br />\r\n<br />\r\nUn Ballo in maschera   (9) Bastille  du 16/01 au 10/02 - Gilbert Deflo – Bertrand de Billy<br />\r\nAnja Harteros / Sondra Radvanovsky  –  Marcello Alvarez /Piero Pretti  – Luciana D’Intino  – Simone Piazzola  – Nina Minasyan<br />\r\n<br />\r\nOnly the sound remains   (6) Garnier  du 23/01 au 07/02 - Peter Sellars- Ernest Martinez-Izquierdo<br />\r\nPhilippe Jaroussky  – Davone Tines<br />\r\n<br />\r\nIl Barbiere di Siviglia   (9) Bastille du 24/01 au 16/02 - Damiano Michieletto – Riccardo Frizza<br />\r\nRené Barbera / Levy Sekgapane  – Olga Kulchynska  – Massimo Cavalletti  / Florian Sempey  – Simone Del Savio  – Nicolas Testé<br />\r\n<br />\r\nLa Traviata   (8) Bastille  du 02/02 au 28/02 - Benoît Jacquot – Dan Ettinger<br />\r\nAnna Netrebko / Marina Rebeka  – Rame Lahaj / Charles Castronovo  – Vitaly Bilyy / Placido Domingo  – Virginie Verrez<br />\r\n<br />\r\n Le Château de Barbe-Bleue / La Voix humaine    (7) Garnier du 17/03 au 11/04 - Krzysztof Warlikowski – Ingo Metzmacher<br />\r\nJohn Relyea  – Ekaterina Gubanova     –---    Barbara Hannigan<br />\r\n<br />\r\nBenvenuto Cellini   (9) Bastille du 20/03 au 14/04 - Terry Gilliam – Philippe Jordan<br />\r\nJohn Osborn  – Pretty Yende  – Maurizio Muraro  – Audun Iversen  – Marco Spotti<br />\r\n<br />\r\nParsifal   (8) Bastille  du 27/04 au 23/05 - Richard Jones – Philippe Jordan<br />\r\nAndreas Schager  – Peter Mattei  – Anja Kampe  – Evgeny Nikitin  – Günther Groissböck  – Jan-Hendrik Rootering<br />\r\n<br />\r\nL’heure espagnole / Gianni Schicchi     (10) Bastille  du 17/05 au 17/06 - Laurent Pelly – Maxime Pascal<br />\r\nClémentine Margaine  / Michèle Losier  – Stanislas de Barbeyrac  – Philippe Talbot  – Alessio Arduini  / Thomas Dolié  –  Nicolas Courjal Nicola Alaimo  – Vittorio Grigolo  – Elsa Dreisig  – Rebecca de Pont Davies  – Philippe Talbot  – Emmanuelle de Negri<br />\r\n<br />\r\nBoris Godounov   (12) Bastille du 07/06 au 12/07 - Ivo Van Hove – Vladimir Jurowski / Damian Iorio<br />\r\nIldar Abdrazakov  – Ain Anger  –  Evgeny Nikitin<br />\r\n<br />\r\nDon Pasquale    (12) Garnier du 09/06 au 12/07  - Damiano Michieletto – Evelino Pido<br />\r\nLawrence Brownlee  – Nadine Sierra  –  Michele Pertusi  – Florian Sempey<br />\r\n<br />\r\nIl Trovatore    (14) Bastille du 20/06 au 14/07 - Alex Ollé – Maurizio Benini<br />\r\nSondra Radvanovsky  /  Elena Stikhina   –  Marcelo Alvarez  / Robert Alagna  / Yusif Eyvazov  –  Zelko Lucic / Gabriele Viviani – Anita Rachvelishvili / Ekaterina Semenchuk  <br />\r\n<br />\r\n</p>"
+  }
+ ],
+ "epingle": false
+}

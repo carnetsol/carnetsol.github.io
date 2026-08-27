@@ -1,0 +1,7 @@
+même date ET même titre : 3
+notules au contenu quasi vide : 3
+liens locaux SANS fichier correspondant : 33
+liens vers des notules inexistantes : 858
+catégories utilisées mais non déclarées : 2
+web.archive.org : 13 notule(s)
+chemin /css/images/ non réécrit : 10 notule(s)

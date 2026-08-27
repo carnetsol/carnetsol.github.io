@@ -1,0 +1,31 @@
+{
+ "postId": 204,
+ "titre": "Nouvelles catégories",
+ "slug": "nouvelles-categories",
+ "url": "/css/2006/04/21/204-nouvelles-categories/",
+ "date": "2006-04-21T11:30:10",
+ "modifie": "2006-04-21T11:30:10",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Je viens de créer deux nouvelles catégories, la catégorie <em>Discourir</em> se faisant toujours plus fourre-tout :</p>\n\n<ul>\n<li><em>Genre</em> : Réservé aux questions transversales à plusieurs oeuvres.</li>\n<li><em>Pédagogique</em> : Pour des synthèses utilisables par tous. Ces billets sont moins allusifs que les autres, ils s'adressent à qui ne connaîtrait pas nécessairement les arcanes du genre lyrique.</li>\n</ul>\n\n<p>La catégorie <em>Discourir</em> sera donc plutôt réservée à son usage initial, à savoir ces questions théoriques dont je raffole.</p>\n\n\n\n<p>Je laisse la catégorie <em>Livrets</em>, mais elle contient des billets que je mets désormais en catégorie <em>Oeuvres</em>, tant on aborde forcément les deux aspects dès qu'il s'agit d'opéra. Il est vrai que pour les <em>Pêcheurs de Perles</em>, je m'étais cantonné à la seule structure dramatique, mais c'est au fond une exception.</p>",
+ "notesHtml": "",
+ "extrait": "Je viens de créer deux nouvelles catégories, la catégorie Discourir se faisant toujours plus fourre-tout : Genre : Réservé aux questions transversales à plusieurs oeuvres. Pédagogique : Pour des synthèses utilisables par tous. Ces billets sont moins allusifs que les autres, ils s'adressent à qui ne connaîtrait pas…",
+ "nbCommentaires": 1,
+ "commentaires": [
+  {
+   "id": 399,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-04-21T11:39:16",
+   "contenu": "<p>La catégorie Discourir vient d'être partiellement dépecée, tout est en place section Genres/Pédagogique.</p>"
+  }
+ ],
+ "epingle": false
+}

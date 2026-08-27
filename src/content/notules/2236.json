@@ -1,0 +1,38 @@
+{
+ "postId": 2236,
+ "titre": "Au travail",
+ "slug": "au-travail",
+ "url": "/css/2013/04/14/2236-au-travail/",
+ "date": "2013-04-14T09:35:11",
+ "modifie": "2013-04-14T09:35:11",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "H.S.",
+   "slug": "Hs"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p><br /></p>\n<center><img src=\"/medias/au_travail.png\"></center>\n\n\n<p><br /></p>",
+ "notesHtml": "",
+ "extrait": "",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 9000,
+   "auteur": "François",
+   "site": "",
+   "date": "2013-04-14T13:19:43",
+   "contenu": "<p>Mmmmh ? C'est l'amicale des lutins en faveur du clonage d'Angela Georghiu ? Une action pour l'association œcuménique des lutins-vampires ?<br />\r\n<br />\r\n</p>"
+  },
+  {
+   "id": 9002,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-04-14T19:22:06",
+   "contenu": "<p>Il y a de ça, effectivement. (Je ne dis pas quelle proposition est la plus proche.)</p>"
+  }
+ ],
+ "epingle": false
+}

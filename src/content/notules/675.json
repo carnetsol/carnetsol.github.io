@@ -1,0 +1,661 @@
+{
+ "postId": 675,
+ "titre": "Carnets sur sol - Tribune libre",
+ "slug": "carnets-sur-sol-tribune-libre",
+ "url": "/css/2007/08/06/675-carnets-sur-sol-tribune-libre/",
+ "date": "2007-08-06T15:24:16",
+ "modifie": "2007-08-06T15:24:16",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Tribune libre",
+   "slug": "Tribune-libre"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>La nature même du support carnet - un sujet qui nous occupe depuis longtemps, sans que nous l'ayons jamais abordé frontalement - implique, en plus de ses avantages, plusieurs biais. Parmi ceux-ci, l'illusion d'optique sur les sujets abordés, ou encore la fermeture des thématiques (on ne peut échanger que s'il existe une note adéquate).</p>\n\n\n<p>C'est pourquoi, afin d'ouvrir d'une part le champ des conversations potentielles, et d'autre part de permettre à certains échanges de trouver une place, on inaugure cette tribune libre, dont l'objet est tout simplement de glisser des commentaires qui n'ont pas nécessairement de sujet dédié.</p>\n\n\n<p>Sur quelles thématiques ?  Elles sont grossièrement indiquées dans le cadre gauche du site, mais ne sont pas limitatives.</p>\n\n\n<p>Je pensais par exemple aux conseils discographiques. A mes yeux, à moins de véritablement débroussailler un territoire précis, publier une note sur un tel sujet n'a pas grand intérêt, tant les critères divergents, les habitudes d'écoutes propres, et la subjectivité en général ont d'incidence sur la satisfaction finale. En revanche, une conversation personnalisée sur le sujet peut tout à fait avoir son intérêt. <br />\nOu aux questions techniques, qu'on se ferait un plaisir d'éclaircir dans la mesure de nos compétences.</p>\n\n\n<pre></pre>\n\n\n<p>En somme, une initiative donnée aux lecteurs si <em>CSS</em> n'aborde pas, faute de temps, tous les sujets.</p>\n\n\n<p>[Au besoin, il sera tout à fait possible de déplacer les discussions les plus développées vers une note créée pour l'occasion.]</p>",
+ "notesHtml": "véritablement \r\nLa question du support nous fascine, ici, mais l'aborder serait l'occasion d'un déballage qui n'est pas nécessairement l'objet de CSS. \r\n\r\nToutefois, ces réflexions me font \r\n\r\nVoilà longtemps que je brûle d'aborder la question du support ici. Mais ce serait l'occasion d'un déballage nécessairement un brin personnel, qui n'a pas inécessairement \r\n\r\nC'est pourquoi je propose ici un espace où les habitués (ou les requerrants de passage) peuvent aborder, s'ils le souhaitent, des sujets qui n'ont pas cours ailleurs (ou des questions qui trouvent mal leur place ici ou là). Quitte à ce que je les classe ensuite.",
+ "extrait": "La nature même du support carnet - un sujet qui nous occupe depuis longtemps, sans que nous l'ayons jamais abordé frontalement - implique, en plus de ses avantages, plusieurs biais. Parmi ceux-ci, l'illusion d'optique sur les sujets abordés, ou encore la fermeture des thématiques (on ne peut échanger que s'il existe…",
+ "nbCommentaires": 91,
+ "commentaires": [
+  {
+   "id": 2313,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-08-06T21:40:21",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">ouvrir {...} le champ des conversations potentielles</span></blockquote><p>David, tu viens d'inventer l'ouconpo. Tu l'avais annoncé en disant (sur quel article ?) que tu cherchais une solution, un espace pour mes digressions.<br />\r\nFrom Brittany with love.<br />\r\nEnfin, en toute amitié,<br />\r\n<a href=\"http://www.servimg.com/image_preview.php?i=12&u=11026083\" target=\"_blank\"><img src='http://i18.servimg.com/u/f18/11/02/60/83/condou10.gif' alt='' /></a></p>"
+  },
+  {
+   "id": 2314,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-06T22:50:09",
+   "contenu": "<p>SALVE !  <br />\r\n<br />\r\nIl est revenu !<br />\r\n<br />\r\n<br />\r\nOui, je pensais depuis longtemps à un espace de ce type, j'attendais d'avoir un peu de temps pour bricoler mon interface. <br />\r\n<br />\r\nMerci de ton mot exotique. :)  Tu es dans quel coin exactement ? </p>"
+  },
+  {
+   "id": 2348,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-08-12T21:47:37",
+   "contenu": "<p>_ Où je suis exactement ? vous me demandez, cher cousin, où je suis exactement ? eh bien, je suis exactement dans les environs du cépage breton, je crois…<br />\r\n_ Vous croyez ? comme c'est bizarre…<br />\r\n<br />\r\nJe reviens de mes <a href=\"http://www.artchapelles.com/\" target=\"_blank\">chapelles bretonnes</a>. J'avais mis une petite image, peu lisible, pour faire court.<br />\r\nEn mieux… ou en plus…<br />\r\n<br />\r\n<img src='http://www.artchapelles.com/images/condouret_g3.jpg' alt='' /><br />\r\n<br />\r\n<img src='http://www.artchapelles.com/images/condouret_g2.jpg' alt='' /><br />\r\n<br />\r\n{je ne publie que des images disponibles sur internet et dont le lien est visible<br />\r\n– autrement, il y a des questions de droit(s)}<br />\r\n<br />\r\n<a href=\"http://www.artchapelles.com/\" target=\"_blank\">L'art dans les chapelles</a> ou les chapelles de l'art amènent à se demander ce qu'est une création artistique contemporaine (et cela vaut pour nos anciens dans leur ancien temps contemporain).<br />\r\nQuand on approche, si on a trouvé un point d'accroche, une œuvre d'art contemporaine, on peut se poser deux questions : quelle problématique nouvelle pose l'artiste ? quels nouveaux moyens techniques pour y répondre ?<br />\r\nOn voit, un peu plus haut, une installation de <a href=\"http://www.artchapelles.com/condouret.html\" target=\"_blank\">Patrick Condouret</a> dans la chapelle Saint-Adrien, l'année précédente.<br />\r\nComment créer des vitraux en trois dimensions ? Il y a des matériaux qui laissent passer la lumière, il y a trois éléments (on ne voit pas, ci-dessus, l'ensemble) reliés par un \"fil\" conducteur, comme les vitraux classiques sont liés dans un récit, il s'agit de matériaux pauvres, délaissés, exclus, ce qui convient bien au propos tenu dans une chapelle (Patrick Condouret utilise ce type de matériaux dans d'autres lieux).<br />\r\nZut, une œuvre d'art ! Chic, une accroche (en entrant, je vois un vitrail), une approche (je peux faire le tour du vitrail), deux questions et on ne regrette pas le pèlerinage ! Quant à ce qu'en dirait Patrick Condouret ? Les artistes sont souvent de mauvais critiques et puis ils ont cette pudeur, toujours inavouée…<br />\r\nEt en musique, ça doit marcher ?</p>"
+  },
+  {
+   "id": 2354,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-13T16:38:23",
+   "contenu": "<p>Merci pour cette invitation à la méditation... Il ne reste plus qu'à préparer le plan de dissertation... S'il y a plusieurs volontaires, on peut toujours lancer le premier concours de CSS...<br />\r\n<br />\r\nLa musique en deux dimensions, tout à fait, ça existe (pas de noms, merci). <br />\r\n<br />\r\nTu as vu quoi comme chapelles, exactement ?  J'ai déjà vadrouillé par là-bas, dans mon jeune temps, où je visitais toutes les abbayes de France que je pouvais approcher... <br />\r\n<br />\r\nJe ne suis pas tout à fait désintoxiqué d'ailleurs, ceux qui ont visité Bordeaux en ma compagnie peuvent en témoigner. </p>"
+  },
+  {
+   "id": 2361,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-08-13T19:53:30",
+   "contenu": "<p>Tu as le lien vers le circuit dans mon commentaire. Faire un choix, des préférences, c'est délicat. Il n'y aura pas de dissertation. Ma grille d'approche, avec l'idée d'accroche (quelle référence possible dans ton expérience pour te retenir auprès d'une œuvre d'art, ou dedans, quelquefois ?) est un truc pédagogique qui marche. A utiliser nécessairement avec un public averti, cultivé, le pire.<br />\r\nPour les abbayes, on en parle en privé – tu es tellement référencé sur Google…<br />\r\nPrès de chez toi, pas trop loin, tu peux voir <a href=\"http://abbayedudesert.com/\" target=\"_blank\">ici</a>. Tu connais déjà ? Tu es trop jeune pour avoir connu Grégoire.<br />\r\nJdm en œuvre pour ton salut (et en quête d'indulgences)<br />\r\n</p>"
+  },
+  {
+   "id": 2362,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-13T20:04:10",
+   "contenu": "<p>Ah oui, tu as suivi strictement le circuit, alors. Je connais le coin, en effet ! <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Pour les abbayes, on en parle en privé – tu es tellement référencé sur Google…</span></blockquote><p>Ca ne me fait pas peur, remarque bien : tout le monde sait que je fais du gringue aux traditionnalistes de Saint-Eloi, qui pratiquent toujours saint Pie V... Google a les preuves...<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Près de chez toi, pas trop loin, tu peux voir ici. Tu connais déjà ? Tu es trop jeune pour avoir connu Grégoire.</span></blockquote><p>Non, je n'y ai pas encore séjourné, mais tu me tentes diablement. <br />\r\n<br />\r\nEtrange chose, au demeurant, d'afficher la règle de saint Benoît explicitement lorsqu'on se dit cistercien... On dirait qu'ils tiennent à enivrer le profane de mystères superflus...<br />\r\n<br />\r\n<br />\r\nSalut à toi !</p>"
+  },
+  {
+   "id": 2363,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-08-13T20:41:39",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">Etrange chose, au demeurant, d'afficher la règle de saint Benoît explicitement lorsqu'on se dit cistercien...</span></blockquote><p>De l'humour ? ce ne peut être un bémol dans tes connaissances tellement incommensurables que Dieu lui-même ne saurait en prendre la mesure :)</p>"
+  },
+  {
+   "id": 2364,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-13T21:09:45",
+   "contenu": "<p>Non, pas de l'humour, je trouve juste ça bizarre. Oui, ok, c'est la règle de saint Benoît, mais soit on le sait et je ne perçois pas l'intérêt de l'afficher ; soit on ne le sait pas et, en plus de ne rien apprendre, ça apporte la confusion avec les Bénédictins. <br />\r\n<br />\r\nCette précision me semble très étrange, on dirait qu'ils déposent une image de marque. <br />\r\n<br />\r\nLes Cirsterciens, ce sont donc des Bénédictins Label Rouge ? </p>"
+  },
+  {
+   "id": 2365,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-08-13T21:46:20",
+   "contenu": "<p>Charles l'a dit : nous sommes des <a href=\"http://fermestantlegrand.free.fr/\" target=\"_blank\">veaux</a>.<br />\r\nTu peux le lire comme ça se prononce.<br />\r\n_ Vous avez dit \"bizarre\"<br />\r\n_Moi, j'ai dit \"bizarre\" ? comme c'est étrange :)</p>"
+  },
+  {
+   "id": 2366,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-13T21:58:53",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">Charles l'a dit : nous sommes des veaux.<br />\r\n    Tu peux le lire comme ça se prononce.</span></blockquote><p>C'est bien, c'est bien, Jdm. Nous serons volontiers présent lorsque vous prononcerez vos veaux aux Saintes-Maries-du-Désert.</p>"
+  },
+  {
+   "id": 2367,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-08-14T10:00:02",
+   "contenu": "<p>Sacré David ! Toujours le mot pour rire, dans la tradition de \"l'Almanach Vermouth\" (selon Le Chat de Philippe Geluck). Avec tes liens proches et lointains, comme tu le rappelais dans un récent commentaire, tu nous feras peut-être le service du vin, qui ne saurait être troublé, ce que nous connaissons bien à quelques lieues de La Devinière.</p>"
+  },
+  {
+   "id": 2368,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-14T11:54:50",
+   "contenu": "<p>J'accepte avec plaisir le compliment, puisqu'il me semble que quelque auteur voisin a pu dire que <em>le vin est ce qu'il y a de plus civilisé au monde</em>. <span style=\"font-size: 9px; line-height: normal\">Le truc idéal pour les dictionnaires de citations subventionnés par les viticulteurs.</span> </p>"
+  },
+  {
+   "id": 2499,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-09-20T23:33:38",
+   "contenu": "<p>Je reprends <a href=\"http://operacritiques.free.fr/css/index.php?2007/09/19/725-celebrite#co\" target=\"_blank\">ce fil</a> en tribune libre.<br />\r\n<em>Carnets sur sol</em> est immensément référencé du fait que David Le Marrec écrit ses articles et ses commentaires avec un immense lexique qui fait tomber les feuilles du Larousse et flétrir les Robert. Ce n'est pas un compliment, David, <a href=\"http://www.marxists.org/francais/lenin/works/1917/10/vil19171017.htm\" target=\"_blank\">c'est un fait, les faits sont têtus</a>, comme se plaisait à le rappeler Raymond Barre. Rien n'échappe à CSS, sauf, peut-être, \"connard\" rimant avec <a href=\"http://www.google.com/search?as_q=bigard&hl=fr&edition=fr&num=10&btnG=Recherche+Google&as_epq=carnets+sur+sol&as_oq=&as_eq=&lr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=&as_rights=&safe=images\" target=\"_blank\">Jean Marie Bigard</a> et encore… ?<br />\r\nAh ! oui, zut, c'est fait… sorry…<br />\r\nHeureusement, <a href=\"http://www.google.com/search?as_q=%22carnets+sur+sol%22+zygomatiques&hl=fr&edition=fr&num=10&btnG=Recherche+Google&as_epq=&as_oq=&as_eq=&lr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=&as_rights=&safe=images\" target=\"_blank\">zygomatiques</a> est déjà bien référencé :)<br />\r\n</p>"
+  },
+  {
+   "id": 2501,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-09-20T23:47:13",
+   "contenu": "<p>Après, je m'étonnerai de recevoir des requêtes bizarres... <br />\r\n<br />\r\nD'ici deux jours, je serai dans Google pour \"zygomatiques immenses de Barre\"...<br />\r\n<br />\r\n<br />\r\nDéjà que grâce à Christian j'ai pas mal de monde pour Nougaro... :)</p>"
+  },
+  {
+   "id": 2502,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-09-20T23:58:01",
+   "contenu": "<p><a href=\"http://www.circuit-nogaro.com/\" target=\"_blank\">Nogaro</a> ? Mais, c'est très bien Nogaro, je n'y ai jamais couru, je n'ai jamais été à ce niveau, mais c'est très bien et près de chez toi ?</p>"
+  },
+  {
+   "id": 2503,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-09-21T00:48:34",
+   "contenu": "<p>Près de chez moi, près de chez moi... Pas à pied en tout cas ! </p>"
+  },
+  {
+   "id": 2670,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-10-27T12:34:02",
+   "contenu": "<p>Bonjour David,<br />\r\nje te recommande l'épisode du jour de l'émission <em>Répliques</em> sur France Culture : <em>Ce grand corps malade : l'école</em>.<br />\r\nDisponible, pour la semaine sur <a href=\"http://www.radiofrance.fr/chaines/france-culture2/emissions/repliques/\" target=\"_blank\">http://www.radiofrance.fr/chaines/france-culture2/emissions/repliques/</a><br />\r\nCela pourrait rejoindre ta réflexion en plusieurs notules sur le parler ou le parlement (est-il désuet ! n'est-ce pas ?).<br />\r\nSamedi prochain, l'épisode annoncé s'intitule <em>La pensée de Pierre Bourdieu</em>. Le titre à lui seul est un scoop (est-il méchant ! n'est-ce pas ?).</p>"
+  },
+  {
+   "id": 2671,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-10-27T13:58:35",
+   "contenu": "<p>Bonjour Jdm ! <br />\r\n<br />\r\nCa ne ratiocine pas trop ?  Je fréquente cette émission avec modération, ça ralousse souvent, mais il y a parfois des perles...<br />\r\n<br />\r\nIls causent de quoi précisément ? <br />\r\n<br />\r\n<br />\r\nBien, sur la foi de ta recommandation, j'écoute ça à la première occasion, ça nous donnera l'occasion de bavarder. <br />\r\n<br />\r\n<br />\r\nEt sinon, ne bouge surtout pas, tu es délicieux lorsque tu es perfide. </p>"
+  },
+  {
+   "id": 2672,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-10-27T14:20:41",
+   "contenu": "<p>Ils causent de l'école et c'est en clair.<br />\r\nPas comme dans l'émission où Elisabeth de Fontenay était invitée (à l'époque où tu as créé ton superblog en couleur et où tu as confondu, par malice, edf et gdf) : elle avait commencé par une intro de cinq minutes pour dire qu'un discours philosophique devait être simple, ensuite elle a fait près de quarante minutes sur le trait d'union chez Jean-François Lyotard - s'inspirant de Jacques Derrida - à propos du différend ou différent ou différand <em>judéo-chrétien</em>...<br />\r\nAlain Finkielkraut n'a eu qu'un bref espace pour placer son couplet sur l'intégration et l'école :)<br />\r\nAujourd'hui, rien de tel.</p>"
+  },
+  {
+   "id": 2673,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-10-27T16:30:34",
+   "contenu": "<p>Je viens d'écouter. Rien de nouveau, et j'ai connu l'émission moins unanimiste. <br />\r\n<br />\r\nJe ne suis qu'à moitié d'accord. Tous prônent la réhabilitation de la littérature dans l'enseignement, la transmission des savoirs - et je suis ardemment d'accord. Mais que le l'objet du cours de français puisse <em>aussi</em> être de fournir des outils pour la compréhension du monde, des exercices de pensée qui puissent permettre ensuite de lire le journal ou de regarder la télévision sans produire ces usines à gober qui déferlent sur la faculté, ça me paraît tout aussi essentiel. <br />\r\n<br />\r\nOr ils se moquent abondamment des excès technicistes, si bien que je devine leur hostilité au principe. <br />\r\n<br />\r\n<br />\r\nBref, c'est un peu comme pour la musique contemporaine, je préfère les postures <em>synthétiques</em>. <br />\r\n<br />\r\n(Et pour être tout à fait franc, je crois que ça dépend intimement des aptitudes pédagogiques de l'enseignant, qui peut aussi bien réussir l'ensemble des objectifs en appartenant à n'importe quelle chapelle.)</p>"
+  },
+  {
+   "id": 2674,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-10-27T17:48:54",
+   "contenu": "<p>David, comme tu le dis implicitement, entre les excès des uns et ce qu'on peut deviner des autres, il y a un large espace de subjectivité, d'expérience personnelle et, si tu es dans la <em>carrière</em>, pour en parler aussi justement, tu sais que toute invention peut être bonne quand elle est bien mise en œuvre par l'inventeur. La faiblesse de l'institution est de vouloir généraliser. Ainsi, le témoignage de Cécile Revéret ne doit pas être compris comme un conseil pédagogique universel. Sur le fil, on peut être classique _et_ <em>innovant</em>, comme ils disent. La dernière phrase n'a, bien entendu, rien de subjectif - ;)<br />\r\nMerci de ton attention, David et j'espère que tu n'auras pas pour rien passé une petite heure.<br />\r\n</p>"
+  },
+  {
+   "id": 2675,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-10-27T17:58:41",
+   "contenu": "<p>Mais non, c'est l'occasion pour le plaisir de causer de ces choses en bonne compagnie, tu te doutes bien. <br />\r\n<br />\r\nJ'acquiesce sur l'impossibilité de la généralisation, sur le travail de détail. </p>"
+  },
+  {
+   "id": 2706,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-03T15:03:33",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">tu es délicieux lorsque tu es perfide</span></blockquote><p>... et tellement loin d'Alain Finkielkraut, encore ce matin, dans ses \"répliques\" sur <a href=\"http://www.radiofrance.fr/chaines/france-culture2/emissions/repliques/index.php\" target=\"_blank\"><em>La Pensée de Pierre Bourdieu</em></a> (sic).<br />\r\n<br />\r\n[c'est pour le plaisir du \"sic\" - je sais que tu en aimes l'usage débridé]<br />\r\n<br />\r\n<a href=\"http://www.amazon.fr/gp/music/clipserve/B000005GIY001007/1/ref=mu_sam_ra001_007/402-5862599-\" target=\"_blank\">:)</a><br />\r\n</p>"
+  },
+  {
+   "id": 2707,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-03T16:11:45",
+   "contenu": "<p>J'ai pensé à toi lorsque j'ai vu le titre en compulsant le programme ce matin... <br />\r\n<br />\r\nTon \"sic\" est parfaitement employé, d'ailleurs, ne compte pas sur moi pour t'enguirlander ou t'enturbanner. <br />\r\n<br />\r\n<br />\r\nIl doit y avoir quelque chose avec Bourdieu, <em>Du Grain à moudre</em> sur la même chaîne en causait hier ou avant-hier...<br />\r\nUn plateau entièrement rempli de sociologues, il y avait même Wieviorka. Bref, <a href=\"http://musicontempo.free.fr/picro.mp3\">le gratin de l'EHESS</a>. <br />\r\n<br /></p>"
+  },
+  {
+   "id": 2708,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-03T18:36:23",
+   "contenu": "<p>Wieviorka ? connaissais pas, mais en écoutant ton lien... c'est <a href=\"http://shoutcast.weenradio.com:8016/listen.pls\" target=\"_blank\">Hallow'ween</a>, toute la musique que nous aimons !<br />\r\nNON, ne clique pas ~~~ :{<br />\r\ntrop tard !<br />\r\n_____________________ ______________ _______ ___<br />\r\n<br />\r\n<a href=\"http://multimedia.fnac.com/multimedia/asp/audio.asp?Z=Musique+de+No%ebl&Y=1136414&T=Natus+est+Jesus+for+soprano+and+basso+continuo&N=Divers&M=Bis&E=7318590011355&V=1&I=1&G=E&audio=/5/5/3/7318590011355A01.ra\" target=\"_blank\">un antidote</a> ?<br />\r\n</p>"
+  },
+  {
+   "id": 2709,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-03T19:15:55",
+   "contenu": "<p>C'est le même lien deux fois... et je crains à l'écoute que ce ne soit pas l'antidote..........<br />\r\n<br />\r\n<br />\r\nWieviorka, mais si, tu l'as forcément vu balader son air de clown triste, avec un propos qui m'a toujours émerveillé dans sa dimension moralisatrice - qui a dit que la sociologie était une discipline scientifique ?  (C'est pas moi M'sieur, j'vous assure.)<br />\r\n<br />\r\n<img src='http://semioweb.msh-paris.fr/aar/images/wieviorka.jpg' alt='' /><br />\r\n<br />\r\n<br />\r\nP.S. : C'est très malin, je réponds \"non\" à \"Désirez-vous écrire un commentaire\"... Il faut dire que j'hésitais à médire de ce pauvre homme, s'il tombait sur la Mecque du persiflage sociologique, ça pourrait lui faire de la peine. :-s</p>"
+  },
+  {
+   "id": 2710,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-03T19:28:49",
+   "contenu": "<p>David, il m'arrive parfois d'être sérieux.<br />\r\nOui, ça commence mal.<br />\r\nContinuons le pire.<br />\r\nQuand je lis sur <a href=\"http://en.wikipedia.org/wiki/Michel_Wieviorka\" target=\"_blank\">wiki</a><br />\r\n<em>A former student of Alain Touraine,</em> [on ne choisit pas sa famille, on n'écoute pas ses maîtres] <em>he is now one of the most renowned sociologists and public intellectuals in France. Outside this country he has remained largely unknown</em> [les dégâts sont limités] […] <em>Wieviorka developed the method of intervention sociologique and employed it to the study of militant social movements, in particular French anti-nuclear activism. Following Max Weber's classic concept of interpretative sociology (verstehende Soziologie), intervention sociologique aims at understanding the subjective rationale of actors in the context of larger social conflicts</em>.<br />\r\n<br />\r\nTout est dans le <em>subjective</em> in <em>the context</em>.<br />\r\n<br />\r\nFranchement, je ne connais pas et je n'aime pas trop commenter un sujet (Wieviorka) que je ne connais pas, mais tout cela fleure bon \"le 'social conflicts', c'est dans votre tête\"… quant à \"the study of […]French anti-nuclear activism\", on en retiendra qu'étudier, ça ne mange pas de pain – ou alors juste à ceux qui n'ont pas fait d'études.<br />\r\nDu pain ? du grain à moudre ? de quoi parlions-nous ?<br />\r\n<br />\r\nAh ! oui ! merci de ton attention et de ton humour !<br />\r\n[pour les deux liens]</p>"
+  },
+  {
+   "id": 2712,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-03T19:36:41",
+   "contenu": "<p>Bien, tu me passeras ton adresse postale, et la prochaine fois que j'irai voler chez mon libraire, je t'enverrai un Wieviorka. <br />\r\n<br />\r\n<span style=\"font-size: 9px; line-height: normal\">Veinard.</span><br />\r\n<br />\r\n<br />\r\nP.S. : Il était dans l'émission de B. Couturier de cette semaine (les émissions de jeudi et vendredi sont inversées sur le site). Si tu as du courage... <span style=\"font-size: 9px; line-height: normal\">Adieu.</span></p>"
+  },
+  {
+   "id": 2713,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-03T20:10:53",
+   "contenu": "<p>On parle de Michel ou d'Olivier, chez Brice Couturier ?<br />\r\nSur Michel, ton image m'a permis de trouver la vidéo, mais elle ne fonctionne pas, même avec le lien en annexe (il lui manque des données sortantes... et puis quoi ?).<br />\r\nEt sur MW, je ne trouve aucun texte - ou je suis fatigué, ou c'est mauvais signe (enfin, dans les deux cas).<br />\r\nSi tu as un lien, un texte, quelque chose, tu as mon adresse électronique.<br />\r\n[pour l'adresse postale, je peux choisir un autre cadeau ? en attendant, c'est très exactement quelque part entre Roscoff et Jérusalem - en fait, c'est tout près de Jérusalem, en France, avec une carte IGN peut-être...]<br />\r\nMerci de suivre ce fil, maintenant j'ai les chats à m'occuper. Je reviendrai plus tard.<br />\r\n</p>"
+  },
+  {
+   "id": 2714,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-03T20:28:33",
+   "contenu": "<p>C'est Michel qui cause, Olivier, lui, est tout à fait fréquentable. <br />\r\n<br />\r\nLa vidéo ? <br />\r\n<br />\r\nJe te donne les adresses ici, ma boîte aux lettres déborde, et de surcroît j'ai des semaines de retard... Pour ma sécurité (et ma conscience), mieux vaut que je donne directement les liens : <br />\r\nhttp://www.tv-radio.com/ondemand/france_culture/GRAIN/GRAIN20071102.ram ; <br />\r\nhttp://www.tv-radio.com/ondemand/france_culture/GRAIN/GRAIN20071101.ram .<br />\r\n<br />\r\nC'est le premier lien, je crois - celui qui parle de Bourdieu, en tout cas. <br />\r\n<br />\r\n<br />\r\nDe mon côté, je vais moi aussi fouetter les chats (des voisins, qui sont envahissants).</p>"
+  },
+  {
+   "id": 2715,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-03T23:01:38",
+   "contenu": "<p>J'ai bien dit que je n'aimais pas commenter un sujet que je ne connaissais pas.<br />\r\n<br />\r\nJe suis en train d'écouter, partiellement et  distraitement ton premier lien. C'est plus complexe que le \"fréquentable ou pas\". Je découvre, j'enregistre, je prends le temps. On se rappelle et on se fait une bouffe.<br />\r\n<br />\r\nPour les chats des voisins, ce sont les voisins qu'il faut fouetter, ce sont les maîtres qui sont responsables. Ici, l'éducation est sévère, juste, efficace. Et je suis en plein dans la litière, j'ai deux petits adoptés nouveaux. Il a fallu faire comprendre la situation aux anciens. Et ça roule.<br />\r\n<br />\r\nParce que [j'aime bien commencer une phrase avec 'parce que'] sur la hiérarchie dans une fratrie, un peuple, une nation (?), j'ai beaucoup appris des chats.<br />\r\n<br />\r\nL'école <a href=\"http://www.rap2k.com/media-193-0.html\" target=\"_blank\">Pit Bull</a> n'est point du tout mon fait.<br />\r\n<br />\r\nEn remerciement, si tu me donnais ton adresse postale, c'est déjà fait ? ah ? je pourrais t'envoyer une compil d'Emma. Heureux ?<br />\r\n<br />\r\n</p>"
+  },
+  {
+   "id": 2718,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-04T09:26:21",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">C'est plus complexe que le \"fréquentable ou pas\".</span></blockquote><p>Oh, bien sûr. Mais ce sont des sociologues quand même - moi je dis. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Pour les chats des voisins, ce sont les voisins qu'il faut fouetter, ce sont les maîtres qui sont responsables. Ici, l'éducation est sévère, juste, efficace.</span></blockquote><p>Oh, mais je ne doute pas que tes chats te reconnaissent <a href=\"http://www.amazon.fr/gp/music/clipserve/B000060P5F002010/1/ref=mu_sam_ra002_010/402-5173522-1479369\" target=\"_blank\">les vertus de</a>. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">En remerciement, si tu me donnais ton adresse postale, c'est déjà fait ? ah ? je pourrais t'envoyer une compil d'Emma. Heureux ?</span></blockquote><p>Plus que si on inversait les envois, indubitablement ! :)<br />\r\n<br />\r\n<span style=\"font-size: 9px; line-height: normal\">(Et puis qui sait, tu parles peut-être d'Emma Bell.)</span></p>"
+  },
+  {
+   "id": 2719,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-04T10:32:14",
+   "contenu": "<p>Les vertus ?<br />\r\nRebelle, passe, tes bienfaits, oui, dédaigne !? je m'évertue à faire ton éloge et à améliorer ton référencement pour les larges masses d'héritiers nonobstant intellectuels du 5è !<br />\r\nPour Emma Bell, oui, elle chante Marx (ne chicanons pas sur les prénoms, l'état civil est parfois déficient) et puis la couverture est agréable à écouter.<br />\r\nBon, je t'envoie des <a href=\"http://www.oiron.fr/collection-art-contemporain-visite-chateau.html\" target=\"_blank\">bonbons très bons</a>, parce que les \"fleurs\", c'est périlleux.<br />\r\n<br />\r\n> <span style=\"font-size: 8px; line-height: normal\">tu trouveras Fabrice Hybert à partir du fauteuil</span> <</p>"
+  },
+  {
+   "id": 2720,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-04T17:33:12",
+   "contenu": "<p>Non, non, c'était une tirade de Soliman-alias-Salomon dans la <em>Reine de Saba</em> de Gounod. :)  Certes, c'est un personnage antipathique dans ce livret-ci, mais je n'avais pas d'autre de ses interventions en réserve - et mettre le numéro d'un verset ou évoquer le fils d'un compositeur de psaumes aurait été trop facile pour toi...<br />\r\n<br />\r\nPuisqu'on en est incidemment à parler musique, Marx, à ne pas confondre avec le barbu homonyme (qui a écrit de fort mauvais poèmes), c'est tout à fait recommandable ; il a notamment écrit un très beau <strong>concerto pour piano</strong> (et pourtant je ne suis pas un admirateur effréné de cette forme) - ça se trouve chez Hyperion dans l'immense anthologie des \"concertos pour piano romantiques\", couplé avec celui de Korngold, il me semble. Mais il est surtout célèbre pour ses <strong>lieder</strong>. De fort bonne facture, ma foi, il faudra que j'en touche un mot en temps et en heure dans la <a href=\"http://operacritiques.free.fr/css/index.php?q=A+la+d%C3%A9couverte+du+LIED\" target=\"_blank\">petite série</a> que l'on sait. <br />\r\nUn postromantique sobre, une sorte de Reger éthéré. <br />\r\n<br />\r\n... et qui n'est à peu près jamais programmé au concert au disque. Pas très spectaculaire il est vrai, mais ça changerait du rabâchage souvent associé au répertoire (exigeant, il est vrai) du lied.<br />\r\n<br />\r\nJe récapitule donc : <br />\r\n<br />\r\n<img src='http://www.cvm.qc.ca/ccollin/portraits/images/marx.jpg' alt='' /><br />\r\n<br />\r\n<a href=\"http://musicontempo.free.fr/pasbien.mp3\" target=\"_blank\">Commentaire.</a><br />\r\n<br />\r\n<br />\r\n<strong><span style=\"font-size: 29px; line-height: normal\">≠</span></strong><br />\r\n<br />\r\n<br />\r\n<img src='http://www.joseph-marx-gesellschaft.org/images/joseph-marx--farbgemaelde.jpg' alt='' /><br />\r\n<br />\r\n<a href=\"http://musicontempo.free.fr/pastropbien.mp3\" target=\"_blank\">Commentaire.</a></p>"
+  },
+  {
+   "id": 2721,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-04T17:37:22",
+   "contenu": "<p>A propos, très joli site du château-bonbon.</p>"
+  },
+  {
+   "id": 2722,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-04T20:26:18",
+   "contenu": "<p>Première image, noble visage, fière aristocratie du coeur et de la pensée, ce serait péché à toi qui es <a href=\"http://espacesmarxbordeaux.apinc.org/\" target=\"_blank\">si bien placé</a> de ne pas le reconnaître. <br />\r\n<br />\r\nSeconde image : pourquoi est-il si triste ? il est venu trop tard pour aller voir le premier ? <br />\r\nIl reste que Joseph a pu se consoler – et apprendre – auprès d'un confrère dont l'audience n'a jamais été égalée, même par Stock dans ses rêves les plus fous.<br />\r\n<br />\r\n<img src='http://www.deljehier.levillage.org/images/photo_ambiance/degeyter.jpg' alt='' /><br />\r\n<br />\r\nEcoutons (les trois sont un)<br />\r\n<br />\r\nDans l'empire du soleil levant, <a href=\"http://deljehier.free.fr/telechargements/inter_jpn.mp3\" target=\"_blank\">les orchestres de rue</a> sont une tradition. Le début est un peu long, ce n'est pas Herbie Hancock, c'est la ferveur qui compte.<br />\r\n<br />\r\nOui, c'est bien <a href=\"http://deljehier.free.fr/telechargements/inter_cloches.mp3\" target=\"_blank\">un harmonium et des cloches de clocher</a>.<br />\r\n<br />\r\nEnfin, <a href=\"http://deljehier.free.fr/telechargements/inter_deutsch.mp3\" target=\"_blank\">surprenante de fraîcheur et de gaieté</a>, une version toute en finesse – ne pas manquer la fin.<br />\r\n<br />\r\n<span style=\"font-size: 8px; line-height: normal\">[et puis une flopée d'autres versions et d'autres chants que tu trouveras facilement à partir des liens donnés]</span><br />\r\n<br />\r\nD'où vient ta seconde illustration musicale ? ne me dis pas que ça ne se trouve plus, même chez un brocanteur girondin ! c'est la première fois (mémoire, mémoire !) que j'entends \"véniel\" avec la diérèse, trop lol ! ciel, miel, fiel, à la rime et on peut commencer, <em>incidemment</em>, une ode.<br />\r\n<br />\r\n<span style=\"font-size: 10px; line-height: normal\">J'apprécie la patience que tu apportes à mon éducation musicale : progression pédagogique, illustrations ludiques, rayonnement charismatique, tout y est.</span> <span style=\"font-size: 8px; line-height: normal\">Cela ne lasserait-il pas les grands lutins ?</span><br />\r\n<br />\r\n+ j'ai écouté le <em>grain</em>, très intéressant, j'y reviendrai, merci encore.<br />\r\n</p>"
+  },
+  {
+   "id": 2723,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-05T11:09:59",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">Il doit y avoir quelque chose avec Bourdieu</span></blockquote><p><br />\r\n<br />\r\nQuelques choses sur le sujet.<br />\r\nPremier lien dans le com 30.<br />\r\n<em>Du grain à moudre</em>, par Brice Couturier et Tara Schlegel, le jeudi 1er novembre 2007, <em>Reste-t-il une sociologie en France après Bourdieu ?</em><br />\r\nAvec Pierre Demeulenaere, <em>L'année sociologique, l'abstraction en sociologie</em>, Nathalie Heinich, <em>L'élite artiste : excellence et singularité en régime démocratique</em> et <em>Pourquoi Bourdieu</em>, Michel Wieviorka, <em>Les sciences sociales en mutation</em><br />\r\n<br />\r\nBrice Couturier annonce la couleur. <em>Dans ses Mémoires, Raymond Aron définissait ainsi Pierre Bourdieu : 'chef de secte, sûr de lui et dominateur, expert aux intrigues universitaires, impitoyable à ceux qui pourraient lui faire de l'ombre'.</em> Il annonce le contresens de Bourdieu dans son adhésion première à Sartre – cela redit, plus tard, par Michel Wierviorka – et rappelle l'inscription de sa démarche contre Alain Touraine, qui se situait hors de la mouvance de Michel Foucault où Bourdieu s'avançait, et contre Raymond Boudon. Il cite Jeannine Verdès-Leroux, <em>Le terrorisme sociologique de Pierre Bourdieu</em> et Didier Lapeyronnie, <em>L'académisme radical ou le monologue sociologique</em>.<br />\r\n<br />\r\nQuelques extraits, je ne mentionne pas toujours l'intervenant et il manque quelques mots (liaisons syntaxiques) ici et là.<br />\r\n<br />\r\nNathalie Heinich : <em>tout le problème de la sociologie de Bourdieu, c'est qu'elle est en général une chose et son contraire</em> […] [après 1995] <em>il a pris la posture de l'intellectuel engagé</em>…<br />\r\n<br />\r\nMichel Wieviorka souligne le déterminisme de Bourdieu contre les acteurs ; nous en retiendrons cette observation : <em>l'œuvre à elle seule ne suffit pas pour expliquer ce succès</em> [Bourdieu vs Boudon].<br />\r\n<br />\r\nNH évoque sa première rencontre avec PB, dans une cave du Boulevard Saint-Michel – un office à la pensée du maître dans des <em>catacombes</em> réservées aux initiés. PB était <em>le seul à détenir la vérité</em>, une <em>posture</em>.<br />\r\n<br />\r\nAu-delà des témoignages, rapportés sans humeur, nous avons noté, une fois de plus, la faiblesse de ce format de document. Sa force est dans la manière du \"précis\" (qui aura consacré dix heures à la lecture des ouvrages donnés en référence, et un peu plus pour les allusions, alors qu'un vernis de synthèse en cinquante minutes est disponible ?), sa faiblesse est dans la précipitation qui plante les connexions neuronales des participants aussi bien qu'un clavier agité shinte le lien entre les dll requises.<br />\r\n<br />\r\nNH assène : <em>Sartre n'a rien dit pendant la guerre d'Algérie</em>.<br />\r\n<a href=\"http://www.monde-diplomatique.fr/2004/11/MATHIEU/11678\" target=\"_blank\">Presque rien</a> !<br />\r\nEt Camus ?<br />\r\nSur Sartre et Camus et l'Algérie, on peut consulter, pour commencer, <a href=\"http://coursenligne.sciences-po.fr/2005_2006/ag_slama/resumes_cours/cours_4.pdf\" target=\"_blank\">cette page de synthèse d'un cours de Sciences-po</a>.<br />\r\n<br />\r\nPierre Demeulenaere apporte le témoignage de sa lecture : <em>il</em> - PB - <em>affirme des choses, il est péremptoire et c'est ce qui fait son succès auprès du grand public</em> [la question avait été suggérée par MW] […] <em>quand je le lis, il est très imprécis</em> [nous l'avons lu, totale empathie] […] PB aurait inventé (dans le discours philosophique) <em>la violence symbolique</em> ?<br />\r\nEt René Girard ?<br />\r\n<br />\r\nNH évoque, dans le parcours de PB, <em>cette palinodie, ce glissement</em>. Les chemins de la pensée sont mal signalisés…<br />\r\n<br />\r\nAu moment où nous entendons <em>Bourdieu, c'est une entreprise</em>, nous songeons à Andy Warhol et à sa \"factory\" et nous vient la nostalgie du second…<br />\r\n<br />\r\nNH, très émue décidément, nous apprend que, malgré la prophétie de PB, <em>la Chine et l'Inde ne sont pas des pays émergents</em> ---<br />\r\n<br />\r\nNous apprécions mieux d'entendre que la position de PB ne tenait pas à <em>sa compétence politique</em> mais à <em>sa notoriété</em> sur des sujets étrangers à sa recherche.<br />\r\n<br />\r\nPlus loin, PD poursuit : <em>il</em> - PB- <em>n'acceptait jamais la situation de mise en débat</em> et pratiquait la délation <em>sans jamais donner les noms</em> --- sauf pour Boudon (soutenant - contre Bourdieu - que l'inégalité des chances à l'école était générée par des phénomènes complexes, sans conspiration préalable) qu'il appelle <em>le chef de bureau de la succursale de Lasersfeld</em>.<br />\r\n<br />\r\nPB se déclarait non-marxiste, malgré le maintien de quelques concepts, en particulier parce qu'il préférait faire appel à la dimension symbolique de nos conflits sociaux.<br />\r\n[dommage que personne n'ait évoqué Baudrillard…]<br />\r\nAinsi, attirant marxistes et gauchistes anti-marxistes, il s'est acquis une large audience.<br />\r\n[marxien serait plus régulier – dit-on kantiste ?]<br />\r\n<br />\r\nEnfin, BC et ses invités évoquent <em>l'obscurité du style</em>, […] <em>effet d'intimidation</em> – <em>ça crée des initiés</em>.<br />\r\nFaux ! seulement une telle légende confère un statut d'intellectuel et donne fierté aux malheureux, vivant leur propre dépréciation, d'accéder à un texte \"difficile\" [NdeJDM].<br />\r\n<br />\r\nEn résumé, le lexique récurrent : posture, dominant / dominé, coût / avantage, prophète, dénonciation.<br />\r\n<br />\r\nEt, en fleur, Brice Couturier, qui connaît aussi bien son Lacan que son Bourdieu nous annonce <em>Nathalie Heinich, 'Pourquoi Bourdieu' qui vient de partir</em> [sic] <em>dans la collection 'Le Débat', chez Gallimard</em>.<br />\r\n<br />\r\nLe paraître part quand l'être nous manque…<br />\r\nPoor Yorick…<br />\r\n<br />\r\n{quelle est la musique du générique de l'émission ?}</p>"
+  },
+  {
+   "id": 2725,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-07T18:46:02",
+   "contenu": "<p>Bonsoir Jdm, <br />\r\n<br />\r\nTu m'avais déjà donné l'adresse de ce site hautement compromettant, dont je te sais à présent très assidu. <br />\r\n<br />\r\nL'Internationale a aussi été arrangée par Takemitsu dans ses oeuvres pour guitare, et je ne dédaigne pas d'opérer quelques variations hors-style dessus à partir de sa transcription. <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Enfin, surprenante de fraîcheur et de gaieté, une version toute en finesse – ne pas manquer la fin.</span></blockquote><p>Et qui va nettoyer les cochonneries des invités [strike]avinés[/strike] embiérés ?  Qui ?  (C'est peut-être du Schnaps, mais je m'en fiche.)<br />\r\n<em>Dieu merci</em>, ce sont des cloches et des orgues de synthèse que ces blasphémateurs ont convoquées. <br />\r\n<br />\r\nMais ton troisième lien, ça sonne en effet comme une messe de Vatican II, le texte et la musique sont au niveau (sans parler du guitariste barbu à lunettes), on devrait le proposer dans une paroisse reculée où l'existence même de ce prince-économiste-philosophe velu a été un peu remisée aux côtés de Hegel - c'est-à-dire du côté de l'oubli. <br />\r\n<br />\r\nBien, tu m'excuses, mais Orphée était en train de mourir en Berliozie, j'y retourne.<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">D'où vient ta seconde illustration musicale ? ne me dis pas que ça ne se trouve plus, même chez un brocanteur girondin !</span></blockquote><p>J'ai hélas un peu cette réputation, paraît-il, d'écouter beaucoup de choses introuvables. Aucune oeuvre intégrale de Terrasse n'est parue en ce jour en CD, à ma connaissance. En revanche, les archives de l'INA en regorgent. <br />\r\nC'est la <em>Valse des péchés</em>, la même source que le premier lien. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">J'apprécie la patience que tu apportes à mon éducation musicale : progression pédagogique, illustrations ludiques, rayonnement charismatique, tout y est. Cela ne lasserait-il pas les grands lutins ?</span></blockquote><p>Les grands lutins sont, comme leur nom l'indique, grands et libres. :)<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">    Quelques choses sur le sujet.<br />\r\n    Premier lien dans le com 30.<br />\r\n    Du grain à moudre, par Brice Couturier et Tara Schlegel, le jeudi 1er novembre 2007, Reste-t-il une sociologie en France après Bourdieu ?</span></blockquote><p>Ca c'est du référencement ! <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">    Ainsi, attirant marxistes et gauchistes anti-marxistes, il s'est acquis une large audience.<br />\r\n    [marxien serait plus régulier – dit-on kantiste ?]</span></blockquote><p>Marxien, <em>a priori</em>, impliquerait une adhésion moins politique que philosophique. Distinction utile, mais lorsque j'ai voulu l'employer pour faire plaisir à mon interlocuteur (universitaire dans les lettres) - un peu de précision, quoi - il a explosé de rire, et a paru dubitatif à mon explication - en ajoutant un commentaire du genre : \"et que pensez-vous faire si les marxiens débarquent\" - en moins drôle.<br />\r\n<br />\r\n[Fort marri, je me suis promis de ne recommencer l'aventure qu'avec un philosophe. Il me comprendrait, lui.]<br />\r\n<br />\r\n<br />\r\nMerci pour ce résumé si précis !  Tu m'évites l'écoute, qui ne m'enthousiasmait pas trop, et je puis en retirer le vernis nécessaire à mon statut social - éclatant, comme il se doit.   <br />\r\n<br />\r\nSinon, je trouve bien sympathique cette émission, personnellement ; avec ses biais (de forme plus que de fond) et ses limites, mais une vraie capacité, le plus souvent, à générer des tensions problématiques (et sans tensions entre les intervenants). Evidemment, ce n'est qu'une heure, mais : <br />\r\n- c'est un format de débat d'intellectuels, donc pas nécessairement un approfondissement très précis des sujets abordés (sans doute la faiblesse, en effet, du genre même plus que de l'émission) ; mais tu me diras où tu vois des émissions radiophoniques qui font dans l'incommensurablement profond et l'accessible tout à la fois. (Rien que le premier, déjà.) ; <br />\r\n- c'est plus que suffisant pour épuiser un débat de sociologues - tellement suffisant que ne pas l'écouter du tout nous a amplement suffi, aux lutins et à moi.<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">{quelle est la musique du générique de l'émission ?}</span></blockquote><p>Ce sont les Beatles, mais arrangés dans une orchestration « baroque » sur orchestre moderne sans continuo. J'aime beaucoup aussi. <br />\r\n<br />\r\nArrangés également par Takemitsu pour guitare. </p>"
+  },
+  {
+   "id": 2726,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-07T18:50:46",
+   "contenu": "<p>J'oubliais de préciser que la plupart des versions (pas Takemitsu) simplifient considérablement l'harmonie retorse du thème A de l'Internationale du brave Pierre Degeyter. <br />\r\n<br />\r\n<span style=\"font-size: 9px; line-height: normal\">Et c'est scandaleux.</span></p>"
+  },
+  {
+   "id": 2736,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-08T07:11:26",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">\"et que pensez-vous faire si les marxiens débarquent\"</span></blockquote><p><em>Marx disait : \"Tout ce que je sais c'est que je ne suis pas marxiste, moi !\"</em>, Engels à P. Lafargue, 27 août 1890.<br />\r\n[Engels a repris cette citation dans d'autres courriers et discours]<br />\r\n[[Marx protestait contre l'interprétation maladroite de son oeuvre par les \"marxistes\" français]]<br />\r\n<br />\r\nAutrement merci de tes réponses !</p>"
+  },
+  {
+   "id": 2737,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-11-08T13:52:36",
+   "contenu": "<p>Oui, j'aime beaucoup cette citation. Elle est toujours utile pour couper court à quelques épanchements inopportuns d'amateurs de cigarettes coniques sur l'authenticité marxiste du projet guevariste. </p>"
+  },
+  {
+   "id": 2945,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-12-09T13:27:07",
+   "contenu": "<p><a href=\"http://operacritiques.free.fr/css/index.php?2007/12/05/793-siegfried-oedipien#co\" target=\"_blank\">...</a><br />\r\n<br />\r\nSouventes fois je rêve en prose<br />\r\nLors que vient l'aurore aux doigts gourds<br />\r\nAux milliards de petits Villon<br />\r\nRimant sans rime ni raison<br />\r\nPauvres vers où la sueur sourd<br />\r\nRimailleurs filant leur cocon<br />\r\nDe satin<br />\r\n<br />\r\nFuyant l'hiatus si haï<br />\r\nL'anacoluthe les menace<br />\r\n…<br />\r\n<br />\r\n--- je ne sais plus, je sais seulement qu'à l'envoi, \"satin\" devenait \"sapin\", drôle mais pas gai !<br />\r\n</p>"
+  },
+  {
+   "id": 2951,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?q=A+la+d%C3%A9couverte+du+LIED",
+   "date": "2007-12-10T16:36:50",
+   "contenu": "<p>C'est aussi tendre que les <em>Art Poétique</em> des années 1540. Mieux vaut baisser la tête pour les <em>versificateurs</em> et autres <em>rapetasseurs de vieille ferraille latine</em>. Mais beaucoup de densité et d'esprit ! <br />\r\n<br />\r\nJe ne regrette pas d'avoir réclamé !</p>"
+  },
+  {
+   "id": 2962,
+   "auteur": "Sylvie Eusèbe",
+   "site": "",
+   "date": "2007-12-11T16:02:45",
+   "contenu": "<p>Je vais quitter le monde virtuel pour quelques semaines non musicales, alors<br />\r\naussi librement que cette tribune, je souhaite de bonnes fêtes à David et ses lutins :-) !<br />\r\nA bientôt, et peut-être dans un grand restaurant bordelais... (j'espère toujours ;-) )<br />\r\nS comme sur le départ </p>"
+  },
+  {
+   "id": 2963,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?q=A+la+d%C3%A9couverte+du+LIED",
+   "date": "2007-12-11T23:17:59",
+   "contenu": "<p>Excellentes fêtes à vous aussi !  <span style=\"font-size: 9px; line-height: normal\">(Puisse saint Nicolas vous avoir en sa sainte garde sur notre sol.)</span></p>"
+  },
+  {
+   "id": 3001,
+   "auteur": "Admetto",
+   "site": "",
+   "date": "2007-12-31T18:34:21",
+   "contenu": "<p>Je viens d'entendre un récital de Bernarda Fink et Oleg Maïsenberg (suis pas sur de l'orthographe)<br />\r\nsur France Musique. Tout simplement fabuleux.J'adore cette voix son timbre, la pureté incroyable de ses voyelles, tout ce que j'aime dans une voix de femme est présent chez madame Fink. Jusqu'à son petit vibrato qui semble lui échapper parfois dans les pianos (probablement volontairement) qui me touche. Oleg Maïsenberg quand à lui est fabuleux.Enfin un pianiste qui met des mots sur la musique.<br />\r\nJ'aime, je suis fan!!!</p>"
+  },
+  {
+   "id": 3002,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2008-01-01T00:00:47",
+   "contenu": "<p>David,<br />\r\n<br />\r\n<a href=\"http://unlutin.fileave.com/toutestgrace.mp3\" target=\"_blank\">tout est grâce pour ceux qui comptent sur toi</a>.<br />\r\n<br />\r\nBonne année à toi, à tes proches, à tes lutins.<br />\r\n<br />\r\nChacun reconnaîtra son dieu :)</p>"
+  },
+  {
+   "id": 3003,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-01T14:14:56",
+   "contenu": "<p>Bonjour Admetto ! <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Je viens d'entendre un récital de Bernarda Fink et Oleg Maïsenberg (suis pas sur de l'orthographe)</span></blockquote><p><br />\r\nSi, si, c'est bien Maisenberg. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">sur France Musique. Tout simplement fabuleux.J'adore cette voix son timbre, la pureté incroyable de ses voyelles, tout ce que j'aime dans une voix de femme est présent chez madame Fink. Jusqu'à son petit vibrato qui semble lui échapper parfois dans les pianos (probablement volontairement) qui me touche. Oleg Maïsenberg quand à lui est fabuleux.Enfin un pianiste qui met des mots sur la musique.<br />\r\n    J'aime, je suis fan!!!</span></blockquote><p><br />\r\nOui, très belle artiste. Si vous ne connaissez pas son Frauenliebe, en particulier, avec une fibre héroïque qu'on n'entend guère ailleurs, c'est à écouter de toute urgence. <br />\r\n<br />\r\nEn plus, le programme d'hier était assez original : Grieg / Brahms / Grieg.<br />\r\n<br />\r\nOn peut le réécouter pendant encore quatre heures (à très basse qualité). Comme la page est assez bien cachée, voici le lien : <br />\r\n<a href=\"http://www.radiofrance.fr/francemusique/em/prima/ecouter.php?e_id=40000033\" target=\"_blank\">rediffusion</a>. </p>"
+  },
+  {
+   "id": 3004,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-01T14:16:51",
+   "contenu": "<p>Bonjour Jdm !  <br />\r\n<br />\r\nLoué sois-tu pour cette joyeuse salutation ! <br />\r\n<br />\r\nLes lutins te font très gentiment signe, mais je ne suis pas sûr que tu puisses les voir d'où tu es, on n'a pas encore fait tailler les arbres. </p>"
+  },
+  {
+   "id": 3005,
+   "auteur": "Laurent",
+   "site": "blog.parisbroadway.com",
+   "date": "2008-01-01T17:55:36",
+   "contenu": "<p>> 46, 48 : c’était le même programme que ça (http://blog.parisbroadway.com/2007/03/rcital_bernarda.html) ?</p>"
+  },
+  {
+   "id": 3006,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-01T19:36:51",
+   "contenu": "<p>Oui, Laurent, exactement ! <br />\r\n<br />\r\nPour que ce soit plus clair pour tout le monde, je mets le <a href=\"http://blog.parisbroadway.com/2007/03/rcital_bernarda.html\" target=\"_blank\">lien direct</a> vers ton article. <br />\r\n<br />\r\n<br />\r\nEt voici le programme détaillé, avec les poètes : <br />\r\n<br />\r\n<strong>Edvard Grieg</strong><br />\r\nSix Lieder op.4<br />\r\nDie Waise (Chamisso)<br />\r\nMorgentau (Chamisso)<br />\r\nAbschied (Heine)<br />\r\nJägerlied (Uhland)<br />\r\nDas alte Lied (Heine)<br />\r\nWo sind sie hin (Heine)<br />\r\n<br />\r\n<strong>Johannes Brahms</strong><br />\r\nSix Lieder<br />\r\nLiebestreu (Reinick) op.3/1<br />\r\nAnklänge (Eichendorff) op.7/3<br />\r\nVon ewiger Liebe (Wenzig) op.43/1<br />\r\nDein blaues Auge (Groth) op.59/8<br />\r\nDer Gang zum Liebchen (Wenzig) op.48/1<br />\r\nVerzagen (Lemcke) op.72/4<br />\r\nHuit Lieder<br />\r\nFeldeinsamkeit (Allmers) op.86/2<br />\r\nDer Tod, das ist die kühle Nacht (Heine) op.96/1<br />\r\nAuf dem Kirchhofe (Liliencron) op.105/4<br />\r\nMädchenlied (Heyse) op.107/5<br />\r\nSappische Ode (Schmidt) op.94/4<br />\r\nAlte Liebe (Candidus) op.72/1<br />\r\nStändchen (Kugler) op.106/1<br />\r\nAn die Nachtigall (Hölty) op.46/4<br />\r\n<br />\r\n<strong>Edvard Grieg</strong><br />\r\nSix Lieder op.48<br />\r\nGruss (Heine)<br />\r\nDereinst, Gedanke mein (Geibel)<br />\r\nLauf der Welt (Uhland)<br />\r\nDie verschwiegene Nachtigall (Vogelweide)<br />\r\nZur Rosenzeit (Goethe)<br />\r\nEin Traum (Bodenstedt) </p>"
+  },
+  {
+   "id": 3007,
+   "auteur": "Laurent",
+   "site": "blog.parisbroadway.com",
+   "date": "2008-01-01T22:56:27",
+   "contenu": "<p>J’ai l’impression que je savais insérer des liens dans mes commentaires chez toi, mais je n’ai pas réussi à retrouver la syntaxe...</p>"
+  },
+  {
+   "id": 3008,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-02T00:03:05",
+   "contenu": "<p>C'est du BBcode : [ url=http://chezlaurent][ /url].<br />\r\n<br />\r\nMais peu importe, tout le monde a compris. :)<br />\r\n<br />\r\n<br />\r\nDe toute façon, tu peux toujours critiquer, je n'ai pas de Typepad qui met à la porte pendant des semaines, moi !  (La dernière fois, deux semaines sans pouvoir poster.)[/ url]</p>"
+  },
+  {
+   "id": 3009,
+   "auteur": "Laurent",
+   "site": "blog.parisbroadway.com",
+   "date": "2008-01-02T02:16:06",
+   "contenu": "<p>À se demander ce que tu as fait à ce pauvre Typepad. Tu es le seul à qui c’est arrivé, à ma connaissance…</p>"
+  },
+  {
+   "id": 3011,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-03T12:56:55",
+   "contenu": "<p>Je ne sais pas. Au moment de la validation, plantage généralisé. Et régulièrement, à plusieurs semaines de distance. <br />\r\n<br />\r\nCe n'est pas lié à toi, puisque ça m'est arrivé aussi chez Philippe du Poisson Rêveur... avec des commentaires que j'ai finalement renoncé à poster. <br />\r\n<br />\r\nOn va dire que c'est mon système (je suis sur PC, après tout). C'est sans doute le plus probable - mais j'ai toujours trouvé Typepad pas follement pratique, avec ses redirections multiples.<br />\r\n<br />\r\nC'était juste manière de te taquiner, de toute façon.  :)</p>"
+  },
+  {
+   "id": 3053,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2008-01-16T08:54:46",
+   "contenu": "<p>Nous apprenons, une larme à l'oeil, que <a href=\"http://hope52era.skyrock.com/\" target=\"_blank\">EMI</a> quitte le groupe DEBUSSY.<br />\r\nQue peut-elle devenir, seule ? César Birotteau sans Beethoven, une nièce sans son tonton, un hélicoptère sans Stockhausen ?</p>"
+  },
+  {
+   "id": 3057,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-16T13:26:13",
+   "contenu": "<p>Elle quitte les DEBUSSY, mais pour mieux rejoindre les Frères Karcoupan, ce qui est béret vierge et immaculée casquette. </p>"
+  },
+  {
+   "id": 3062,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2008-01-17T08:53:12",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">les Frères Karcoupan</span></blockquote><p>Désolé, je ne comprends pas.<br />\r\nJ'en suis meurtri.<br />\r\nUn atout et tu me fends le coeur !<br />\r\n</p>"
+  },
+  {
+   "id": 3063,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-01-17T12:11:02",
+   "contenu": "<p>Tu n'as vaiment jamais entendu parler de ces fameux jumeaux, les deux Bus-Scie ? </p>"
+  },
+  {
+   "id": 3064,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2008-01-17T15:09:08",
+   "contenu": "<p>P...<br />\r\nQuel oeuf !<br />\r\nBête ove que je suis !<br />\r\nI'll keep a<br />\r\n<img src='http://www.fotosearch.fr/bthumb/DGV/DGV082/200316935-001.jpg' alt='' /><img src='http://www.fotosearch.fr/bthumb/UNE/UNE239/u12069127.jpg' alt='' /> for ye :-}<br />\r\n<br />\r\n[l'oeuf ne compte pas, évidemment]<br />\r\n</p>"
+  },
+  {
+   "id": 3486,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-03-12T17:20:41",
+   "contenu": "<p>Bonjour bonjour ici,<br />\r\njuste en passant, après avoir déterré le sujet \"Histoire\" de Classik:<br />\r\n<a href=\"http://video.google.fr/videoplay?docid=-6407220553110796712\" target=\"_blank\">Loose change</a> si tu as le temps.<br />\r\nLes magouilles sont monnaie courante en politique et ça ne date pas d'hier. Pourquoi aurait-ce changé depuis seulement deux millénaires?<br />\r\nOn ne voulait pas croire à un complot lors de l'assassinat de Kennedy, le bouc émissaire: Oswald.<br />\r\nUn minsitre de Kennedy proposait un plan de secours pour la nation dans lequel il fallait déplorer de lourdes pertes civiles... le bonhomme fut renvoyé. L'idée n'est pas morte, elle a (sans aucun doute pour moi) revu le jour avec le 11 Septembre.<br />\r\nJ'attends avec impatience ton avis.<br />\r\n<br />\r\nA bientôt.</p>"
+  },
+  {
+   "id": 3489,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-03-12T18:17:25",
+   "contenu": "<p>Ce documentaire dont on a beaucoup parlé a été méticuleusement démonté par les rationnalistes sérieux. :)<br />\r\n<br />\r\nJe ne crois absolument pas à la vertu des hommes politiques, mais pour le coup, ça ne me convainc pas du tout. Je crois surtout qu'on cherche à s'expliquer ce qui nous paraît impossible : même la toute-puissance est faillible ; et notre monde peut être pris à partie dans des guerres de pauvres, qu'on croyait bien sagement cantonnées en Afrique. <br />\r\n<br />\r\nCe qui peut entraîner toutes sortes de réflexions. <br />\r\n<br />\r\nLa version qui m'a le plus convaincu jusqu'à présent, c'est que Bush est parti en week-end prolongé en laissant sur son bureau les documents annonçant l'entrée de terroristes nommément désignés dans des zones surveillées. Et qu'on a attendu. <br />\r\nCa me paraît bien plus crédible que tout le reste. <br />\r\n<br />\r\nA titre personnel, je me méfie toujours, de toute façon, des documentaires sensationnalistes. Il est très facile d'orienter la vérité, même de bonne foi. <br />\r\n<br />\r\nEt personnellement, je n'ai pas les compétences pour juger de tous les paramètres (architecture, rapports des services secrets, collusion avec les islamistes...). Comme je l'avais dit sur Classik, précisément, je crois qu'on néglige, de surcroît, le poids social sur les épaules d'un dirigeant. Tromper, oui, sacrifier des militaires, bien sûr, mais tuer sa propre population civile (alors que le but ultime reste tout de même marquer les mémoires au sein de celle-ci), ça me paraît assez peu vraisemblable d'un point de vue psychologique. Ce n'est pas une preuve, mais c'est un obstacle que les conspirationnistes lève un peu facilement <em>a priori</em>.<br />\r\n<br />\r\nOn trouve tout de même beaucoup de théories <em>plausibles</em>, tout simplement parce que la chose nous paraît tellement invraisemblable, et tellement honteuse sans doute qu'il existe des zones d'ombre. Tu imagines vraiment que les services secrets de tous les autres ne sauraient rien ou laisseraient prendre des mesures de sécurité coûteuses dans les avions pour complaire aux Etats-Unis ?  Et Madrid, c'était l'E.T.A. ou les U.S.A. ? <br />\r\n<br />\r\n<br />\r\nEn l'absence de théorie <em>démontrée</em> (et non pas plausible, puisque cette affaire n'était, précisément, pas plausible), je m'en tiens à la version communément partagée. Même si je ne crois pas forcément que nous sachions tout - il y a sans doute eu des responsabilités, même tout à fait de bonne foi, qui ont été épargnées. <br />\r\n<br />\r\nVoilà pour moi ! <br />\r\n<br />\r\n<br />\r\nP.S. : Je vais dupliquer tout ça vers l'article que CSS a déjà consacré à la perception du 11/09/01, ce sera plus clair ! </p>"
+  },
+  {
+   "id": 3516,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-03-16T02:01:24",
+   "contenu": "<p>Je cherchais une petite notice sur Alma SCHINDLER qui me fascine de plus en plus... et... RIEN!!! gloups. Ni sur Classik (enfin si mais c'est en travaux) ni ici. Et dire que les Bordelais ont profité, eux, d'une présentation... tu pourrais, quand tu auras le temps, nous parler un peu de <em>Hymne an die Nacht</em> entre autres?</p>"
+  },
+  {
+   "id": 3532,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-03-19T17:31:46",
+   "contenu": "<p>Oui, j'ai toujours reculé devant l'ampleur écrasante de la Statue à lui édifier. <br />\r\n<br />\r\nJe ne suis pas contre une introduction pour l'<em>Hymne à la Nuit</em>, quitte à bricoler des extraits musicaux. <br />\r\n<br />\r\nJ'inscris donc ça dans la liste des deux cents notes prévues (et je mets sur le dessus de la pile, je te rassure). </p>"
+  },
+  {
+   "id": 4330,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2008-11-02T13:03:00",
+   "contenu": "<p>Sur la question de PloumploumTelecom - que <a href=\"http://operacritiques.free.fr/css/index.php?2008/09/20/1038-cohabitation-denis-diderot-jean-baptiste-deshays-hector-venus-rives-scamandre#c4329\" target=\"_blank\">TU</a> as posée, il n'y a nulle médisance de ma part et, comme tu t'en doutes un peu, non ? j'ai tous les documents.<br />\r\nSi le premier n'est un escroc qu'en termes familiers, il pratique le harcèlement, par courrier et SMS, ce qui constitue, dans notre configuration, un délit (vérifié). Parler d'incompétence pour le second n'a rien d'excessif : quatre semaines de panne et de promesses de réparation non tenues, ce n'est pas sérieux ; il a fallu un technicien de F-Tél (ça marche avec l'agrume mais c'est le même sans être tout à fait le même), bref, quelqu'un de qualifié (et tu vois là comme nous sommes objectifs), enfin, pour voir que le problème ne venait pas du serveur capturé par l'intrus, ce qui était déjà aussi choquant que légal, hélas ! mais du bête répartiteur le plus proche dont le toutneuf détient, légalement, eh oui ! les clefs. Ces machins, quand ça ne prend pas l'eau, c'est ouvert à tout venant. Quand au troisième larron (il n'y en a plus que trois, les autres sont des squatters - légaux !), <em>il est libre un max</em> et toi aussi ;)</p>"
+  },
+  {
+   "id": 4332,
+   "auteur": "DavidLeMarrec",
+   "site": "piloris.free.fr/partitions.html",
+   "date": "2008-11-02T13:25:28",
+   "contenu": "<p>Aïe. Si en plus c'est vrai... :-|</p>"
+  },
+  {
+   "id": 4334,
+   "auteur": "lou",
+   "site": "",
+   "date": "2008-11-02T13:41:19",
+   "contenu": "<p>C'est vrai !<br />\r\nSincères etc.</p>"
+  },
+  {
+   "id": 4438,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2008-12-15T17:24:12",
+   "contenu": "<p>S'il te plaît prendre une récréation, <a href=\"http://libellus.over-blog.com/article-25824094.html\" target=\"_blank\">cette fantaisie est pour toi</a>.<br />\r\n<br />\r\nL'ornement musical restera gravé aux tympans du maître des lutrins pour une éternité.<br />\r\n<br />\r\nBien à toi, David, here's to you U2 ;)))</p>"
+  },
+  {
+   "id": 4441,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-12-16T16:34:15",
+   "contenu": "<p>Tiens, je crois qu'on a toujours respecté mon tour d'enceinte marbré jusqu'ici... Je n'aime pas être graffité de force, mais l'exercice est tellement tentant... Tu me connais trop, tu l'as choisi pour moi, je suis ému. <br />\r\n<br />\r\nLà, tout de suite, je n'ai pas trop le loisir de ladite récréation, mais je serais très amusé de rivaliser avec ta brillante élévation gantée, c'est noté. <br />\r\n<br />\r\nLes Fatal Imps vont mettre la pâtée aux Magic Kittens, c'est moi qui te le dis ! </p>"
+  },
+  {
+   "id": 4443,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2008-12-16T18:30:48",
+   "contenu": "<p>J'entends déjà comme a glittering gallop...<br />\r\nNon, c'est Bouchon qui a cru qu'on repassait les croquettes.<br />\r\nN'oublie pas : tu publies dans CSS, tu indiques la source, tu en fais part sur Libellus et tu préviens tes nominés (de 1 à 5).<br />\r\nOn les aura !</p>"
+  },
+  {
+   "id": 4444,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-12-16T18:45:01",
+   "contenu": "<p>On aura qui ? <br />\r\n<br />\r\n........ . . ¶¶¶ . . ¶¶¶.¶ .¶¶<br />\r\n. . . . . . . .¶¶¶.¶. .¶¶¶. . .¶¶<br />\r\n. . . . . . . ¶¶¶¶. . . ¶¶¶ . . .¶¶¶<br />\r\n. . . . . . .¶¶¶¶¶ . . ¶¶¶¶.¶¶ .¶¶<br />\r\n. . . . . . ¶¶¶¶. . . . ¶¶¶¶. . . ¶¶<br />\r\n. . . . . ¶¶¶¶¶¶¶. . . . .¶¶. . . ¶¶<br />\r\n. . . . . ¶¶¶¶¶¶¶¶. . . . ¶¶. . ¶¶<br />\r\n. . . . . ¶¶¶¶¶¶¶¶¶ . . ¶¶. . ¶¶<br />\r\n. . . . . . ¶¶¶¶¶¶¶¶¶¶¶¶ ¶.¶¶<br />\r\n. ...... . . . .¶¶¶¶¶¶¶¶¶¶.¶¶<br />\r\n. .¶¶¶¶¶ . . . . . ¶¶<br />\r\n. .¶¶¶¶¶¶¶. . . .¶¶.<br />\r\n. . ¶¶¶¶¶¶¶ . . ¶¶.<br />\r\n. . .¶¶¶¶¶¶¶ . ¶¶.<br />\r\n. . . .¶¶¶¶¶¶. ¶¶.<br />\r\n. . . . .¶¶¶¶¶¶¶.<br />\r\n. . . . . . . . .¶¶.<br />\r\n. ¶¶.<br />\r\n. . . . . . .... .¶¶.<br />\r\n..................¶¶.<br />\r\n. . . . . . . ....¶¶.<br />\r\n</p>"
+  },
+  {
+   "id": 4449,
+   "auteur": "lou",
+   "site": "",
+   "date": "2008-12-16T19:03:56",
+   "contenu": "<p>La page suivante est cryptée en CSS<br />\r\n¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶<br />\r\n<br />\r\nMerci pour la fleur !</p>"
+  },
+  {
+   "id": 4450,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-12-16T19:17:09",
+   "contenu": "<p><span style=\"font-size: 9px; line-height: normal\">En fait, c'est plutôt de l'ASCII.</span></p>"
+  },
+  {
+   "id": 4493,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2009-01-05T17:48:42",
+   "contenu": "<p>Question technique : musicme.<br />\r\nMusicMe paraît bien intéressant, j'ai suivi ton lien pour écouter Zefiro (il y a deux autres albums sur la base).<br />\r\nJe me suis inscrit, j'ai validé mon inscription au reçu de l'e-mail, j'ai l'Adobe flash 9 ActiveX et le tout dernier 10 plugin - à ce que me dit Windows. Or, MusicMe s'acharne à m'afficher que je ne peux pas utiliser le lecteur musicme, parce que \"la mise à jour n'a pas pu été effectuée\" !<br />\r\nOù est le bug ? j'ai même accepté tous les cookies, c'est dire.<br />\r\nAh oui ! \"été\", en hiver ça ne passe pas...<br />\r\nSeigneur David, viens à mon aide, lutins à notre secours !</p>"
+  },
+  {
+   "id": 4495,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-01-05T23:14:13",
+   "contenu": "<p>Si un site inconnu t'offre des cookies et te propose de monter dans sa belle machine sécurisée, tu refuses !  (C'est très mauvais pour la ligne - et la morale -, tout simplement.)<br />\r\n<br />\r\nC'est que ton ordinateur n'a pas actualisé la mise à jour (tu es bien sur du post-Win98 ?). Pour ça, il faudrait avoir ta machine entre les mains, mais je te suggère tout simplement d'utiliser n'importe quel autre navigateur pour voir si ça fonctionne. </p>"
+  },
+  {
+   "id": 4496,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2009-01-06T20:26:26",
+   "contenu": "<p>Le flash fonctionne très bien sous IE7 et sur n'importe quel site, sauf MusicMe.<br />\r\nPourquoi peut-on écouter de la musique sur Deezer ou Jiwa et pas sur MusicMe.<br />\r\nBien sûr, j'ai rétabli le contrôle des sucreries et j'ai fait le ménage. Mon inscription sera effacée dans un mois, faute d'utilisation, comme c'est annoncé - encore une excentricité de MusicMe.<br />\r\nEt si je deviens \"acide\", je ne suis pas Galatea ;)<br />\r\n[j'ai dit que je ne commenterais pas les commentaires sur un [i]article de Libellus dont l'obscurité fait resplendir les petites phrases les plus noires de Lou]<br />\r\nMerci de ta vigilance.</p>"
+  },
+  {
+   "id": 4498,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-01-06T20:42:50",
+   "contenu": "<p>Je n'ai pas d'explication, comme ça, sans voir la machine. [Non, inutile de me poster une photo, je te connais.]</p>"
+  },
+  {
+   "id": 4640,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2009-02-08T19:11:29",
+   "contenu": "<p>Monsieur des Magots et Mademoiselle Novelstarr ont la joie de vous annoncer la naissance de leur portée (je rajoute une parenthèse parce que celle-là, même moi, moi-même, je ne l'avais pas vue en l'écrivant), les petites Victoires-de-la-musik-klassic.<br />\r\n<br />\r\nOui, ce sont les plus nuls qui ont été récompensés - on sait ici que je mesure le poids de mes mots, ici au moins.<br />\r\n<br />\r\nC'est vrai pour le meilleur compositeur, je n'ai pas encore retenu son nom (non, j'ai la flemme de re-chercher).<br />\r\n<br />\r\nPour le pianiste formule rhapsodie hongroise --- il ne suffit pas de shinter les tempi pour être juste (Samson François, oui, et Glenn Gould ne s'en prive pas, mais c'est d'interprétation qu'il s'agit) et quand on tape sur les pédales comme un forcené, comme ça on n'entend moins clairement, tsss.<br />\r\n<br />\r\nPour les <strong>Révélations</strong>, c'est clair.<br />\r\nIls ont relégué <strong>Lise Berthaud</strong>, dont tu disais, David, qu'elle avait bien choisi son Schubert. Les altistes sont maudits et, comme le dit l'innocente (?) présentatrice, <em>la trompette a de plus en plus de succès</em>. Ils auraient pu, au moins, garder Antoine Pierlot, un peu lisse à mon goût, mais sur un violoncelle, souffler ne serait pas jouer.<br />\r\n<br />\r\nIls ont exclu <strong>Yuri Kissin</strong> - qui n'est plus une révélation ! la chance aux jeunes ! le ténor Sébastien Guèze, dont je n'aimais pas le jeu et qui rasait le mur de l'instabilité dans les hautes (en portée et en décibels) notes, mais un disque de démonstration ne montre pas forcément toutes les possibilités. Les failles, oui. Et ils ont nommé Karen Yourc'h, ils sont cruels, ils l'ont fait chanter avec Roberto Alagna (pourtant pas trop bien préparé aujourd'hui) dans Mimi - c'est pas demain la veille que Roberto changera de partenaire à la scène (et à la ville).<br />\r\n<br />\r\nJe ne suis pas déçu d'avoir voté pour les perdants. Depuis 40 ans, j'ai toujours voté pour les perdants, j'ai très rarement perdu parce que j'ai très rarement voté.<br />\r\n<br />\r\nJe garde mes chouchoux en illustration du prochain article de Libellus.<br />\r\n<br />\r\nOui, j'en profite, David, et je ne te le rappellerai pas, j'ouvre, dans la soirée, un grand concours sur Libellus. J'espère bien te voir y participer ainsi que tes fidèles, même si ce n'est pas dans le ton des Carnets sur sol ni de celui, ordinaire, de Libellus - il faut être dans le vent...<br />\r\n[allez ! je commence à vendre l'appeau avant que l'oiseau soit sorti du nid !]</p>"
+  },
+  {
+   "id": 4642,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-02-08T19:52:15",
+   "contenu": "<p>Gare à toi pour le compositeur, tu risques gros, CSS est le fanzine caché de Bruno Mantovani depuis toujours, et il concourait cette année, non ?  Je dois confondre avec le prix lycéen qui est peut-être distinct. <br />\r\n<br />\r\nPour Lise Berthaud, j'avais vanté le choix de son Schumann très peu joué (et une superbe pièce, comme la plupart de la musique de chambre de Schumann, quatuors exceptés). Le Schubert, lui, était très attendu. J'étais moins convaincu par son jeu, mais à choisir, c'était encore elle qui me séduisait le plus. <br />\r\n<br />\r\nJe n'ai pas consacré d'entrées cette année à la manifestation, parce que j'aurais dit plus de mal qu'autre chose, je ne trouvais pas la promotion alléchante, ils étaient plutôt à encourager qu'à couronner amha. Et comme ça prend du temps, qu'il y a plus intéressant à raconter... autant ne pas dépenser inutilement, juste pour faire de la peine. <br />\r\n<br />\r\n<br />\r\nC'est noté pour le concours, mais j'ai déjà un Catulle pangermanique à digérer et un missel à relire, tu veux m'achever ! </p>"
+  },
+  {
+   "id": 4657,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2009-02-14T21:36:01",
+   "contenu": "<p><em>Are you really human ?</em><br />\r\n<span style=\"font-size: 8px; line-height: normal\">Pénible !</span><br />\r\nBonsoir David,<br />\r\nj'étais venu reprendre un peu de mon retard de lecture et j'aimerais parler d'Hilary Hahn et d'Alexandre Tharaud, quand j'aurai mieux et encore écouté mon paquet.<br />\r\n<a href=\"http://aujourlejourdhui.over-blog.com\" target=\"_blank\">Je me disperse</a>, comme tu as pu l'observer en venant signer mon autre livre d'or dont la ruralité est fière de recevoir l'hommage de CSS/DSS.<br />\r\n<br />\r\nPour Bruno Mantovani, j'ai peut-être mal entendu, laissez-moi écouter encore, Seigneur etc. La suite est chez Madame de Sévigné, mais le Soleil n'était pas infaillible ! la première impression n'est pas toujours la meilleure, surtout quand elle est captée en direct, à la télévision, au milieu des miaulements :)<br />\r\n<br />\r\nA bientôt.</p>"
+  },
+  {
+   "id": 4659,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-02-15T10:33:33",
+   "contenu": "<p>Je ne sais toujours pas s'il s'agissait de Bruno Mantovani, en réalité... :)  J'émettais une hypothèse, mais je n'en sais fichtre rien. <br />\r\n[Un instant, je vais chercher, ne bouge pas surtout, c'est l'affaire d'une minute.]<br />\r\n<br />\r\nC'est bien lui ! Ce n'est <a href=\"http://operacritiques.free.fr/css/index.php?2006/11/08/431-bruno-mantovani-un-premier-opera-l-autre-cote-montovani-compositeur-francais-french-composer\" target=\"_blank\">que trop mérité</a>...<br />\r\n<br />\r\nBelle promotion, d'ailleurs, Beffa, ce n'est pas mal non plus. C'est très rétro comme genre, très fauréen d'une certaine manière, mais ça sonne bien. (Hersant, c'est plus inégal, moins indispensable à mon avis.)<br />\r\n<br />\r\nMantovani était celui au langage le moins sage des trois, le seul à être résolument atonal (encore qu'il y ait des pôles dans son langage, mais d'une autre sorte).<br />\r\n<br />\r\n<br />\r\n[Tant que tu te disperses avec esprit, ma foi, je prends. D'autant que dans le même temps tu nous mets du consistant sur [i]Libellus, c'est devenu une référence, que dis-je, un bréviaire !]</p>"
+  },
+  {
+   "id": 4661,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2009-02-15T20:31:22",
+   "contenu": "<p>Un bréviaire ? tu peux dire un Paroissien et même <em>Un drôle de paroissien</em>.<br />\r\nLou moqueur aime bien Jean-Pierre Mocky.</p>"
+  },
+  {
+   "id": 4728,
+   "auteur": "Morloch",
+   "site": "nhofszandz.blogspot.com/",
+   "date": "2009-03-07T00:57:41",
+   "contenu": "<p>Je suis joie !<br />\r\n<br />\r\nJe découvre la Carmen de Geraldine Farrar, la célèbre chanteuse :) euh, en fait je découvre le film muet de 1915 avec Geraldine Farrar dans le rôle de Carmen.<br />\r\n<br />\r\nVoilà un concept qui me plaît : faire des films muets avec des chanteurs d'opéra dans les rôles principaux. Je crois que j'ai repéré un véritable âge d'or :) </p>"
+  },
+  {
+   "id": 4729,
+   "auteur": "Morloch",
+   "site": "nhofszandz.blogspot.com/",
+   "date": "2009-03-07T01:10:03",
+   "contenu": "<p>Une fois passé le moment de satisfaction béate et alors que le film se poursuit, une remarque d'une portée prodigieuse germe dans mon esprit conventionnel :<br />\r\n<br />\r\nil faut sans doute se méfier de l'idée selon laquelle les chanteurs d'opéra étaient figés avant les années 50, privée de sa voix G. Farrar se démène comme tout acteur muet qui se respecte. J'imagine mal qu'avec le son, elle se retrouve paralysée. Il devait y avoir toutes sortes d'acteurs-chanteurs.</p>"
+  },
+  {
+   "id": 4731,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-03-07T11:00:18",
+   "contenu": "<p>Sans nul doute... mais sans mise en scène, donc plantés en avant-scène en agitant les bras, dans le meilleur des cas. <br />\r\n<br />\r\nDeflo aurait passé, à l'époque, pour un dangereux subversif (des transpositions, des mouvements occasionnels chez les acteurs au cours d'un air...). </p>"
+  },
+  {
+   "id": 4834,
+   "auteur": "Appono Astos",
+   "site": "",
+   "date": "2009-04-03T12:47:00",
+   "contenu": "<p>J'ai pu laisser le trésor que je m'efforce de faire partager sur le site \"diaire\": <br />\r\n<br />\r\nvoici un résumé qui tient en une ligne ou presque :<br />\r\n<br />\r\nwww.alainlefevre.com <br />\r\n<br />\r\net son frère : www.davidlefevre.com<br />\r\n<br />\r\nles deux sont géniaux et je propose d'entrer dans leurs univers par leurs sites :<br />\r\nje reviendrais sur les personnages : Génies signalés ....</p>"
+  },
+  {
+   "id": 4835,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-04-05T16:35:29",
+   "contenu": "<p>Merci pour ce commentaire. :-)  Je ne crois pas partager la totalité de votre enthousiasme, malheureusement, mais je vous réponds instamment, et j'invite donc les visiteurs de CSS à prendre connaissance de vos recommandations : <br />\r\n<br />\r\n<a href=\"http://operacritiques.free.fr/dss/index.php/2009/02/26/159-fatigue#c281\" target=\"_blank\">http://operacritiques.free.fr/dss/index.php/2009/02/26/159-fatigue#c282</a> .<br />\r\n<br />\r\n<br />\r\nBonne soirée ! </p>"
+  },
+  {
+   "id": 5360,
+   "auteur": "sur Thomas Quasthoff",
+   "site": "",
+   "date": "2009-09-16T20:57:35",
+   "contenu": "<p>Ecrit ce matin, un petit mot sur l'évolution du chant de Thomas Quasthoff <a href=\"http://operacritiques.free.fr/dss/index.php/2009/09/16/177-thomas-quasthoff-aujourd-hui\" target=\"_blank\">sur DSS</a>. <br />\r\n<br />\r\nDe la <em>glottologie approximative</em> pas passionnante du tout, mais comme personne ne l'a visité à part le moteur de Gooooooooooogle, je me permets de l'indiquer. </p>"
+  },
+  {
+   "id": 5364,
+   "auteur": "Fanzhi",
+   "site": "",
+   "date": "2009-09-16T22:34:16",
+   "contenu": "<p>Ah mais c'est déjà ça, et puis il a laissé un commentaire, en plus...</p>"
+  },
+  {
+   "id": 6109,
+   "auteur": "lou",
+   "site": "www.libellus-libellus.fr",
+   "date": "2010-05-25T13:50:00",
+   "contenu": "<p>Tu connais ?<br />\r\n<br />\r\n<a href=\"http://www.despasperdus.com/index.php?post/2010/05/24/l-anonyme-s%C3%A9nateur-Masson\" target=\"_blank\">http://www.despasperdus.com/index.php?post/2010/05/24/l-anonyme-s%C3%A9nateur-Masson</a><br />\r\n<br />\r\n<a href=\"http://www.authueil.org/?2010/05/21/1619-massonnade-sur-la-lcen&cos=1\" target=\"_blank\">http://www.authueil.org/?2010/05/21/1619-massonnade-sur-la-lcen&cos=1</a><br />\r\n</p>"
+  },
+  {
+   "id": 6111,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2010-05-26T23:47:20",
+   "contenu": "<p>Salut Lou :) <br />\r\n<br />\r\nA vrai dire, niveau identification personnelle, je ne crains personne. :-))  Mais ce n'est pas un projet très sympathique. Certains propos méritent d'être poursuivis, toutefois interdire l'anonymat appauvrira plusieurs types de contenus. <br />\r\n<br />\r\nMais comme ce ne sera pas voté, ou que ce sera très moyennement appliqué (comme la LCEN, précisément...), pas de quoi paniquer. </p>"
+  }
+ ],
+ "epingle": false
+}

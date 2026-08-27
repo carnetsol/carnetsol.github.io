@@ -1,0 +1,23 @@
+{
+ "postId": 944,
+ "titre": "Ajout de deux catégories",
+ "slug": "ajout-de-deux-categories",
+ "url": "/css/2008/05/08/944-ajout-de-deux-categories/",
+ "date": "2008-05-08T15:48:37",
+ "modifie": "2008-05-08T21:57:31",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>\"Mélodie française\" et \"Découverte de la mélodie\", pour plus de clarté dans la section lied déjà bien fournie.</p>\n\n\n<p>(A noter également : surprises dans <a href=\"http://operacritiques.free.fr/dss/index.php/2008/05/08/93-guillaume-tell-de-rossini-protomeyerbeerien\">l'Ouverture</a> de <em>Guillaume Tell</em> de Rossini et introduction à la <a href=\"http://operacritiques.free.fr/dss/index.php/2008/05/08/94-ernest-chausson-symphonie-svetlanov\">Symphonie de Chausson</a> - par Svetlanov - sur DSS.)</p>",
+ "notesHtml": "",
+ "extrait": "\"Mélodie française\" et \"Découverte de la mélodie\", pour plus de clarté dans la section lied déjà bien fournie. (A noter également : surprises dans l'Ouverture de Guillaume Tell de Rossini et introduction à la Symphonie de Chausson - par Svetlanov - sur DSS.)",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

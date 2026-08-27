@@ -1,0 +1,98 @@
+{
+ "postId": 242,
+ "titre": "Ecouter les radios du monde à volonté, sans 'surfer'",
+ "slug": "ecouter-les-radios-du-monde-a-volonte",
+ "url": "/css/2006/05/22/242-ecouter-les-radios-du-monde-a-volonte/",
+ "date": "2006-05-22T16:28:18",
+ "modifie": "2007-08-06T14:16:31",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  },
+  {
+   "nom": "Les astuces de Tonton David",
+   "slug": "Les-astuces-de-tonton-david"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Astuce :</p>\n\n<ol>\n<li>Se rendre sur cette <a href=\"http://operacast.com/opstations.htm\" hreflang=\"en\">très large sélection</a> de radios classiques du monde entier. Vous enregistrez la cible sur votre disque dur. (sous Windows : clic droit + \"Enregistrer la cible sous\"/\"Save target as\")  Vous faites ça pour plusieurs radios qui vous intéressent, et vous les regroupez dans un dossier de votre choix avec un nom explicite pour chaque fichier téléchargé : NRK, Radio Tchèque 1 ou autre...</li>\n<li>Télécharger <a href=\"http://www.cnetfrance.fr/telecharger/windows/fiche/0,39035651,11004689s,00.htm\" hreflang=\"fr\">Media Jukebox</a>, qui permet de lire du .mp3, du .wma, du .ogg, et toutes autres sortes de choses utiles par ailleurs. [Edit du 6 août 2007 : <a href=\"http://www.01net.com/outils/telecharger/windows/Multimedia/lecteurs_video_dvd/fiches/tele23823.html\">VLC</a> est encore plus compatible, et surtout utilisable pour les possesseurs de Mac.]</li>\n<li>Vous cliquez sur le fichier téléchargé de votre choix. Il faut ou configurer l'ouverture par défaut dans Media Jukebox (clic droit + \"ouvrir avec\"/cocher \"toujours ouvrir avec\"), ou faire glisser le fichier vers la fenêtre de Media player.</li>\n</ol>\n<p><br /></p>\n\n\n\n<p>Vous pouvez alors écouter les radios dont vous avez chargé l'adresse. Si le programme ne vous plaît pas, vous pouvez changer à tout moment. C'est tout l'avantage de la méthode : au lieu de revenir sur le site pour choisir une autre radio, il vous suffit de sélectionner le canal de votre choix, sans vous interrompre dans votre travail. <br />\nIdéal pour faire des découvertes sans être prisonnier d'un programme.</p>\n\n\n<pre></pre>\n\n\n<pre></pre>\n\n\n<p><ins>Ajout du 6 août 2007 :</ins></p>\n\n\n<p>Carnets sur sol vous propose sa propre sélection de radios aux programmes particulièrement excitants. Il vous suffit de cliquer sur les liens pour lancer directement les flux dans la meilleure qualité disponible (parfois même, elle n'est pas disponible directement sur le site...). On essaie pour votre usage de les classer par intérêt décroissant à notre goût, mais ce sera vraiment à la louche.</p>\n\n<ul>\n<li><a href=\"http://media.hiof.no/streams/m3u/nrk-alltid-klassisk-172.ogg.m3u\" hreflang=\"ogg-172kbps\">NRK Alltid Klassisk</a>.\n<ul>\n<li>La radio spécialiste norvégienne. Des disques rares, surprenants et de qualité, des concerts vraiment originaux, des opéras toujours de haut niveau, dans un style véritablement spécifique... Des présentateurs aux voix enchanteresses, et aussi éloquents que des acteurs de théâtre... Un modèle.</li>\n<li><strong>A noter :</strong> la nuit, les programmes euroradio sont identiques à ceux de BBC3, avec parfois des cycles de musique contemporaine européenne (slovène, croate...) ou des raretés édifiantes. Assez proche du principe de feu <a href=\"/css/2007/06/04/631-france-vivace-france-musiques-zoroastre-rameau-rousset-usher-uscher-debussy-milhaud-pauvre-matelot-cocteau-pelleas-haitink-kozena-pyrame-et-thisbe-francoeur-rebel/\">Hector</a>, en fait. Et tout aussi réjouissant !</li>\n</ul></li>\n<li><a href=\"http://operacritiques.free.fr/css/radios/carnets_sur_sol_presente_france_vivace.asx\" hreflang=\"wmp-128kbps\">France Vivace</a>\n<ul>\n<li>Format plus riche que le flux proposé sur leur site !  (Votez <em>CSS</em>.)</li>\n<li>On en a <a href=\"/css/2007/06/04/631-france-vivace-france-musiques-zoroastre-rameau-rousset-usher-uscher-debussy-milhaud-pauvre-matelot-cocteau-pelleas-haitink-kozena-pyrame-et-thisbe-francoeur-rebel/\">déjà parlé sur CSS</a>, et on y signale régulièrement des programmations extrêmement stimulantes.</li>\n</ul></li>\n<li><a href=\"mms://lr1w.latvijasradio.lv/pplr3\" hreflang=\"wmp-128kbps\">La troisième chaîne lettonne</a>.\n<ul>\n<li>Belle programmation pas forcément aventureuse en termes de compositeurs, mais variée, offrant d'excellents concerts et des oeuvres plutôt peu fréquentées. On peut peut-être plutôt aller fouiner dans leurs immenses archives laissées en ligne, ce risque être plus fructueux.</li>\n</ul></li>\n<li><a href=\"http://www.dradio.de/streaming/dkultur_hq_ogg.m3u\" hreflang=\"ogg-104kbps\">Deutschlandradio Kultur</a>, radio berlinoise. De bonnes représentations venues d'Allemagne, régulièrement.</li>\n<li><a href=\"http://213.205.96.91:9919\" hreflang=\"mp3-64kbps\">France Musique[s]</a>\n<ul>\n<li>La radio spécialiste française. Pratique pour suivre et enregistrer sans dépenser des fortunes en supports fragilissimes (cassettes audio, <del>Disques simplifiés</del> Minidisques...).</li>\n</ul></li>\n<li><a href=\"http://old.rtbf.be/rtbf_2000/radios/mus3128.m3u\" hreflang=\"mp3-128kbps\">Musiq3</a>\n<ul>\n<li><em>Alter ego</em> belge de France Musique[s].</li>\n</ul></li>\n<li><a href=\"http://www.radio.rai.it/player/player.cfm?Q_CANALE=6\" hreflang=\"ram-32kbps\">Auditorium de la RAI</a>\n<ul>\n<li>A écouter dans la nuit de samedi à dimanche, à partir de minuit : toujours de grandes raretés très stimulantes du répertoire italien (<em>Don Giovanni</em> de Malipiero, <em>Orfeo</em> de Fernando Bertoni ou, aux antipodes, d'Alfredo Casella, etc.).</li>\n</ul></li>\n<li><a href=\"http://212.92.28.75/bartok5.m3u\" hreflang=\"mp3-256kbps\">Radio Bartók</a>, la radio classique hongroise.\n<ul>\n<li>Surtout intéressant à cause du débit d'excellente qualité !</li>\n</ul></li>\n<li><a href=\"http://www.concertzender.nl/cgi/mp3pls.php\" hreflang=\"mp3-192kbps\">Concertzender</a>\n<ul>\n<li>Réputé pour sa musique contemporaine.</li>\n</ul></li>\n<li><a href=\"http://www.bbc.co.uk/radio/aod/networks/radio3/live.shtml\" hreflang=\"ram-44kbps\">BBC3</a>\n<ul>\n<li>Mieux vaut écouter les derniers concerts à la carte sur leur site, le débit est identique. On y trouve des adaptations théâtrales, aussi !</li>\n</ul></li>\n<li><a href=\"rtsp://a434.l1559840571.c15598.e.lr.akamaistream.net/live/D/434/15598/v0001/reflector:40571\" hreflang=\"ram-32kbps\">Espace 2</a>\n<ul>\n<li>La radio suisse spécialiste. A choisir, rendez-vous plutôt sur les archives de leur site, puisque le débit est le même à la carte qu'en flux continu.</li>\n</ul></li>\n</ul>\n<pre></pre>\n\n\n<p>On tâchera de compléter cette liste lorsque d'autres radios que nous surveillons nous sembleront particulièrement engageantes.</p>",
+ "notesHtml": "Enregistrer à la radio.\r\n\r\nEcouter une oeuvre déjà diffusée.\r\n\r\n\r\nInitialement titré dans \"En passant\".",
+ "extrait": "Astuce : Se rendre sur cette très large sélection de radios classiques du monde entier. Vous enregistrez la cible sur votre disque dur. (sous Windows : clic droit + \"Enregistrer la cible sous\"/\"Save target as\") Vous faites ça pour plusieurs radios qui vous intéressent, et vous les regroupez dans un dossier de votre…",
+ "nbCommentaires": 10,
+ "commentaires": [
+  {
+   "id": 594,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-05-26T21:59:46",
+   "contenu": "<p>Tiens, mon \\[s\\] à Musique a créé une balise 'strike', manifestement...<br />\r\n<br />\r\nLa NRK (radio norvégienne) présente des programmes également très originaux (la nuit, les mêmes que BBC) et de très grande qualité. J'y ai entendu les Symphonies de Weingartner (une splendeur absolue) ou encore la création mondiale d'<em>Ocean of Time</em> d'Ekström, un de mes titres favoris. Le tout en 192 kbps !  Les voix des présentatrices et présentateurs sont en outre sublimes.</p>"
+  },
+  {
+   "id": 590,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-05-26T16:00:26",
+   "contenu": "<p>je suis bien d'accord, techniquement, je préfère largement le site de la BBC à FranceMus, dernièrement j'ai entendu plusieurs musiques \"sérieuses\" de Richard Rodney Bennett : élève de Boulez et compositeur touche-à-tout (musiques de film, pièces chorales, jazz orchestral, etc...)</p>"
+  },
+  {
+   "id": 585,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-05-26T10:07:11",
+   "contenu": "<p>Coucou Christian !<br />\r\n<br />\r\nOui, je me doute que mon vade mecum n'est pas Mac-compatible. Mais ce serait bien le diable s'il n'existe pas de logiciels qui ont les mêmes fonctionnalités. L'avantage de Media Jukebox, c'est qu'il gère flac, ogg et wma en plus du mp3. Mais sinon, on peut choisir rien que les fichiers destinés à Real Player, ou en ogg et mp3.<br />\r\n<br />\r\nLes programmes de nuit de la BBC (un programme standard qui alimente les nuits de plusieurs radios d'Europe) sont assez géniaux. C'est très varié, on y entend régulièrement des concerts de musique contemporaine slovène (comme Uros Krek) ou encore croate (comme Franco Parać). Parfois jusqu'à six heures de programmes comme ça !  <br />\r\n<br />\r\nLe jour où France Musique<del> aura un site de semblable qualité, où on pourra écouter les derniers récitals, avec un streaming potable, qui fonctionne sous tous les navigateurs, ou ne serait-ce qu'avoir des grilles de programmes qui ne soient pas erronées... Pour les opéras, c'est systématique. Ou la distribution est celle d'il y a six mois, sans aucune prise en compte des modifications, ou tout est mélangé. Bien sûr, il n'y a jamais tout de noté...</del></p>"
+  },
+  {
+   "id": 584,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-05-26T09:58:35",
+   "contenu": "<p>hélas je ne suis pas compatible avec Media Jukebox (Mac oblige... ah, pour le choix des logiciels, c'est vrai que vous êtes les plus fort !! je te le concède ! ;-)) mais je conserve ton URL, c'est précieux...<br />\r\n<br />\r\nen radios classiques, j'aime bien celle de la BBC (ça marche même avec du bas débit) :<br />\r\n<br />\r\nhttp://www.bbc.co.uk/radio3/performanceon3/</p>"
+  },
+  {
+   "id": 2312,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-06T12:43:43",
+   "contenu": "<p>A noter : France Musique[s] rediffuse désormais (à très bas débit) ses derniers concerts (sur vingt-quatre heures), une excellente initiative, même si on aimerait des délais plus longs et surtout un débit un peu plus audible. La bonne voie est prise !</p>"
+  },
+  {
+   "id": 4269,
+   "auteur": "john",
+   "site": "",
+   "date": "2008-10-19T17:53:25",
+   "contenu": "<p>  JE SOUHAITE POUVOIR ECOUTER ATOUS MOMENTS LES RADIOS DU <br />\r\n  MONDE EN PARTICULIER BELGES ET POLONAISES</p>"
+  },
+  {
+   "id": 4270,
+   "auteur": "john",
+   "site": "",
+   "date": "2008-10-19T17:53:29",
+   "contenu": "<p>  JE SOUHAITE POUVOIR ECOUTER ATOUS MOMENTS LES RADIOS DU <br />\r\n  MONDE EN PARTICULIER BELGES ET POLONAISES</p>"
+  },
+  {
+   "id": 4271,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-10-19T23:42:37",
+   "contenu": "<p>Bonjour John, <br />\r\n<br />\r\nVous êtes à la bonne adresse ! <br />\r\n<br /><br>\r\nIl ne vous reste plus qu'à lire l'article à présent. <br />\r\n<br />\r\n</p>"
+  },
+  {
+   "id": 5894,
+   "auteur": "Władysław",
+   "site": "",
+   "date": "2010-02-03T20:41:12",
+   "contenu": "<p>SALUT JE VEUX LES RADIOS MOZAMBICAINES ET AZERBAÏDJANAISES</p>"
+  },
+  {
+   "id": 5898,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2010-02-04T17:57:00",
+   "contenu": "<p>Dommage que le verbe soit correctement conjugué (et qu'on ait dit bonjour), c'était presque crédible. <br />\r\n<br />\r\nhttp://www.rm.co.mz/<br />\r\n<br />\r\nhttp://fr.delicast.com/radio/Azerbaïdjan/Azadliq_Radiosu<br />\r\n<br />\r\nhttp://fr.delicast.com/radio/Azerbaïdjan/Ictimai_Radio</p>"
+  }
+ ],
+ "epingle": false
+}

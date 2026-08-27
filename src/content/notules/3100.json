@@ -1,0 +1,80 @@
+{
+ "postId": 3100,
+ "titre": "Teneste la promessa",
+ "slug": "teneste-la-promessa",
+ "url": "/css/2019/06/02/3100-teneste-la-promessa/",
+ "date": "2019-06-02T13:48:16",
+ "modifie": "2019-06-02T13:48:16",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<br>Voilà un moment que je devais opérer un petit changement, mes modes de\r\nrecension ces derniers mois ayant changé. Le logiciel Dotclear, à la\r\npointe lors de l'inauguration en 2005, a cessé d'évoluer (et la\r\nmigration vers la seule v2, qui a déjà bien 10 ans, réclamerait un gros\r\ntravail de réagencement, nécessairement pris sur le temps de rédaction\r\ndes notules), ce qui rend la réorganisation du contenu complexe. <br>\r\n<br>\r\n<div style=\"text-align: center;\"><img style=\"width: 50%;\"\r\nalt=\"clavecins atelier von Nagel\"\r\nsrc=\"/medias/von-nagel_atelier-facture.jpg\"><br>\r\n<small>Un autre atelier… qui est aussi une salle de concert.<br>\r\n(clavecins von Nagel)</small><br>\r\n</div>\r\n<br>\r\nEnjeu : ne pas noyer les entrées un peu plus ambitieuses au milieu des\r\nnombreuses impressions laissées sur les disques ou les concerts. <br>\r\n<br>\r\nJ'ai donc un peu modifié la structure du bandeau supérieur (merci aux\r\ndéveloppeurs, la hiérarchie des fichiers Dotclear reste limpide même\r\npour le profane !) pour faire apparaître quelques raccourcis utiles. <br>\r\n<br>\r\n<div style=\"margin-left: 40px;\">♦ Le fichier qui recente les <span\r\nstyle=\"font-weight: bold;\">nouveautés discographiques</span>\r\nintéressantes. (Google Sheet public)<br>\r\n♦ La notule qui concentre mes <span style=\"font-weight: bold;\">commentaires\r\ndesdites nouveautés</span> (éventuellement transformées en notules\r\npleines pour les œuvres rares enthousiasmantes).<br>\r\n♦ L<span style=\"font-weight: bold;\">'index</span> (très partiel) des\r\nnotules les plus anciennes. (Là aussi, le réorganiser sérieusement\r\nprendrait sur le temps de recherche et d'écriture…)<br>\r\n♦ Le très prisé <span style=\"font-weight: bold;\">agenda des concerts</span>,\r\nsous forme de tableau, mis régulièrement à jour, pour ne pas rater les\r\npetits concerts franciliens rares et exaltants. Ou pour occuper vos\r\nsoirées au débotté lorsque vous n'avez pas réservé, mais envie tout de\r\nmême d'aller voir de la musique. <br>\r\n♦ Le lien vers le <span style=\"font-weight: bold;\">fil Twitter des\r\ncommentaires de concert</span> – pour économiser du temps pour les\r\nnotules aux sujets moins éphémères, je tâche de réaliser mes\r\ncommentaires de concerts dans les transports et d'échanger avec la\r\ncommunauté des mélomanes qui fréquente cette interface… Il faut cliquer\r\nsur le message, et le fil des commentaires sur le concert s'affiche.<br>\r\n</div>\r\n<br>\r\nJ'espère ainsi répondre aux demandes sur l'accessibilité de ces\r\ninformations d'actualité, difficiles à maintenir en haut de page sans\r\nécraser tout le reste (que je juge plus intéressant, au moins sur le\r\nlong terme).<br>\r\n<br>\r\n<small>En état de cause, pour rmoi, ce sera plus pratique d'avoir ainsi\r\ntout sous la main !</small><br><br>",
+ "notesHtml": "",
+ "extrait": "Voilà un moment que je devais opérer un petit changement, mes modes de recension ces derniers mois ayant changé. Le logiciel Dotclear, à la pointe lors de l'inauguration en 2005, a cessé d'évoluer (et la migration vers la seule v2, qui a déjà bien 10 ans, réclamerait un gros travail de réagencement, nécessairement…",
+ "nbCommentaires": 8,
+ "commentaires": [
+  {
+   "id": 13257,
+   "auteur": "Benedictus",
+   "site": "",
+   "date": "2019-06-03T14:52:08",
+   "contenu": "<p>J'ai repéré plusieurs choses de Weigl dans ton tableau récapitulatif des nouveautés discographiques: des recommandations?</p>"
+  },
+  {
+   "id": 13258,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-06-03T23:22:06",
+   "contenu": "Pas vraiment : j'aime bien la Cinquième Symphonie (néanmoins très loin de l'intensité suggérée par son programme apocalyptique) ; pourtant on a affaire à du postromantisme bon teint, assez consonant et plutôt peu aventureux. Je n'ai pu mettre la main pour l'heure sur aucun des deux disques : Symphonie n°1 par la Philharmonie de Rhénanie-Palatinat, pas tout à fait du rêve en barres, et concerto pour violoncelle par Raphael Wallfisch – là, je suis beaucoup plus curieux, du lyrisme sobre et direct peut très bien fonctionner dans un concerto pour violoncelle. <br><br>Je te dirai lorsque je l'aurait trouvé et écouté, donc !  (mais je ne suis pas certain que ce soit pour toi, c'est vraiment assez gentil, facilement deux degrés plus gentil que Pfitzner)"
+  },
+  {
+   "id": 13259,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-06-03T23:28:51",
+   "contenu": "Ah mais si, j'ai écouté la Première Symphonie !  C'était même en gras dans mon tableau (parce que je voulais l'écouter en priorité, et je n'ai pas enlevé la mise en forme en le changeant de colonne une fois essayé…). Tu vois à quel point ça m'a marqué. "
+  },
+  {
+   "id": 13261,
+   "auteur": "Benedictus",
+   "site": "",
+   "date": "2019-06-04T17:23:51",
+   "contenu": "<p>Ah oui... Je ne connais en effet que ses symphonies 5 et 6 (en effet le quatuor de flûtes pour les quatre cavaliers de l'Apocalypse, hum...) Ses quatuors, tu as essayé (ça existe chez Nimbus, je crois)?</p>"
+  },
+  {
+   "id": 13262,
+   "auteur": "Diablotin",
+   "site": "latelierdediablotin.fr/WordPress3",
+   "date": "2019-06-05T10:37:22",
+   "contenu": "<p><br />\r\nBonjour David, <br />\r\nRemarque bêtement ergonomique : je ne comprends pas pourquoi les menus disparaissent dès lors qu'on descend sur une page : ils devraient systématiquement rester fixés en haut de page, non ? D'autant que ces dernière sont parfois très longues... Rançon de notules très détaillées... Peut-être une limité de Dotclear, qui continue à se développer très lentement...</p>"
+  },
+  {
+   "id": 13265,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-06-06T10:05:33",
+   "contenu": "Bonjour <b>Benedictus</b> !<br><br>\r\n\r\nAh oui, les quatuors !  Purement romantiques comme on peut s'y attendre. (Postromantiques au sens où l'on entend que ça a été écrit un peu après Brahms, mais pas du tout dans la recherche harmonique sophistiquée, on navigue entre un Schubert assombri et le Nielsen de jeunesse…)<br><br>\r\n\r\nJe les trouve vraiment très beaux, beaucoup plus intenses que les symphonies : sans doute parce que la forme resserrée rend la consonance plus intéressante, et que les beautés n'en sont pas noyées dans une orchestration à la fois banale et opaque. (J'ai l'impression aussi que le discours musical et plus tenu, et que même les mélodies sont plus prégnantes.)<br><br>\r\n\r\nClairement, il faut commencer par là, d'autant que tu devrais beaucoup aimer le grain très typé (mi-rèche, mi-pincé, mais en très bonne part), vraiment le sommet du style viennois… ils tirent ça vers la Nuit transfigurée de Schönberg, en fait, alors qu'il ne me paraît pas si évident que ce soit l'esthétique la plus proche. Essaie, vraiment !"
+  },
+  {
+   "id": 13266,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-06-06T10:10:41",
+   "contenu": "Bonjour <b>Diablotin</b> !<br><br>\r\n\r\nMerci pour ce retour !  Je ne peux pas mettre en place de menu fixe ou flottant sans changer de version de Dotclear – j'ai vraiment celle des débuts, la version 1 (ils ont dû passer à la 2 dès 2007). Et les ponts entre les deux versions ne sont pas évidents, il faut notamment changer totalement de thème graphique – et j'aime beaucoup celui-ci. Ça prendrait surtout beaucoup de temps.<br><br>\r\n\r\nDonc oui, c'est de la bidouille, j'ai juste modifié une ligne du template pour coller ces liens en haut. Ni très joli ni très souple (dans l'absolu, j'aimerais bien pouvoir faire une page principale avec les notules plus ambitieuses et d'autres onglets pour la disco, les concerts…), mais ça permet néanmoins de retrouver facilement les pages qui restent souterrainement actives. Sans y passer des heures – qui me font pour l'instant défaut pour traiter les très nombreux projets de notule…"
+  },
+  {
+   "id": 13268,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-06-06T11:22:15",
+   "contenu": "@<b>Benedictus</b> :<br><br> (Je découvre le Troisième Quatuor de Weigl ce matin en t'écrivant. C'est assez différent des 1 & 5, on retrouve des ostinatos encore beethoveniens ou schubertiens, mais le langage tire davantage sur les Viennois décadents assez sombres, c'est peut-être celui qui te plaira le plus.)"
+  }
+ ],
+ "epingle": false
+}

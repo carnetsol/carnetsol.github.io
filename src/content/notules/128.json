@@ -1,0 +1,23 @@
+{
+ "postId": 128,
+ "titre": "Informations techniques, II",
+ "slug": "informations-techniques-ii",
+ "url": "/css/2006/01/12/128-informations-techniques-ii/",
+ "date": "2006-01-12T08:39:57",
+ "modifie": "2006-01-12T08:39:57",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Information intéressante lorsque vous choisissez un hébergeur : certains brident les fonctions PHP, et dans la cas de Free, il y a bridage des accents, des sauvegardes et des restaurations. Dans le cas de Carnets sur sol, c'est seulement la restauration qui n'a pas fonctionné, mais c'est, on en conviendra, un moindre mal. D'où cette nouvelle adresse avec bandeau publicitaire, dégotée dans l'urgence.\r\n Dans le cas du forum qui était hébergé à la même adresse, les sauvegardes étaient corrompues depuis des mois et la restauration impossible elle aussi. Sans le secours d'un généreux informaticien de notre petit groupe qui a passé son week-end à restaurer manuellement les tables, nous jouions au petit Schönberg - un remake de la <em>tabula rasa</em>...</p>\n\n\n<p>A part cela, les articles et commentaires vont peu à peu être restitués ici. Il y a encore des trous entre \"Callirhoé\" et \"Zut\", mais c'est en voie de comblement.</p>",
+ "notesHtml": "",
+ "extrait": "Information intéressante lorsque vous choisissez un hébergeur : certains brident les fonctions PHP, et dans la cas de Free, il y a bridage des accents, des sauvegardes et des restaurations. Dans le cas de Carnets sur sol, c'est seulement la restauration qui n'a pas fonctionné, mais c'est, on en conviendra, un moindre…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

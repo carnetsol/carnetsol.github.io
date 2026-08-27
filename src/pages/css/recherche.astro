@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base titre="Recherche">
+
+  <div class="contenu">
+    <h2 class="section-head">Chercher dans les notules</h2>
+    <p class="intro">
+      La recherche porte sur le texte intégral de toutes les notules publiées
+      depuis 2004. L'index est construit au moment de la compilation du site :
+      aucun serveur n'est interrogé, tout se passe dans le navigateur.
+    </p>
+    <div id="recherche-pagefind"></div>
+  </div>
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      const ui = new PagefindUI({
+        element: '#recherche-pagefind',
+        showSubResults: true,
+        showImages: false,
+        pageSize: 15,
+        translations: {
+          placeholder: 'Chercher une œuvre, un compositeur, une salle…',
+          clear_search: 'Effacer',
+          load_more: 'Voir plus de résultats',
+          search_label: 'Chercher dans les notules',
+          zero_results: 'Aucune notule ne contient [SEARCH_TERM].',
+          many_results: '[COUNT] notules pour [SEARCH_TERM]',
+          one_result: 'Une notule pour [SEARCH_TERM]',
+          searching: 'Recherche de [SEARCH_TERM]…',
+        },
+      });
+
+      // Reprend le ?q= envoyé depuis la boîte de recherche du fil.
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    });
+  </script>
+
+</Base>
+
+<style is:global>
+  /* Habillage de Pagefind aux couleurs de la maison */
+  #recherche-pagefind {
+    --pagefind-ui-primary: #8c6a2a;
+    --pagefind-ui-text: #333;
+    --pagefind-ui-background: #f5f0e8;
+    --pagefind-ui-border: #d4c9b0;
+    --pagefind-ui-tag: #ede5d4;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 2px;
+    --pagefind-ui-font: Georgia, "Times New Roman", serif;
+    margin-bottom: 3em;
+  }
+</style>
+
+<style>
+  .intro {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .85em;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+</style>

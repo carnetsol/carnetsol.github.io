@@ -1,0 +1,49 @@
+{
+ "postId": 1007,
+ "titre": "Pour ne rien dire",
+ "slug": "pour-ne-rien-dire",
+ "url": "/css/2008/08/03/1007-pour-ne-rien-dire/",
+ "date": "2008-08-03T12:46:03",
+ "modifie": "2008-08-03T12:46:48",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  },
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>On a cassé le compteur !</p>\n\n\n<p>L'article le plus lu du site, celui sur les <a href=\"/css/2006/01/01/129-l-opera-contemporain-ses-difficultes-ses-enjeux/\">difficultés structurelles de l'opéra contemporain</a>, déjà très lu il y a quelques mois, atteint, en l'espace de deux ans, 160092 visites... Mais qui peut s'intéresser à ça ?</p>\n\n\n<p>Je ne sais pour vous, mais moi...</p>\n\n<object\n type=\"application/x-shockwave-flash\"\n data=\"http://operacritiques.free.fr/css/dewplayer.swf?son=http://musicontempo.free.fr/picro.mp3\"\n height=\"20\" width=\"200\">\n<param name=\"movie\"\n value=\"http://operacritiques.free.fr/css/dewplayer.swf?mp3=http://musicontempo.free.fr/picro.mp3\">\n</object>\n",
+ "notesHtml": "",
+ "extrait": "On a cassé le compteur ! L'article le plus lu du site, celui sur les difficultés structurelles de l'opéra contemporain , déjà très lu il y a quelques mois, atteint, en l'espace de deux ans, 160092 visites... Mais qui peut s'intéresser à ça ? Je ne sais pour vous, mais moi...",
+ "nbCommentaires": 3,
+ "commentaires": [
+  {
+   "id": 4033,
+   "auteur": "lou",
+   "site": "libellus.over-blog.com",
+   "date": "2008-08-03T19:11:13",
+   "contenu": "<p><br />\r\nDémasqué, sigh !<br />\r\n<br />\r\nOui, je suis venu 160091 fois, avec 160091 adresses IP différentes relire cet article que je ne comprenais pas. Le 160092è, on ne sait pas.<br />\r\n<br />\r\n</p>"
+  },
+  {
+   "id": 4034,
+   "auteur": "Zip",
+   "site": "",
+   "date": "2008-08-03T20:01:47",
+   "contenu": "<p>Ouf, en lisant les treize premiers mots, j'ai eu peur qu'il s'agisse de l'article sur le dernier disque de <em>Mademoiselle</em> Carla Bruni. L'honneur est sauf !<br />\r\n<br />\r\n(Mais d'où vient l'extrait sonore?)</p>"
+  },
+  {
+   "id": 4036,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2008-08-03T20:51:59",
+   "contenu": "<p>Non, sur le sujet de <em>Mademoiselle</em>, je crains que nous ne soyons au fond des grâces de Google. <br />\r\n<br />\r\nL'extrait sonore, c'est la quatrième scène de l'acte III de <em><a href=\"http://operacritiques.free.fr/css/index.php?Autour-de-pelleas-et-melisande\" target=\"_blank\">Pelléas</a></em>. Je l'avais abordé par le petit bout de la lorgnette (du côté de la lorgnette de l'<a href=\"http://operacritiques.free.fr/css/index.php?2007/09/07/713-a-la-decouverte-de-pelleas-et-melisande-de-claude-debussy-maurice-maeterlinck-xi-yniold-et-son-double-polypheme-jean-cras-lycas-golaud\" target=\"_blank\">Amiral Cras</a>) en septembre dernier. <br />\r\n<br />\r\nBien, en fait Cras ne fut jamais amiral. (colonel de marine, mais c'est assez pour un compositeur)<br />\r\n<object\r\n type=\"application/x-shockwave-flash\"\r\n data=\"http://operacritiques.free.fr/css/dewplayer.swf?son=http://musicontempo.free.fr/brigadier.mp3\"\r\n height=\"20\" width=\"200\">\r\n<param name=\"movie\"\r\n value=\"http://operacritiques.free.fr/css/dewplayer.swf?mp3=http://musicontempo.free.fr/brigadier.mp3\">\r\n</object>\r\n\r\n<br><br />\r\nEt pour l'interprétation, il me semble qu'il s'agit de Cambreling 2004 (Bastille).</p>"
+  }
+ ],
+ "epingle": false
+}

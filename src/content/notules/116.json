@@ -1,0 +1,38 @@
+{
+ "postId": 116,
+ "titre": "Félicitations",
+ "slug": "felicitations",
+ "url": "/css/2005/12/21/116-felicitations/",
+ "date": "2005-12-21T15:57:45",
+ "modifie": "2005-12-21T15:59:53",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "H.S.",
+   "slug": "Hs"
+  }
+ ],
+ "chapoHtml": "<p>Travaux pratiques divers.</p>",
+ "corpsHtml": "<p>Aucune occurrence ce jour, sauf erreur, de <em>stigmatiser</em> et ses dérivés entre 7h40 et 9h sur les Matins de France Culture.</p>\n\n\n<p>Trois hypothèses :</p>\n<ul>\n<li>ils m'ont lu et ils ont eu honte (l'alternative<sup>[<a href=\"#pnote-116-1\" id=\"rev-pnote-116-1\">1</a>]</sup> est improbable)</li>\n<li>c'était la Journée sans stigmates (et on ne m'a pas prévenu !) ; c'est pourquoi ils se sont retenus</li>\n<li>ils avaient pris beaucoup d'avance pendant les quarante premières minutes non archivées sur le site</li>\n</ul>\n<div class=\"footnotes\"><h4>Notes</h4>\n<p>[<a href=\"#rev-pnote-116-1\" id=\"pnote-116-1\">1</a>] Illustration du dévoiement bienfaisant du mot, voir <a href=\"http://operacritiques.free.fr/dotclear/?2005/12/21/117-desobeissance-civile\" hreflang=\"fr\">la note précédente</a>.</p></div>\n",
+ "notesHtml": "",
+ "extrait": "Travaux pratiques divers.",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 133,
+   "auteur": "Inactuel",
+   "site": "inactuel.hautetfort.com",
+   "date": "2005-12-22T21:56:56",
+   "contenu": "<p>Si si, on vous a lu !<br />\r\nNicolas<br />\r\n*************<br />\r\nPlus sérieusement, votre blog est un petite perle.<br />\r\nJ'y reviendrai avec plaisir.<br />\r\nD.</p>"
+  },
+  {
+   "id": 135,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2005-12-23T11:21:14",
+   "contenu": "<p>Merci, je suis très honoré.</p>"
+  }
+ ],
+ "epingle": false
+}

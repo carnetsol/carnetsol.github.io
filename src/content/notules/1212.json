@@ -1,0 +1,23 @@
+{
+ "postId": 1212,
+ "titre": "Nouvelle catégorie",
+ "slug": "nouvelle-categorie",
+ "url": "/css/2009/04/19/1212-nouvelle-categorie/",
+ "date": "2009-04-19T20:27:50",
+ "modifie": "2009-04-19T20:27:50",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Une courte notule a été préparée ce jour autour d'un lied de Clara, et devrait en appeler d'autres (le but étant de proposer un accès libre de droits à cette musique, sons, traductions et commentaires compris). Comme nous ne sommes pas pleinement satisfait de l'illustration musicale, nous en reportons un peu la publication, le temps de trouver des solutions.</p>\n\n\n<p>Mais, dans l'attente, il faut signaler l'ouverture d'un chapitre spécifique <a href=\"/css/categorie/Clara-wieck-schumann/\">autour de Clara Wieck-Schumann</a> (colonne de droite), qui regroupe déjà quelques bavardages antérieurs.</p>",
+ "notesHtml": "",
+ "extrait": "Une courte notule a été préparée ce jour autour d'un lied de Clara, et devrait en appeler d'autres (le but étant de proposer un accès libre de droits à cette musique, sons, traductions et commentaires compris). Comme nous ne sommes pas pleinement satisfait de l'illustration musicale, nous en reportons un peu la…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

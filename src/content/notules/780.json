@@ -1,0 +1,38 @@
+{
+ "postId": 780,
+ "titre": "Gallica 2 : le français au pouvoir",
+ "slug": "gallica-2-le-francais-au-pouvoir",
+ "url": "/css/2007/11/25/780-gallica-2-le-francais-au-pouvoir/",
+ "date": "2007-11-25T14:55:33",
+ "modifie": "2007-11-25T15:02:41",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Vaste monde et gentils",
+   "slug": "Revue-de-toile"
+  }
+ ],
+ "chapoHtml": "<p>Un rapide coup de chapeau à <a href=\"http://gallica2.bnf.fr/\">Gallica 2</a> <sup>[<a href=\"#pnote-780-1\" id=\"rev-pnote-780-1\">1</a>]</sup>.</p>\n\n\n<p>Le fonds déjà considérable de Gallica s'est enrichi de modalités de consultation vraiment remarquables :</p>\n<div class=\"footnotes\"><h4>Notes</h4>\n<p>[<a href=\"#rev-pnote-780-1\" id=\"pnote-780-1\">1</a>] Qui dans son infinie délicatesse nous épargna un absurde « 2.0 » </p></div>\n",
+ "corpsHtml": "<ul>\n<li>Entrées thématiques.</li>\n<li>Chargement très rapide des pages.</li>\n<li>Interface très compatible (consultable aisément sans souris).</li>\n<li>Recherche en plusieurs temps possible.</li>\n<li><strong>Téléchargement immédiat</strong>, sans la procédure un peu fastidieuse du premier site.</li>\n<li>Versions doubles <strong>image / texte</strong>, qui permettent aussi bien de prendre connaissance des éditions d'époque que d'en manipuler ou citer le texte à l'envi. (Un tour de force technique, au passage, déjà atteint par Google et qu'il a fallu réinventer.)</li>\n<li>Capacité de <strong>recherche dans le corps</strong> des textes numérisés.</li>\n</ul>\n<pre></pre>\n\n<p>Grâce à tout cela, on a pu en quelques secondes prendre connaissance de l'unique occurrence de <em><a href=\"/css/2005/12/27/125-callirhoe/\">Callirhoé</a></em> dans l'oeuvre intégrale de Voltaire :</p>\n\n\n<pre></pre>\n\n\n<blockquote><p>CMXXXVK. – A M. LE COMTE d'Argental.</p>\n<p>\nLe 12 mars.</p>\n<p>\nMon très-cher ange gardien, je fis partir hier, à l'adresse de votre <br />\nfrère, un petit paquet contenant à peu près toutes les corrections que <br />\nmon grand conseil m'a demandées pour cette Zulime. Je m'étais re- <br />\nfroidi sur cet ouvrage, et j'en avais presque perdu l'idée, aussi bien <br />\nque la copie. Il a fallu que Mlle Quinault <ins>m'ait renvoya</ins> les cinq actes, <br />\npour me mettre au fait de mon propre ouvrage. Il est bien difficile de <br />\nrallumer un feu presque éteint; <ins>i!</ins> n'y a que le souffle de mes anges <br />\nqui puisse en venir à bout. Voyez si vous retrouverez encore quelque <br />\nchaleur dans les changements que j'ai envoyés. Je commence à espérer <br />\nbeaucoup de succès de cet ouvrage aux représentations, parce que c'est <br />\nune pièce dans laquelle les acteurs peuvent déployer tous les mouve- <br />\nments des passions; et une tragédie doit être des passions parlantes. <br />\nJe ne crois pas qu'à la lecture elle fit le même effet, parce que la pièce <br />\na trop l'air d'un magasin dans lequel on a brodé les vieux habits de <br />\nRoxane, d'Atalide, de Chimène, de Callirhoé [1].</p>\n<p>\nJ'en reviens à Mahomet, il est tout neuf.</p>\n<p>\nTentanda via est, qua me quoque possim</p>\n<p>\n<ins>Tollere humo.</ins></p>\n<p>\nGeorg., lib. III, v. 8.</p>\n<p>\nMais Zulime sera la pièce des femmes, et Mahomet la <ins>p£$ce</ins> des <br />\nhommes je recommande l'une et l'autre à vos bontés.</p>\n<p>\n[1] Callirhoé, opéra joué en 1712, est de Roi <sup>[<a href=\"#pnote-780-1\" id=\"rev-pnote-780-1\">1</a>]</sup>. (Éd.)</p></blockquote>\n\n\n<pre></pre>\n\n\n<p>Quelques coquilles (exemples soulignés par nos soins), néanmoins cela demeure <a href=\"http://musicontempo.free.fr/pastropbien.mp3\" hreflang=\"mp3\">très minime</a>.</p>\n\n\n<p>Bravo aux concepteurs et réalisateurs. De quoi promettre de belles balades.</p>\n<div class=\"footnotes\"><h4>Notes</h4>\n<p>[<a href=\"#rev-pnote-780-1\" id=\"pnote-780-1\">1</a>] On écrit Roy chez nous.</p></div>\n",
+ "notesHtml": "",
+ "extrait": "Un rapide coup de chapeau à Gallica 2 [ 1 ] . Le fonds déjà considérable de Gallica s'est enrichi de modalités de consultation vraiment remarquables : Notes [ 1 ] Qui dans son infinie délicatesse nous épargna un absurde « 2.0 »",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 2848,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-11-26T13:21:18",
+   "contenu": "<p>L'entreprise de Gallica est fort louable, mais de nombreux textes ne sont disponibles qu'en mode \"image\" et, de ce fait sont <a href=\"http://gallica2.bnf.fr/ark:/12148/bpt6k398019.image.r=Larousse.f1109.langFR.pagination\" target=\"_blank\">peu lisibles</a>, même en affichage \"plein écran\".<br />\r\nEn mode \"texte\", tu notes</p><blockquote><span style=\"font-size: 11px; line-height: normal\">quelques coquilles (exemples soulignés par nos soins), néanmoins cela demeure très minime</span></blockquote><p><a href=\"http://gallica2.bnf.fr/ark:/12148/bpt6k70840v.texte.r=Descartes.f5.pagination.langFR\" target=\"_blank\">Heureusement :)</a><br />\r\nLa première version me semble <a href=\"http://gallica.bnf.fr/document?O=N007520\" target=\"_blank\">plus claire</a> - Adobe Reader offrant d'autres fonctions d'affichage.<br />\r\nL'index thématique est, à lui seul, un peu juste.<br />\r\nPatience... comme tu le dis et comme tu le montres dans une illustration complètement fortuite : c'est <em>tout neuf</em>... (sur un fonds ancien). </p>"
+  },
+  {
+   "id": 2851,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/11/13/765-trainee-de-melisande",
+   "date": "2007-11-26T23:39:49",
+   "contenu": "<p>Mais, voyons, Jdm, il y a écrit <em>version beta</em> en haut à gauche, il est tout à fait légitime que ça ne fonctionne pas. :-)<br />\r\n<br />\r\nPour ma part, j'aime beaucoup aussi le mode image (j'en ai lus qui semblaient également peu lisibles, numérisation très baveuse - on s'y fait bien). Le mode texte est très pratique pour travailler, mais les présentations d'origine sont aussi un vrai plaisir. <br />\r\n<br />\r\nPour ma part, je suis satisfait, même si tout le fonds n'a pas encore été transféré. </p>"
+  }
+ ],
+ "epingle": false
+}

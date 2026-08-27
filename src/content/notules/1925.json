@@ -1,0 +1,147 @@
+{
+ "postId": 1925,
+ "titre": "Devinette : quel compositeur, quelle oeuvre ?",
+ "slug": "devinette-quel-compositeur-quelle-oeuvre",
+ "url": "/css/2012/02/23/1925-devinette-quel-compositeur-quelle-oeuvre/",
+ "date": "2012-02-23T23:03:30",
+ "modifie": "2012-02-24T01:07:32",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  },
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p><br />\nUn autre grand jeu-concours.</p>\n\n\n<p>Une archive sonore libre de droits à gagner. Réponse en commentaires ou par courriel.</p>\n\n\n<p>La réponse sera l'occasion d'une petite notule.</p>\n\n<object type=\"application/x-shockwave-flash\" data=\"http://operacritiques.free.fr/css/dewplayer-multi.swf?son=http://operacritiques.free.fr/css/sons/opera_mystery_section_1.mp3\" height=\"20\" width=\"200\"> <param name=\"movie\" value=\"http://operacritiques.free.fr/css/dewplayer-multi.swf?mp3=http://operacritiques.free.fr/css/sons/opera_mystery_section_1.mp3\"></object>\n\n\n<p><br />\nSi vous n'y parvenez pas, cet extrait (la cavatine du baryton) est beaucoup plus facile :</p>",
+ "corpsHtml": "<object type=\"application/x-shockwave-flash\" data=\"http://operacritiques.free.fr/css/dewplayer-multi.swf?son=http://operacritiques.free.fr/css/sons/opera_mystery_section_2.mp3\" height=\"20\" width=\"200\"> <param name=\"movie\" value=\"http://operacritiques.free.fr/css/dewplayer-multi.swf?mp3=http://operacritiques.free.fr/css/sons/opera_mystery_section_2.mp3\"></object>\n\n\n<p><br /></p>",
+ "notesHtml": "24 fév 12 ; 01h 03m 30s",
+ "extrait": "Un autre grand jeu-concours. Une archive sonore libre de droits à gagner. Réponse en commentaires ou par courriel. La réponse sera l'occasion d'une petite notule. Si vous n'y parvenez pas, cet extrait (la cavatine du baryton) est beaucoup plus facile :",
+ "nbCommentaires": 17,
+ "commentaires": [
+  {
+   "id": 7590,
+   "auteur": "aymeric",
+   "site": "cinquieme.typepad.com/",
+   "date": "2012-02-24T15:30:56",
+   "contenu": "<p>Là je l'avoue, je sèche.<br />\r\n(Ce qui ne me surprend guère au fond.)<br />\r\nQuelques indices ?</p>"
+  },
+  {
+   "id": 7591,
+   "auteur": "Olivier",
+   "site": "myspace.com/decapitum",
+   "date": "2012-02-24T17:47:46",
+   "contenu": "<p>Tchaikovski ? Eugène Onéguine ? </p>"
+  },
+  {
+   "id": 7592,
+   "auteur": "aymeric",
+   "site": "cinquieme.typepad.com/",
+   "date": "2012-02-24T17:50:06",
+   "contenu": "<p>Je suis d'accord sur l'origine mais j'aurais imaginé ça un brin plus tardif.</p>"
+  },
+  {
+   "id": 7594,
+   "auteur": "Olivier",
+   "site": "myspace.com/decapitum",
+   "date": "2012-02-24T17:52:22",
+   "contenu": "<p>c'est vrai que ça sonne un peu opérette ou opéra français léger lol</p>"
+  },
+  {
+   "id": 7597,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-02-25T01:24:18",
+   "contenu": "<p>Bonsoir à tous deux ! <br />\r\n<br />\r\nL'indice : c'est très connu et très souvent joué, la discographie est très (très) fournie aussi. <br />\r\n<br />\r\nBravo Olivier pour le compositeur, mais on est très loin d'<em>Onéguine</em>, ce qu'on entend est beaucoup plus slave \"authentique\" (y compris le sujet du texte !).<br />\r\n<br />\r\nReste l'oeuvre à trouver, c'est là où se trouve l'essentiel. <br />\r\n</p>"
+  },
+  {
+   "id": 7600,
+   "auteur": "aymeric",
+   "site": "cinquieme.typepad.com/",
+   "date": "2012-02-25T02:38:02",
+   "contenu": "<p>ÐŸиковая дама ?</p>"
+  },
+  {
+   "id": 7601,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-02-25T20:24:25",
+   "contenu": "<p>HисколÑŒко. <br />\r\n<br />\r\nIl sera plus facile de se demander où vous avez entendu cela (car vous l'avez assurément entendu !) que de citer les opéras de Tchaïkovski. :) <br />\r\n<br />\r\nSi c'est vraiment trop difficile (mais j'en doute, c'est tout de même un grand classique !), je donnerai un extrait qui fournit facilement la réponse. <br />\r\n</p>"
+  },
+  {
+   "id": 7607,
+   "auteur": "aymeric (un brin honteux)",
+   "site": "cinquieme.typepad.com/",
+   "date": "2012-02-27T11:25:41",
+   "contenu": "<p>Je crois qu'il serait encore plus facile (mais beaucoup moins glorieux) de donner maintenant sa langue chat.</p>"
+  },
+  {
+   "id": 7608,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2012-02-27T13:10:46",
+   "contenu": "<p>Tchaikovski, bien sur.  On connait par coeur cet extrait sous sa forme symphonique (symphonie, mais je sais plus laquelle). Mais je ne savais pas que ca avait été repris (ou trouvé son origine) dans une oeuvre lyrique....</p>"
+  },
+  {
+   "id": 7609,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2012-02-27T13:21:52",
+   "contenu": "<p>Final de la 4me Symphonie de Tchaikovski.</p>"
+  },
+  {
+   "id": 7610,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2012-02-27T13:26:20",
+   "contenu": "<p>OUps, apparemment pas la bonne...</p>"
+  },
+  {
+   "id": 7613,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-02-27T13:52:40",
+   "contenu": "<p>Si, si, c'est cela, mais c'est tiré des différents mouvements !  Bravo, tu as gagné le droit de récupérer les enregistrements que tu n'as plus. :) <br />\r\n<br />\r\nC'est en fait un arrangement d'<strong>Edward Ward</strong>, avec les lyrics de son producteur Waggner (ça ne s'invente pas) pour le film <strong><em>The Phantom of the Opera</em> d'Arthur Lubin (1943)</strong>. Le compositeur de la BO s'est amusé à recycler des tubes instrumentaux sous forme d'opéra : grand opéra français <em>Amour et Gloire</em> avec la Polonaise Op.41 de Chopin, et ici <strong><em>Le Prince Masqué du Caucasus</em></strong> (!) chanté en russe par la supposée troupe de l'Opéra (ce qui est hautement improbable avant les années 50, voire 60 !), sur les principaux thèmes de la <strong>Quatrième Symphonie de Tchaïkovski</strong>.<br />\r\n<br />\r\nJe trouve le Tchaïkovski très réussi (surtout le premier extrait), et la séquence est assez longue (j'aurais pu mettre au moins une autre section autonome), c'est celle qui correspond à l'épisode du lustre. <br />\r\nAvec le visuel des steppes en carton-pâte, ça évoque vraiment un <em>Prince Igor</em> à l'ancienne, l'illusion est parfaite. <br />\r\n<br />\r\nCa m'a pas mal amusé, et aussi pour d'autres raison (ce film présente le \"fantôme\" comme une incarnation assez stupéfiante de fantasmes glottophiliques renfermés en chacun d'entre nous...). <br />\r\n</p>"
+  },
+  {
+   "id": 7614,
+   "auteur": "aymeric (part réviser son Piotr)",
+   "site": "cinquieme.typepad.com/",
+   "date": "2012-02-27T14:02:03",
+   "contenu": "<p>cf. plus haut</p>"
+  },
+  {
+   "id": 7615,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-02-27T14:05:30",
+   "contenu": "<p>En même temps, si je l'ai donné à deviner, c'est que c'était un peu piégeux. Mais thématiquement, c'est ouvertement cette Quatrième (de toute beauté au demeurant). <br />\r\n<br />\r\nBien moins jouée, j'aime énormément le sens de la danse constant de la Troisième, qui est rarement interprétée avec le rebond nécessaire, mais qui mérite vraiment d'être fréquentée dans une bonne version ou entendue en concert. <br />\r\n</p>"
+  },
+  {
+   "id": 7617,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2012-02-27T15:16:27",
+   "contenu": "<p>Faut dire aussi qu'en piochant dans toutes les symphonies de Tchaikovski, il y aurait assez de matériau pour reconstituer 1 opéra entier, voire 2 ! Mais effectivement, c'est tres efficace, et on croirait entendre un choeur original tiré d'Eugene Onéguine... Ca fait aussi penser au final tourbillonnant des Fiançailles au Couvent de Proko...</p>"
+  },
+  {
+   "id": 7618,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2012-02-27T15:23:57",
+   "contenu": "<p>Dans un genre identique (re-création ou pastiche), je conseillerai de jeter une oreille (voire 2) au trés réussi \"Christopher Colombus\" d'Offenbach, publié chez Opera Rara : un livret entièrement nouveau (en english), servant de lyrics à des musiques piochées dans des opérettes mineures et/ou peu connues d'Offenbach, et le résultat est VRAIMENT à la hauteur des grands chef-d'oeuvres du maitre, tant au niveau de la qualité du livret que de la reconstitution musicale.<br />\r\n<br />\r\nBon, il y a aussi les expériences inverses : des musiques de ballet (donc strictement symphoniques) tirées d'oeuvres lyriques (La Gaieté Parisienne, de Rosenthal, sur des oeuvres d'Offenbach, ou Pinepple Poll de Mackerras, sur des themes de Gilbert & Sullivan... : des expériences assez savoureuses, je trouve).</p>"
+  },
+  {
+   "id": 7621,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-02-27T17:57:55",
+   "contenu": "<p>Je n'entends pas vraiment ce Tchaïkovski ni ce Proko, c'est quand même plus folklorique, je me sens plus proche de Borodine ou, puisqu'on entend tout de même que c'est du Tchaïkovski, de Mazeppa, de Tcharodeïka... Les choeurs d'Onéguine n'ont pas ce caractère débridé, surtout l'accompagnement d'orchestre : à part les paysans au début, ce ne sont que des choeurs de ballet. A la rigueur la fin de l'anniversaire de Tatiana, mais les modes employés ne sonnent pas du tout aussi 'roots'. :) <br />\r\n<br />\r\nColombus, c'est du Offenbach de caractère, de surcroît en anglais... j'avoue que j'ai été suffisamment dépaysé pour ne pas en avoir conservé un avis tranché. Oui, la musique en était plutôt agréable, mais n'étant pas particulièrement réceptif à l'humour d'Offenbach, je suis parfois un brin frustré - tout dépend des oeuvres brèves, en fait... il y a vraiment de tout. <br />\r\n</p>"
+  }
+ ],
+ "epingle": false
+}

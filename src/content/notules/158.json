@@ -1,0 +1,31 @@
+{
+ "postId": 158,
+ "titre": "La fin du spam",
+ "slug": "la-fin-du-spam",
+ "url": "/css/2006/02/22/158-la-fin-du-spam/",
+ "date": "2006-02-22T11:25:43",
+ "modifie": "2006-02-22T11:25:43",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Installé manuellement (Ifrance bride certaines interventions directes) Spamplemousse pour supprimer les commentaires automatiques des spammeurs. Ca m'a l'air bougrement bien fait. <br />\nNormalement tout devrait être rentré dans l'ordre, et les flux RSS ne devraient plus être pollués.</p>",
+ "notesHtml": "",
+ "extrait": "Installé manuellement (Ifrance bride certaines interventions directes) Spamplemousse pour supprimer les commentaires automatiques des spammeurs. Ca m'a l'air bougrement bien fait. Normalement tout devrait être rentré dans l'ordre, et les flux RSS ne devraient plus être pollués.",
+ "nbCommentaires": 1,
+ "commentaires": [
+  {
+   "id": 327,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-23T09:42:56",
+   "contenu": "<p>Petit essai anodin.</p>"
+  }
+ ],
+ "epingle": false
+}

@@ -1,0 +1,17 @@
+# Toute requête vers l'ancien blog passe par le redirecteur, y compris les
+# adresses qui ne correspondent à aucun fichier existant.
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /css/
+
+  # Les fichiers joints (images, sons) restent servis tant qu'ils existent :
+  # les vieilles notules d'autres sites pointent encore dessus.
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^(images|sons)/ - [L]
+
+  # Tout le reste est redirigé.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

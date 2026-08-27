@@ -1,0 +1,23 @@
+{
+ "postId": 2425,
+ "titre": "Le Lied en français – XXVIII – Irrlicht (Winterreise n°9)",
+ "slug": "le-lied-en-francais-xxviii-irrlicht-winterreise-n9",
+ "url": "/css/2014/02/26/2425-le-lied-en-francais-xxviii-irrlicht-winterreise-n9/",
+ "date": "2014-02-26T23:59:51",
+ "modifie": "2014-02-27T02:09:34",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Projet lied français",
+   "slug": "Le-lied-en-traduction"
+  }
+ ],
+ "chapoHtml": "<p><br /></p>\n\n<h5><ins>Enjeux</ins></h5>\n\n\n<p>Peu d'<strong>altérations</strong> de l'original ici : une valeur supprimée, une ajoutée, mais les contorsions de l'original sont déjà peu naturelles en allemand... et paradoxalement tombent assez bien sous la prosodie française.</p>\n\n\n<p>En revanche, pour se rapprocher au plus près de la logique de la langue, certains groupes de notes tenues ont été légèrement <strong>redécoupés</strong> – en réalité, une syllabe faible en allemand (en « -e » ou « -en ») a beaucoup plus de poids qu'une syllabe finale en « -e » française. Aussi, au lieu de conserver la <strong>répartition</strong> de deux notes pour chaque syllabe, j'ai dans ce cas adopté la répartition 3/1, beaucoup plus naturelle en français ; cela explique les différences de ligatures avec la partition originale, mais on ne sentira pas de différence en le chantant, précisément à cause de l'équilibre naturel ainsi obtenu. <br />\nCas non résolu : <strong>l'hiatus</strong> de « feu éteint », insatisfaisant, mais tellement utile par ailleurs pour la rime et le sens de tout le quatrain, que je m'y suis finalement rangé.</p>\n\n\n<p>La principale difficulté résidait dans les <strong>métaphores un peu bancales</strong> du poème de Müller (qui hésite entre le gouffre montagneux, le feu follet et le fleuve) ; on trouvera donc des divergences dans le détail, mais les images et leur direction sont conservées, ainsi que le contenu individuel de chaque vers – à rebours des traductions françaises d'autrefois, variations beaucoup plus libres sur le thème de chaque poème.\n<br /> <br /></p>\n\n<center><img src=\"/medias/irrlicht_dlm.jpg\"></center>\n\n\n<p><br />\nComme pour les <a href=\"/css/categorie/Le-lied-en-traduction/\">autres étapes</a> du voyage, ces traductions (sans mètre – inaudible une fois mis en musique, contrairement à la rime qui fait un bon repère) <strong>ne sont pas destinées à la lecture</strong>, mais à être entendues dans le cadre des rythmes et phrasés de Schubert.\n<br /> <br /></p>\n\n\n<h5><ins>Poème</ins></h5>\n\n\n<p><em>Irrlicht / Feu follet</em></p>\n\n\n<blockquote><p>Dans les creux du gouffre sombre <br />\nJe suivis un feu follet :  <br />\nPris autour de rocs sans nombre,  <br />\nTous les chemins se valaient.</p>\n<p>\nJe suis familier de l'errance vaine,  <br />\nChaque sentier a son but lointain.  <br />\nEt nos joies et nos peines <br />\nSont le jeu d'un feu éteint.</p>\n<p>\nDans les cours asséchés des montagnes <br />\nJ'ai plongé vers le tombeau.  <br />\nChaque fleuve à la fin la mer gagne,  <br />\nChaque martyre son caveau.</p></blockquote>\n\n\n\n<h5><ins>Partition</ins></h5>\n\n\n<p>Qu'ajouter à une formule déjà parfaite :</p>",
+ "corpsHtml": "<p>La ligne vocale française est <a href=\"/medias/winterreise_fr_09_irrlicht_dlm.pdf\">disponible au format PDF</a> sur le serveur de CSS.</p>\n\n\n<p>On peut télécharger librement et dans le respect de la législation française les éditions du tournant du vingtième siècle publiées sur IMSLP. La ligne vocale se greffe exactement sur <a href=\"http://imslp.org/wiki/Winterreise,_D.911_(Op.89)_(Schubert,_Franz)\">l'accompagnement</a>.</p>\n\n\n<p>Comme précédement : sur demande, je peux fournir une version adaptée à la tonalité de votre choix, ou collaborer sur les sources LilyPond.</p>\n\n\n<p>Lorsque le travail sera fini, je proposerai sans doute plusieurs versions du cycle à différentes hauteurs.</p>\n\n\n<p>--</p>\n\n\n<p>Retrouver les autres étapes du <a href=\"/css/categorie/Le-lied-en-traduction/\">projet lied français</a> sur CSS.</p>",
+ "notesHtml": "27 février 2014 ; 01h55m22s",
+ "extrait": "Enjeux Peu d' altérations de l'original ici : une valeur supprimée, une ajoutée, mais les contorsions de l'original sont déjà peu naturelles en allemand... et paradoxalement tombent assez bien sous la prosodie française. En revanche, pour se rapprocher au plus près de la logique de la langue, certains groupes de notes…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

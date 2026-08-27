@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  titre: string;
+  description?: string;
+  /** Affiche le bandeau « retour au menu principal » (pages sous /css/). */
+  lienMenu?: boolean;
+  /** Affiche le menu horizontal des rubriques. */
+  menu?: boolean;
+}
+
+const {
+  titre,
+  description = "Notules d'opéra, de disques et de promenades — depuis 2004.",
+  lienMenu = true,
+  menu = true,
+} = Astro.props;
+
+const rubriques = [
+  { href: '/index-general/',   label: 'Index (fragmentaire) & Linktree' },
+  { href: '/categorie/',       label: 'Catégories' },
+  { href: '/archives/',        label: 'Archives' },
+  { href: '/multimedia/',      label: 'Multimédia' },
+  { href: '/css/recherche/',   label: 'Recherche' },
+];
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{titre} — Carnets sur sol</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  <link rel="alternate" type="application/rss+xml" title="Carnets sur sol" href="/css/rss.xml" />
+</head>
+<body>
+
+  {lienMenu && (
+    <div class="vers-menu">
+      <a href="/">Menu principal : index, catégories, multimédia, archives</a>
+    </div>
+  )}
+
+  <header id="top">
+    <h1><a href="/css/">Carnets sur sol</a></h1>
+    <p class="tagline">{description}</p>
+  </header>
+
+  {menu && (
+    <nav class="menu" aria-label="Rubriques">
+      <ul>
+        {rubriques.map((r) => (
+          <li><a href={r.href}>{r.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+  )}
+
+  <main>
+    <slot />
+  </main>
+
+  <footer id="footer">
+    © Carnets sur sol — David Le Marrec — depuis 2004 ·
+    <a href="/css/rss.xml">Flux RSS</a> ·
+    <a href="/archives/">Archives complètes</a>
+  </footer>
+
+</body>
+</html>

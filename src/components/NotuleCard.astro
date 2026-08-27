@@ -1,0 +1,50 @@
+---
+interface Props {
+  notule: {
+    data: {
+      titre: string;
+      url: string;
+      date: Date;
+      chapoHtml: string;
+      extrait: string;
+      categories: { nom: string; slug: string }[];
+      nbCommentaires: number;
+      auteur: string;
+    };
+  };
+}
+const { notule } = Astro.props;
+const d = notule.data;
+
+const dateLongue = d.date.toLocaleDateString('fr-FR', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+});
+
+// Le chapô est du HTML Dotclear ; à défaut on retombe sur l'extrait en texte.
+const chapo = d.chapoHtml?.trim();
+---
+<div class="day-date">{dateLongue}</div>
+
+<article class="post">
+  <div class="post-header">
+    <h2 class="post-title"><a href={d.url}>{d.titre}</a></h2>
+  </div>
+
+  {chapo
+    ? <div class="post-chapo" set:html={chapo} />
+    : <p class="post-chapo">{d.extrait}</p>}
+
+  <p class="post-info">
+    Écrit par {d.auteur}
+    {d.categories.length > 0 && (
+      <>
+        , dans {d.categories.map((c, i) => (
+          <>{i > 0 && ', '}<a href={`/categorie/${c.slug}/`}>{c.nom}</a></>
+        ))}
+      </>
+    )}
+    {d.nbCommentaires > 0 && (
+      <> — <a href={`${d.url}#commentaires`}>{d.nbCommentaires} indiscrets</a></>
+    )}
+  </p>
+</article>

@@ -1,0 +1,23 @@
+{
+ "postId": 672,
+ "titre": "France Musique[s] l’été",
+ "slug": "france-musiques-l-ete",
+ "url": "/css/2007/08/02/672-france-musiques-l-ete/",
+ "date": "2007-08-02T15:50:05",
+ "modifie": "2007-08-02T15:52:09",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p>Je vous laisse juge de la préparation et de l’intérêt de la présentation du concert d’hier après-midi.</p>\n\n<object\n type=\"application/x-shockwave-flash\"\n data=\"http://operacritiques.free.fr/css/dewplayer.swf?son=http://piloris.free.fr/zagreb_en_roumanie.mp3\"\n height=\"20\" width=\"200\">\n<param name=\"movie\"\n value=\"http://operacritiques.free.fr/css/dewplayer.swf?mp3=http://piloris.free.fr/ zagreb_en_roumanie.mp3\">\n</object>\n\n\n\n<p>Sans commentaire, ni sur le contenu, ni sur l’attitude de présentation, ni sur la façon de découvrir son texte.</p>\n\n\n<p>Deux minutes plus tard, après énumération des derniers grands rôles de la dame, le festival continue avec la même virtuosité :</p>",
+ "corpsHtml": "<object\n type=\"application/x-shockwave-flash\"\n data=\"http://operacritiques.free.fr/css/dewplayer.swf?son=http://piloris.free.fr/zagreb_en_roumanie_2.mp3\"\n height=\"20\" width=\"200\">\n<param name=\"movie\"\n value=\"http://operacritiques.free.fr/css/dewplayer.swf?mp3=http://piloris.free.fr/ zagreb_en_roumanie_2.mp3\">\n</object>\n\n\n\n<p>Jean-Michel Damian s’est copieusement excusé par la suite, mais ce n’est pas tant l’erreur qui relève de l’impréparation bénigne que l’absence totale de présentation qui enveloppe cette quête géographique, et la tendance à ânonner de simples synopsis ensuite (introduction d’un air de Lucrèce…).</p>\n\n\n<pre></pre>\n\n\n<p>Pour une chaîne spécialiste, tout cela laisse bien rêveur…</p>",
+ "notesHtml": "",
+ "extrait": "Je vous laisse juge de la préparation et de l’intérêt de la présentation du concert d’hier après-midi. Sans commentaire, ni sur le contenu, ni sur l’attitude de présentation, ni sur la façon de découvrir son texte. Deux minutes plus tard, après énumération des derniers grands rôles de la dame, le festival continue…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

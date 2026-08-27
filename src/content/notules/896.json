@@ -1,0 +1,59 @@
+{
+ "postId": 896,
+ "titre": "Flux CSS",
+ "slug": "flux-css",
+ "url": "/css/2008/03/11/896-flux-css/",
+ "date": "2008-03-11T09:26:46",
+ "modifie": "2008-03-11T09:47:09",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Note de service :</p>\n\n\n<p>En principe, les flux Atom et RSS de <em>Carnets sur sol</em> devraient être rétablis à présent.</p>",
+ "notesHtml": "",
+ "extrait": "Note de service : En principe, les flux Atom et RSS de Carnets sur sol devraient être rétablis à présent.",
+ "nbCommentaires": 5,
+ "commentaires": [
+  {
+   "id": 3462,
+   "auteur": "skâ€ ns",
+   "site": "",
+   "date": "2008-03-11T09:53:01",
+   "contenu": "<p>« flux Atom et RSS » : c'est une arme de destruction massive ex-soviétique ?</p>"
+  },
+  {
+   "id": 3463,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-03-11T10:01:11",
+   "contenu": "<p>Quasiment : arme de propagande massive, plutôt. <br />\r\n<br />\r\nMais ça ne fait pas mal.</p>"
+  },
+  {
+   "id": 3464,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-03-11T10:26:15",
+   "contenu": "<p>(Ca se trouve en bas de la colonne de droite. Ca permet de recevoir automatiquement les mises à jour, lorsqu'on suit de multiples sites. Tu en as aussi chez toi...)</p>"
+  },
+  {
+   "id": 3465,
+   "auteur": "skâ€ ns",
+   "site": "",
+   "date": "2008-03-11T12:00:49",
+   "contenu": "<p>Bien, boss. Je dois être le M. Jourdain du blog…</p>"
+  },
+  {
+   "id": 3466,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2008-03-11T13:34:06",
+   "contenu": "<p>Ah, non. En fait tu les as retirés de la configuration Hautetfort...<br />\r\n<br />\r\nMais ça existe chez les gens civilisés. On les voit très bien en arrivant à gauche, les petites barres étranges chez <a href=\"http://inactuel.hautetfort.com/\" target=\"_blank\">Inactuel</a>. </p>"
+  }
+ ],
+ "epingle": false
+}

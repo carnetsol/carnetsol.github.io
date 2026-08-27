@@ -1,0 +1,109 @@
+{
+ "postId": 1856,
+ "titre": "Informatique et censure, idéogrammes et alphabets",
+ "slug": "informatique-et-censure-ideogrammes-et-alphabets-weibo-censorship",
+ "url": "/css/2011/11/02/1856-informatique-et-censure-ideogrammes-et-alphabets-weibo-censorship/",
+ "date": "2011-11-02T20:25:54",
+ "modifie": "2011-11-02T20:30:18",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Discourir",
+   "slug": "Discourir"
+  },
+  {
+   "nom": "Vaste monde et gentils",
+   "slug": "Revue-de-toile"
+  },
+  {
+   "nom": "Langue",
+   "slug": "Langue"
+  }
+ ],
+ "chapoHtml": "<p><br />\nRien ne rendait décisivement l'alphabet supérieur à l'idéogramme jusqu'à présent, les idéogrammes disposant de leur propre combinatoire, et même d'une étymologie. La difficulté était tout de même d'arriver à prononcer un signe (sinon un mot) nouveau, sans l'aide d'un dictionnaire, puisque leur nombre est sensiblement plus étendu que dans le cas des alphabets.</p>\n\n\n<p>Mais l'arrivée de l'informatique a considérablement changé la question.</p>",
+ "corpsHtml": "<p>D'abord tout simplement pour l'usage du clavier. Lorsqu'on écrit à la main, le cerveau conçoit le terme, puis sa forme, et la main réalise ensuite la forme voulue. Le clavier met à disposition les signes déjà réalisés, mais il s'agit d'une liste fixe et surtout limitée en nombre. L'alphabet ne contenant, par définition, qu'un nombre réduit de caractères, il est aisé de le faire tenir sur un clavier. Les signes de base, en revanche, sont beaucoup plus malcommodes à utiliser, du moins si l'on veut entrer rapidement un texte - la perte de productivité est considérable.</p>\n\n\n<p>L'autre aspect concerne les possibilités de censure. Dans un système alphabétique, il est très facile de contourner un système de censure, en ajoutant un signe au milieu du mot par exemple : <em>banni</em> devient <em>ba.nni</em>, <em>ban;ni</em>, ou même <em>bh/ani</em>. Lorsque Weibo (æ–°浪微åš) a été censuré ces derniers jours pour étouffer une contestation sur l'impunité des forces de police, des idéogrammes ont été interdits. Bien sûr, il est possible de les contourner en obtenant le même son avec d'autres idéogrammes, ou de faire des périphrases (voire des métaphores !), mais il est finalement beaucoup plus facile de bloquer des pans entiers du langage lorsque les mots forment un tout cohérent, qu'on ne peut pas altérer sans altérer leur sens même.</p>\n\n\n<p>--</p>\n\n\n<p>Autres considérations sur le changement de paradigme, cette fois concernant <a href=\"/css/2009/04/17/1208-le-livre-linformatique-la-toile-la-nouvelle-hierarchie-et-les-nouveaux-dangers-d-internet/\">la lecture et l'érudition</a>.</p>",
+ "notesHtml": "",
+ "extrait": "Rien ne rendait décisivement l'alphabet supérieur à l'idéogramme jusqu'à présent, les idéogrammes disposant de leur propre combinatoire, et même d'une étymologie. La difficulté était tout de même d'arriver à prononcer un signe (sinon un mot) nouveau, sans l'aide d'un dictionnaire, puisque leur nombre est sensiblement…",
+ "nbCommentaires": 11,
+ "commentaires": [
+  {
+   "id": 7244,
+   "auteur": "tokjdm",
+   "site": "",
+   "date": "2011-11-07T04:49:17",
+   "contenu": "<p>Je ne vois pas très bien la pertinence de votre remarque. Les idéogrammes permettent au contraire beaucoup plus de manières de dire les choses de façon différentes. Dans notre alphabet, les lettres n'ont pas d'autres fonctions que de se rapporter à un son précis. Dans un système d'idéogramme, les signes peuvent être utilisés soit pour leur son, soit pour leur sens. Cela multiplie les possibilités de permutation. J'ai peu de familiarité avec le monde chinois mais au Japon c'est clairement le cas et on peut facilement maquiller les mots ou les remplacer par d'autres sans avoir besoin d'aide extérieure comme des points au milieu des mots.</p>"
+  },
+  {
+   "id": 7247,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-11-09T18:46:30",
+   "contenu": "<p>Bonsoir Tokjdm ! <br />\r\n<br />\r\nJe ne suis pas suffisamment familier non plus du chinois pour être affirmatif, et je comptais bien être contredit pour faire avancer la question. <br />\r\n<br />\r\nMa remarque était de deux ordres : <br />\r\n- le nombre de caractères de base est <em>fini</em> dans les deux cas, mais on ne peut pas déformer le mot sans changer son sens si l'on utilise un idéogramme ; <br />\r\n- lorsqu'on interdit un idéogramme, on interdit un concept entier, ce qui peut limiter la gamme d'expression (je n'ai pas cherché s'il est possible de filtrer un signe de base, même intégré à d'autres). <br />\r\n<br />\r\nSinon, bien sûr, on peut toujours utiliser des synonymes ou des périphrases, c'est l'évidence. <br />\r\n<br />\r\n</p>"
+  },
+  {
+   "id": 7266,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2011-11-19T22:31:24",
+   "contenu": "<p>\"Rien ne rendait décisivement l'alphabet supérieur à l'idéogramme jusqu'à présent\"<br />\r\n<br />\r\nJe repasse brièvement aprés une \"longue absence\" pour cause d'activités diverses et variées, déménagement, et acces internet aléatoire.... pour apporter mon petit grain de sel.<br />\r\n<br />\r\nLe problème MAJEUR de l'idéogramme par rapport à l'alphabet, c'est qu'il nécessite des facultés importantes de mémorisation, qui constitue une barrière d'accés à la langue et par conséquent à la culture, qui demarque foncièrement les classes \"éduquées\" des masses non-éduquées.<br />\r\n<br />\r\nAvec les idéogrammes, on n'a AUCUN moyen de savoir quel son leur est associé à moins de l'avoir appris et mémorisé.  Quand on sait que la langue chinoise possède plusieurs milliers d'idéogrammes.... Avec un alphabet (latin, grec, cyrillique, devanagari...) on peut reconstituer des milliers de possibilités sonores à partir de la mémorisation de seulement quelques dizaines de caractères.... Et surtout, on peut \"lire\" des mots que l'on a a priori jamais lu auparavant. Ca change énormément la donne, et même les masses populaires peuvent accéder à la maitrise de la langue et donc à la culture (en théorie, bien sûr, car \"l'analphabétitude\" reste un problême pour de nombreuses sociétés).<br />\r\n<br />\r\nEvidemment, cette remarque est de caractère général, et pas vraiment liée au sujet de l'article (et l'usage de la censure...)</p>"
+  },
+  {
+   "id": 7272,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-11-20T00:30:23",
+   "contenu": "<p>Je suis tout à fait d'accord avec toi ; j'ai pris la neutralité comme point de départ, puisque ma remarque allait encore plus loin que cela (il n'était donc pas nécessaire de débattre ce premier point pour accéder au second), mais je suis d'accord, fondamentalement l'idéogramme pose beaucoup de restrictions. <br />\r\n<br />\r\nLa plus spectaculaire est en effet l'impossibilité de lire le signe qui n'a pas déjà été entendu (et si on le lit, de le prononcer !). Alors que l'alphabet ne le réclame que pour quelques petites dizaines de lettres (et quelques diacritiques afférents), les systèmes idéogrammatiques comportent des milliers de signes de base. <br />\r\n<br />\r\nEt concrètement aussi, cela rend très inconfortable l'usage du clavier... <br />\r\n<br />\r\nL'idéogramme est de toute façon la première étape de l'écriture, et c'est la stylisation progressive des dessins, souvent par métonymie, qui a conduit aux alphabets. La tête remplaçant le dessin complet du bétail, puis le schéma de cette tête remplaçant son dessin, et cela étant associé à un son, la stylisation progressive est allée vers le cunéiforme, puis les alphabets. <br />\r\n<br />\r\nD'une certaine façon, l'idéogramme reste à un stade de performance antérieur. <br />\r\n<br />\r\nJe suppose que les plus familiers de ces systèmes trouvent des alternatives convaincantes, mais structurellement, leurs potentialités me paraissent beaucoup moins efficaces. <br />\r\n</p>"
+  },
+  {
+   "id": 7277,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2011-11-20T11:29:29",
+   "contenu": "<p>Et je pense que dans cette mondialisation galopante, les idéogrammes risquent leur peau à trés court terme, même s'ils sont la base de la langue d' 1/5me de l'humanité.  On le voit bien, l'alphabet latin progresse partout à la vitesse V, pour les diverses raisons énumérées ci-dessus (facilité d'accès à la culture et à l'information pour le plus grand nombre, facilité d'adaptation aux nouvelles technologies basées sur ces alphabets, sans oublier, évidemment, le fait que l'anglais est devenue la suprême langue internationale.)<br />\r\n<br />\r\nC'est amusant, mais même sur les forums ou internet, le Hindi, par exemple, est le plus souvent utilisé en mode \"translitteré\", et non en mode \"devanagari (l'alphabet dérivé du sanscrit, plus complexe que le notre, et comportant presque le double de \"lettres\" ou signes.</p>"
+  },
+  {
+   "id": 7278,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-11-23T14:08:16",
+   "contenu": "<p>Vénérable plus-excellent-des-Ouf, <br />\r\n<br />\r\nEffectivement, même si désormais les caractères \"exotiques\" sont autorisés dans les URL, on n'en voit toujours pas la trace. Pour le hindi, en revanche, c'est sans doute avant tout une question d'équipement en claviers spécifiques, non ? <br />\r\n</p>"
+  },
+  {
+   "id": 7283,
+   "auteur": "Ouf1er",
+   "site": "",
+   "date": "2011-11-23T17:55:26",
+   "contenu": "<p>Non, ce n'est pas une question d'équipement de clavier, puisqu'il y a des moyens d'intégrer des lettres Devanagari par les claviers classiques, c'est juste une question de \"facilité\".</p>"
+  },
+  {
+   "id": 7284,
+   "auteur": "tokjdm",
+   "site": "",
+   "date": "2011-11-24T09:05:00",
+   "contenu": "<p>Je reprends la discussion avec un peu de retard mais je ne suis toujours pas convaincu. <br />\r\nSi effectivement on peut interdire un mot composé d'un seul idéogramme, pour les mots composés, la même tactique est possible que celle que vous décrivez (intercaller des points ou d'autres signes entre les idéogrammes). <br />\r\nMais les idéogrammes ayant une plasticité beaucoup plus forte que les lettres de l'alphabet, il est très facile de remplacer un idéogramme par un autre idéogramme qui a un son similaire ou proche, ou qui ressemble visuellement.<br />\r\nIl existe un grand nombre de jeux de mots de ce type en japonais (encore une fois je ne connais pas le chinois) et ils sont impossibles à rendre avec un alphabet.<br />\r\n<br />\r\nL'argument de la difficulté de mémorisation part d'une vision euro-centrée et à mon avis fausse. C'est bien entendu techniquement vrai qu'il faut plus de temps pour retenir les idéogrammes que l'alphabet mais je n'ai jamais vu personne pouvoir prouver que socialement cela créait des problèmes ou des retards éducatifs. <br />\r\nLe taux d'alphabétisation du Japon est supérieur à celui de la France et les différences entre classes sociales se repèrent comme en France par le niveau de langue écrit (et donc pour les niveaux supérieurs une meilleure connaissance des caractères chinois).<br />\r\nA mon avis cette importance donné au problèmes des idéogrammes vient avant tout de personnes qui ont souffert en tant qu'adulte de cet apprentissage. <br />\r\nLa vraie difficulté du japonais ne tient pas à l'apprentissage des idéogrammes mais à la maîtrise de la construction des phrases complexes (comme en France d'ailleurs et n'importe quel document écrit traduit immédiatement le niveau d'éducation de l'auteur).<br />\r\nPar ailleurs il me semble faux de dire qu'il est plus rapide d'écrire sur un ordinateur en français : j'écris régulièrement en français, anglais et japonais et ne voit pas de différences notables de vitesse. Il faut une manoeuvre supplémentaire (barre d'espace pour choisir un idéogramme et touche entrée pour confirmer le choix) pour écrire en japonais mais comme le mot qui en résulte est plus court et plus dense (taper \"anticonstitutionnel\" demande de taper 19 fois sur le clavier alors que l'équivalent japonais ne demande que 15 frappes pour 4 caractères), le résultat final est le même.</p>"
+  },
+  {
+   "id": 7285,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-11-30T19:38:56",
+   "contenu": "<p>Bonsoir à vous deux ! <br />\r\n<br />\r\nPardon pour le délai. <br />\r\n<br />\r\nMerci, glorieux <strong>Ouf</strong>, pour la précision. Mais ce doit être tout de même chargé, non ? <br />\r\n<br />\r\nMerci aussi, <strong>Tokjdm</strong>, pour tous ces détails. La seule ressemblance visuelle peut donc servir à contourner l'interdiction potentielle de pans du lexique, si je vous suis bien ?  <br />\r\n<br />\r\nSur le caractère socialement discriminant de la maîtrise des idéogrammes, j'ai en revanche lu que c'était une vraie frontière culturelle, au moins en Chine, et que (de même qu'en Europe, d'ailleurs), on pouvait clairement sentir des fossés dans le lexique entre les populations. Après, évidemment, ce n'est qu'une difficulté <em>comparative</em>, et ce n'est pas parce qu'une langue est plus difficile à pratiquer, ou moins \"fonctionnelle\" d'un point de vue arithmétique, qu'elle n'est pas opérante ou qu'elle demeure perpétellement inacessible aux étrangers. <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Par ailleurs il me semble faux de dire qu'il est plus rapide d'écrire sur un ordinateur en français : j'écris régulièrement en français, anglais et japonais et ne voit pas de différences notables de vitesse. Il faut une manoeuvre supplémentaire (barre d'espace pour choisir un idéogramme et touche entrée pour confirmer le choix) pour écrire en japonais mais comme le mot qui en résulte est plus court et plus dense (taper \"anticonstitutionnel\" demande de taper 19 fois sur le clavier alors que l'équivalent japonais ne demande que 15 frappes pour 4 caractères), le résultat final est le même.</span></blockquote><p>Ceci est très intéressant. Je serais curieux de visualiser une démonstration, parce que je reste assez dubitatif sur le principe, puisque cela demande d'utiliser une interface à deux niveaux... je ne vois pas comment la \"productivité\" ne pourrait pas être affectée. <br />\r\n<br />\r\nMerci beaucoup, en tout cas, pour ces remarques très précises ! </p>"
+  },
+  {
+   "id": 7286,
+   "auteur": "lord farell",
+   "site": "",
+   "date": "2011-12-01T07:53:14",
+   "contenu": "<p>\"Avec les idéogrammes, on n'a AUCUN moyen de savoir quel son leur est associé à moins de l'avoir appris et mémorisé. \"<br />\r\nCe n'est pas tout à fait vrai : beaucoup d'idéogrammes comportent des indicateurs phonétiques permettant de leur associer immédiatement la bonne prononciation. Exemple : åŒ…, æŠ±, 饱, åˆ¨, è·‘, ç‚®, 泡 se prononcent à peu près tous BAO.<br />\r\n<br />\r\n\"Rien ne rendait décisivement l'alphabet supérieur à l'idéogramme jusqu'à présent\". <br />\r\nPas d'accord. Mais vous avez utilisé l'adjectif \"décisif\" et vous avez bien fait car c'est là à mon avis que se situe \"l'avantage\" de notre alphabet. Je prends ici le mot \"décisif\" au sens  de \"tranché\", \"séparé\". Avec notre alphabet nous séparons (ou nous croyons le faire, ce qui revient un peu au même) ce qui est nommé de ce par quoi nous le nommons (le mot). Les caractères chinois ont conservés un lien avec la chose nommée (ou nous croyons qu'ils ont conservés un lien, ce qui revient un peu au même) : en gros, le dessin du caractère \"correspond\" à ce qu'il désigne. C'est la totale inexistence de ce lien dans notre alphabet qui est décisive (enfin on sait bien que le dessin du \"a\" par exemple provient d'une tête de taureau renversée, mais cela n'a aucun impact).<br />\r\n<br />\r\nCette relation est compliquée : aucun chinois n'y pense quand il écrit : la REPETITION de l'écriture fait disparaitre le lien. Il faut qu'il y ait un arrêt (un arrêt sur image, qui est aussi un arrêt de l'écriture en tant que fil) pour que ce lien puisse être pensé.<br />\r\n<br />\r\n\"Et je pense que dans cette mondialisation galopante, les idéogrammes risquent leur peau à trés court terme\". <br />\r\nEffectivement, la lettre attaque le caractère chinois (sur les téléphones, les ordinateurs, pour écrire des caractères les chinois tapent des lettres en premier, c'est à dire AVANT). Mais qu'ils disparaissent complètement ça j'en doute, en tous cas sûrement pas à très court terme. On peut toujours essayer ! Mais gare au monstre de sens qu'ils véhiculent ! </p>"
+  },
+  {
+   "id": 7287,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-12-01T15:25:37",
+   "contenu": "<p>Merci, milord, pour ces fines remarques. Je suis en somme assez d'accord avec l'essentiel de vos précisions, plus que bienvenues. Pour la seule citation qui réagit à l'un de mes propos, vous nuancez vous-même la réserve que vous apportez, ce qui me facilite, il est vrai, la tâche. <br />\r\n<br />\r\nBonne soirée ! </p>"
+  }
+ ],
+ "epingle": false
+}

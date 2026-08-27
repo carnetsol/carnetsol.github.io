@@ -1,0 +1,52 @@
+{
+ "postId": 547,
+ "titre": "Maintenance",
+ "slug": "maintenance",
+ "url": "/css/2007/03/14/547-maintenance/",
+ "date": "2007-03-14T23:00:16",
+ "modifie": "2007-03-14T23:08:15",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>La liste des touristes en temps réel a été suspendue, si ce n'est supprimée, par mes soins. Une difficulté technique en est la cause, mais elle servait aussi très largement aux spammeurs. On se reportera donc aux liens fournis pour cerner les lieux de bonne fréquentation.</p>",
+ "notesHtml": "",
+ "extrait": "La liste des touristes en temps réel a été suspendue, si ce n'est supprimée, par mes soins. Une difficulté technique en est la cause, mais elle servait aussi très largement aux spammeurs. On se reportera donc aux liens fournis pour cerner les lieux de bonne fréquentation.",
+ "nbCommentaires": 4,
+ "commentaires": [
+  {
+   "id": 1656,
+   "auteur": "chopin",
+   "site": "chopin.over-blog.net",
+   "date": "2007-03-15T12:45:41",
+   "contenu": "<p>Bonjour. Merci pour ta visite sur mon blog-site. Et merci pour les informations.<br />\r\nA bon un problème technique ? Tu n'es pas sur la plate forme over-blog ? Bonne continuation.</p>"
+  },
+  {
+   "id": 1657,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-03-15T12:54:58",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">Bonjour. Merci pour ta visite sur mon blog-site. Et merci pour les informations.</span></blockquote><p>Site repéré par le truchement du camarade <a href=\"http://monde-bra.over-blog.com/\" target=\"_blank\">Bra</a>. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">A bon un problème technique ? Tu n'es pas sur la plate forme over-blog ? Bonne continuation.</span></blockquote><p>Non, je ne suis pas chez eux, c'est un site perso maison (avec activation manuelle de la base MySQL et tout et tout). Il fonctionne sur le logiciel Dotclear, cosmétisé par Kozlika. <br />\r\n<br />\r\nLe problème technique n'en est pas un bien grand, simplement l'un des utilitaires que j'avais ajouté fonctionnait mal ces temps-ci. </p>"
+  },
+  {
+   "id": 1659,
+   "auteur": "Kia",
+   "site": "",
+   "date": "2007-03-15T16:16:33",
+   "contenu": "<p><strong>cosmétisé par Kozlika</strong><br />\r\n<br />\r\nTres drôle ce mot anglais francisé ainsi. C'est la première fois que je recontre cela :)</p>"
+  },
+  {
+   "id": 1661,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-03-15T16:51:59",
+   "contenu": "<p>Bonnevenue à l'occidentale Marrécie, sir Kia !<br />\r\n<br />\r\nJe crois que cela est pour la première fois que je rencontre pour moi aussi, dans mon opinion.<br />\r\n<br />\r\n<br />\r\n[N.B. : Cette réponse a été rédigée sans traducteur automatique.]</p>"
+  }
+ ],
+ "epingle": false
+}

@@ -1,0 +1,23 @@
+{
+ "postId": 701,
+ "titre": "Du nouveau",
+ "slug": "du-nouveau",
+ "url": "/css/2007/08/26/701-du-nouveau/",
+ "date": "2007-08-26T19:21:23",
+ "modifie": "2007-08-26T19:21:23",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>... dans l'interface. Vu la lourdeur qu'il y a à tenir l'index thématique à jour (il est toujours plus intéressant de proposer de nouvelles entrées), tentative d'utiliser la barre de droite (sous les archives) pour proposer des liens vers quelques sujets. A voir.</p>\n\n\n<p>La barre de gauche servant surtout à signaler des discussions un peu perdues en commentaires, mais elle est moins souple d'usage.</p>",
+ "notesHtml": "",
+ "extrait": "... dans l'interface. Vu la lourdeur qu'il y a à tenir l'index thématique à jour (il est toujours plus intéressant de proposer de nouvelles entrées), tentative d'utiliser la barre de droite (sous les archives) pour proposer des liens vers quelques sujets. A voir. La barre de gauche servant surtout à signaler des…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

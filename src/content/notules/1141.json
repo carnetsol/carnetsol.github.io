@@ -1,0 +1,31 @@
+{
+ "postId": 1141,
+ "titre": "Waltraud Meier, portrait",
+ "slug": "waltraud-meier-portrait",
+ "url": "/css/2009/02/14/1141-waltraud-meier-portrait/",
+ "date": "2009-02-14T10:00:04",
+ "modifie": "2009-02-14T11:21:47",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Morloch est <a href=\"http://nhofszandz.blogspot.com/2009/02/waltraud-meier-chante-wagner.html\">revenu</a>. Et ça ne rigole pas.</p>",
+ "notesHtml": "11 19 42",
+ "extrait": "Morloch est revenu . Et ça ne rigole pas.",
+ "nbCommentaires": 1,
+ "commentaires": [
+  {
+   "id": 4658,
+   "auteur": "Nor of Loch",
+   "site": "",
+   "date": "2009-02-15T10:22:24",
+   "contenu": "<p>Ah, ça marche donc cette liste de liens vers le message. :)<br />\r\n<br />\r\nJ'ai ajouté un ou deux gadgets inutiles, donc. Je ne parviens pas à mettre un html qui marche te donne les derniers commentaires, par contre j'ai une alerte mail maintenant, un progrès.<br />\r\n<br />\r\n</p>"
+  }
+ ],
+ "epingle": false
+}

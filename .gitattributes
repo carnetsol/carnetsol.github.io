@@ -1,0 +1,14 @@
+# Normalise les fins de ligne : évite le flot d'avertissements « LF will be
+# replaced by CRLF » et les faux changements quand on passe d'un poste à l'autre.
+* text=auto eol=lf
+
+# Fichiers binaires : Git ne doit pas y toucher.
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.pdf  binary
+*.ico  binary
+*.woff  binary
+*.woff2 binary

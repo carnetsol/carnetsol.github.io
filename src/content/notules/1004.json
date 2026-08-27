@@ -1,0 +1,23 @@
+{
+ "postId": 1004,
+ "titre": "Nouvelles catégories",
+ "slug": "nouvelles-categories",
+ "url": "/css/2008/08/01/1004-nouvelles-categories/",
+ "date": "2008-08-01T17:31:51",
+ "modifie": "2008-08-01T18:40:22",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Les lecteurs de CSS auront peut-être noté les nouvelles catégories pour un accès plus commode :</p>\n\n<ul>\n<li><a href=\"/css/categorie/Opera-francais-romantique-et-grand-opera/\">Opéra romantique français et Grand Opéra</a> (plusieurs articles des catégories \"Livrets\" et \"Oeuvres\" sont encore à rapatrier)</li>\n<li><em><a href=\"/css/categorie/Hamlet-d-ambroise-thomas/\">Hamlet</a></em> d'Ambroise Thomas - de Shakespeare à Barbier & Carré</li>\n<li><em><a href=\"/css/categorie/Sigurd-d-ernest-reyer/\">Sigurd</a></em> d'Ernest Reyer (et <em>Salammbô</em>)</li>\n</ul>",
+ "notesHtml": "18 38 51",
+ "extrait": "Les lecteurs de CSS auront peut-être noté les nouvelles catégories pour un accès plus commode : Opéra romantique français et Grand Opéra (plusieurs articles des catégories \"Livrets\" et \"Oeuvres\" sont encore à rapatrier) Hamlet d'Ambroise Thomas - de Shakespeare à Barbier & Carré Sigurd d'Ernest Reyer (et Salammbô )",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

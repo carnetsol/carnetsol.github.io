@@ -1,0 +1,38 @@
+{
+ "postId": 1446,
+ "titre": "Nouveautés",
+ "slug": "nouveautes",
+ "url": "/css/2010/01/07/1446-nouveautes/",
+ "date": "2010-01-07T18:43:22",
+ "modifie": "2010-01-07T18:46:57",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p><br />\nEn attendant la publication prochaine d'une notule qui nous accapare un peu, on annonce quelques nouveautés côté logistique :</p>\n\n<ul>\n<li>une nouvelle catégorie autour d<em>'<a href=\"/css/categorie/Andromaque-andre-gretry-andre-ernest-modeste-gretry/\">Andromaque</a></em> de Grétry, dont on a aura encore lieu de parler (elle comprend aussi celles plus générales autour du compositeur, comme pour les catégories Marschner, Thomas, Reyer, Strauss et Schreker) ;</li>\n<li>mise à jour des notules sélectionnées dans la colonne de gauche, pour changer ;</li>\n<li>mise à jour conséquente de <a href=\"http://operacritiques.free.fr/css/index_css.html\">l'index</a> de CSS.</li>\n</ul>\n<p><br /></p>",
+ "notesHtml": "",
+ "extrait": "En attendant la publication prochaine d'une notule qui nous accapare un peu, on annonce quelques nouveautés côté logistique : une nouvelle catégorie autour d ' Andromaque de Grétry, dont on a aura encore lieu de parler (elle comprend aussi celles plus générales autour du compositeur, comme pour les catégories…",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 5811,
+   "auteur": "Era",
+   "site": "",
+   "date": "2010-01-07T21:52:22",
+   "contenu": "<p>Ah mais il est très bien, cet index, je n'en avais pas connaissance :)</p>"
+  },
+  {
+   "id": 5813,
+   "auteur": "DavidLeMarrec",
+   "site": "musicontempo.free.fr/",
+   "date": "2010-01-07T22:23:10",
+   "contenu": "<p>Il se trouve dans la colonne de gauche, et aussi à la racine du site : <a href=\"http://operacritiques.free.fr\" target=\"_blank\">http://operacritiques.free.fr</a> . :) <br />\r\n<br />\r\nIl est très incomplet, mais il y a un certain nombre de choses qui sont recensées. Avec les années, il devient difficile d'y retrouver ses petits, autrement. </p>"
+  }
+ ],
+ "epingle": false
+}

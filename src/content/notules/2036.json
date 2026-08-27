@@ -1,0 +1,283 @@
+{
+ "postId": 2036,
+ "titre": "Comment enregistrer les rediffusions des concerts de France Musique ?",
+ "slug": "comment-enregistrer-les-rediffusions-des-concerts-de-france-musique",
+ "url": "/css/2012/08/13/2036-comment-enregistrer-les-rediffusions-des-concerts-de-france-musique/",
+ "date": "2012-08-13T14:32:32",
+ "modifie": "2012-08-13T14:41:56",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Les astuces de Tonton David",
+   "slug": "Les-astuces-de-tonton-david"
+  }
+ ],
+ "chapoHtml": "<p><br />\nSolution respectueuse de la loi, avec tutoriel en images.</p>",
+ "corpsHtml": "<p>Ici, le processus est détaillé pour Windows. N'ayant pas de Mac sous la main, je n'ai pas pu essayer, mais le principe demeure parent. Il est même possible, sous Safari, d'afficher en clair l'adresse du téléchargement, il faut seulement la copier-coller très rapidement dans le navigateur et le concert s'enregistre.</p>\n\n\n<p>--</p>\n\n\n<h5><ins>1. La question</ins></h5>\n\n\n<p>France Musique dispose enfin, depuis une poignées d'années, à la traîne de l'Europe à cause des droits d'auteurs à la française particulièrement contraignants, d'un site proposant réécoute des concerts, et enfin à débit valable et pour une durée acceptable - aux débuts, seules les émissions étaient disponibles, à 64 kpbs, et seulement écoutables avant la suivante, soit moins de 24h pour certaines !</p>\n\n\n<p>Il demeure toutefois une difficulté : les concerts, pour des raisons de droits également, ne peuvent pas être téléchargés, alors qu'ils constituent le point fort de l'offre, considérant la qualité documentaire très variable des émissions.</p>\n\n\n<p>--</p>\n\n\n<h5><ins>2. La solution</ins></h5>\n\n\n<p>Néanmoins, il existe une astuce bien plus simple que d'enregistrer le flux (ce qui est contraignant et fait perdre en qualité) ou d'employer divers utilitaires qui alourdissent le système et fonctionnent de façon plus ou moins discontinue (souvent en installant des espiogiciels sur votre machine).</p>\n\n\n<p>En outre, il ne s'agit pas de briser une mesure technique de protection (assimilé par la loi française à de la contrefaçon), mais simplement de copier le flux que vous entendez, exactement comme vous le feriez à la radio ou en enregistrant le son qui sort de votre ordinateur. Il s'agit ni plus ni moins que d'appliquer l'exception de copie privée que prévoit la loi, et c'est pourquoi je communique l'astuce.</p>\n\n\n<p>Lancez sur le concert choisi sur le site de France Musique. Une pop-up s'ouvre, et le concert charge lourdement (il est de plus impossible de naviguer facilement dans le concert, ce qui cause pour eux des chargements multiples, je suppose, donc du coût supplémentaire en trafic). Pour ceux qui voudraient essayer cette voie (possible autrefois), il est inutile ici d'utiliser la commande ctrl+U sous Windows (affichage du code de la page), qui ne renvoie pas clairement vers une adresse, cachée dans l'utilitaire qui diffuse le concert, et qui expire de toute façon au bout de quelques secondes (\"timeout\"). <br />\nCar il y a plus simple encore que trouver le lien de téléchargement direct !</p>\n\n\n<p>--</p>\n\n\n<h5><ins>3. Principe</ins></h5>\n\n\n<p>Pour se faire entendre, le logiciel doit stocker les informations sur votre PC. Il suffit donc de partir récupérer l'information là où elle est déjà copiée. Ce n'est pas un acte de copie supplémentaire, vous conservez simplement le fichier déjà présent.</p>\n\n\n<p>--</p>\n\n\n<h5><ins>4. Tutoriel</ins></h5>\n\n\n<p>1) <strong>Charger le concert dans le navigateur.</strong> Laissez le téléchargement du concert se terminer. (Toute la bande doit devenir noire.) Ne fermez pas la fenêtre.\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu1.png\"></center>\n\n\n<p><br />\n2) <strong>Afficher les dossiers cachés & les extensions de fichiers.</strong> Ouvrez l'explorateur de votre ordinateur (ouvrez par exemple \"Mes Documents\" dans le menu Windows en bas à gauche de l'écran). Allez dans la barre de menu (si elle n'apparaît pas, pressez sur la touche \"alt\") à Outils / Option des dossiers / Affichage, et cochez \"Afficher les fichiers et dossiers cachés\". Et décochez \"masquer les extensions des fichiers dont le type est connu\". Cliquez ensuite sur \"Appliquer aux dossiers\".\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu2.png\"></center>\n\n\n<p><br />\n3) <strong>Chercher dans Application Data (ou AppData).</strong> Ce dossier se trouve dans le dossier de votre session (donc sur votre disque C:/, quelque chose comme User / Moi) ; les versions les plus récentes de Windows comportent un accès direct dans l'explorateur. Dans les versions plus anciennes, certains des fichiers que nous cherchons peuvent se trouver dans les dossiers Temporary Files et non Application Data.\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu3.png\"></center>\n\n\n<p><br />\n4) <strong>Fouiller dans le cache.</strong> Vous trouverez ensuite le dossier du navigateur que vous utilisez, et allez voir dans les fichiers temporaires ou le cache (pour Internet Explorer, les fichiers peuvent se ). Avec un logiciel d'exploration efficace comme Total Commander, il est possible d'afficher immédiatement l'ensemble des fichiers disponibles dans une arborescence de dossiers (ctrl+B), sinon il faut ouvrir chaque dossier, ce qui est un peu plus long. Sinon, il faut ouvrir les dossiers un à un. Le plus simple, dans les deux cas, est de les classer par taille et d'observer ceux qui font entre 150 et 280 Mo, la taille probable d'un tel fichier.\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu4.png\"></center>\n\n\n<p><br />\n5) <strong>Changer l'extension.</strong>Vous ne devriez pas avoir des tonnes de fichiers de cette taille créés au moment approximatif où vous avez lancé l'écoute, donc copiez-les par prudence (crtl+C, puis ctrl+V) et changez l'extension (*.tmp, par exemple) en *.mp3. Lancez le fichier, et voyez si c'est le concert que vous souhaitiez.\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu5.png\"></center>\n\n\n<p><br /></p>\n\n\n<p>6) Mais non, mais non, <strong>impossible de trouver le fichier !</strong>  Dans ce cas, relancez le chargement de la pop-up et revérifiez, il arrive que le fichier ne soit pas visible au premier essai. Si cela ne fonctionne toujours pas, je vous conseille d'essayer ma configuration : navigateur Opera (mais il n'y a pas de raison que cela ne fonctionne pas avec Firefox) et Total Commander (disponible à l'essai). Il vous suffit d'aller exactement dans le dossier indiqué dans les captures d'écran, d'actionner ctrl+B, et vous voyez tous les fichiers temporaires d'un coup d'oeil, ce qui facilite grandement la tâche.</p>\n\n\n<p>Avant :\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu6.png\"></center>\n\n\n<p><br />\nAprès ctrl+B :\n<br /> <br /></p>\n\n<center><img src=\"/css/images/tchgfcemu7.png\"></center>\n\n\n<p><br />\nOn voit bien qu'en organisant par taille tout en visionnant l'ensemble des sous-dossiers à la fois, il ne subsiste plus que deux fichiers sur la journée susceptibles de correspondre... Ne reste plus qu'à essayer pour récupérer notre concert.</p>\n\n\n<p>--</p>\n\n\n<p>J'espère que le processus est suffisamment détaillé pour être acessible à tous... et que cela vous permettra de \"sauver\" des concerts (mémorables ou non) de l'oubli.</p>\n\n\n<p>Amusez-vous bien !</p>",
+ "notesHtml": "",
+ "extrait": "Solution respectueuse de la loi, avec tutoriel en images.",
+ "nbCommentaires": 37,
+ "commentaires": [
+  {
+   "id": 8116,
+   "auteur": "klari",
+   "site": "www.klariscope.com",
+   "date": "2012-08-13T17:01:40",
+   "contenu": "<p>Merci, merci, merci. Je m'en vais de ce pas t'ériger une statue en sable dans mon jardin.<br />\r\n<br />\r\n(tu sais que j'étais à deux doigts d'aller rechercher mon vieux magneto-cassette, lui faire faire un petit \"REC\" à côté du haut-parleur de l'ordi)<br />\r\n<br />\r\n(voilà qui ne me rajeunit pas)</p>"
+  },
+  {
+   "id": 8117,
+   "auteur": "Ugolino le profond",
+   "site": "",
+   "date": "2012-08-13T18:57:54",
+   "contenu": "<p>Venant de passer à Windows 7, je cherchais hier comment faire ça avec le nouveau IE, qui cache bien mieux les fichiers que sous XP. Tu n'aurais pas pu publier ça hier, ca m'aurait éviter de chercher ;-) ?<br />\r\nA priori, Firefox et Chrome dissimulent leurs fichiers temporaires sous de formats bizarres, ce qui rend leur récupération impossible.<br />\r\n<br />\r\nPar contre, je cherche toujours un moyen de faire la même chose avec le player de la BBC3.</p>"
+  },
+  {
+   "id": 8119,
+   "auteur": "klari",
+   "site": "www.klariscope.com",
+   "date": "2012-08-13T22:57:42",
+   "contenu": "<p>@ Ugolino : en entrant about:cache dans la barre d'adresse de firefox, il ne t'indique pas la cachette du ficher ?<br />\r\n<br />\r\n@David et/ou Ugolino :<br />\r\n(attention, je ne suis pas sûre que ça marche, ce n'est qu'une timide suggestion. j'ai abandonné en cours de route mon téléchargement des Gurre-Lieder sur France mu'. ma petite bande noire est restée coincée coincée à 77%, et entendre que \"Joue-ka Pekka Zarasteuh\" replaçait \"J'y ris Belolavettsse\" m'a quelque peu interloquée)<br />\r\n<br />\r\n(on devrait leur vendre des fiches phonétiques pour arrondir nos fins de mois ?</p>"
+  },
+  {
+   "id": 8120,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2012-08-14T03:02:08",
+   "contenu": "<p>@ Klari : <br />\r\n<br />\r\nJ'accepte aussi les dons en nature : disques, livres, partitions, places de concert, séjours tous frais payés à Berlin, piques-niques au Muvészetek Palotája, etc. <br />\r\n<br />\r\nUne fois j'ai entendu un producteur (dont je tairai le nom) faire HUIT minutes sur le nom (pas de chez nous) de Renata Pokupić. Je ne plaisante pas, j'ai chronométré. En plus c'était pour un récital plutôt original, pas des airs de Carmen et <em>Dein is mein ganzes Herz</em> pour le 31 décembre... <br />\r\nIl avait manifestement besoin d'occuper son temps d'antenne... en se moquant ouvertement du patronyme de la chanteuse. <br />\r\n<br />\r\nFranchement, comme on prononce de toute façon mal, ça ne me dérange pas d'entendre prononcer à la française. Mais à ce compte-là, vraiment à la française, on n'essaie pas de prononcer de l'allemand comme de l'anglais ou du danois comme du russe... <br />\r\n</p>"
+  },
+  {
+   "id": 8121,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-08-14T03:03:59",
+   "contenu": "<p>@ Ugolino : <br />\r\n<br />\r\nFigure-toi que ça aurait normalement dû être publié hier. :( <br />\r\n<br />\r\nBien que les nouvelles versions d'IE soient utilisables, ce n'est vraiment pas le bon choix si on veut avoir un peu souplesse et bidouiller. En principe, peu importe le format, il suffit de trouver le bon dossier et de changer l'extension, je doute que la majorité des navigateurs se fatigue à coder (compresser ?) ce qui est stocké. Il me semble avoir déjà fait ça avec IE et Firefox, en tout cas. <br />\r\n<br />\r\nSinon, il reste la possibilité d'utiliser Opera, le seul navigateur qui propose une véritable navigation au clavier. Il y a juste un peu moins de gadgets possibles que sur Firefox, sinon c'est assez comparable. <br />\r\n<br />\r\nSi le logiciel de diffusion est vraiment bien fait, il est possible que le stockage se fasse par paquets fragmentaires immédiatement effacés au fil de l'écoute (MusicMe fonctionne comme cela, il me semble). Donne-moi un lien pour la BBC, que j'essaie. Figure-toi que je n'ai JAMAIS réussi à trouver la diffusion en différé sur leur site, ni même, depuis qu'ils ont changé d'interface il y a quelque chose comme cinq ans, à mettre en route la diffusion en direct, en tout cas via leur site (si je prends l'adresse de flux isolée, pas de problème). <br />\r\n</p>"
+  },
+  {
+   "id": 8123,
+   "auteur": "Ugolino le profond",
+   "site": "",
+   "date": "2012-08-14T13:59:54",
+   "contenu": "<p>IE ne change pas l'extension. On trouve facilement directement le fichier au format .mp3, avec le titre adéquat. <br />\r\n<br />\r\nPour la BBC, voici un exemple d'un beau programme hardcore :<br />\r\nhttp://www.bbc.co.uk/proms/whats-on/2012/august-11/14330<br />\r\n(le lecteur est à droite, avec une icone haut-parleur, si tu ne trouves pas ;-))<br />\r\n<br />\r\nTous les concerts des Proms sont ré-écoutables pendant 7 jours sur leur site.</p>"
+  },
+  {
+   "id": 8125,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-08-15T02:48:19",
+   "contenu": "<p>Bonsoir ! <br />\r\n<br />\r\nEffectivement, on me rapporte des difficultés à trouver les fichiers sous Firefox. Il faudra que je regarde, mais utiliser Opera ne peut pas faire de mal, ce butineur est précisément très utile pour les gestions de téléchargements (on peut écouter un son ou voir un animé avant la fin du chargement, par exemple). <br />\r\n<br />\r\nJ'ai essayé pour la BBC, aucun résultat, comme je le supposais leur logiciel doit être assez sophistiqué et supprime vraisemblablement les informations au fil de l'écoute. A part enregistrer le son interne de ton PC lorsque tu écoutes, je n'ai pas de grande solution à te proposer - et de surcroît ce serait considéré comme un acte de contrefaçon, manière d'ajouter à la misère du monde. <br />\r\nDésolé. <br />\r\n<br />\r\nJe n'étais jamais arrivé, je crois, sur une page de ce genre où il y a des icônes de rediffusion (et qui marchent). Le site est tellement touffu que je fais généralement le choix de récupérer en aval de la retransmission. <br />\r\n</p>"
+  },
+  {
+   "id": 8126,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2012-08-15T02:51:39",
+   "contenu": "<p><strong>Wagner</strong><br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Parlons-nous bien de la même chose ? D’après ce que j’ai compris du wagnérien qui me l’a recommandé, le Götterdämmerung que j’ai commandé (et que j’espère recevoir aujourd’hui), de Keilberth Bayreuth 1955 avec Mödl en Brünnhilde,</span></blockquote><p>En fait, après vérification, je songeais aux soirées de 54 (où Varnay et Mödl avaient tour à tour chanté les deux rôles de Walküre). Pour 55, je n'ai écouté que le Testament complet. Cela dit, tout cela doit être relativement équivalent, même si on note des différences de netteté, d'intensité et de cohésion d'une soirée à l'autre. <br />\r\nVous me raconterez, j'espère ! <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Ça m’intéressait d’entendre Mödl dans ce rôle,</span></blockquote><p>A juste titre !  Il faut seuilement éviter le studio avec elle (même le semi-studio de Furtwängler à la RAI manque un peu d'abandon). <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">J’ai tout de même l’impression qu’avec Wagner, comme avec d’autres œuvres très fréquentées de la discographie, il y a tellement de références que dire « ceci est la version à connaître » n’a pas de sens — il y en a beaucoup d’excellentes, et finalement, peut-être faut-il surtout que chacun (qui ait envie de ce répertoire) trouve la/les version(s) qui correspondent à ses attentes.</span></blockquote><p>Complètement. Il existe cependant quelques versions extrêmement singulières, qu'on peut recommander pour cette raison, comme le Hollandais de Böhm (qui donne à l'oeuvre un demi-siècle de modernité supplémentaire) ou les Parsifal rapides et transparents de Boulez et Kegel (qui éclairent d'un jour nouveau les logiques harmoniques). <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Évidemment, ça n’est pas très wagnérien de dire ça : les wagnériens préfèrent se taper dessus pour savoir si Mödl était mieux en 53 ou en 55 et quel est le meilleur acte II de Tristan avec Flagstad et Melchior en 1936 ou 37 — vous savez, cette “version” où il y a pour une soirée acte I et II, et pour l’autre II et III. Bref, moi, ça ne me fascine pas au point de me torturer autant.</span></blockquote><p>C'est fascinant, mais pathologique, en fait. Bienheureux qui peut y échapper. Dieu merci, j'ai suffisamment d'autres vices pour ne pas prendre trop au sérieux les dizaines de versions de Wagner que j'ai écoutées (par curiosité plus que par goût de l'absolu). <br />\r\n<br />\r\n<br />\r\n<strong>Minkowski</strong><br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">dans les Händel, j’y suis un peu moins sensible, et la concurrence est plus rude — même si, dans le cas d’Ariodante, elle ne l’est pas encore tellement…</span></blockquote><p>Pas si rude que cela si l'on est sensible à l'esthétique française dans ce répertoire : les petits solos de théorbe, la façon un peu déhanchée de phraser... Beaucoup de couleurs et de dense chez lui, et par-dessus tout un soin du texte très inhabituel. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">En ce qui concerne ce dernier — ça nous ramène d’ailleurs à Phaéton — c’est une façon de chanter, de ne quasiment pas phraser, de tout faire de manière extrêmement propre mais finalement un peu figée, qui me déplaît.</span></blockquote><p>Il gagnera sans doute en \"abandon\" si sa carrière de jeune premier résiste à cet assaut de critiques ; la couleur me paraît en tout cas bien intéressante, il pourrait être très performant dans les héros un peu moins sympathiques, comme Phaëton. <br />\r\n<br />\r\n<br />\r\n<strong>Fuzelier</strong><br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Vous savez, je ne défendrais pas toute œuvre de Fuzelier avec ardeur. Par exemple j’ai entièrement tapé Arion, beh je peux vous dire que je me suis emmerdé. Il y a je ne sais combien de fois “hélas”…</span></blockquote><p>Les textes des divertissements surtout sont d'une grande platitude, mais c'est surtout la musique que je voudrais entendre - un nom pareil, ça vend du rêve. <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\"> Parlons-nous bien, là encore, de la même chose ? Le Sancho Pança de Fuzelier est une petite œuvre foraine des années 1710. </span></blockquote><p>Tout à fait : <em>Sur cet autel redoutable aux poulets / Par ce couteau, la terreur de l'éclanche</em>. Je ne suis pas forcément un inconditionnel des oeuvres de la Foire, mais celle-ci m'avait assez diverti. <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Si vous voulez lire du très bon Fuzelier, je ne vois que La Matrone d’Éphèse de publiée qui soit vraiment une bonne pièce. Pour le reste, j’en ai transcrit des tonnes, et je vois à peu près quelles sont, à mon sens, ses meilleures pièces, mais elles ne sont pas (encore) publiées.</span></blockquote><p>Dites toujours, comme cela, lorsqu'elles seront publiées ou si elles apparaissent sur une bibliothèque numérique, on pourra en faire bon usage ! <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">J’ai lu des vers de bien moindre qualité dans des petits poèmes de circonstance…</span></blockquote><p>Je n'en doute pas une seconde, c'est un privilège doctoral. :) <br />\r\n<br />\r\nMais il y a aussi des choses chouettes, comme son poème sur Quichotte : <em> Loin des yeux qui m'ont fait captif / Je brûle d'une ardeur grégeoise, / Jamais un penser lénitif / N'allège mon âme panthoise.</em><br />\r\n<br />\r\n<br />\r\n<strong>Destouches & Vogel</strong><br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Je me sens tout à fait à l’aise avec Campra, et pas vraiment avec Destouches, où j’ai l’impression constante de quelque chose de bien honnête, mais sans grand charme et sans grande inventivité.</span></blockquote><p>Ce grief me paraîtrait tout aussi injuste pour Campra. Non, vraiment, vous avez tort pour Destouches, c'est le plus contrapuntique de sa génération. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">C’est-à-dire que ça me fait comme Vogel : au début, je trouve ça très bien, et en fait, il n’y a pas de renouvellement, c’est trop pareil.</span></blockquote><p>Cela, en revanche (et c'est accentué par les interprétations de Niquet), je vous le passe tout à fait, il y a relativement peu de contraste stylistique d'une oeuvre à l'autre. Flagrant par rapport à Desmarest et Campra, en effet. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Pour Vogel, j’ai assez vite eu le sentiment que ça allait, musicalement, tourner en rond. J’ai l’impression de compositeurs qui n’ont pas un sens aigu de la dramaturgie musicale, qui consiste à ménager — et j’insiste : musicalement — une progression et des surprises.</span></blockquote><p>Je vous rejoins assez : une suite d'effets parfois originaux ou très réussis, mais qui ne bâtissent pas de progression, comme une suite de numéros composés dans le désordre et ensuite réparties pour faire l'opéra. <br />\r\nA réécouter cela dit, je n'avais pas été totalement magnétisé à la première écoute d'Andromaque de Grétry ou de Sémiramis de Catel, par exemple. <br />\r\n</p>"
+  },
+  {
+   "id": 8907,
+   "auteur": "Les Yeux qui Fascinent",
+   "site": "",
+   "date": "2013-03-09T19:29:53",
+   "contenu": "<p>Salut David, <br />\r\n<br />\r\nVia Opera, il y a plus simple apparemment — je n'ai pas réussi à retrouver le fichier avec ta méthode (il n'est pas dans le dossier cache d'opéra…), alors j'ai cherché une autre solution — : une fois l'émission chargée dans le lecteur du site (\"la barre noire à 100%\")*, ouvrir un second onglet dans le navigateur et taper, dans la barre d'adresse, \"about:cache\" ou \"opera:cache\" (sans les guillemets, évidemment !) ; les éléments du cache d'opéra s'affiche, cocher (dans la partie supérieure) audio/mp3, audio/wav, audio/mpeg et audio/midi et cliquer sur \"prévisualiser tous les domaines\" : un nouveau onglet \"éléments du cache\" s'ouvre ; ce dernier nous propose l'adresse du fichier mp3 convoité : clic droit sur le lien/ enregistrer sous et l'émission est téléchargée sur l'ordinateur.<br />\r\n<br />\r\n*a priori, on est même pas obligé d'attendre que l'émission soit chargée intégralement pour lancer et la manipulation.</p>"
+  },
+  {
+   "id": 8908,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-10T13:07:12",
+   "contenu": "<p>Yeux puissants ! <br />\r\n<br />\r\nMagnifique, et encore plus facile... merci ! <br />\r\n</p>"
+  },
+  {
+   "id": 9144,
+   "auteur": "Sentierdelune",
+   "site": "",
+   "date": "2013-06-29T16:22:25",
+   "contenu": "<p>Bonjour ! <br />\r\n<br />\r\nBeaucoup d'eau a coulé sous les ponts depuis mes derniers commentaires sur Css, que je continue néanmoins de visiter de temps à autre (un peu accaparé par ma scolarité en fait).<br />\r\n<br />\r\nMerci beaucoup pour l'astuce; le seul problème, pour ma part, est que j'ai un mac (10.5.8) et qu'en outre je ne suis pas d'une très grande habileté en matière informatique, du coup je ne comprends pas trop comment faire… Auriez-vous une idée ?<br />\r\n<br />\r\nJ'avoue que je suis un peu intéressé: j'ai vu que France Musique allait diffuser le mardi 02 juillet au soir le War Requiem dirigé par Nelsons au TCE, auquel j'ai assisté et que j'ai trouvé magnifique, j'aimerais le sauver de l'oubli comme vous dites ! Sinon tant pis, il restera dans ma mémoire seulement…<br />\r\n<br />\r\nBonne journée !<br />\r\n<br />\r\nSentierdelune</p>"
+  },
+  {
+   "id": 9146,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-06-29T16:46:03",
+   "contenu": "<p>Bonjour Sentier Lumineux, <br />\r\n<br />\r\nJe me demandais où vous étiez passé - j'ai même eu, quelques instants, le vertige de vous avoir déplu. <br />\r\n<br />\r\nEt j'en prends à nouveau le risque : je ne suis pas assez familier de Mac pour vous aider, il y a très longtemps que je n'en ai pas dépanné. :)  Le fonctionnement de l'astuce est sensiblement identique, il faut seulement l'accommoder au chemin spécifique au Mac. Et je ne peux pas faire de capture d'écran évidemment. Pourquoi ne pas essayer sur un PC, muni de ce tutoriel ?  Vous devez bien en avoir autour de vous... </p>"
+  },
+  {
+   "id": 9148,
+   "auteur": "Sentierdelune",
+   "site": "",
+   "date": "2013-06-29T22:14:09",
+   "contenu": "<p>Non, non, vous ne m'aviez déplu en aucune façon, mais pour tout dire, la prépa me prend pas mal de temps, du coup lorsque je vous lis je ne commente plus…<br />\r\n<br />\r\nPas de problème, je tâcherai donc de me trouver un PC pour cette opération, muni comme il se doit du tutoriel ! :)<br />\r\n</p>"
+  },
+  {
+   "id": 9151,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-07-01T10:36:31",
+   "contenu": "<p>Ne manquez pas de venir vous plaindre si cela ne fonctionne pas... il y a toujours des possibilités de blocage selon les configurations... </p>"
+  },
+  {
+   "id": 9951,
+   "auteur": "dreamer",
+   "site": "",
+   "date": "2014-07-29T13:45:01",
+   "contenu": "<p>il y a une méthode très simple qui permet d'avoir l'URL directe du fichier mp3 de chaque concert et qui fonctionne sur toutes les plateformes :<br />\r\n<br />\r\nutilisez firefox ou chrome et installez une extension vous permettant de voir les requêtes/réponses HTTP (\"Live HTTP header\" ou assimilé); videz le cache de votre navigateur; lancez l'extension puis cliquez sur \"écouter l’émission\" pour lancer le concert; le popup s'ouvre et le fichier commence à se charger dans le player<br />\r\n<br />\r\nRegardez maintenant les échanges HTTP; dans la (longue) liste vous avez une des requêtes qui appelle directement le fichier (par exemple : http://www.francemusique.fr/sites/default/files/asset/aod/2014/30/NET_e1bf315d-5b87-4b9b-b0d9-401129fcaa48_FM.mp3 ) il ne vous reste plus qu'à faire un copier/coller de cette URL dans la barre d'adresse de votre navigateur et de faire un clic droit pour l'enregistrer sur votre disque dur :)</p>"
+  },
+  {
+   "id": 9960,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-07-29T23:20:07",
+   "contenu": "<p>Merci beaucoup pour cette nouvelle méthode, <strong>Dreamer</strong>, qui risque en intéresser plus d'un !  <br />\r\nJe suis moi-même assez tenté, d'ailleurs, parce qu'entre les changements d'Opera (qui a supprimé les signets, puis la navigation au clavier, les fous !) et les logiciels embarqués de plus en plus protecteurs de leur source (de moins en moins trouvables dans le code de la page), il ne reste plus qu'à capter directement le flux, effectivement. <br />\r\n<br />\r\nD'ailleurs, je m'interrogeais sur la légalité de l'opération, puisque la loi française considère désormais les contournements comme de la contrefaçon. À mon sens, il ne s'agit pas à proprement parler de contournement, puisqu'il s'agit d'une simple lecture de fichiers de toute façon copiés sur le disque dur, mais je serais curieux de lire la décision d'un tribunal – d'autant que j'ai entendu dire que tous les juges (et c'est bien naturel) n'étaient pas versés dans ces matières. <br />\r\n<br />\r\nCela dit, récupérer les diffusions de la radio publique (disponibles en téléchargement, mais simplement de façon beaucoup moins pratique pour ce qui est de Radio-France), je doute que ça intéresse quelque juridiction que ce soit, à l'heure où le cinéma sous droits coule à flots dans les serveurs. </p>"
+  },
+  {
+   "id": 9963,
+   "auteur": "Insubmersible",
+   "site": "",
+   "date": "2014-08-03T20:11:37",
+   "contenu": "<p>Sinon, encore plus simple : l'extension DownloadHelper dans Firefox. Permet également de télécharger les vidéos sur Youtube (par exemple une symphonie proposée en 720p, puis avec Format Factory on garde uniquement le son en flac.) <br />\r\nPar contre si c'est légal, je ne saurais le dire.  </p>"
+  },
+  {
+   "id": 9964,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-08-04T19:42:27",
+   "contenu": "<p>Merci pour cette autre solution, <strong>Insubmersible</strong> !<br />\r\n<br />\r\nJe ne suis pas certain de la légalité non plus : assurée lorsqu'il s'agit de plates-formes non protégées, mais lorsque les sites, comme Arte ou Deezer, ont explicitement protégé leur contenu, c'est au minimum plaidable, voire tout de bon illégal. </p>"
+  },
+  {
+   "id": 10911,
+   "auteur": "dreamer",
+   "site": "",
+   "date": "2015-05-31T10:05:37",
+   "contenu": "<p>coucou. Je suis de retour. Il y a encore plus simple que la méthode que j'ai donnée plus haut, qui ne fonctionne que si les fichiers audio ne sont accessibles via le player, c'est à dire dans les 30 jours après la diffusion du concert.<br />\r\n<br />\r\nAllez sur la page de n'importe quel concert (même les vieux), affichez le code source de la page (ctrl+U dans firefox) et faites une recherche sur \".mp3\" et voilà. Vous avez le chemin direct du fichier (il faut juste enlever les \"\\\") :D</p>"
+  },
+  {
+   "id": 10913,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2015-06-04T00:02:16",
+   "contenu": "<p>Bonsoir ! <br />\r\n<br />\r\nAh, merci beaucoup, ça fait des années que cette manipulation (la plus simple en effet) n'était plus disponible, au fil des nouvelles versions. Ça simplifie quand même grandement les choses ! <br />\r\n<br />\r\nMerci ! </p>"
+  },
+  {
+   "id": 10957,
+   "auteur": "manue",
+   "site": "",
+   "date": "2015-07-22T23:10:09",
+   "contenu": "<p>Bonjour, <br />\r\nJ'essaye désespérement de suivre vos instructions pour récupérer le concert de melody garrot à marseille hier retransmis sur fip mais je n'y parviens pas. Est ce que je peux abuser d'une personne qui pourrait m'aider et le récupérer pour moi? ce serait super. <br />\r\nVoici le lien de l'écoute sur fip mais est ce qu'on peut vraiment le récupérer…. je ne sais pas.<br />\r\nPS: je suis sur mac :/<br />\r\n<br />\r\nhttp://www.fipradio.fr/emissions/live/2015/concert-live-melody-gardot-et-anne-paceo-marseille-07-21-2015-21-00</p>"
+  },
+  {
+   "id": 10958,
+   "auteur": "manue",
+   "site": "",
+   "date": "2015-07-22T23:10:55",
+   "contenu": "<p>J'ai omis de vous laisser mon adresse mail.. </p>"
+  },
+  {
+   "id": 10959,
+   "auteur": "manue",
+   "site": "",
+   "date": "2015-07-22T23:11:35",
+   "contenu": "<p>emmanuelle-soler@voila.fr</p>"
+  },
+  {
+   "id": 10960,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2015-07-23T00:22:33",
+   "contenu": "<p>Bonsoir <strong>Manue</strong>, <br />\r\n<br />\r\nVotre problème a été traité par un commando spécialement affrété. Votre concert sera accessible sur votre boîte d'ici une heure. </p>"
+  },
+  {
+   "id": 11083,
+   "auteur": "LJ",
+   "site": "",
+   "date": "2015-09-27T19:17:05",
+   "contenu": "<p>Bonjour,<br />\r\n<br />\r\nEn suivant la méthode de dreamer, on peut effectivement obtenir très simplement les mp3 des concerts, mais pas des anciens contrairement à ce qu'il semble dire. Ou alors je suis à côté de la plaque.<br />\r\n<br />\r\nN'y a-t-il pas le même genre de manip' pour arte ou les sites de ce genre ? Je sais que le protocole fait que le concert est fragmenté en une tonne de fichier, mais le principe est le même : ces fichiers sont stockés temporairement sur l'ordinateur, et supprimés au fur-et-à-mesure. Il doit bien y avoir un moyen de les attraper au vol, non ?<br />\r\n<br />\r\nCordialement,<br />\r\n<br />\r\nLJ</p>"
+  },
+  {
+   "id": 11084,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2015-09-27T20:00:16",
+   "contenu": "<p>Bonsoir ! <br />\r\n<br />\r\nPour les cas plus délicats, il est toujours possible de travailler manuellement (en aspirant le contenu qui entre par le port, par exemple), mais il existe désormais beaucoup d'utilitaires (Download Helper et autres extensions de Firefox, efficaces pour les sites de radio ; Captvty pour les chaînes publiques et même Arte). Néanmoins, lorsque les sites sont clairement protégés comme celui d'Arte, c'est à mon avis enfreindre les lois françaises en vigueur – qui assimilent à de la contrefaçon le contournement des protections. Évidemment, il y a une zone de flou : certains sites ne mettent pas en lien le mp3 mais ne le masquent pas non plus dans le code, on peut donc considérer que lire la page de code n'est pas un contournement ; la récupération d'un lien masqué par utilitaire est déjà plus sujette à interprétation ; quant aux médias fragmentés, dont les normes changent régulièrement et qui ne fonctionne qu'avec peu d'outils, il est évident que c'est outrepasser les limites prévues. <br />\r\n<br />\r\nJe crois que vous avez les données nécessaire pour faire votre miel désormais. Bonne soirée !  </p>"
+  },
+  {
+   "id": 11213,
+   "auteur": "LJ",
+   "site": "",
+   "date": "2015-12-09T12:02:46",
+   "contenu": "<p>Bonjour,<br />\r\n<br />\r\nJ'ai un nouveau défi (qui n'en est peut-être pas un !) pour vous. Maintenant que le son 3d a été adopté par Radio France et France Musique(s) sur la plateforme NouvOson, connaissez-vous un moyen de l'enregistrer ? Ou sont-ce bêtement des fichiers mp3 à récupérer comme sur France Mu ? Mais dans ce cas je ne les ai pas trouvés...<br />\r\n<br />\r\nUne idée ?<br />\r\n<br />\r\nCdt,<br />\r\n<br />\r\nLJ</p>"
+  },
+  {
+   "id": 11219,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2015-12-11T21:38:39",
+   "contenu": "<p>Bonjour <strong>@LJ</strong> !  <br />\r\n<br />\r\nEffectivement, essayé le binaural 3D pour le <em>Prometeo</em> de Nono, c'est assez fidèle à la très forte spatialisation du son dans la salle !  <br />\r\n<br />\r\nJe n'ai pas trouvé de lien clair dans le code ( view-source:http://nouvoson.radiofrance.fr/musique/re-ecoute-de-prometeo-de-luigi-nono-en-binaural-sur-francemusiquefr ), mais ça se charge très bien avec les utilitaires additionnels aux navigateurs (du type DownloadHelper, un grand classique de Firefox).  </p>"
+  },
+  {
+   "id": 11222,
+   "auteur": "LJ",
+   "site": "",
+   "date": "2015-12-12T12:37:37",
+   "contenu": "<p>Bonjour M. Le Marrec,<br />\r\n<br />\r\nC'est exactement pour Prometeo que je demande !<br />\r\nMerci, effectivement c'était plutôt simple ! Il y a même la version 5.1.<br />\r\nMerci encore.<br />\r\n<br />\r\nBien à vous,<br />\r\n<br />\r\nLJ</p>"
+  },
+  {
+   "id": 11227,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2015-12-13T20:44:31",
+   "contenu": "<p>Et la captation en est très réussie, contre toute attente – à la fois parce que c'est France Mu et parce que c'est impossible en théorie.  </p>"
+  },
+  {
+   "id": 11234,
+   "auteur": "LJ",
+   "site": "",
+   "date": "2015-12-15T23:06:44",
+   "contenu": "<p>A part quelques saturations c'est superbe ! C'était mieux en salle !</p>"
+  },
+  {
+   "id": 12490,
+   "auteur": "Lowtone",
+   "site": "",
+   "date": "2017-11-17T10:51:34",
+   "contenu": "<p>Pour une meilleure qualité que le mp3 il faut employer le grands moyens.<br />\r\n<br />\r\nPrenez une radio FM, branchez la sortie audio de la radio sur l'entrée ligne ( ou line ) de l'ordinateur. Utilisez un logiciel tel que Adobe Audition, ou Audacity, et enregistrez dans un fichier Wav.<br />\r\nPour la FM du 16 bits stéréo 32000Hz suffit.<br />\r\nVous pouvez ensuite avec d'autres utilitaires compresser sans perte au format FLAC.<br />\r\nC'est vraiment le seul moyen.<br />\r\nQuand la FM disparaîtra, il faudra espérer que Radio France mette en place des flux en haute définition sur internet. La radio en dab+ utilise de la compression avec pertes.<br />\r\n<br />\r\nDonc je récapitule : radio FM ⇒¨ câble ⇒¨ prise line in de l'ordinateur ⇒¨ logiciel ⇒¨ fichier WAV</p>"
+  },
+  {
+   "id": 12493,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2017-11-17T22:49:02",
+   "contenu": "Merci pour ce tutoriel.<br><br>\r\n\r\n(Je suis un praticien de la Low-Fi, donc nullement gêné par le mp3, même si le 128 kbps – je crois que c'est toujours le cas ? – de France Mu est quand même un peu chiche. Mais beaucoup de lecteur de CSS sont au contraire versés dans la belle reproduction, ça les intéressera assurément – s'ils ne le font pas déjà sans m'en avoir rien dit !)"
+  },
+  {
+   "id": 12551,
+   "auteur": "Alanus",
+   "site": "",
+   "date": "2018-01-03T22:42:24",
+   "contenu": "<p>J'aurais aimer enregistrer le concert du nouvel An à Vienne, mais cela à été impossible</p>"
+  },
+  {
+   "id": 12552,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2018-01-03T22:48:01",
+   "contenu": "Bonjour <b>Alanus</b>, <br><br>\r\n\r\nEn principe il devrait être disponible à la réécoute sur le site, et de là un petit utilitaire comme DownloadHelper sur Firefox fait très bien le travail (sinon il faut regarder dans le code de la page l'adresse du mp3, ça fonctionne selon le codage, je ne suis plus sûr que ce soit possible avec leur lecteur flash actuel).<br><br>\r\n\r\nMais en vidéo, ce ne devrait pas tarder à resurgir sur YouTube & afférents, pour lequel des sites comme Peggo.tv ou KeepVid.com sont d'un usage très simple. Ça a dû être donné sur France 2 aussi, comme chaque année, auquel cas CapTVty est un petit logiciel très efficace.<br><br>\r\n\r\nDans le pire des cas, ces concerts sont désormais systématiquement publiés en CD et DVD, chaque année."
+  },
+  {
+   "id": 12777,
+   "auteur": "landais",
+   "site": "",
+   "date": "2018-07-07T20:07:59",
+   "contenu": "<p>Malheureusement ca ne marche plus . les tmp sont apparamment eclatés sur plusieurs fichiers et rien n'indique plus les extensions fichiers ..( tmp mp3 etc  )</p>"
+  },
+  {
+   "id": 12779,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2018-07-08T12:27:34",
+   "contenu": "Bonjour <b>Landais</b> !<br><br>\r\n\r\nOui, France Mu change son lecteur tous les deux ans… Ce qui fonctionne toujours, avec grande simplicité, est DownloadHelper, une extension à ajouter à Firefox ou Chrome, qui détecte automatiquement le média joué par la machine. En revanche il faut prendre garde, ils ont changé leur politique de confidentialité et l'extension espionne désormais le contenu du navigateur (pour le revendre au plus offrant, je suppose)."
+  }
+ ],
+ "epingle": false
+}

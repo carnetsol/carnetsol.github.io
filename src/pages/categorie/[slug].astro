@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const notules = await getCollection('notules');
+  const categories = await getCollection('categories');
+
+  return categories
+    .filter((c) => c.data.nom !== '_')
+    .map((c) => {
+      const liste = notules
+        .filter((n) => n.data.categories.some((x) => x.slug === c.data.slug))
+        .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+      return {
+        params: { slug: c.data.slug },
+        props: { categorie: c.data, liste },
+      };
+    })
+    // Une catégorie vide ne mérite pas de page.
+    .filter((entry) => entry.props.liste.length > 0);
+}
+
+const { categorie, liste } = Astro.props;
+---
+<Base titre={categorie.nom} description={categorie.description} lienMenu={false}>
+
+  <div class="contenu">
+    <h2 class="section-head">{categorie.nom}</h2>
+    {categorie.description && <p class="desc">{categorie.description}</p>}
+    <p class="compte">{liste.length} notules</p>
+
+    <ul class="liste">
+      {liste.map((n) => (
+        <li>
+          <span class="r-date">
+            {n.data.date.toLocaleDateString('fr-FR', {
+              day: 'numeric', month: 'short', year: 'numeric',
+            })}
+          </span>
+          <span class="r-title"><a href={n.data.url}>{n.data.titre}</a></span>
+          <span class="r-cat">
+            {n.data.categories.find((c) => c.slug !== categorie.slug)?.nom ?? ''}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+</Base>
+
+<style>
+  .desc, .compte {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .82em;
+    color: var(--muted);
+  }
+  .desc { font-style: italic; margin: 0 0 .2em; }
+  .compte { margin: 0 0 1.4em; }
+</style>

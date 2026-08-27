@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base titre="Page introuvable" lienMenu={false}>
+
+  <div class="contenu">
+    <h2 class="section-head">Page introuvable</h2>
+
+    <div id="ancienne-url" hidden>
+      <p>Cette adresse vient de l'ancien site. Redirection en cours…</p>
+    </div>
+
+    <div id="vraie-404">
+      <p>
+        Cette page n'existe pas (ou plus). Les notules sont toutes accessibles
+        depuis les <a href="/archives/">archives</a>, les
+        <a href="/categorie/">catégories</a> ou la
+        <a href="/css/recherche/">recherche</a>.
+      </p>
+    </div>
+  </div>
+
+</Base>
+
+<script is:inline>
+  /**
+   * Rattrape les anciennes adresses Dotclear en chaîne de requête.
+   *
+   * Deux publics arrivent ici :
+   *   - ceux qui suivent un vieux lien vers carnetsol.fr/css/index.php?...
+   *     (le domaine pointait autrefois sur operacritiques.free.fr/css/)
+   *   - ceux dont l'adresse n'a pas été rattrapée par le redirecteur PHP
+   *     resté sur l'ancien hébergement.
+   *
+   * Une chaîne de requête ne peut pas être traitée par une règle de
+   * redirection d'hébergeur statique : ce rattrapage se fait donc dans le
+   * navigateur. Il dépanne les visiteurs ; pour les moteurs, c'est le 301
+   * servi par Free qui transmet le référencement.
+   */
+  (function () {
+    var q = decodeURIComponent(location.search.replace(/^\?/, ''));
+    if (!q) return;
+
+    var cible = null;
+    var m;
+
+    if ((m = q.match(/^q=(.*)$/))) {
+      // Recherche : ?q=terme
+      cible = '/css/recherche/?q=' + encodeURIComponent(m[1].replace(/\+/g, ' '));
+
+    } else if ((m = q.match(/^(\d{4})\/(\d{2})\/(\d{2})\/(\d+)(-[^&#]*)?/))) {
+      // Permalien. Le slug est FACULTATIF : Dotclear résolvait par
+      // l'identifiant seul, et beaucoup de liens anciens sont tronqués.
+      cible = '/css/' + m[1] + '/' + m[2] + '/' + m[3] + '/' + m[4] + (m[5] || '') + '/';
+      if (location.hash) cible += location.hash;
+
+    } else if (q.match(/^\d{4}\/\d{2}(\/\d{2})?\/?$/)) {
+      // Archive d'un mois ou d'un jour
+      cible = '/archives/';
+
+    } else if (q.match(/^feed(\/.*)?$/)) {
+      // Flux de syndication
+      cible = '/css/rss.xml';
+
+    } else if ((m = q.match(/^([A-Za-z][\w-]*)$/))) {
+      // Catégorie : ?Autour-de-pelleas-et-melisande
+      cible = '/categorie/' + m[1] + '/';
+    }
+
+    if (cible) {
+      document.getElementById('vraie-404').hidden = true;
+      document.getElementById('ancienne-url').hidden = false;
+      location.replace(cible);
+    }
+  })();
+</script>

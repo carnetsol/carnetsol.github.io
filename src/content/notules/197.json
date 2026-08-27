@@ -1,0 +1,23 @@
+{
+ "postId": 197,
+ "titre": "Après les Juges...",
+ "slug": "apres-les-juges",
+ "url": "/css/2006/04/18/197-apres-les-juges/",
+ "date": "2006-04-18T23:54:43",
+ "modifie": "2006-04-19T09:17:54",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>... la fin du <a href=\"/css/2006/01/12/133-levitique/\" hreflang=\"fr\">second séjour</a> hors de Canaan (en l'occurrence, Cyrus c'est moi).</p>\n\n\n<p>Une soirée de bricolage technique. Il a fallu fouiner dans PhpMyAdmin, bidouiller les archives sql, effectuer des requêtes à l'intuition sur ma base MySQL, verrouiller les anciennes adresses, aménager les redirections, changer les outils de mesure, remplacer les noms de liens via un raccourci utilisé en traitement de texte, adapter les préfixes de tables de la même façon... Mais ça marche. Et tout ça parce qu'Ifrance ne sait pas faire de sauvegardes et Free pas de restaurations !  Du coup, j'ai parfait mon bagage en MySQL... Un grand combat.</p>\n\n\n<p>Tiens, je ferais bien un petit psaume, moi.<br />\n<br /> <br /></p>\n\n\n\n<p>David</p>",
+ "notesHtml": "",
+ "extrait": "... la fin du second séjour hors de Canaan (en l'occurrence, Cyrus c'est moi). Une soirée de bricolage technique. Il a fallu fouiner dans PhpMyAdmin, bidouiller les archives sql, effectuer des requêtes à l'intuition sur ma base MySQL, verrouiller les anciennes adresses, aménager les redirections, changer les outils de…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

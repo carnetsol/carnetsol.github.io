@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const notules = await getCollection('notules');
+const categories = await getCollection('categories');
+
+// Combien de notules par slug de catégorie
+const compte = new Map<string, number>();
+for (const n of notules) {
+  for (const c of n.data.categories) {
+    compte.set(c.slug, (compte.get(c.slug) ?? 0) + 1);
+  }
+}
+
+const listees = categories
+  .map((c) => ({ ...c.data, nb: compte.get(c.data.slug) ?? 0 }))
+  .filter((c) => c.nb > 0 && c.nom !== '_')
+  .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+---
+<Base titre="Catégories" lienMenu={false}>
+
+  <div class="contenu">
+    <h2 class="section-head">{listees.length} catégories</h2>
+
+    <ul class="cats">
+      {listees.map((c) => (
+        <li>
+          <a href={`/categorie/${c.slug}/`}>{c.nom}</a>
+          <span class="nb">{c.nb}</span>
+          {c.description && <span class="desc">{c.description}</span>}
+        </li>
+      ))}
+    </ul>
+  </div>
+
+</Base>
+
+<style>
+  .cats { list-style: none; margin: 0; padding: 0; }
+  .cats li {
+    padding: .55em 0;
+    border-bottom: 1px dashed var(--parch-dark);
+  }
+  .cats li:last-child { border-bottom: none; }
+  .cats a { font-family: Georgia, serif; font-size: 1.05em; color: var(--ink); }
+  .cats a:hover { color: #8d6e68; }
+  .nb {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .72em;
+    color: var(--muted);
+    margin-left: .5em;
+  }
+  .desc {
+    display: block;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .78em;
+    color: var(--muted);
+    font-style: italic;
+  }
+</style>

@@ -1,0 +1,66 @@
+{
+ "postId": 248,
+ "titre": "Dotclear et le spam - les solutions et leurs enjeux",
+ "slug": "dotclear-et-le-spam-les-solutions-et-leurs-enjeux",
+ "url": "/css/2006/05/27/248-dotclear-et-le-spam-les-solutions-et-leurs-enjeux/",
+ "date": "2006-05-27T01:51:21",
+ "modifie": "2006-05-27T01:51:52",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "<p>Depuis quelques jours, recrudescence du spam, via les sites de casino en ligne.</p>\n\n\n<p>Quelques conseils qui ont très bien fonctionné pour moi :</p>",
+ "corpsHtml": "<p><br /></p>\n<ul>\n<li><ins>Pour les commentaires</ins>, j'active <strong>Spamplemousse</strong> lorsqu'il y a avalanche. Le problème est que le système centralisé (joli billet d'Optimum <a href=\"http://optimum.tooblog.fr/?2006/04/05/167-captcha-vs-spamplemousse-hayek-vs-galbraith\" hreflang=\"fr\">à ce propos</a>) provoque des faux positifs, par exemple pour tout commentaire (même les miens) qui contiendrait le mot \"spé<em>cialis</em>te\"... <strong>SpamClear</strong> est paraît-il supérieur. Il y a également le système des <strong><em>captchas</em></strong> (code visuel), mais il est abhorré par les geeks qui y voient un surcoût intolérable pour le commentateur, et surtout il peut rendre l'accès difficile si le code est trop peu lisible, dans une langue étrangère, etc. C'est d'ailleurs un problème incontournable pour l'accessibilité au site pour les handicapés visuels. Si la masse des commentaires est trop énorme, on peut cependant y recourir. Il existe aussi un plug-in qui trierait automatiquement le spam, proposé par <a href=\"http://conseil-recherche-innovation.net/index.php/2006/03/23/61-un-antispam-simpliste-pour-dotclear\" hreflang=\"fr\">Jérôme Combaz</a> (via les deux liens ci-dessous), je ne l'ai pas encore essayé.</li>\n</ul>\n<ul>\n<li><ins>Pour les rétroliens</ins>, on peut également utiliser Spamplemousse, mais il existe une solution miracle, aussi simple à mettre en place<sup>[<a href=\"#pnote-248-1\" id=\"rev-pnote-248-1\">1</a>]</sup>, qui empêche tous les trackbacks intrus en vérifiant si l'origine du trackback et le site vers lequel le lien pointe coïncident. La solution est expliquée avec clarté par <a href=\"http://ploum.frimouvy.org/?2006/04/29/105-lutter-contre-le-spam-dans-dotclear\" hreflang=\"fr\">Ploum</a>. (Information via <a href=\"http://blog.empyree.org/?2451-le-spam-ce-n-est-toujours-pas-possible\" hreflang=\"fr\">Empyrée</a>.)</li>\n</ul>\n<p><br /></p>\n\n\n\n<p>Comme j'ai constaté que <a href=\"http://ouf.apinc.org/ouvertures/\" hreflang=\"fr\">certains</a> <a href=\"http://www.authueil.org/\" hreflang=\"fr\">voisins</a> rencontraient des soucis similaires, je me dis que ce peut toujours être utile.</p>\n<div class=\"footnotes\"><h4>Notes</h4>\n<p>[<a href=\"#rev-pnote-248-1\" id=\"pnote-248-1\">1</a>] On évite même d'avoir à rebidouiller les fichiers lorsqu'on désactive Spamplemousse !</p></div>\n",
+ "notesHtml": "",
+ "extrait": "Depuis quelques jours, recrudescence du spam, via les sites de casino en ligne. Quelques conseils qui ont très bien fonctionné pour moi :",
+ "nbCommentaires": 6,
+ "commentaires": [
+  {
+   "id": 620,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-05-29T09:18:41",
+   "contenu": "<p>chez moi, il y a des \"captchas\" (j'ignorais que ça s'appelait comme ça d'ailleurs... on apprend tous les jours) et c'est très efficace malgré tout, sur certains sites (rares), j'ai remarqué aussi que ce code (des lettres dans l'exemple que j'ai en tête) était accompagné d'un lien audio avec une icône d'handicapé, si on clique dessus on obtient d'abord plusieurs bips puis une liste de chiffres.</p>"
+  },
+  {
+   "id": 621,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-05-29T10:08:17",
+   "contenu": "<p>Le problème est que, si ça ne fonctionne pas, ou s'il y a trop de manipulations à faire, soit ça décourage les commentateurs, soit ça leur coûte un effort supplémentaire. Certains geeks y sont donc opposés pour une question de justice.<br />\r\n<br />\r\nJ'avoue que l'entrée d'un code, pour peu qu'on puisse le lire (ce qui n'est pas toujours évident), ne me semble de nature à décourager que les intégristes ou les commentateurs très fatigués qui n'écriront pas plus d'une ligne.<br />\r\n<br />\r\nMais, en attendant, je ne les ai pas activés. Peut-être à tort, d'ailleurs, parce que j'ai des commentateurs qui sont abusivement filtrés par l'antispam.</p>"
+  },
+  {
+   "id": 622,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-05-29T17:46:36",
+   "contenu": "<p>par ailleurs et c'est une autre problématique, certaines personnes (geeks ou pas) semble détester les commentaires, ce n'est pas ton cas car tu as une culture de \"forum\" et de usenet à la base, mais j'ai rencontré de nombreux billets ailleurs avec des commentaires \"ouverts\" ou avec des questions restant sans réponse (quand ce n'est pas les commentaires qui sautent carrément)...</p>"
+  },
+  {
+   "id": 623,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-05-30T12:51:05",
+   "contenu": "<p>Oui, effectivement, il arrive que les commentaires ne soient pas très considérés. Tout dépend de la forme souhaitée. Et du nombre, de la nature, du ton des commentaires.<br />\r\n<br />\r\nEn ce qui me concerne, je considère ma petite plate-forme autant comme un prétexte pour travailler sur certains sujets qu'un moyen d'être utile ou de badiner gentiment, alors forcément, les commentaires sont bienvenus.<br />\r\n<br />\r\nOn se prend d'ailleurs à avoir des envies de réponse en lisant les journaux, des sites standards, des ouvrages académiques. Très amusant !</p>"
+  },
+  {
+   "id": 661,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-06-02T15:34:27",
+   "contenu": "<p>amusant en effet... j'avoue que ça ne m'est jamais venu à l'idée, tu es encore pire que moi sur ce terrain je vois !! ;)<br />\r\n<br />\r\npetites réflexions annexes et un peu plus hors sujet : je n'arrête pas de penser à tes propositions d'index (et de l'ajout d'un module de derniers commentaires) que tu m'as faites sur mon blog.<br />\r\n<br />\r\nPour l'index, ça va me prendre un temps fou mais ça pourrait peut être s'envisager (par contre ça se présentera comme un billet normal avec la date en haut et l'auteur en bas, impossible de supprimer ça, ce qui est dommage car j'aurais aimé une page plus isolée et plus sobre), pour le module commentaires (avec uniquement les 5 derniers commentaires et sans l'auteur !!!! merci over-blog), je vais chercher à bidouiller pour arriver à faire un truc pas trop vilain (mais ça ne va pas être évident car il va falloir ruser et jongler...) en m'inspirant notamment de http://www.castalie.fr/ au design superbe (que tu connais sans doute ?)<br />\r\n<br />\r\nMerci en tout cas à toi d'essayer de faire évoluer mon blog dans le bon sens ;) je ferais ça dans les prochains mois (mais avec la maj de mon site perso, il faudra que je mette mon blog en \"vacances\")</p>"
+  },
+  {
+   "id": 665,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-06-03T13:21:20",
+   "contenu": "<p>Bah, on s'aperçoit vite que ce n'est pas possible et la frustration cesse.<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">petites réflexions annexes et un peu plus hors sujet : je n'arrête pas de penser à tes propositions d'index (et de l'ajout d'un module de derniers commentaires) que tu m'as faites sur mon blog.<br />\r\n<br />\r\nPour l'index, ça va me prendre un temps fou mais ça pourrait peut être s'envisager (par contre ça se présentera comme un billet normal avec la date en haut et l'auteur en bas, impossible de supprimer ça, ce qui est dommage car j'aurais aimé une page plus isolée et plus sobre), </span></blockquote><p>Il y a plus simple : une page html aux couleurs de ton carnet, avec un classement thématique des notes. Tu places le lien vers la page sur le cadre de gauche.<br />\r\n<br />\r\nSinon, tu fais le billet, et tu le fais périodiquement \"remonter\".<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">pour le module commentaires (avec uniquement les 5 derniers commentaires et sans l'auteur !!!! merci over-blog), je vais chercher à bidouiller pour arriver à faire un truc pas trop vilain (mais ça ne va pas être évident car il va falloir ruser et jongler...) en m'inspirant notamment de http://www.castalie.fr/ au design superbe (que tu connais sans doute ?)</span></blockquote><p>Pas du tout, je découvre. J'ai répéré quelques endroits pour aller commenter. Gottlieb, Wagner, Mozart... ma foi, on ne dit pas non. Et je n'ai exploré que la partie Ars Musica.<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Merci en tout cas à toi d'essayer de faire évoluer mon blog dans le bon sens ;) je ferais ça dans les prochains mois (mais avec la maj de mon site perso, il faudra que je mette mon blog en \"vacances\")</span></blockquote><p>Mais tu es libre ! C'est juste une suggestion, toi qui veux avoir une meilleure visibilité. Et c'est assez pratique pour le rédacteur et les lecteurs.</p>"
+  }
+ ],
+ "epingle": false
+}

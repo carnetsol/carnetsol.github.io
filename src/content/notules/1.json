@@ -1,0 +1,52 @@
+{
+ "postId": 1,
+ "titre": "Carnets sur sol",
+ "slug": "first-post",
+ "url": "/css/2005/04/28/1-first-post/",
+ "date": "2005-04-28T15:46:02",
+ "modifie": "2005-04-28T16:02:21",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "Ouverture. Tsim tsim tsoin tsoin. Merci Kozlika, merci Dotclear. Moins de dix minutes chrono pour cet outil potentiellement utile.\r\n<br />\r\nNous verrons !",
+ "notesHtml": "",
+ "extrait": "Ouverture. Tsim tsim tsoin tsoin. Merci Kozlika, merci Dotclear. Moins de dix minutes chrono pour cet outil potentiellement utile. Nous verrons !",
+ "nbCommentaires": 4,
+ "commentaires": [
+  {
+   "id": 27,
+   "auteur": "Kozlika",
+   "site": "www.kozlika.org/kozeries",
+   "date": "2005-06-08T05:54:27",
+   "contenu": "<p>Excuse-moi de t'écrire ici mais je n'arrive plus à remettre la main sur ton mail... Est-ce que je peux te demander de me renvoyer la liste des corrections que je dois apporter sur ta participation au Dis-moi dix mots s'il te plaît ? Ou si tu préfères m'envoyer une copie de ta saisie en wiki du billet correspondant ?</p>"
+  },
+  {
+   "id": 31,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2005-06-09T12:48:33",
+   "contenu": "<p>Bonjour Kozlika, et merci de me faire cette petite visite !<br />\r\n<br />\r\nLa correction n'est pas bien importante - juste l'oubli des guillemets au début de la lettre de Gounod. En fait, j'étais surtout intrigué par le remplacement de la majuscule, auquel je suis persuadé qu'il y a une raison, sans deviner laquelle toutefois.<br />\r\n<br />\r\nJe t'envoie la saisie Wiki du billet, mais fais-le seulement si tu en a le temps, rien ne presse follement ni n'est follement nécessaire.<br />\r\n<br />\r\nDavid - modérémentnécessiteux</p>"
+  },
+  {
+   "id": 13767,
+   "auteur": "Fouineur",
+   "site": "",
+   "date": "2020-08-12T19:59:55",
+   "contenu": "<p>Wow ce site est si vieux :o</p>"
+  },
+  {
+   "id": 13768,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2020-08-12T23:20:33",
+   "contenu": "Il existait même une première version de ce site, « Opéracritiques », en 2002. Mais CSS n'a jamais été silencieux un mois, et très rarement plus d'une semaine. Ce commence à être un vieux coucou en effet – et sa lisibilité sur téléphone est moyenne, certains exemples musicaux en logiciel libre flash, le nec plus ultra de l'époque, sont désormais boudés par défaut sur Chrome (et bientôt définitivement)…"
+  }
+ ],
+ "epingle": false
+}

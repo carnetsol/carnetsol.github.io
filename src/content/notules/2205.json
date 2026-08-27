@@ -1,0 +1,80 @@
+{
+ "postId": 2205,
+ "titre": "Teknologie",
+ "slug": "teknologie",
+ "url": "/css/2013/02/28/2205-teknologie/",
+ "date": "2013-02-28T17:55:08",
+ "modifie": "2013-02-28T17:55:54",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p><br />\nEnfin une bonne nouvelle :</p>\n\n\n<p>Le compositeur Julien Apost est né ce matin à 7h06. Sa musique de chambre est particulièrement singulière dans le paysage contemporain, assez loin de ce que produisent les différentes chapelles esthétiques qui nous sont familières.</p>",
+ "corpsHtml": "<small>Lassé de l'usage des nécrologies comme première source de l'actualité artistique, j'ai décidé de prendre enfin les choses par le bon bout. Et je crois avoir trouvé la solution : nous considérions simplement le sujet à rebours. </small>\n\n\n<p><br /></p>",
+ "notesHtml": "",
+ "extrait": "Enfin une bonne nouvelle : Le compositeur Julien Apost est né ce matin à 7h06. Sa musique de chambre est particulièrement singulière dans le paysage contemporain, assez loin de ce que produisent les différentes chapelles esthétiques qui nous sont familières.",
+ "nbCommentaires": 8,
+ "commentaires": [
+  {
+   "id": 8883,
+   "auteur": "Olivier",
+   "site": "",
+   "date": "2013-03-01T16:20:10",
+   "contenu": "<p>Bonjour,<br />\r\n<br />\r\nQuel jeu proposez-vous?<br />\r\nPar exemple, \"νενίκηκας Γαλιλαá¿–ε\"?</p>"
+  },
+  {
+   "id": 8885,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-02T11:10:07",
+   "contenu": "<p>Bonjour Olivier, <br />\r\n<br />\r\nJoliment vu !  Je n'avais pas fait la relation entre le patronyme de mon protégé et le titre... <br />\r\n</p>"
+  },
+  {
+   "id": 8886,
+   "auteur": "Cololi",
+   "site": "discopathe-anonyme.fr",
+   "date": "2013-03-04T13:56:08",
+   "contenu": "<p>Faut être héllénophone pour suivre ici ???</p>"
+  },
+  {
+   "id": 8887,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-04T22:20:16",
+   "contenu": "<p>Compétence appréciée, mais non exigée. <br />\r\n<br />\r\nIl y a juste deux références à deux des phrases (il n'y en a pas dix !) les plus célèbres dans cette langue. En plus ça concerne deux empereurs (ou assimilés). <br />\r\n<br />\r\nForcément, tu n'en es qu'au latin, c'est ta faute aussi : <em>sero te amavi, pulchritudo tam antiqua et tam nova, sero te amavi ! </em></p>"
+  },
+  {
+   "id": 8890,
+   "auteur": "Cololi",
+   "site": "discopathe-anonyme.fr/",
+   "date": "2013-03-05T09:37:05",
+   "contenu": "<p>Tentons une traduction :<br />\r\n<br />\r\nTardivement je t'ai aimé, beauté tellement ancienne et tellement nouvelle, tardivement je t'ai aimé !<br />\r\n<br />\r\nMais enfin je ne pige pas pourquoi pulchritudo est au nominatif (car je ne vois pas de quelle fonction il s'agit déjà en français).<br />\r\nOn dirait que c'est une proposition relative sans le \"que\" ... <br />\r\nLa beauté que j'ai aimé => la beauté n'est pas sujet, il est COD<br />\r\nDonc j'aurais écrit pulchritudem ... en rajoutant le pronom relatif \"quam\" (acc sing fem) :/<br />\r\n<br />\r\nBref j'ai bien peur de ne pas comprendre ^^<br />\r\n</p>"
+  },
+  {
+   "id": 8891,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-05T12:57:39",
+   "contenu": "<p>Oui, c'est cela. Tu vois, comme saint Augustin, même si tu arrives tardivement, tu excelles. :) <br />\r\n<br />\r\nEn français, on le considèrerait probablement comme une apposition qui développerait le pronom \"te\" (donc effectivement COD-accusation). Mais en latin, c'est clairement un vocatif, ne crois-tu pas ? :) <br />\r\n</p>"
+  },
+  {
+   "id": 8892,
+   "auteur": "Cololi",
+   "site": "discopathe-anonyme.fr/",
+   "date": "2013-03-05T13:50:24",
+   "contenu": "<p>Ah ! <br />\r\nJamais utilisé le vocatif :X<br />\r\n<br />\r\nC'est chaud quand même, car on ne peut pas le distinguer du nominatif (à part 2° decl sing masculin). Rajoute à ça l'absence de pronom personnel au nominatif, ça devient la grande nage.</p>"
+  },
+  {
+   "id": 8893,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-05T13:54:12",
+   "contenu": "<p>Tout dépend sur quels textes tu travailles. Mais ce n'est pas difficile, en fait, parce qu'on voit tout de suite, sans même étudier la structure de la phrase, si on s'adresse à quelqu'un. Ici, Augustin fait une sorte de convocation poétique de sa Révélation, il parle à ce concept, on pourrait mettre \"ô\" devant. Donc vocatif.  </p>"
+  }
+ ],
+ "epingle": false
+}

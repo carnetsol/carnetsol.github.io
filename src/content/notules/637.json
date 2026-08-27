@@ -1,0 +1,38 @@
+{
+ "postId": 637,
+ "titre": "En coup de vent",
+ "slug": "en-coup-de-vent",
+ "url": "/css/2007/06/21/637-en-coup-de-vent/",
+ "date": "2007-06-21T16:35:32",
+ "modifie": "2007-06-21T16:35:32",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Juste un mot d'information technique aux lecteurs de CSS. Il y aurait eu des interruptions longues à l'accès ; c'est lié à la présence de CSS sur le <em>serveur maudit</em> de cet hébergeur, le 143. Plusieurs solutions sont à l'étude, mais les choses semblent s'être améliorées.</p>\n\n\n<p>Il existe en tout état de cause une meute d'utilisateurs présente en permanence sur les interfaces de réclamation... Ce genre de problème est donc inévitablement signalé. Au bon vouloir de l'hébergeur, ensuite...</p>",
+ "notesHtml": "",
+ "extrait": "Juste un mot d'information technique aux lecteurs de CSS. Il y aurait eu des interruptions longues à l'accès ; c'est lié à la présence de CSS sur le serveur maudit de cet hébergeur, le 143. Plusieurs solutions sont à l'étude, mais les choses semblent s'être améliorées. Il existe en tout état de cause une meute…",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 2147,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-06-22T19:21:39",
+   "contenu": "<p>Je <del>stigmatise</del> signalize. Voilà.</p>"
+  },
+  {
+   "id": 2152,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-06-22T20:49:09",
+   "contenu": "<p>Hm. A peine ça repasse que ça engrange suffisamment de péchés pour faire pénitence pour trois semaines. <br />\r\nJ'espère que votre confesseur a du RTT, Monseigneur J*** de M***.</p>"
+  }
+ ],
+ "epingle": false
+}

@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import BoiteRecherche from '../components/BoiteRecherche.astro';
+
+const notules = await getCollection('notules');
+const triees = notules.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const cinq = triees.slice(0, 5);
+const total = triees.length;
+
+const categories = await getCollection('categories');
+const nbCategories = categories.length;
+
+const annees = [...new Set(triees.map((n) => n.data.date.getFullYear()))];
+const periode = annees.length
+  ? `de ${Math.min(...annees)} à ${Math.max(...annees)}`
+  : 'à importer depuis le dump Dotclear';
+
+const sections = [
+  {
+    href: '/css/',
+    titre: 'Le fil des notules',
+    detail: 'Les quinze dernières parutions, et la recherche plein texte.',
+  },
+  {
+    href: '/archives/',
+    titre: 'Archives',
+    detail: `${total.toLocaleString('fr-FR')} notules, ${periode}.`,
+  },
+  {
+    href: '/categorie/',
+    titre: 'Catégories',
+    detail: `${nbCategories} rubriques : genres, compositeurs, saisons, séries.`,
+  },
+  {
+    href: '/multimedia/',
+    titre: 'Multimédia',
+    detail: 'Vidéos, playlists, podcasts et enregistrements du domaine public.',
+  },
+  {
+    href: '/index-general/',
+    titre: 'Index (fragmentaire) & Linktree',
+    detail: 'Les entrées les plus consultées, rassemblées à la main.',
+  },
+];
+---
+<Base titre="Menu principal" lienMenu={false} menu={false}>
+
+  <BoiteRecherche />
+
+  <div class="contenu">
+    <ul class="sections">
+      {sections.map((s) => (
+        <li>
+          <a href={s.href}>{s.titre}</a>
+          <span>{s.detail}</span>
+        </li>
+      ))}
+    </ul>
+
+    <div class="cadre">
+      <h2>Dernières notules</h2>
+      <ul class="liste">
+        {cinq.map((n) => (
+          <li>
+            <span class="r-date">
+              {n.data.date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}
+            </span>
+            <span class="r-title"><a href={n.data.url}>{n.data.titre}</a></span>
+            <span class="r-cat">{n.data.categories[0]?.nom ?? ''}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+</Base>
+
+<style>
+  .sections { list-style: none; margin: 2em 0 2.5em; padding: 0; }
+  .sections li {
+    padding: .9em 0;
+    border-bottom: 1px dashed var(--parch-dark);
+  }
+  .sections li:last-child { border-bottom: none; }
+  .sections a {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 1.25em;
+    color: #000;
+  }
+  .sections a:hover { color: #8d6e68; }
+  .sections span {
+    display: block;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .82em;
+    color: var(--muted);
+    margin-top: .2em;
+  }
+</style>

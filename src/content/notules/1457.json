@@ -1,0 +1,23 @@
+{
+ "postId": 1457,
+ "titre": "Grands travaux",
+ "slug": "grands-travaux",
+ "url": "/css/2010/01/23/1457-grands-travaux/",
+ "date": "2010-01-23T11:16:39",
+ "modifie": "2010-01-24T10:02:33",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Ce matin, quelques adaptations utiles puisque personne ne trouve le chemin de l'index, et que le site devient alors un peu touffu.</p>\n\n<ul>\n<li>Rénovation du <a href=\"http://operacritiques.free.fr/\">portail du domaine</a>.</li>\n<li>Ajout d'un lien vers l'index en haut à gauche de chaque page.</li>\n<li>Ajout d'un lien vers l'index à la suite de chaque article.</li>\n<li>Ajout du lien vers la syntaxe BBcode pour les commentaires.</li>\n</ul>\n<p><br />\nCe devrait être suffisant.</p>",
+ "notesHtml": "",
+ "extrait": "Ce matin, quelques adaptations utiles puisque personne ne trouve le chemin de l'index, et que le site devient alors un peu touffu. Rénovation du portail du domaine . Ajout d'un lien vers l'index en haut à gauche de chaque page. Ajout d'un lien vers l'index à la suite de chaque article. Ajout du lien vers la syntaxe…",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

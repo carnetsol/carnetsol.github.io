@@ -1,0 +1,129 @@
+{
+ "postId": 859,
+ "titre": "Le billet le plus lu",
+ "slug": "le-billet-le-plus-lu",
+ "url": "/css/2008/02/15/859-le-billet-le-plus-lu/",
+ "date": "2008-02-15T09:44:27",
+ "modifie": "2008-02-15T10:58:27",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p>Un petit amusement en me baladant, il y a quelques mois, dans les ruelles de CSS.</p>\n\n\n<p>Quels sont les billets qui <em>fonctionnent</em> le mieux ?</p>\n\n\n<p>Le lauréat représente une grosse surprise, à dire vrai.</p>",
+ "corpsHtml": "<p>Si l'on parle en termes de nombres de lectures.</p>\n\n\n<p>Evidemment, ceux qui traitent d'actualité transversale (de politique par exemple) et qui sont à même de concerner tout le monde, ceux qui traitent de sujets d'actualité - les Victoires de la Musique rapportent plus que Hölderlin ou Reger. Ce seraient même de bons <em>produits d'appel</em>. Les enregistrements libres de droits aussi, mais dans une mesure bien moindre qu'on pourrait imaginer.</p>\n\n\n<p>Autre succès, plus inattendu : les billets badins et très courts. Amusant de constater - mais ce n'est pas du tout spécifique à CSS - combien un billet long intimide, et à quel point la discussion et la curiosité peuvent être vastes autour de choses extrêmement éphémères et bénignes. Le voisinage avec certaines contributions plus exigeantes au moins pour le rédacteur a parfois sa cruauté.</p>\n\n\n<p>Amusant aussi, sous certains billets, en faisant le décompte des commentateurs, on s'aperçoit qu'ils ont dû être à peu près les seuls à lire.</p>\n\n\n<pre></pre>\n\n\n<p>Mais l'on rencontre aussi quelques surprises, des billets qui fonctionnent très bien, souvent parce qu'ils sont bien référencés dans les moteurs de recherche. Les comptes-rendus de Sylvie Eusèbe sont bien souvent des succès, notamment ses Bach et ses <em>Müllerin</em>. L'équipe des lutins n'observe que très épisodiquement les liens entrants et les diverses requêtes, à titre indicatif, mais on a vu beaucoup d'entrées ici à la recherche de la soprane <a href=\"/css/2006/12/11/456-concert-bach-saint-saens-du-1er-decembre-2006-john-nelson-nathalie-stutzmann/\">Liliana Faraon</a>, qui n'a pas de site personnel en effet.</p>\n\n\n<p>Bien, bien. Mais quel est donc le billet le plus lu de tout CSS ?</p>\n\n\n<pre></pre>\n\n\n<p>Le billet le plus lu de CSS, figurez-vous, n'est pas particulièrement facile ou adressé à un vaste public. Au contraire, il est manifestement suffisamment précis, sur un sujet suffisamment peu traité en tant que tel, pour se trouver en tête des moteurs de recherche. Et si notre \"première place\" pour les <em>réformes constitutionnelles</em> ne paraît que moyennement efficace, ici, c'est un flot continu qui se déverse. Ce qui en fait de très loin le billet le plus fréquenté.</p>\n\n\n<p>Avec 159464 visites depuis l'installation de l'affichage du nombre de passants (soit quasiment un an après son écriture), c'est la notule sur <em><a href=\"/css/2006/01/01/129-l-opera-contemporain-ses-difficultes-ses-enjeux/\">L'opéra contemporain, ses difficultés, ses enjeux</a></em> qui emporte la palme. Le plus gros succès de la librairie virtuelle des lutins.</p>\n\n\n<p>A titre de comparaison, le billet à peu près contemporain sur <em><a href=\"/css/2006/01/31/144-parlons-lied-iii-waldesgesprach/\">Waldesgespräch</a></em> d'Eichendorff / Schumann, avec double traduction (dont une chantable) et partition, en est arrivé à 2287 lectures.</p>\n\n\n<pre></pre>\n\n\n<p>Ceci juste pour le plaisir de l'émerveillement. Car les gnomes sont toujours fascinés par ces affaires d'incidence du support sur le propos.</p>\n\n\n<pre></pre>\n\n\n<p>A croire que l'opéra contemporain mérite encore quelques éclaircissements - ou que son public est admirablement militant.</p>",
+ "notesHtml": "10 h 54 m 27",
+ "extrait": "Un petit amusement en me baladant, il y a quelques mois, dans les ruelles de CSS. Quels sont les billets qui fonctionnent le mieux ? Le lauréat représente une grosse surprise, à dire vrai.",
+ "nbCommentaires": 15,
+ "commentaires": [
+  {
+   "id": 3302,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-02-15T13:02:27",
+   "contenu": "<p>Heu... non pas du tout... c'est juste moi qui relis tous les matins midis et soirs ce billet, en espérant un jour aimer l'opéra contemporain...<br />\r\n<br />\r\nD'ailleurs il est possible que j'assiste prochainement à la création d'Elephant man de Petitgirard... je me demande sur quoi je vais tomber.</p>"
+  },
+  {
+   "id": 3304,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-15T15:11:53",
+   "contenu": "<p>Tout s'explique...<br />\r\n<br />\r\n<em>Elephant Man</em>, ça ne te traumatisera pas, c'est quelque part entre Britten et Poulenc, de la musique très agréable et bien écrite, mais pas du tout \"audacieuse\". </p>"
+  },
+  {
+   "id": 3306,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-02-15T20:05:53",
+   "contenu": "<p>Donc ce n'est pas la création... hum... et si en plus c'est gentillet comme Poulenc alors c'est même pas drôle.<br />\r\n<br />\r\nJ'ai découvert Poulenc lors du concert du 3 février avec la Maîtrise, j'ai beaucoup aimé... j'en parle dans mon compte-rendu... celui qui est encore en cours d'écriture.</p>"
+  },
+  {
+   "id": 3307,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-15T20:56:24",
+   "contenu": "<p>C'était quoi comme pièce de Poulenc, déjà ? <br />\r\n<br />\r\nElephant Man est plutôt comparable au Poulenc du Dialogue des Carmélites, donc un Poulenc sombre. Mais ce n'est pas de la musique difficile, ni même complexe. </p>"
+  },
+  {
+   "id": 3308,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-02-15T21:50:40",
+   "contenu": "<p>Les petites voix ! Quelques réminiscences des rythmes endiablés de Berlioz sur le moment (si je le jure), des pièces très difficiles pour choeur, surtout d'enfants. Je les ai entendues aussi en répétition, c'est vraiment \"retors\". Et on est loin de la modernité je trouve... plus théâtral qu'autre chose, mais c'était un bonheur.</p>"
+  },
+  {
+   "id": 3309,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-15T21:59:25",
+   "contenu": "<p>En réalité, oui, il existe de très belles choses pour les choeurs d'enfants, mais il faut que ce soit bien chanté. Je ne supporte que la Maîtrise de Radio-France - qui a fait en outre un travail de répertoire plus que formidable avec Toni Ramón, des pièces vraiment passionnantes (et très rares). </p>"
+  },
+  {
+   "id": 3310,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-02-15T22:25:39",
+   "contenu": "<p>Ah oui mais attention, ce ne sont même plus vraiment des enfants, mais des adolescentes et pré-adolescentes et deux ou trois gamines, donc pour certaines les voix sont vraiment belles et perçantes. Il faut les avoir entendues (en comité restreint plutôt que dans une église à l'acoustique douteuse) pour être touché profondément. <br />\r\nNon, je persiste, cette maîtrise est fabuleuse qaund elle s'y met.<br />\r\n<br />\r\nIl est possible que tu les entendes aussi à la radio prochainement, notamment dans deux mélodies de Debussy (les deux plus abordables je crois bien: \"Salut Printemps\" et le \"Noël des enfants qui n'ont plus de maison\")</p>"
+  },
+  {
+   "id": 3311,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-16T00:57:52",
+   "contenu": "<p>Le Noël des enfants qui n'ont plus de maison, ça me va très bien par une soprane, je dois dire. <br />\r\n<br />\r\nCe que tu me dis sur l'âge et le son perçant me terrifie. <br />\r\n<br />\r\nTu me signaleras le passage radio, que je te dise ? </p>"
+  },
+  {
+   "id": 3312,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-02-16T01:12:50",
+   "contenu": "<p>C'était prévu pour soprane à la base je crois, mais suite au succès (évident à l'époque), il l'a transposé pour choeur d'enfants, bah oui ce sont bien des enfants... Je pense que c'est incomparablement supérieur par des enfants, subjectif diras-tu.<br />\r\n<br />\r\nNe sois pas terrifié ! Je m'exprime peut-être mal: leur voix perçante signifie qu'elle est bien développée, plus riche que celle d'une jeune fille, qu'elle ressort admirablement. Quant à l'âge ça ne dit pas grand'chose... elles ne sont pas à la Maîtrise par hasard.<br />\r\n<br />\r\nLa radio ? oui bien sûr, ce n'est pas tout de suite, mais je ne manquerai pas de te prévenir. ;)</p>"
+  },
+  {
+   "id": 3313,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-16T01:17:22",
+   "contenu": "<p>Je ne sais pas si c'est subjectif, mais outre que j'ai de la compassion pour ces pauvres petits à chanter en costumes ridicules le soir tard, à tenir une discipline de fer, je trouve le son de la voix de ces petits braillards ni plus ni moins qu'épouvantable, Tölzer Knabenchor ou pas - je trouve ceux-là particulièrement éprouvants, d'ailleurs. <br />\r\n<br />\r\nJe ne sais pas pourquoi, alors qu'ils sont capables de parler à peu près correctement, ils ne parviennent pas à soutenir un son, ni à le vibrer - et par conséquent pas à chanter juste...<br />\r\n<br />\r\nEt doit-on parler de l'expression zéro, parce qu'ils n'ont pas encore conscience de ce qu'ils chantent, et accessoirement parce qu'ils sont morts de peur ? <br />\r\n<br />\r\n<br />\r\nBien. Voilà. Ma confession est faite. <br>Je supporte très bien les cromornes baveux et les sopranes aléatoirement justes, mais pas les petits braillards aux voix prétendument angéliques - Dieu me garde des Cieux !</p>"
+  },
+  {
+   "id": 3314,
+   "auteur": "HerrZeVrai",
+   "site": "",
+   "date": "2008-02-16T01:36:39",
+   "contenu": "<p>\"Je ne sais pas pourquoi, alors qu'ils sont capables de parler à peu près correctement, ils ne parviennent pas à soutenir un son, ni à le vibrer - et par conséquent pas à chanter juste...\"<br />\r\n<br />\r\nTu plaisantes ??? on ne doit pas parler des mêmes. Surtout que ce sont des braillardes ici, donc oui les voix sont angéliques, mais elles savent parfaitement tenir un son avec une belle homogénéité (je te dis que j'ai été au milieu d'elles, ça ne vibrait peut-être pas, mais ça vrillait encore moins).<br />\r\nQuant à l'interprétation, je dois avouer que je vais dans ton sens globalement, surtout en solo, mais en choeur, elles sont tout de même guidées, elles ont répété énormément avec un musicien. Que ce ne soit pas parfait, j'en conviens, mais que ça ne renforce pas le sentiment de cette musique bassement patriotique, je ne suis absolument pas d'accord.<br />\r\n<br />\r\nPS: Elles ne sont même pas effrayées depuis le temps qu'elles jouent en public. Elles ont même enregistré avec Plasson, Hampson et Graham le Werther de Massenet entre autres choses...</p>"
+  },
+  {
+   "id": 3315,
+   "auteur": "Gusâ€ av",
+   "site": "",
+   "date": "2008-02-16T12:08:57",
+   "contenu": "<p><strong><em>N. O. - Et les voix d’enfants ? On n’entend plus que des femmes, dans les cantates de Bach.</em></strong><br />\r\n<br />\r\n<strong>G. Leonhardt.</strong> - C’est dommage… Je préfère les garçons, mais si on n’en trouve pas de bonne qualité, il ne faut pas s’y tenir à tout prix. Il est vrai que les voix féminines introduisent une sensualité hors de propos, mais cela dépend aussi des personnes – et des chefs. La voix de femme est différente, c’est vrai, mais ne va pas contre le style. La règle qui interdisait l’église aux femmes n’était pas musicale. Aujourd’hui, les petits chanteurs sont plus rares, et muent trois ans plus tôt qu’au temps de Bach. Pour un chef c’est un vrai chemin de croix, il faut recommencer presque tous les mois avec un autre garçon ! Et quel travail !</p>"
+  },
+  {
+   "id": 3316,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-16T18:13:10",
+   "contenu": "<p>Oui, Leonhardt était un spécialiste des petits braillards, dont pas mal d'assez épouvantables. Mais je suis totalement d'accord avec son argumentation, la raison historique n'est pas musicale, et c'est un choix (même pas stylistique) selon la sensibilité du chef. <br />\r\nMais autant prendre des pros... Dieu merci, l'usage des enfants n'est plus trop à la mode, et rare en France. <br />\r\n<br />\r\nEntrevue très intéressante de Leonhardt, au passage (archives du <em>Nouvel Observateur</em>, je ne sais pas si elles sont gratuites).<br />\r\n<br />\r\n@ SignorIlVero : La réponse est en cours de rédaction, interrompue par notre mission commandée d'observation des choeurs locaux, avec des petits enfants entre autres (très bien d'ailleurs, je vais devoir manger mon chapeau). </p>"
+  },
+  {
+   "id": 3317,
+   "auteur": "skâ€ ns",
+   "site": "",
+   "date": "2008-02-16T19:05:38",
+   "contenu": "<p>Source :<br />\r\nhttp://tempsreel.nouvelobs.com/actualites/opinions/interviews/20071116.OBS5277/on_nenseigne_pas_la_beaute.html</p>"
+  },
+  {
+   "id": 3342,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/",
+   "date": "2008-02-22T22:14:39",
+   "contenu": "<p>Voici enfin la réponse ! Le temps d'une méditation pelléassienne, je pense que tu comprendras aisément. <br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\"><b>HerrZeVrai : </b><br/>Tu plaisantes ???</span></blockquote><p>Jamais avec ces petits affreux !<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">on ne doit pas parler des mêmes. Surtout que ce sont des braillardes ici, donc oui les voix sont angéliques, mais elles savent parfaitement tenir un son avec une belle homogénéité (je te dis que j'ai été au milieu d'elles, ça ne vibrait peut-être pas, mais ça vrillait encore moins).</span></blockquote><p>Oui, les filles, c'est généralement plus supportable, leur voix est plus stable et plus \"adulte\". Avec la mue de plus en plus précoce (on a témoignages du XVIIIe, où de petits chanteurs étaient chassés de leur Maîtrise à dix-neuf ans...). <br />\r\nPour celles-ci, je ne sais pas si je connais, je ne regarde pas la provenance des braillards sur les pochettes, je constate juste que c'est plus ou moins insupportable. <br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Quant à l'interprétation, je dois avouer que je vais dans ton sens globalement, surtout en solo, mais en choeur, elles sont tout de même guidées, elles ont répété énormément avec un musicien.</span></blockquote><p>Oui, c'est parfois réussi en choeur, alors qu'en solo c'est invariablement la catastrophe. Je suis toujours étonné de l'exigence absolue de certains mélomanes pour la moindre imprécision, et leur molle acceptation de ce résultat (les trois geignards de la Flûte !). <br />\r\n<br />\r\nEn réalité, il y a des cas où je trouve leur emploi nécessaire : la multitude piaillante de Werther par exemple. Mais dans Genitrix, c'était un calvaire, alors même qu'il chantait tout à fait correctement - la musique à ce moment-là totalement dépouillée et en boucle n'aidait pas à l'affaire. <br />\r\n<br />\r\nEn solo, il n'y a qu'un cas où je ne le remplace pas par une voix de femme : <a href=\"http://operacritiques.free.fr/css/index.php?2007/09/07/713-a-la-decouverte-de-pelleas-et-melisande-de-claude-debussy-maurice-maeterlinck-xi-yniold-et-son-double-polypheme-jean-cras-lycas-golaud\" target=\"_blank\">Yniold</a>. Et encore, avec <a href=\"http://operacritiques.free.fr/css/index.php?2007/08/24/699-claude-debussy-pelleas-et-melisande-haitink-onf-kozena-lapointe-naouri-tce-16-juin-2007\">Amel Brahim-Djelloul</a> et Colette Alliot-Lugaz, la question ne se pose plus vraiment, puisque l'ambiguïté est parfaite, mais avec une voix parfaitement travaillée. <br />\r\n<br />\r\nParce que dans ce cas, l'agacement (surtout avec ses lignes vocales brutalement ascendantes et perçantes, ses incompréhensions, ses réponses pleurnichardes en boucle) crée une forme d'empathie avec le personnage irrité du père - comme l'as lu ici même, Golaud est d'une certaine façon la mesure humaine du drame (je ne retrouve plus la notule précise), en tout cas le personnage le plus incarné, crédible et attachant. Dans la scène de violences en <a href=\"http://operacritiques.free.fr/css/index.php?2007/09/07/713-a-la-decouverte-de-pelleas-et-melisande-de-claude-debussy-maurice-maeterlinck-xi-yniold-et-son-double-polypheme-jean-cras-lycas-golaud\" target=\"_blank\">III,4</a>, ce tandem irritationYniold-empathieGolaud est très précieux. Nous-mêmes, nous nous chargeons du poids moral de ces violences, nous sommes impulsivement soulagés de voir l'enfant châtié pour son attitude agaçante (Tria où es-tu ?) - et effrayés de notre consentement tacite.<br />\r\n<br />\r\nDe surcroît, généralement bien chanté par les petits solistes. Que ce ne soit pas toujours propre n'est pas bien grave : en réalité, c'est extrêmement bien pensé par Debussy. La championne de cette équivoque est bien sûr Colette Alliot-Lugaz. <br />\r\n<br />\r\n<br />\r\n[... mais cette semaine, en écoutant [i]Tarare de Salieri, je me dis que c'est fort bien écrit aussi pour l'enfant des augures - qui intervient peu, et qui est tout à fait niais, c'est donc absolument parfait. Ligne très bien écrite également, des inventions très courtes, par bribes, et ces montées soudaines dans l'aigu, un peu plaintives, tout à fait ce qui convient à l'expression de ce type de voix.]<br />\r\n<br />\r\n<br />\r\n</p><blockquote><span style=\"font-size: 11px; line-height: normal\">Que ce ne soit pas parfait, j'en conviens, mais que ça ne renforce pas le sentiment de cette musique bassement patriotique, je ne suis absolument pas d'accord.</span></blockquote><p>Oui, c'est mieux en choeur, et surtout avec des voix de filles, plus justes, moins braillardes. <br />\r\n<br />\r\n<br />\r\nDe toute façon, je ne trouve pas épanouissant pour un enfant de jouer un enfant. Vu de l'adulte, c'est charmant, ce monde en miniature, mais la visée de l'enfant est au contraire de se former et de \"faire l'adulte\". Leur faire chanter ces textes niais (je parle des soli en effet), ça me paraît leur imposer un ridicule assez cruel, dont ils doivent très bien sentir le pouvoir régressif. <br />\r\n<br />\r\nEn tout cas, moi, tout jeune, j'aurais été en pétard si on m'avait demandé de faire ça. Surtout si on avait essayé de me le vendre comme de la musique ou de la gloire...</p>"
+  }
+ ],
+ "epingle": false
+}

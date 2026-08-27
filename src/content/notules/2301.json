@@ -1,0 +1,129 @@
+{
+ "postId": 2301,
+ "titre": "L'Histoire de la Musique en schémas – n°5 : génie et obscurité",
+ "slug": "l-histoire-de-la-musique-en-schemas-n5-genie-et-obscurite",
+ "url": "/css/2013/08/12/2301-l-histoire-de-la-musique-en-schemas-n5-genie-et-obscurite/",
+ "date": "2013-08-12T01:13:55",
+ "modifie": "2013-08-12T01:17:29",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p><br />\nDans le même goût que ce qui a précédé :</p>\n<ul>\n<li>n°1 : <a href=\"/css/2012/11/01/2112-l-histoire-de-la-musique-en-schemas-n1/\">inspiration, productivité et servilité</a></li>\n<li>n°2 : <a href=\"/css/2012/11/06/2117-l-histoire-de-la-musique-en-schemas-n2-audace-et-renouvellement/\">audace et renouvellement</a></li>\n<li>n°3 : <a href=\"/css/2012/11/12/2124-l-histoire-de-la-musique-en-schemas-nr-3-genie-et-vilenie/\">génie et vilenie</a></li>\n<li>n°4 : <a href=\"/css/2012/12/01/2143-l-histoire-de-la-musique-en-schemas-4-mort-atroce-genie/\">mort atroce et génie</a></li>\n</ul>\n<p><br />\nvoici une petite façon de se rendre compte des choix faits par les canaux de diffusion.</p>\n\n\n<p>Je n'avais pas initialement publié ce joli diagramme parce qu'il révèle peut-être un peu de forfanterie, mais les lutins de CSS ne craignant ni la médisance, ni le juste blâme, le voici :</p>",
+ "corpsHtml": "<p><br /></p>\n<center><img src=\"/medias/infographie_5_genie_obscurite.png\" width=\"100%\"></center>\n\n\n<p><br />\nComme d'habitude, si vous regardez dans le détail, vous pourrez repérer quelques méchancetés gratuites (dont je me flatte).</p>\n\n\n<p>Les aires sont assez parlantes, et effectivement, je prétends en les délimitant que je ne promeus que des compositeurs de premier (ou à tout le moins second) intérêt. Mais c'est bien le moins que d'être convaincu que je ne refile pas de la mauvaise came.</p>\n\n\n<p>Et puis, à bien y regarder de près, on voit que les grands médias se tiennent, du moins pour les plus spécialisés, au plus près du génie le plus ultime, tandis que CSS furète plutôt du côté de figures à peine moindres, mais beaucoup moins diffusées. [Encore que, ces derniers temps, j'aie l'impression de ne parler que de Wagner et Mozart.]</p>",
+ "notesHtml": "",
+ "extrait": "Dans le même goût que ce qui a précédé : n°1 : inspiration, productivité et servilité n°2 : audace et renouvellement n°3 : génie et vilenie n°4 : mort atroce et génie voici une petite façon de se rendre compte des choix faits par les canaux de diffusion. Je n'avais pas initialement publié ce joli diagramme parce qu'il…",
+ "nbCommentaires": 15,
+ "commentaires": [
+  {
+   "id": 9219,
+   "auteur": "Cololi",
+   "site": "discopathe-anonyme.fr/",
+   "date": "2013-08-12T10:55:07",
+   "contenu": "<p>J'adore ton schéma :D<br />\r\n<br />\r\nLes méchancetés sur Pagny, Orff, Glass et l'IRCAM ... je savoure :D (et celle sur Opera Rara aussi ^^).<br />\r\n</p>"
+  },
+  {
+   "id": 9220,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2013-08-12T12:47:21",
+   "contenu": "<p>Je suis pas sûr que Neuwirth ou Glass considèrent que je suis méchant avec Pagny. :)<br />\r\n<br />\r\nJ'ai essayé d'être très précis sur la place relative des points du bas du schéma, avec une forme de satisfaction malfaisante qu'on doit pouvoir classer parmi les perversions, j'en conviens. </p>"
+  },
+  {
+   "id": 9221,
+   "auteur": "Cololi",
+   "site": "discopathe-anonyme.fr/",
+   "date": "2013-08-12T18:57:18",
+   "contenu": "<p>C'est rigolo, car ça montre assez justement les guerres de tranchées du monde musical ... et les cessités respectives des différents mondes/médias.</p>"
+  },
+  {
+   "id": 9222,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2013-08-13T00:38:06",
+   "contenu": "<p>Oh, je n'ai pas la prétention d'aller si loin, je crois que ça montre surtout le rapport étroit d'un support avec l'offre culturelle qu'il peut proposer. Ca rejoint assez ce dont on devisait récemment à propos de l'impact de la dématérialisation sur la disponibilité (potentiellement inaltérable) des catalogues. <br />\r\n<br />\r\nAprès, oui, sur CSS, il y a clairement un angle mort qui contient des babioles comme <em>L'Art de la Fugue</em> ou <em>Le Sacre du Printemps</em>, j'en conviens tout à fait. <br />\r\n</p>"
+  },
+  {
+   "id": 9223,
+   "auteur": "Francoistit",
+   "site": "",
+   "date": "2013-08-13T12:13:15",
+   "contenu": "<p>Bonjour David,<br />\r\n<br />\r\nextrêmement plaisant comme schéma (des trollitudes si cachent et c'est tant mieux) :D <br />\r\n<br />\r\nTu as fait attention de laisser un petit carré de compétence à l'Ircam pour le domaine de la radio. <br />\r\n<br />\r\nEt Je suis sur que Philippe Glass adorerait se situer en dessous de Pagny et (presque) à hauteur de Vassily :D </p>"
+  },
+  {
+   "id": 9224,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2013-08-13T13:15:19",
+   "contenu": "<p>Bonjour François ! <br />\r\n<br />\r\nJe vois avec plaisir que tu as prêté garde au détail... Effectivement, il y a les créations règlementaires sur France Mu ; ce serait un peu plus volumineux si on ne considérait que cette station, mais il y a aussi Radio Classiquek et France Inter, où la place du contemporain, <em>a fortiori</em> rugueux...<br />\r\n<br />\r\nMerci de ton passage. :) </p>"
+  },
+  {
+   "id": 9225,
+   "auteur": "Cololi",
+   "site": "discopathe-anonyme.fr/",
+   "date": "2013-08-14T10:06:13",
+   "contenu": "<p>Parce que tu crois que les autres ne font pas attention aux détails !!! ???<br />\r\nCe schéma est parfaitement juste ... puisque Wagner est au sommet :D<br />\r\nJ'ai bien aimé Vivaldi à mi-chemin entre le génie et la fange lol Comme si il était a jamais difficile de choisir chez lui si c'était du lard ou du cochon.<br />\r\n<br />\r\nPuis il manque le coin du discopathe anonyme !</p>"
+  },
+  {
+   "id": 9226,
+   "auteur": "Ugolino le Profond",
+   "site": "",
+   "date": "2013-08-14T13:02:37",
+   "contenu": "<p>Wagner est au sommet seulement parce qu'il manque Lully.</p>"
+  },
+  {
+   "id": 9228,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2013-08-15T16:48:32",
+   "contenu": "<p>Ah, <strong>Ugolino</strong>, enfin quelqu'un capable de voir clair dans ce monde de fausses valeurs. Ce que je n'ose formuler, il le trompette vaillamment. <br />\r\n<br />\r\n<br />\r\n<strong>@ Cololi :</strong> <br />\r\n<br />\r\nPour Vivaldi, c'est-à-dire qu'il monte très haut dans ce qu'il a fait de plus inspiré (et les Quatre Saisons méritent complètement leur rang), mais il a tellement produit, des choses assez semblables, souvent excellentes mais pas toujours profondes... oui, presque indécidable. <br />\r\n<br />\r\nLe <a href=\"http://discopathe-anonyme.fr/\" target=\"_blank\">Discopathe-Anonyme</a> serait sans doute à placer dans la moitié haute du domaine de la radio... :) </p>"
+  },
+  {
+   "id": 13623,
+   "auteur": "Benedictus",
+   "site": "",
+   "date": "2019-12-14T16:45:23",
+   "contenu": "<p>Hilarante, et tellement juste, cette infographie!<br />\r\nCela dit, il y a quelque chose qui m'intrigue un peu, c'est cette intersection entre «compétence de l'IRCAM» et «Label Opera Rara»... Du <em>belcanto</em> proto-sériel?</p>"
+  },
+  {
+   "id": 13629,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-12-14T17:51:44",
+   "contenu": "C'est vrai que ça fait longtemps que je n'en ai pas proposé… j'en ai encore une liste à épurer…<br><br>\r\n\r\nCe n'est évidemment pas une intersection : qu'il y ait le même degré d'obscurité / de génie ne signifie pas qu'il y ait des compositeurs communs. <br>\r\nLe belcanto romantique se fondant largement sur des mélodies parfaitement conjointes (écarts mélodiques rarement supérieurs à la tierce majeure !), écrire ça en sériel serait compliqué, ou il faudrait tricher en inscrivant de doubles gammes du type do ré mi fa sol la si do# mib fa# sol# sib au cœur de la série…"
+  },
+  {
+   "id": 13631,
+   "auteur": "Benedictus",
+   "site": "",
+   "date": "2019-12-14T20:52:10",
+   "contenu": "<p>Je viens de regarder toute la série, c'est très drôle.<br />\r\n<br />\r\nDallapiccola, peut-être? (Dommage que les chanteurs de <em>belcanto</em> manquent d'audace: ils pourraient se risquer à faire des ornementations façon <em>Marteau sans maître</em> dans <em>Maria Stuarda</em>.)</p>"
+  },
+  {
+   "id": 13633,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-12-15T10:46:43",
+   "contenu": "Rien que les accacciatures du Faucon de la Femme sans ombre, ça ferait son petit effet. (Sans parler de toute la panoplie Nella Anfuso.)<br>Mais tu arrives trop tard, Gruberová fait déjà ça.<br><br>\r\n\r\nParmi les prochains, j'avais envie d'étendre aux chefs : « petit nombre de concerts & grande quantité de pâmoisons », « moulinets & profondeur », « air méchant & éloge critique »…"
+  },
+  {
+   "id": 13636,
+   "auteur": "Benedictus",
+   "site": "",
+   "date": "2019-12-15T14:56:38",
+   "contenu": "<p>C'est quoi, «la panoplie Nella Anfuso»?<br />\r\n<br />\r\nSinon, j'avais aussi pensé à un diagramme sur les pianistes: originalité du répertoire / nombre de pains / admiration des pianophiles.</p>"
+  },
+  {
+   "id": 13637,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2019-12-15T16:33:48",
+   "contenu": "Ah oui, parfait !  Avec A. Cortot et S. François au centre du cercle !<br><br>\r\n\r\nNella Anfuso, chanteuse, avait appliqué sa théorie sur la variété des agréments & ornements réellement en vigueur à l'époque de Monteverdi (elle se vantait d'en maîtriser des dizaines), avec un résultat un peu caquetant qui a beaucoup fait rire les amateurs. <br><br>\r\n\r\nVois par exemple : <a href=\"https://www.youtube.com/watch?v=ljoZxB95LD4\" target=\"blank\">https://www.youtube.com/watch?v=ljoZxB95LD4</a>."
+  }
+ ],
+ "epingle": false
+}

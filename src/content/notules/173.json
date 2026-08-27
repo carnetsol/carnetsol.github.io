@@ -1,0 +1,122 @@
+{
+ "postId": 173,
+ "titre": "Animas salvandas sunt",
+ "slug": "animas-salvandas-sunt",
+ "url": "/css/2006/03/15/173-animas-salvandas-sunt/",
+ "date": "2006-03-15T05:05:03",
+ "modifie": "2006-05-31T15:53:43",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "<p>Pour régler le désagrément technique que je viens de découvrir.</p>",
+ "corpsHtml": "<p><br />\nComme dit précédemment, j'utilise Opera 8, et je m'en porte très bien. Petit résumé de ses avantages.</p>\n\n<ul>\n<li>ouvertures des pages automatiquement par onglets</li>\n<li>pop-ups signalées mais bloquées</li>\n<li>raccourcis souris qui permettent de naviguer (extrêmement confortable, ça manque après !)</li>\n<li>zoom via la souris</li>\n<li>cadre de navigation le plus grand du marché</li>\n<li>possibilité de désactiver instantanément les images (ou de ne conserver que celles du cache)</li>\n<li>identification au choix pour les fureteurs</li>\n<li>gestion très intuitive et efficace des flux RSS</li>\n<li>cadre de recherche Google en haut à droite, sans avoir besoin de se connecter</li>\n<li>possibilité d'installer des raccourcis sur la basse d'adresses</li>\n<li>signets automatiquement disponibles sur les pages blanches</li>\n<li>liste des sites les plus fréquemment visités</li>\n<li>flash et autres joyeusetés automatiquement disponibles</li>\n<li>léger, souple, rapide et stable</li>\n<li>cache disponible depuis le navigateur (récupérer une page fermée ou au contraire purger facilement le cache)</li>\n<li>mémorisation de la situation de l'ensemble des onglets, même en cas de fermeture accidentelle : vous pouvez vous retrouver sur les trente sites que vous visitiez simultanément avant la fermeture.</li>\n<li>signets par abréviation (accessibles en tapant leur nom en barre d'adresses)</li>\n<li>Opera \"brise\" aussi les liens trop longs, en maintenant le lien, là où d'autres navigateurs les rendent inactifs ou déforment le cadre.</li>\n<li><strong>Je m'aperçois qu'Opera mémorise les entrées, si bien que si vous pouvez, si vous entrez un commentaire et que le serveur plante, faire marche arrière et le récupérer, même si vous ne l'avez pas sauvegardé !</strong> Ce que ne fait pas Firefox...</li>\n<li>J'ai aussi oublié de préciser que si vous fermez un onglet par erreur, vous pouvez le récupérer dans la corbeille et même voir encore les pages précédentes si besoin. <br /></li>\n</ul>\n<p><br /></p>\n\n\n\n<p>J'en oublie certainement, mais peu de navigateurs ont tout ça à la fois. Internet Explorer n'a <em>aucune</em> de ces fonctionnalités.  Il en manque bon nombre à Netscape. Firefox n'atteint pas tout cela non plus, à moins de le \"pluger\" dans tous les sens - et encore.</p>\n\n\n<p>Bref, vous avez là la solution si d'aventure l'interface d'Ifrance, entre autres, vous chagrine.</p>",
+ "notesHtml": "",
+ "extrait": "Pour régler le désagrément technique que je viens de découvrir.",
+ "nbCommentaires": 14,
+ "commentaires": [
+  {
+   "id": 300,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-15T10:44:54",
+   "contenu": "<p>merci pour l'info ;), je viens de voir qu'Opera 8.52 existe pour Mac OS X, je vais de ce pas télécharger ça ! :) sinon sur Mac, Safari est bien foutu aussi, je m'en sert à 95% pour surfer... il a l'avantage de se charger instantanément (contrairement à Firefox, beaucoup plus lourd à charger...)<br />\r\n<br />\r\nA +</p>"
+  },
+  {
+   "id": 304,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-15T11:58:40",
+   "contenu": "<p>D'après ce que j'en sais, Safari est très performant, oui. Et il permet, en plus, de sauvegarder directement au format PDF, sans bidouiller avec Ghostscript et une imprimante fantôme.<br />\r\n<br />\r\nDu coup, je ne sais pas si tu seras concerné. :)</p>"
+  },
+  {
+   "id": 310,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-15T15:54:28",
+   "contenu": "<p>oui, tout à fait mais Safari n'est pas le seul concerné, car c'est le système d'Apple (Mac OS X) qui permet cette prouesse (donc avec TOUT les logiciels Macintosh) ;)<br />\r\n<br />\r\nfait moins connu, le système d'Apple permet également de visionner n'importe quel fichier Postscript (EPS ou PS) ;)</p>"
+  },
+  {
+   "id": 311,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-15T16:03:15",
+   "contenu": "<p>Eh, dis, un Mac, ça fait traitement de texte aussi ?</p>"
+  },
+  {
+   "id": 312,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-15T19:29:22",
+   "contenu": "<p>petit moqueur va... ;) allez, toi aussi tu as entendu du mal de ce système, c'est ça ? ;)<br />\r\n<br />\r\nbon OK, la politique d'Apple est globalement la même que Microsoft : grosso modo le seul profil AVANT le confort des clients... mais au moins le système d'Apple repose sur du Unix à la base (du moins depuis l'arrivée du système OS X), ce qui est loin d'être le cas de Windows ! ;)</p>"
+  },
+  {
+   "id": 313,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-15T23:29:16",
+   "contenu": "<p>En fait, à moins de besoins spécifiques (traitement professionnel du son, par exemple), je ne vois pas trop l'intérêt d'acheter un Mac.<br />\r\n<br />\r\n- plus cher<br />\r\n- des tas de logiciels non compatibles<br />\r\n- inculture Windows des utilisateurs Mac qui leur est souvent préjudiciable, étant donné que la majorité des postes tournent sous Windows<br />\r\n<br />\r\nPour le reste, je ne connais pas le système Mac et je ne me prononce pas. Mais l'utilisateur déjà peu à l'aise avec son Mac pour qui il faut trouver des applications compatibles, ou qui panique dès qu'on parle de clic droit, ça ne donne pas une très bonne impression aux utilisateurs de Windows, même patients.<br />\r\n<br />\r\nL'idéal doit être Linux/Unix - si l'on a beaucoup, beaucoup de patience.</p>"
+  },
+  {
+   "id": 314,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-16T10:44:55",
+   "contenu": "<p>Je m'engage sur un terrain miné mais je tente tout de même ;)<br />\r\n<br />\r\nJe travaille dans la pub (qui utilise majoritairement des Mac comme dans le traitement professionnel du son et de la vidéo) et j'ai donc débuté avec un Mac, c'est un peu culturel chez moi... ;)<br />\r\n<br />\r\nPS : je connais aussi Windows... ;) (pas si inculte sur ce plan, je dépanne souvent ma collègue d'ailleurs... c'est d'ailleurs une légende de croire que tous les utilisateurs Mac n'y connaissent rien en Windows, c'est même un peu caricatural)<br />\r\n<br />\r\nPS 2 : je connais une technique pour se passer totalement de Mac OS X sur les machines Macintosh et faire tourner uniquement du Linux, tu vois, tout est possible, même sur Mac... ;)<br />\r\n<br />\r\nA +</p>"
+  },
+  {
+   "id": 315,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-16T13:20:42",
+   "contenu": "<p>\"Je travaille dans la pub (qui utilise majoritairement des Mac comme dans le traitement professionnel du son et de la vidéo)\"<br />\r\n<br />\r\nTout à fait, dans ce cas-là, le Mac est plus que recommandé, pour ce que j'en sais.<br />\r\n<br />\r\n<br />\r\n\"PS : je connais aussi Windows... ;) (pas si inculte sur ce plan, je dépanne souvent ma collègue d'ailleurs... c'est d'ailleurs une légende de croire que tous les utilisateurs Mac n'y connaissent rien en Windows, c'est même un peu caricatural)\"<br />\r\n<br />\r\nOuaip, eh bien nous n'avons pas les mêmes fréquentations. Les deux tiers aux trois quarts des gens que je fréquente via Internet ont un Mac, et il m'arrive très régulièrement de faire du support technique.<br />\r\nCa veut dire deviner les problèmes, trouver un moyen de contourner les différences entre les deux systèmes, fouiner pour trouver un logiciel équivalent (que, n'ayant jamais installé, je ne peux aider à faire fonctionner), etc.<br />\r\nJe le fais volontiers, entendons-nous, mais je n'ai pas la même image de l'utilisateur de Mac que toi.<br />\r\n<br />\r\nPour moi, l'utilisateur de Mac aime l'opéra et a peur des ordinateurs. <];oD<br />\r\n<br />\r\nMot à ne jamais prononcer sous peine de créer une panique irrépressible : \"clic droit\".</p>"
+  },
+  {
+   "id": 316,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-16T19:07:51",
+   "contenu": "<p>OK ça va mieux en le disant ;)<br />\r\n<br />\r\ndisons que contrairement aux personnes que tu connais, moi j'adore l'informatique et le clic droit je te rassure, ça ne m'affole pas du tout... :)<br />\r\n<br />\r\nA +</p>"
+  },
+  {
+   "id": 317,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-16T21:18:01",
+   "contenu": "Effectivement, ce n'était pas à toi que je pensais... Il n'y a qu'à voir l'allure de ton carnet !<br><br>\r\n\r\nTu as acquis une vraie souris, ou tu utilises le raccourci clavier, pour remplacer le clic droit ?"
+  },
+  {
+   "id": 318,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-17T10:39:47",
+   "contenu": "<p>merci... en fait, j'ai les deux mon capitaine ;), chez moi, j'ai une souris à 2 boutons (même mon fils s'en sert, enfin très peu souvent car il est bien trop jeune pour le moment, j'ai pas envie d'en faire un \"camé\" de l'écran, il a bien le temps ;)) et au bureau, j'utilise le raccourci clavier !</p>"
+  },
+  {
+   "id": 319,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-03-17T10:43:58",
+   "contenu": "<p>A noter par ailleurs que la souris Mac à 2 boutons est absolument indispensable dans le cas des très nombreux logiciels Linux compilés pour Mac (qui tournent sous X11) mais également dans le cas d'un logiciel 3D comme Blender (porté sous Mac également) qui utilise le clic droit à outrance.<br />\r\n<br />\r\nA +</p>"
+  },
+  {
+   "id": 320,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-03-17T10:49:12",
+   "contenu": "<p>Merci pour la leçon de choses. :-)<br />\r\n<br />\r\nMes brebis à moi n'ont pas de clic droit ET ignorent jusqu'à l'existence du raccourci clavier. <br />\r\n<br />\r\nMais un Maconaute comme toi, c'est une bénédiction. 8-)</p>"
+  },
+  {
+   "id": 637,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-05-31T15:54:29",
+   "contenu": "<p>Mise à jour du billet.</p>"
+  }
+ ],
+ "epingle": false
+}

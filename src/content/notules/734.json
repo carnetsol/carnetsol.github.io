@@ -1,0 +1,38 @@
+{
+ "postId": 734,
+ "titre": "Astuce pour rechercher dans CSS",
+ "slug": "astuce-pour-rechercher-dans-css",
+ "url": "/css/2007/10/23/734-astuce-pour-rechercher-dans-css/",
+ "date": "2007-10-23T21:51:16",
+ "modifie": "2007-10-23T22:11:04",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "A l'index",
+   "slug": "A-l-index"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Si vous ne retrouvez pas un article <em>via</em> le moteur de la colonne de droite à cause d’une affaire d’accent (l'article sur <a href=\"/css/2007/02/10/514-jerome-correas-baryton-basse-melodie-opera-tragedie-lyrique-les-paladins-lully-rameau/\">Jérôme Corréas</a>, en particulier, est mal référencé), ou si vous souhaitez mettre la main sur un commentaire (ils ne sont pas traités par la recherche interne à CSS) :</p>\n\n\n<p>=> sur un moteur de recherche, entrer « site:http://operacritiques.free.fr/css/ + <em>VotreRecherche</em> », le procédé fonctionne assez bien, même si toutes les pages de <em>Carnets sur sol</em> ne sont pas référencées...</p>",
+ "notesHtml": "5 octobre 07 ; 17 00 49",
+ "extrait": "Si vous ne retrouvez pas un article via le moteur de la colonne de droite à cause d’une affaire d’accent (l'article sur Jérôme Corréas , en particulier, est mal référencé), ou si vous souhaitez mettre la main sur un commentaire (ils ne sont pas traités par la recherche interne à CSS) : => sur un moteur de recherche,…",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 2650,
+   "auteur": "vartan",
+   "site": "",
+   "date": "2007-10-23T23:47:28",
+   "contenu": "<p>Il ne reste plus qu'à inventer un moyen de retrouver ce billet quand on en cherchera d'autres. Palsembleu ! Une vision des univers parallèles et de l'infini sur CSS, en quelques lignes seulement !<br />\r\n8-O</p>"
+  },
+  {
+   "id": 2652,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-10-23T23:57:08",
+   "contenu": "<p>Il est dans la rubrique \"<a href=\"http://operacritiques.free.fr/css/index.php?A-l-index\" target=\"_blank\">à l'index</a>\", la dernière de la liste - celle dévolue à la recherche sur CSS, donc facile à trouver.  <]8-)<br />\r\n<br />\r\nMais si tu désires élaborer une dissertation sur la dimension borgésienne de <em>Carnets sur sol</em>, je t'en prie...<br />\r\n<br />\r\n<br />\r\nCa s'adressait avant tout aux habitués, les autres apprendront le cas échéant, s'ils ont réellement besoin de notre oracle. </p>"
+  }
+ ],
+ "epingle": false
+}

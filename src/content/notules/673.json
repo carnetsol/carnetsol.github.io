@@ -1,0 +1,59 @@
+{
+ "postId": 673,
+ "titre": "Enregistrer les radios du monde",
+ "slug": "enregistrer-les-radios-du-monde",
+ "url": "/css/2007/08/06/673-enregistrer-les-radios-du-monde/",
+ "date": "2007-08-06T13:20:10",
+ "modifie": "2007-08-06T14:19:38",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Les astuces de Tonton David",
+   "slug": "Les-astuces-de-tonton-david"
+  }
+ ],
+ "chapoHtml": "<p>Dans la série <em>CSS rend votre vie plus douce et votre peau plus trépidante</em>, prenons la suite de ce que nous expliquions jadis : <a href=\"/css/2006/05/22/242-ecouter-les-radios-du-monde-a-volonte/\">Ecouter les radios du monde à volonté, sans 'surfer'</a>.</p>\n\n\n<p>Aujourd'hui : comment diable enregistrer un programme exceptionnel diffusé par quelque obscure radio exotique ?</p>\n\n\n<p>Un tutoriel qui devrait permettre à chacun de s'y frotter sans peine.</p>",
+ "corpsHtml": "<p><br />\n<strong><ins>1. Où prendre connaissance des programmes ?</ins></strong></p>\n\n\n<p>Comme nous vous invitions, on peut employer <a href=\"/css/2006/05/22/242-ecouter-les-radios-du-monde-a-volonte/\">nos astuces</a> de repérage de programmes et de diffusion sur votre machine. Avec la sélection (exclusive) des lutins de <em>Carnets sur sol</em> !</p>\n\n\n<p>Mais pour faire vite, citons <a href=\"http://www.operacast.com\" hreflang=\"en\">Operacast</a>, qui sélectionne l'ensemble du lyrique mondial en diffusion radio par internet, mis à jour toutes les semaines, et parfaitement fiable. On y trouve aussi une liste à peu près exhaustive de l'ensemble des radios classiques du monde.</p>\n\n\n<pre></pre>\n\n\n<p><strong><ins>2. Comment enregistrement un programme radio pour réécoute ultérieure ?</ins></strong></p>\n\n\n<p>Commencez par <strong>régler votre son</strong> : ouvrez le gestionnaire de son (Sndvol32.exe , chez Windows). Puis Options/Propriétés, et sélectionner le volume d'enregistrement. Vous pouvez alors choisir le canal (interne, pas le microphone). Souvent un mixeur mono ou stéréo. Et régler l'intensité du signal, de façon à éviter la saturation (elle apparaît visuellement sur n'importe quel logiciel, vous le verrez vite). <br />\nAttention, dans votre panneau son habituel, la commande \"Volume Control\" peut émettre des sons, et la commande \"Wave\" influe sur le volume de l'enregistrement. Employez-les avec précaution durant l'enregistrement !</p>\n\n\n\n<p>Plusieurs <strong>logiciels</strong> en <em>freeware</em> ou <em>shareware</em> sans limite de licence existent pour enregistrer :</p>\n<ul>\n<li>pour PC, <a href=\"http://www.clubic.com/lancer-le-telechargement-9399-0-mp3directcut.html\">Mp3directcut</a> est indispensable : il permet d'enregistrer et de découper au format mp3 sans les convertir en wav (donc manipulation beaucoup plus légère, au format réel du fichier que vous obtenez).\n<ol>\n<li>Allez dans Outils/Configurer/Encodeur, et choisissez la qualité d'enregistrement que vous désirez. Attention, en le plaçant à la même hauteur que le flux de la radio, vous surcompressez le signal : gare s'il n'est déjà pas bon au départ !</li>\n<li>Ensuite, pour enregistrer, il suffit d'appuyer sur \"Enregistrer\", puis sur \"Lecture\".</li>\n<li>Gros avantage : contrairement à tous les autres logiciels, même en cas de plantage (ce qui n'arrive jamais), de fermeture accidentelle, de coupure d'électricité, de manque de place disque, tout ce qui a déjà été enregistré est sauvegardé.</li>\n<li>Vous pouvez même le lancer en votre absence : il est très facile de redécouper ensuite la part inutile de son, et même si le disque dur s'est totalement rempli, vous pouvez sauver vos fichiers (qui se réécrivent sans prendre plus de place !). Vraiment remarquable, il ne reste plus que rendre la programmation possible à l'heure de son choix, dans une prochaine version ; ce ne devrait pas être trop difficile.</li>\n</ol></li>\n<li>Pour tous supports, <a href=\"http://audacity.sourceforge.net/\">Audacity</a>, très facile d'accès, et pas trop lourd.\n<ol>\n<li>De même, après avoir sélectionné dans les préférences la qualité de son d'arrivée, vous pouvez lancer l'enregistrement simplement en pressant le bouton rond rouge.</li>\n<li>Attention cependant : vous devez sélectionner la source directement dans le menu déroulant (microphone, mixeur mono ou stéréo...).</li>\n<li>A la fin de l'enregistrement, il faut se rendre dans Fichier/Exporter en Ogg (ou en mp3, mais il faut télécharger un petit utilitaire qu'on trouve très facilement), et la captation est sauvée. Le fonctionnement en est très intuitif.</li>\n</ol></li>\n<li>Pour pouvoir ensuite effectuer un travail plus précis sur le son (remettre à la vitesse une bande, par exemple), <a href=\"http://www.goldwave.com/release.php\">Goldwave</a>, un peu lourd mais performant.\n<ol>\n<li>Même procédure : choix de la qualité (et de la durée du fichier, ici), puis le bouton rouge. Enfin <em>exporter</em> au format de votre choix.</li>\n</ol></li>\n</ul>\n\n<pre></pre>\n\n\n<p>Il est souvent nécessaire d'installer une <strong>\"librairie\" mp3</strong> auparavant, une recherche sur <a href=\"http://fr.yahoo.com\">Yahoo</a> vous permettra de trouver le fichier correspondant sans aucune peine.</p>\n\n\n<pre></pre>\n\n\n<p><strong>Les flux radio</strong> (souvent appelés <em>streaming</em>) sont le plus souvent diffusés par les logiciels Windows Media Player ou Real Player (tous deux disponibles sous Mac). <br />\nPour les quelques diffusions en Ogg, on doit pouvoir utiliser <a href=\"http://www.djmixpro.com/djmixlite/djmixlite.html\">DjMixLite</a>, outil extrêmement léger. Sinon, bien sûr, Winamp correctement patché ou <a href=\"/css/2006/05/22/242-ecouter-les-radios-du-monde-a-volonte/\">Media Jukebox</a> font encore mieux l'affaire.</p>\n\n\n<p>Le mieux est sans doute de choisir <a href=\"http://www.01net.com/outils/telecharger/windows/Multimedia/lecteurs_video_dvd/fiches/tele23823.html\">VLC</a>, qui à part les Ram (Real Player), assume tous les formats proposés dans un bon son.</p>\n\n\n<pre></pre>\n\n\n<pre></pre>\n\n\n<p>CSS et ses fidèles lutins vous souhaitent de joyeuses aventures radiophoniques !</p>",
+ "notesHtml": "",
+ "extrait": "Dans la série CSS rend votre vie plus douce et votre peau plus trépidante , prenons la suite de ce que nous expliquions jadis : Ecouter les radios du monde à volonté, sans 'surfer' . Aujourd'hui : comment diable enregistrer un programme exceptionnel diffusé par quelque obscure radio exotique ? Un tutoriel qui devrait…",
+ "nbCommentaires": 5,
+ "commentaires": [
+  {
+   "id": 2323,
+   "auteur": "Inactuel",
+   "site": "inactuel.hautetfort.com",
+   "date": "2007-08-08T18:19:41",
+   "contenu": "<p>Merci pour tous ses conseils !</p>"
+  },
+  {
+   "id": 2324,
+   "auteur": "Inactuel",
+   "site": "inactuel.hautetfort.com",
+   "date": "2007-08-08T18:20:19",
+   "contenu": "<p>Euh, ces conseils; maudit cerveau !</p>"
+  },
+  {
+   "id": 2327,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2007-08-08T21:46:15",
+   "contenu": "<p>Bien content que ce soit utile, Denis ! <br />\r\n<br />\r\nJ'espérais bien que ce petit tutoriel permettrait de s'y retrouver un peu mieux. J'en fais en tout cas très régulièrement usage pour mon bénéfice personnel. </p>"
+  },
+  {
+   "id": 2520,
+   "auteur": "Morloch",
+   "site": "",
+   "date": "2007-09-27T18:53:17",
+   "contenu": "<p>Hé ! Mais c'est que ça fonctionne vraiment ! Merci !</p>"
+  },
+  {
+   "id": 2521,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-09-28T10:01:02",
+   "contenu": "<p>Comment aurait-il pu en être autrement ?  |=]8-)<br />\r\n<br />\r\nCa fonctionne même avec les Mac, c'est dire.</p>"
+  }
+ ],
+ "epingle": false
+}

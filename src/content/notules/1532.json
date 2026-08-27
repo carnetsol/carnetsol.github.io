@@ -1,0 +1,52 @@
+{
+ "postId": 1532,
+ "titre": "Joujou",
+ "slug": "joujou",
+ "url": "/css/2010/05/01/1532-joujou/",
+ "date": "2010-05-01T23:11:19",
+ "modifie": "2010-05-01T23:34:42",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p><br />\n[Vidéo]</p>",
+ "corpsHtml": "<p><br /></p>\n<object width=\"480\" height=\"385\"><param name=\"movie\" value=\"http://www.youtube.com/v/z1XDr3ZzK0A&hl=fr_FR&fs=1&\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowscriptaccess\" value=\"always\"></param><embed src=\"http://www.youtube.com/v/z1XDr3ZzK0A&hl=fr_FR&fs=1&\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"480\" height=\"385\"></embed></object>\n\n\n<p><br />\nJe suis sans doute sarcastique à grand tort, mais au delà de 20 lignes mélodiques et 125 décibels, mes facultés de jugement sont altérées, je le confesse volontiers.\n<br /> <br /></p>\n\n\n<p><img src=\"/medias/decibels_schemas.gif\" alt=\"\" /></p>",
+ "notesHtml": "23 32 19",
+ "extrait": "[Vidéo]",
+ "nbCommentaires": 4,
+ "commentaires": [
+  {
+   "id": 6056,
+   "auteur": "Inconnu",
+   "site": "",
+   "date": "2010-05-02T22:23:02",
+   "contenu": "<p>C'est mal écrit et sans intérêt, mais niveau décibels et bordel, on a quand même entendu largement pire (mieux?), non?</p>"
+  },
+  {
+   "id": 6057,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2010-05-02T22:25:52",
+   "contenu": "<p>Bonsoir Inconnu, <br />\r\n<br />\r\nJe trouve simplement amusant de voir un tel organiste s'amuser de dispositifs qui font penser à des amusements un peu juvéniles - des orgues partout dans l'église... :-)<br />\r\n<br />\r\nOui, niveau décibels, ce ne devait pas être si démesuré en réalité, mais j'imagine que le compositeur en a été presque dépité, vu le projet. :)</p>"
+  },
+  {
+   "id": 6086,
+   "auteur": "lou",
+   "site": "www.libellus-libellus.fr",
+   "date": "2010-05-16T19:24:26",
+   "contenu": "<p>Mais c'est magnifique !<br />\r\nEnfin ceux qui ne portent pas de jupe restent libres de préférer la salle de classe ordinaire :)</p>"
+  },
+  {
+   "id": 6087,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2010-05-16T19:31:36",
+   "contenu": "<p>Oui, c'est magnifique, pour leur âge ils pratiquent des jeux plus intelligents que les mots croisés. </p>"
+  }
+ ],
+ "epingle": false
+}

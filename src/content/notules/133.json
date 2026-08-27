@@ -1,0 +1,45 @@
+{
+ "postId": 133,
+ "titre": "Lévitique",
+ "slug": "levitique",
+ "url": "/css/2006/01/12/133-levitique/",
+ "date": "2006-01-12T10:05:45",
+ "modifie": "2006-01-12T10:05:45",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Eh oui, très logiquement, après l'Exode...</p>\n\n<ul>\n<li>Interface rétablie.</li>\n<li>Restauration automatique des billets opérée.</li>\n<li>Les manquants ont été ajoutés manuellement et \"Callirhoé\" réactualisé.</li>\n<li>Commentaires rétablis manuellement.</li>\n</ul>\n\n<p>Les seules pertes concernent des billets laissés hors ligne, possibles à réécrire d'ailleurs.\n<br /> <br /></p>\n\n\n\n<p>Dans l'attente d'un hypothétique généreux secours, je reste ici. <br />\nMerci à Christian d'être volé aux nouvelles avec tant de zèle.\n<br /> <br /></p>\n\n\n\n<p>David - repriseduservice</p>",
+ "notesHtml": "",
+ "extrait": "Eh oui, très logiquement, après l'Exode... Interface rétablie. Restauration automatique des billets opérée. Les manquants ont été ajoutés manuellement et \"Callirhoé\" réactualisé. Commentaires rétablis manuellement. Les seules pertes concernent des billets laissés hors ligne, possibles à réécrire d'ailleurs. Dans…",
+ "nbCommentaires": 3,
+ "commentaires": [
+  {
+   "id": 184,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-01-17T09:48:24",
+   "contenu": "<p>ça me fait un peu peur ton histoire en tout cas, je vais essayer de sauvegarder les commentaires de mon propre blog dès que je le pourrais (tous le reste étant sauvegardé tous les jours)...<br />\r\n<br />\r\net bon courage pour le travail de colmatage te restant encore à faire. ;-)</p>"
+  },
+  {
+   "id": 186,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-01-17T21:50:41",
+   "contenu": "<p>Non, chez toi il y a peu de risques. C'est un hébergeur sépcialisé. Chez moi, c'est un FAI qui fait ça à côté, et qui héberge tous formats de sites.</p>"
+  },
+  {
+   "id": 188,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-01-18T09:58:15",
+   "contenu": "<p>je sais mais quand même :) (on n'est jamais trop prudent...)<br />\r\n<br />\r\nA +</p>"
+  }
+ ],
+ "epingle": false
+}

@@ -1,0 +1,59 @@
+{
+ "postId": 261,
+ "titre": "Solution ultime ? (2)",
+ "slug": "solution-ultime-2-contre-le-spam",
+ "url": "/css/2006/06/04/261-solution-ultime-2-contre-le-spam/",
+ "date": "2006-06-04T14:31:48",
+ "modifie": "2006-06-04T14:52:53",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "<p>Comme vu <a href=\"/css/2006/05/27/248-dotclear-et-le-spam-les-solutions-et-leurs-enjeux/\" hreflang=\"fr\">ici</a>, pour les rétroliens (trackbacks), la solution est radicale, mais reste le problème des commentaires.</p>",
+ "corpsHtml": "<ul>\n<li>L'effaçage manuel est exclu, on en est au millier de spams par nuit.</li>\n<li>Le champ visuel de saisie (ou 'captcha') est un vrai problème, il ne s'affiche pas toujours bien sous tous les navigateurs (y compris Internet Explorer).</li>\n<li>Le bricolage en ajoutant un champ invisible qui empêche l'envoi du commentaire s'il est rempli. Solution séduisante, qui n'a pas fonctionné chez moi. Ou les spammeurs sont vite devenus intelligents, ou le tutoriel était trop allusif.</li>\n<li>Spamplemousse (Spamclear est paraît-il meilleur, mais le principe est identique). Le principe est de filtrer adresses IP interdites et mots-clefs. Efficace, certes, mais qui pose deux problèmes :\n<ol>\n<li>La vérification nécessaire de tous les commentaires postés. Interminable, passé une certaine quantité de spam, si on ne veut pas effacer un commentaire légitime par erreur.</li>\n<li>La mise en attente injuste de certaines adresses IP, de certains commentaires - inutile de parler de spé<em>cialis</em>tes ou du Texas, vous ne passerez pas.</li>\n</ol></li>\n</ul>\n\n<hr />\n\n\n<p>Il reste donc la solution miracle, le <a href=\"http://www.dotclear.net/forum/viewtopic.php?id=8451\" hreflang=\"fr\">petit utilitaire</a>, simplissime d'installation, qui reprend le principe des <em>captchas</em>, mais avec du texte (donc sans exclure ceux qui ne pourraient pas lire l'image). Mais que mettre en texte ?</p>\n<ol>\n<li>Une question simple ?  <em>Que trouve-t-on en bas du ciel ?</em>, <em>Quel est le métier de Jacques Chirac ?</em>, <em>Citez les initiales des Etats-Unis d'Amérique</em>. Le problème est que la langue et les habitudes culturelles jouent, et que tout ne sera pas forcément compris.</li>\n<li>Une question mathématique ?  <em>Combien font cinq moins trois ?</em>  C'était la solution choisie par Olivier Meunier, avec, pour être sûr que les spammeurs ne déchiffrent pas le code, une écriture tout en lettres. Le problème est, encore une fois, pour les lecteurs étrangers.</li>\n<li>J'ai donc modifié le fichier functions.php et adopté provisoirement une solution non discriminatoire, à savoir une question mathématique lisible universellement : <em>antispam : 5+2=</em>.</li>\n<li>Si les spammeurs apprennent à répondre, on placera des questions simples en plusieurs langues. <em>Merci d'écrire \"Massenet\" ci-dessous. / Please write \"Massenet\" below.</em> Ou encore : <em>Merci d'écrire mille cinq cent quinze en chiffres ci-dessous.</em> ; <em>Ecrire le nom de ce carnet, tout attaché, ci-dessous.</em>. Etc.</li>\n</ol>\n\n<hr />\n\n\n<p>Normalement, ce devrait être efficace. Les moteurs de recherche ne savent pas encore répondre à ce type de requête, alors les spammeurs... <br />\nSi ces considérations peuvent vous servir...</p>",
+ "notesHtml": "",
+ "extrait": "Comme vu ici , pour les rétroliens (trackbacks), la solution est radicale, mais reste le problème des commentaires.",
+ "nbCommentaires": 5,
+ "commentaires": [
+  {
+   "id": 670,
+   "auteur": "Ouf",
+   "site": "ouf.apinc.org/ouvertures/",
+   "date": "2006-06-04T22:54:15",
+   "contenu": "<p>Je CROIS que j'ai compris.... ;-)<br />\r\nMerci, David, pour ces lumineux éclaircissements techniques.  C'est fou l'énergie, voire le génie, qu'on est obligé de dépenser pour contrer ces c...... de spammers !<br />\r\n<br />\r\nPS : ne pas oublier que je n'ai pas un bac scientifique.  Ca va, 2+2 reste accessible. ;-)</p>"
+  },
+  {
+   "id": 672,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-06-05T09:07:55",
+   "contenu": "<p>ah, je vois que toi aussi, tu as du t'y mettre... ;) je préfère évidemment nettement les captchas texte que les captchas image soit dit en passant...<br />\r\n<br />\r\nA +</p>"
+  },
+  {
+   "id": 675,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-06-05T13:55:47",
+   "contenu": "<p>Oui, ça réclame de l'ingéniosité, mais c'est cela qui est intéressant !  De toute façon, les spammeurs récupèrent les technologies qui nous sont utiles (comme celles des moteurs de recherches), et poussent, en un certain sens, la recherche.<br />\r\n<br />\r\nPour les 'captchas', je m'y suis mis, certes, mais je rechignais à adopter la solution graphique (impossible à lire pour certaines personnes, voire pour certains navigateurs tout court, c'est arrivé tout récemment sur le forum que j'héberge). La solution de la question (universelle si possible) me semble excellente, et pas trop coûteuse en efforts pour les commentateurs.<br />\r\n<br />\r\nUne chose qui m'amuse, ce sont les carnetistes qui se flattent d'être très spammés comme une preuve d'un choix ciblé pour leur succès. Je ne crois pas que ce soit mon audience extraordinaire qui les pousse à m'abreuver de mille cinq cents spams par jour. Il suffit pour cela d'être lié et référencé...</p>"
+  },
+  {
+   "id": 702,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-06-09T09:20:41",
+   "contenu": "<p>euh, tu connais beaucoup de carnetistes qui se vantent d'être ainsi spammés (évidemment en aucun cas, ce n'est une preuve de succès) ?? personnellement . En plus et à contrario, je connais certains sites sans captchas mais qui ne sont jamais spammé (du moins en apparence) alors que je suis certain qu'ils font un carton (je pense au site de Bruno - un animateur de la blogothèque)</p>"
+  },
+  {
+   "id": 705,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-06-09T11:08:26",
+   "contenu": "<p>Oui, j'en connais beaucoup qui ont écrit (on peut retrouver les propos) que c'était la rançon du succès. Ca m'a fait sourire, lorsqu'on voit des carnets laissés à l'abandon et ensevelis sous le spam.<br />\r\n<br />\r\nCertains hébergeurs filtrent automatiquement, et il est possible de faire des manipulations pour éliminer le spam de façon invisible. Ou d'être passé par maille.</p>"
+  }
+ ],
+ "epingle": false
+}

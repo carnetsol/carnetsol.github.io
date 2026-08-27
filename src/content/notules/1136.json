@@ -1,0 +1,38 @@
+{
+ "postId": 1136,
+ "titre": "Mise à jour de la liste de liens",
+ "slug": "mise-a-jour-de-la-liste-de-liens",
+ "url": "/css/2009/02/10/1136-mise-a-jour-de-la-liste-de-liens/",
+ "date": "2009-02-10T20:54:02",
+ "modifie": "2009-02-10T20:55:21",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Quelques adresses rendues valides, quelques ajouts, quelques modifications (pas de retraits bien sûr).</p>\n\n\n<p>C'est <a href=\"http://operacritiques.free.fr/css/ligote.html\">dans la colonne de gauche</a>.</p>",
+ "notesHtml": "20 h 54 02",
+ "extrait": "Quelques adresses rendues valides, quelques ajouts, quelques modifications (pas de retraits bien sûr). C'est dans la colonne de gauche .",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 4652,
+   "auteur": "vartan",
+   "site": "",
+   "date": "2009-02-12T13:35:31",
+   "contenu": "<p>Comme quoi c'est utile, j'avais perdu la trace de Sébastien Dupuis dans un autre blog échoué après quelques commentaires de concerts... ;-)</p>"
+  },
+  {
+   "id": 4653,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2009-02-12T17:26:03",
+   "contenu": "<p>C'est le même... :-)  Et je n'ai pas vraiment de \"trace\" non plus. :) </p>"
+  }
+ ],
+ "epingle": false
+}

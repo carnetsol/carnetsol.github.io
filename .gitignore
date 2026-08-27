@@ -1,0 +1,96 @@
+# ---------------------------------------------------------------
+# Dépendances et fichiers générés
+# ---------------------------------------------------------------
+node_modules/
+dist/
+.astro/
+.output/
+.vercel/
+.netlify/
+**/__pycache__/
+*.pyc
+
+# ---------------------------------------------------------------
+# Dossiers de travail : sources de la migration, hors du site publié.
+# Volumineux (plusieurs Go) et déjà sauvegardés par ailleurs.
+# ---------------------------------------------------------------
+from claude/
+dumps et scripts/
+css webarchive/
+css svgd free/
+test-brouillons/
+public/medias/betharram_1.pdf
+public/medias/betharram_2.pdf
+public/medias/carnets_sur_sol_programme_salle_pleyel_2013_2014.pdf
+public/medias/medee_euripide.pdf
+public/medias/nuitduquatuor2017.pdf
+public/medias/tce_2024-2025.pdf
+
+# Dump de la base : contient adresses IP et courriels des commentateurs.
+*.sql
+
+# ---------------------------------------------------------------
+# Médias lourds : audio et vidéo restent hébergés sur
+# operacritiques.free.fr, les notules pointent vers là-bas.
+# Les règles portent sur TOUT le projet (public/medias, public/images
+# ou ailleurs) : un fichier lourd oublié dans un autre dossier serait
+# poussé sans qu'on s'en aperçoive.
+# ---------------------------------------------------------------
+*.mp3
+*.mp4
+*.flac
+*.wav
+*.m4a
+*.ogg
+*.avi
+*.wmv
+*.flv
+*.mov
+*.mpg
+*.mpeg
+*.wma
+*.swf
+
+# Fichiers récupérés avec la sauvegarde mais étrangers au site
+*.srt
+*.db
+*.log
+*.dat
+*.ini
+*.ods
+*.odt
+*.xls
+*.xlsx
+*.doc
+*.rtf
+
+# ---------------------------------------------------------------
+# Rapports produits par les scripts : régénérables à volonté
+# ---------------------------------------------------------------
+anomalies.txt
+medias-manquants.txt
+images-manquantes.txt
+recuperation-rapport.txt
+redirections.csv
+extrait_brut.txt
+zone_decalage.txt
+
+# ---------------------------------------------------------------
+# Sauvegardes locales
+# ---------------------------------------------------------------
+*.zip
+*.whtt
+css-statique-sauvegarde-*
+
+# ---------------------------------------------------------------
+# Système et éditeurs
+# ---------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+.env
+.env.*

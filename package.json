@@ -1,0 +1,21 @@
+{
+  "name": "carnets-sur-sol",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro",
+    "migrer": "python3 scripts/migrate_dotclear.py dump.sql --out src/content --avec-commentaires"
+  },
+  "dependencies": {
+    "astro": "^5.2.0",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/rss": "^4.0.11"
+  },
+  "devDependencies": {
+    "pagefind": "^1.3.0"
+  }
+}

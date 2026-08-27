@@ -1,0 +1,49 @@
+{
+ "postId": 1628,
+ "titre": "Gagnez du temps",
+ "slug": "gagnez-du-temps",
+ "url": "/css/2010/11/24/1628-gagnez-du-temps/",
+ "date": "2010-11-24T22:50:18",
+ "modifie": "2010-12-09T17:55:19",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  },
+  {
+   "nom": "L'horrible Richard Wagner",
+   "slug": "Richard-wagner"
+  }
+ ],
+ "chapoHtml": "<p><br />\nPlus besoin de s'infliger Wagner en temps réel pour avoir l'air cultivé, il existe des solutions :</p>",
+ "corpsHtml": "<center><object width=\"480\" height=\"385\"><param name=\"movie\" value=\"http://www.youtube.com/v/wGubKYkEDX8?fs=1&hl=fr_FR\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowscriptaccess\" value=\"always\"></param><embed src=\"http://www.youtube.com/v/wGubKYkEDX8?fs=1&hl=fr_FR\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"480\" height=\"385\"></embed></object></center>\n\n\n<p><br /></p>",
+ "notesHtml": "",
+ "extrait": "Plus besoin de s'infliger Wagner en temps réel pour avoir l'air cultivé, il existe des solutions :",
+ "nbCommentaires": 3,
+ "commentaires": [
+  {
+   "id": 6383,
+   "auteur": "Bertram",
+   "site": "",
+   "date": "2010-11-25T06:06:36",
+   "contenu": "<p>Bonjour ! C'est amusant, mais, il faut le dire, en grande partie \"inspiré\" du sketch d'Anna Russell (Ring Analysis).</p>"
+  },
+  {
+   "id": 6390,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2010-11-28T14:17:03",
+   "contenu": "<p>Bonjour Bertram ! <br />\r\n<br />\r\nLa différence considérable reste tout de même le dispositif, c'est lui qui est amusant - le Ring est déjà loufoque en lui-même. Je dois avouer que Russell ne me fait pas beaucoup rire, alors qu'ici, le format m'a vraiment amusé. </p>"
+  },
+  {
+   "id": 6392,
+   "auteur": "Bertram",
+   "site": "",
+   "date": "2010-11-28T19:08:54",
+   "contenu": "<p>En effet, je parlais surtout du fond. Le Ring en slam, c'est une bonne idée pour ce grand corps malade...</p>"
+  }
+ ],
+ "epingle": false
+}

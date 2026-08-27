@@ -1,0 +1,38 @@
+{
+ "postId": 371,
+ "titre": "Mise à jour",
+ "slug": "mise-a-jour",
+ "url": "/css/2006/08/25/371-mise-a-jour/",
+ "date": "2006-08-25T21:34:27",
+ "modifie": "2006-08-25T21:34:27",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p><em>Note de service</em> : le <a href=\"http://operacritiques.free.fr/css/contribes.html\" hreflang=\"css\">répertoire des contributions</a> a été mis à jour et un peu amélioré visuellement.</p>\n\n\n<p>Il s'agit d'un index thématique qui permet de naviguer dans le site en évitant l'ordre chronologique et <a href=\"/css/2006/07/27/321-nouveaute-google/\" hreflang=\"css\">les</a> <a href=\"/css/2006/07/25/319-silenzio/\" hreflang=\"css\">notes</a> <a href=\"/css/2006/07/14/303-grand-vainqueur-du-prix-jacques-ii-de-chabannes-la-palice-lapalisse-lapalissade-truisme-tautologie/\" hreflang=\"css\">futiles</a>.</p>",
+ "notesHtml": "",
+ "extrait": "Note de service : le répertoire des contributions a été mis à jour et un peu amélioré visuellement. Il s'agit d'un index thématique qui permet de naviguer dans le site en évitant l'ordre chronologique et les notes futiles .",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 973,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-08-28T17:36:21",
+   "contenu": "<p>ah, ah, petit copieur va !! ;) (LOL !)<br />\r\n<br />\r\nexcellente initiative en tout cas... :-)</p>"
+  },
+  {
+   "id": 974,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-08-28T18:19:17",
+   "contenu": "<p>Ca fait un petit moment qu'il est prêt et présent (j'y ai pensé d'autant plus facilement pour te le suggérer ;-), mais je l'indique plus nettement. Ca permet de faire un site plus équilibré et d'effectuer un tri.</p>"
+  }
+ ],
+ "epingle": false
+}

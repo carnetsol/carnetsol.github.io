@@ -1,0 +1,23 @@
+{
+ "postId": 890,
+ "titre": "Réorganisation",
+ "slug": "reorganisation",
+ "url": "/css/2008/03/08/890-reorganisation/",
+ "date": "2008-03-08T14:35:09",
+ "modifie": "2008-03-10T02:21:42",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "<p>Nouveautés ergonomiques sur le site.</p>",
+ "corpsHtml": "<p>--</p>\n\n\n<p>Du fait de l'accumulation des articles au sein de CSS, la répartition en chapitres par type de contribution (<a href=\"/css/categorie/Discourir/\">théorique</a>, <a href=\"/css/categorie/Pedagogique/\">pédagogique</a>, <a href=\"/css/categorie/Oeuvres-et-compositeurs/\">descriptive</a>, <a href=\"/css/categorie/Representations/\">comparative</a>, <a href=\"/css/categorie/Concours-international-de-quatuor-a-cordes-de-bordeaux/\">événementielle</a>, <a href=\"/css/categorie/Carnet-d-ecoutes/\">interprétative</a>, <a href=\"/css/categorie/Genres/\">générique</a>, <a href=\"/css/categorie/En-passant/\">badine</a>, etc.) devient malcommode pour se plonger dans un sujet précis.</p>\n\n\n<p>C'est pourquoi la colonne de droite est (à l'essai) progressivement réorganisée de façon thématique. Chaque article débute généralement par une exposition de ses motifs suffisamment claire pour pallier les questions de <em>type de contribution</em>.</p>\n\n\n<p>C'est ainsi qu'on trouve désormais une section consacrée à <em>Pelléas</em>, une section consacrée à la tragédie lyrique (à compléter, elle court sur beaucoup de catégories à la fois), une section consacrée à la découverte du lied (avec les articles systématiques sur la question).</p>\n\n\n<p>Il faudra aussi créer une section \"musique instrumentale\", une section \"Kunqu\", etc. Et, à l'étude, des sections pour nos séries, comme Sigurd ou Hamlet. (En attendant, la fonction de recherche, à droite, fonctionne assez bien, et les articles sont numérotés.)</p>\n\n\n<p>--</p>\n\n\n<p>En outre, la <a href=\"http://operacritiques.free.fr/css/ligote.html\">liste de liens</a> (colonne de gauche) a été mise à jour.</p>\n\n\n<p>--</p>\n\n\n<p>Et, en effet, le jour où il n'y aura vraiment rien d'autre à faire, il faudra se décider à mettre à jour <a href=\"/css/2007/01/09/481-index-thematique-sujets/\">l'index</a>.</p>",
+ "notesHtml": "",
+ "extrait": "Nouveautés ergonomiques sur le site.",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

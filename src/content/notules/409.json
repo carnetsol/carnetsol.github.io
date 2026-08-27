@@ -1,0 +1,23 @@
+{
+ "postId": 409,
+ "titre": "Geekengesang (Le Chant du Geek)",
+ "slug": "beethoven-lettre-a-elise-scanner-geekengesang-le-chant-du-geek",
+ "url": "/css/2006/10/10/409-beethoven-lettre-a-elise-scanner-geekengesang-le-chant-du-geek/",
+ "date": "2006-10-10T08:12:23",
+ "modifie": "2006-10-10T10:14:30",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p>Petite réjouissance du jour.</p>\n\n\n<pre></pre>\n\n\n<p>Cette <a href=\"http://musicontempo.free.fr/scanjet-elise2.mpg\">vidéo</a> (format très léger), garantie sans trucage, parle d'elle-même.</p>\n\n\n<p>Beau <em>legato</em>, n'est-il pas ?  Par simple codage hexadécimal.</p>",
+ "corpsHtml": "<p>Grâce au SCL (Scanner Control Language), l'ut à 256 Hz se note ainsi 16E3, suivi après la virgule d'un chiffre indiquant la durée de la note émise. Il s'agit en réalité de faire varier la vitesse (réglable) de la tête de lecture : le moteur émet alors des sons plus aigus à mesure que la vitesse augmente. Une suite d'indications distinctes permet donc de jouer une petite monodie.</p>",
+ "notesHtml": "",
+ "extrait": "Petite réjouissance du jour. Cette vidéo (format très léger), garantie sans trucage, parle d'elle-même. Beau legato , n'est-il pas ? Par simple codage hexadécimal.",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

@@ -1,0 +1,23 @@
+{
+ "postId": 1400,
+ "titre": "Mise en espace",
+ "slug": "mise-en-espace",
+ "url": "/css/2009/11/03/1400-mise-en-espace/",
+ "date": "2009-11-03T18:54:58",
+ "modifie": "2009-11-16T07:19:47",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>L'<a href=\"http://operacritiques.free.fr/css/index_css.html\">index</a> poursuit sa mise à jour progressive. Avec à terme le but avoué de recenser l'essentiel de CSS de façon plus pratique.</p>",
+ "notesHtml": "",
+ "extrait": "L' index poursuit sa mise à jour progressive. Avec à terme le but avoué de recenser l'essentiel de CSS de façon plus pratique.",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

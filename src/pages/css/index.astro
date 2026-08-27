@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import NotuleCard from '../../components/NotuleCard.astro';
+import BoiteRecherche from '../../components/BoiteRecherche.astro';
+
+const toutes = await getCollection('notules');
+const triees = toutes.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const dernieres = triees.slice(0, 15);
+const total = triees.length;
+---
+<Base titre="Notules récentes">
+
+  <BoiteRecherche />
+
+  <div class="contenu">
+    {dernieres.map((notule) => <NotuleCard notule={notule} />)}
+
+    <p class="suite">
+      Ces quinze dernières notules sur {total.toLocaleString('fr-FR')} publiées
+      depuis 2004. Le reste se trouve dans les
+      <a href="/archives/">archives</a> et les
+      <a href="/categorie/">catégories</a>.
+    </p>
+  </div>
+
+</Base>
+
+<style>
+  .suite {
+    margin: 2.5em 0 0;
+    padding-top: 1.2em;
+    border-top: 1px solid var(--gold-line);
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .85em;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>

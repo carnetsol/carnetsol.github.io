@@ -1,0 +1,101 @@
+{
+ "postId": 732,
+ "titre": "Reprise du trafic",
+ "slug": "reprise-du-trafic",
+ "url": "/css/2007/10/05/732-reprise-du-trafic/",
+ "date": "2007-10-05T16:26:36",
+ "modifie": "2007-10-05T16:40:12",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "<p>On l'aura finalement <em>eu</em>,</p>",
+ "corpsHtml": "<p>ce serveur 143-g5 !  Depuis le temps qu'il nous faisait des misères, il a rendu l'âme...</p>\n\n\n<p>Yohan, le technicien de l'hébergeur, a réussi a sauver les données. Le pauvret doit se farcir, en plus des récriminations, la réactivation de tous les comptes tombés au champ d'horreur.</p>\n\n\n<p>On espère que le remplacement du matériel le rendra plus fiable.</p>\n\n\n<pre></pre>\n\n\n<p>En cas de problème sur ce site, on peut de toute façon se reporter à <a href=\"http://musicontempo.free.fr/\">http://musicontempo.free.fr/</a> , qui est sur un autre serveur et sur lesquels les lutins libres pourront parler aux lutins.</p>\n\n\n<p>CSS s'avoue un brin soulagé, car bien qu'entièrement sauvegardés, ses contenus présentent des difficultés pour la restauration des accents. Et Dieu sait que nous en avons été prodigues...</p>\n\n\n<pre></pre>\n\n\n<p>Les contenus préparés cette semaine ne seront pas postés à leurs dates d'écriture, mais petit à petit, le temps que vous puissiez <del>butiner</del> <del>lutiner</del> vous balader paisiblement.</p>\n\n\n<pre></pre>\n\n\n<p>Merci chaleureusement à tous ceux qui se sont inquiétés de notre devenir. Vous pouvez à nouveau perdre votre temps ici autant qu'il vous est loisible.</p>",
+ "notesHtml": "",
+ "extrait": "On l'aura finalement eu ,",
+ "nbCommentaires": 11,
+ "commentaires": [
+  {
+   "id": 2528,
+   "auteur": "La Moule Réactionnaire",
+   "site": "",
+   "date": "2007-10-05T18:24:34",
+   "contenu": "<p>\"En cas de problème sur ce site, on peut de toute façon se reporter à http://musicontempo.free.fr/ \"<br />\r\n<br />\r\nNon mais vous plaisantez, j'espère ! Qui pensez-vous entraîner dans un bouge avec un nom pareil ? ^^</p>"
+  },
+  {
+   "id": 2530,
+   "auteur": "lechatsartrien",
+   "site": "",
+   "date": "2007-10-06T08:02:57",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">Merci chaleureusement à tous ceux qui se sont inquiétés</span></blockquote><p>Oh, moi, je ne me suis pas inquiété, j'étais en réanimation - le manque !<br />\r\nSeulement, \"musicontempo\" ne donne rien d'autre qu'un lien vers CSS et si le serveur des Carnets n'est pas disponible... ? Ah ! la mauvaise foi des garçons de café !<br />\r\nJdm ;)</p>"
+  },
+  {
+   "id": 2532,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-10-06T13:02:56",
+   "contenu": "<p>Précisément, les deux endroits ne sont pas sur le même serveur. Le 143-g5 est vraiment ce qui pose (posait ?) problème. Musicontempo ne m'a pas donné beaucoup de misères, mais il est vrai que la base MySQL y est peu sollicitée.<br />\r\n<br />\r\nBref, en cas de nécessité, il est toujours possible d'y faire passer des informations (par exemple dans le cas de la suppression totale du nom de domaine).</p>"
+  },
+  {
+   "id": 2533,
+   "auteur": "Ouf",
+   "site": "ouf.apinc.org/ouvertures/",
+   "date": "2007-10-06T13:59:49",
+   "contenu": "<p>Ouf !<br />\r\n;-)</p>"
+  },
+  {
+   "id": 2535,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-10-07T02:53:48",
+   "contenu": "<p>[Après lecture du courrier : ]<br />\r\n<br />\r\n<8-o</p>"
+  },
+  {
+   "id": 2561,
+   "auteur": "Morloch",
+   "site": "",
+   "date": "2007-10-10T15:50:03",
+   "contenu": "<p>Amusantes complications pour poster des messages, je sens qu'il faudra bientôt résoudre des énigmes ésotériques.<br />\r\n<br />\r\nPetit moment de frayeur tout de même à la lecture de ces sentances anti-robots, j'ai cru que ma nature profonde avait été démasquée.<br />\r\n<br />\r\nMais cela ne semble pas être le cas, ouf !<br />\r\n<br />\r\nAttention, la zone d'entrée de textes est trop petite pour la plupart des questions, il faut s'y reprendre à plusieurs fois (et faire un petit \"copier\" de son message opportun) pour tomber sur une question à laquelle il est possible de répondre.</p>"
+  },
+  {
+   "id": 2572,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-10-10T21:20:01",
+   "contenu": "<p>Un spammeur avait trouvé la clef numérique, il m'a fallu raffiner le code, mais de façon suffisamment claire, j'espère, pour qu'un locuteur étranger puisse, le cas échéant, se joindre à nous. <br />\r\n<br />\r\nSinon, j'aurais bien ajouté l'entrée : \"Connaissez-vous le deuxième prénom de la belle-mère de Gounod ?\"<br />\r\n<br />\r\nEn fin de compte, l'antispam est un terrible reproducteur de l'inégalité de classe, un véritable hymne à l'<em>habitus</em>. :-) </p>"
+  },
+  {
+   "id": 2573,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?Telechargement-gratuit-d-enregistrements-libres-de-droits-mp3-domaine-public-partitions-gratuites",
+   "date": "2007-10-10T21:21:14",
+   "contenu": "<p>P.S. : Merci d'avoir souligné la difficulté, c'est réglé. Il existait un bout de code qui contraignait le nombre de caractère, sans doute pour éviter l'insertion de codes malicieux ; je l'ai un tout petit peu élargi.</p>"
+  },
+  {
+   "id": 2575,
+   "auteur": "Laurent",
+   "site": "blog.parisbroadway.com",
+   "date": "2007-10-10T23:23:48",
+   "contenu": "<p></p><blockquote><span style=\"font-size: 11px; line-height: normal\">Connaissez-vous le deuxième prénom de la belle-mère de Gounod ?</span></blockquote><p><br />\r\nVictoire, non ?</p>"
+  },
+  {
+   "id": 2581,
+   "auteur": "DavidLeMarrec",
+   "site": "operacritiques.free.fr/css/index.php?2007/09/30/669-la-prosodie-des-vier-letzte-lieder-quatre-derniers-lieder-de-richard-strauss-debat-in-im-abendrot-beim-schlafengehen",
+   "date": "2007-10-12T16:58:26",
+   "contenu": "<p>Comme il ne peut y avoir qu'une seule réponse, le plus prudent est de répondre \"non\". :-)<br />\r\n<br />\r\n<span style=\"font-size: 9px; line-height: normal\">(Je n'ai pas vérifié l'information, je te crois sur parole.)</span></p>"
+  },
+  {
+   "id": 2584,
+   "auteur": "jdm",
+   "site": "",
+   "date": "2007-10-12T17:24:25",
+   "contenu": "<p>Victoire ! j'ai eu l'antispam !<br />\r\nAutrement, c'est le prénom , non ?, de la maman de Gounod. Mme Zimmermann, belle-maman, j'ai cherché dans des gros livres, elle n'a pas de prénom. Peut-être, aurait dit Jean Tardieu, \"a existe pas\" ;)</p>"
+  }
+ ],
+ "epingle": false
+}

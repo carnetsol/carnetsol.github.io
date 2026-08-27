@@ -1,0 +1,63 @@
+{
+ "postId": 2206,
+ "titre": "À pic",
+ "slug": "a-pic",
+ "url": "/css/2013/03/01/2206-a-pic/",
+ "date": "2013-03-01T00:49:39",
+ "modifie": "2013-03-01T00:51:20",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Vaste monde et gentils",
+   "slug": "Revue-de-toile"
+  },
+  {
+   "nom": "Langue",
+   "slug": "Langue"
+  }
+ ],
+ "chapoHtml": "<p><br />\nEntendu par hasard sur une chaîne d'information :</p>\n\n\n<blockquote><p>Il faudra un homme assez robuste pour pouvoir tenir la barque de Pierre.</p></blockquote>",
+ "corpsHtml": "<p>La majuscule n'étant pas audible à l'oral, cette petite image crée une sorte de flottement.</p>",
+ "notesHtml": "",
+ "extrait": "Entendu par hasard sur une chaîne d'information : Il faudra un homme assez robuste pour pouvoir tenir la barque de Pierre.",
+ "nbCommentaires": 5,
+ "commentaires": [
+  {
+   "id": 8884,
+   "auteur": "Olivier",
+   "site": "",
+   "date": "2013-03-01T16:22:46",
+   "contenu": "<p>Bonjour,<br />\r\n<br />\r\nE la nave va!</p>"
+  },
+  {
+   "id": 8910,
+   "auteur": "François",
+   "site": "",
+   "date": "2013-03-12T13:30:49",
+   "contenu": "<p>Hé oui, je suis toujours là-bas. Maintenant je suis équipé anti-brouillage informatique et je peux même suivre les aventures des lutins. Alors un bonjour au passage !<br />\r\n<br />\r\nEt NON ! Je ne suis pas hors sujet:<br />\r\nhttp://www.paultownend.com/photos/beijing2006-1/beijing22.jpg</p>"
+  },
+  {
+   "id": 8912,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-12T14:33:28",
+   "contenu": "<p>Bonjour François ! <br />\r\n<br />\r\nJoli ! Une barque de pierre à aube, de surcroît... <br />\r\n<br />\r\n<br />\r\n<span style=\"font-size: 9px; line-height: normal\">J'ai lu avec plaisir ton courriel, mais à la suite d'une opération vigoureuse de maintenance, je suis privé de ton adresse. Si tu pouvais me la communiquer à nouveau, que je puisse te répondre... </span><br />\r\n</p>"
+  },
+  {
+   "id": 8914,
+   "auteur": "François",
+   "site": "",
+   "date": "2013-03-12T15:50:08",
+   "contenu": "<p>Mon courriel est francois.lrx@gmail.com<br />\r\n<br />\r\nla barque en question était censé symboliser la solidité et l'insubmersibilité de la dynastie Qing. Le résultat a été assez mitigé je crois.</p>"
+  },
+  {
+   "id": 8916,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2013-03-13T21:04:44",
+   "contenu": "<p>Il doit y avoir une date de péremption aux brevets d'insubmersibilité, parce que ça a quand même fonctionné assez longtemps...  <br />\r\n<br />\r\n(Merci !)<br />\r\n</p>"
+  }
+ ],
+ "epingle": false
+}

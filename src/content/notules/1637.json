@@ -1,0 +1,55 @@
+{
+ "postId": 1637,
+ "titre": "Histoire de l'opéra français : essai de schéma",
+ "slug": "histoire-de-l-opera-francais-essai-de-schema",
+ "url": "/css/2010/12/20/1637-histoire-de-l-opera-francais-essai-de-schema/",
+ "date": "2010-12-20T15:42:25",
+ "modifie": "2010-12-20T15:48:22",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Genres",
+   "slug": "Genres"
+  },
+  {
+   "nom": "Pédagogique",
+   "slug": "Pedagogique"
+  },
+  {
+   "nom": "Baroque français et tragédie lyrique",
+   "slug": "Baroque-francais-et-tragedie-lyrique"
+  },
+  {
+   "nom": "Opéra-comique (et opérette)",
+   "slug": "Opera-comique-classique-et-romantique"
+  },
+  {
+   "nom": "Les plus beaux décadents",
+   "slug": "Les-plus-beaux-decadents"
+  },
+  {
+   "nom": "Opéra romantique français et Grand Opéra",
+   "slug": "Opera-francais-romantique-et-grand-opera"
+  },
+  {
+   "nom": "Opéras de l'ère classique",
+   "slug": "Operas-de-l-ere-classique"
+  },
+  {
+   "nom": "Opéras des écoles du vingtième siècle",
+   "slug": "Operas-des-ecoles-du-vingtieme-siecle"
+  },
+  {
+   "nom": "Goblin Awards, Sélection Lutins & Putti d'incarnat",
+   "slug": "Goblin-awards-selection-lutins"
+  }
+ ],
+ "chapoHtml": "<p><br />\nOn parle beaucoup du sujet sur CSS, mais finalement, on n'a pas encore dressé de point de vue surplombant pour reclasser tous ces gens dans leur époque et leur style.</p>\n\n\n<p>Voici donc une très rapide nomenclature, proposée sur un site voisin, avec un ton un peu informel.</p>",
+ "corpsHtml": "<p><br /></p>\n\n<h5>1. Tragédie en musique / Tragédie lyrique</h5>\n\n\n<p>Les deux termes sont synonymes, le premier est contemporain de Lully, l'autre est utilisé aujourd'hui. C'est l'apparition du véritable opéra (il existait cependant des Pastorales auparavant, comme <em>Pomone</em> de Cambert), pour ce qui concerne la France. Des récitatifs avec basse continue, mais très fluides et musicaux par rapport aux italiens, des airs courts, beaucoup de danse. Tout était fondé sur la puissance de la déclamation, et la musique clairement soumise aux paroles.</p>\n\n\n<p>Le genre évolue, on a après Lully une deuxième école avec Desmarest / Campra / Destouches, puis une troisième avec Rameau / Leclair / Mondonville.</p>\n\n<ul>\n<li>Voir <a href=\"/css/2007/08/25/698-introduction-a-la-tragedie-lyrique-quels-codes-quel-but-tragedie-en-musique-explications-theories-lully-rameau-ecoles/\">l'article de présentation</a> du genre.</li>\n</ul>\n<p><br /></p>\n\n\n<h5>2.a. Tragédie lyrique classique</h5>\n\n\n<p>A l'ère classique, l'évolution du genre se poursuit, dans des formes plus épurées et hiératiques (Piccinni, Gluck, Sacchini, J.-Ch. Bach, Grétry, Salieri, Gossec...). <br />\nLe récitatif est à présent toujours distinct des \"numéros\" (airs, ensembles, ballets...), mais accompagné par tout l'orchestre. La basse continue a disparu.\n<br /> <br /></p>\n\n\n<h5>2.b. L'opéra comique</h5>\n\n\n<p>Simultanément apparaît un nouveau genre, tiré des parodies de tragédies en musique qui étaient faites dans les foires parisiennes par les troupes italiennes. Ces troupes se sédentarisent et fusionnent avec les comédiens français, pour finalement donner naissance à l'opéra comique, des dialogues parlés entrecoupés d'ariettes simples, sur des trames gentilles destinées à un public familial.</p>\n\n<ul>\n<li>Voir <a href=\"/css/2006/04/08/180-opera-comique-operette-opera-bouffe-et-salle-favart-offenbach-adam/\">l'article de présentation</a> du genre.</li>\n</ul>\n<p><br /></p>\n\n\n<h5>3. Les premiers romantiques</h5>\n\n\n<p>Une pléthore d'expérimentations arrivent : des opéras-comiques à sujets sérieux (Méhul ou Cherubini, par exemple), aux réelles ambitions musicales. Le récitatif devient de plus en plus intégré comme un égal de l'air (chez Spontini notamment).\n<br /> <br /></p>\n\n\n<h5>4. Le Grand Opéra à la française</h5>\n\n\n<p>Héritier direct de la tragédie lyrique, jusque dans ses catégories vocales (un ténor aigu face à des basses profondes, deux sopranos qui se distinguent avant tout par leur couleur vocale...), le Grand Opéra en reproduit les fastes et les grandes recettes, avec un goût de surcroît pour le sujet historique vu par le bout de l'anecdote, une certaine distanciation humoristique et beaucoup d'ensembles, raffinés ou spectaculaires. C'est la Muette de Portici d'Auber, le Guillaume Tell de Rossini, et bien sûr les triomphes de Meyerbeer et Halévy.</p>\n\n\n<p>Le modèle se prolonge comme la norme du grand prestige (ni plus ni moins le cahier des charges pour être joué à l'Opéra de Paris) jusqu'au début du XXe siècle. Parmi les plus célèbres à s'y être conformés, on peut citer Donizetti, Verdi, Gounod, Thomas, Lalo, Bizet, Paladilhe, Reyer, Massenet, Pierné... et bien d'autres moins célèbres dont il a été question dans ces pages.</p>\n\n\n<p>Parallèlement, l'opéra comique poursuit son adaptation au goût du temps, et d'autres expérimentations voient le jour (Berlioz en particulier s'essaie à tous les genres, même ceux qui n'existent pas).</p>\n\n<ul>\n<li>Une courte liste des invariants du Grand Opéra dans <a href=\"/css/2008/06/21/975-ferdinand-herold-zampa-ou-la-fiancee-de-marbre-opera-comique-2008-paris-william-christie-patricia-petibon-arts-florissants/\">cette notule</a>.</li>\n</ul>\n<p><br /></p>\n\n\n<h5>5. Le second XIXe</h5>\n\n\n<p>La période est beaucoup plus confuse, chacun réutilisant les codes de son choix pour faire sa potion. Gounod par exemple prenait aussi bien les tons amènes de l'opéra comique que les normes du grand opéra pour confectionner un drame comme Faust... On rencontre aussi des opéras comiques très ambitieux (Carmen, Les Contes d'Hoffmann !), transformés en \"grand opéra\" par l'ajout de récitatifs afin d'être joués à l'étranger.\nLes compositeurs ne respectent plus tous les codes, en ajoutent d'autres...</p>\n\n\n<p>Certains se conforment à une harmonie très romantique standard, jusqu'assez tard dans le siècle (Mermet, Thomas, certains Massenet), tandis que d'autres modernisent leur propos (Reyer, Salvayre, Hirchmann), s'inspirant souvent de Wagner et lorgnant vers l'avenir.\n<br /> <br /></p>\n\n\n<h5>6.a. Les \"décadents\"</h5>\n\n\n<p>Dans les quinze dernières années du XIXe siècle interviennent ce que j'appelle les \"décadents\", faute de mieux, qui mènent le genre vers une mutation à force de raffinements dans la musique et le livret. Ce sont généralement les compositeurs que l'histoire a retenus (pour leur musique hors opéra, d'ailleurs, n'en ayant généralement pas écrit beaucoup).\nIls ont admiré et ingurgité Wagner, et l'extériorisent avec leur goût français propre, mais d'une mélancolie et d'une sophistication qui était tout à fait étrangères à la simplicité de trait du Grand Opéra.</p>\n\n\n<p>On peut ainsi citer Chausson, Fauré, Bruneau, Tournemire, Widor, D'Indy, Pierné, Dukas, Ropartz, Debussy, Bachelet, Le Borne, Emmanuel, Bréville, Leroux, Levadé, Büsser, Hirchmann, Février, Laparra, Dupont, Cras, Bloch, Le Flem, Ravel, Séverac, Delvincourt, Martinů, Ibert, Honegger, Milhaud, Tansman, De Seynes, Delannoy, Sauguet... et même, dans la succession, Poulenc, Landowski, Prodromidès, Damase et Daniel-Lesur. Parmi d'autres. On voit la largeur du spectre esthétique !</p>\n\n\n<p>On y trouve des restes du Grand Opéra (Fervaal, Le Roi Arthus, Rodrigue & Chimène), des oeuvres fondées de près sur des modèles littéraires (L'Etranger, Pelléas & Mélisande, Antar, Sophie Arnould, L'Heure Espagnole, Juliette ou la Clef des Songes), des oeuvres d'atmosphère (Le roi d'Yvetot) ou de conversation (Sophie Arnould, L'Heure Espagnole), des évocations folkloriques (Le Pays, Le Coeur du Moulin, La Habanera, Les Pêcheurs de la Saint-Jean), des relectures du patrimoine antique (Antigone, Salamine, Les Perses), des oeuvres naturalistes (La Maffia, Le Rêve, L'Attaque du Moulin, Louise), etc.</p>\n\n\n<p>Et cet état de la création, hors oeuvres atonales (dont le style n'est plus défini par la langue ni la nationalité), perdure largement jusqu'à nos jour, témoin les dernières oeuvres de Prodromidès et Daniel-Lesur, encore largement teintées de postdebussysme.</p>\n\n<ul>\n<li>Une tentative de catégoriser les \"décadents\" dans <a href=\"/css/2008/01/23/826-alexander-von-zemlinsky-decadents-decadence-decadentisme/\">cette notule</a>, à partir de la figure de Zemlinsky (faut-il y inclure le postromantisme très tardif, par exemple ?)</li>\n</ul>\n<p><br /></p>\n\n\n<h5>6.b. L'opérette</h5>\n\n\n<p>En réaction à la fusion de l'opéra comique avec l'opéra sérieux, s'est développé une forme d'opéra comique toujours plus légère, où la trame prévisible mais entraînante prévaut petit à petit sur la musique, jusqu'à ce qu'elle ne serve plus qu'à colorer l'atmosphère de la pièce. Cela coïncide à peu près avec avec l'apparition du terme 'opérette' pour désigner ces ouvrages légers. C'est l'époque des Terrasse, Christiné ou Yvain. Le genre reçoit un réel succès et passe progressivement dans la culture populaire avec l'esthétique Francis Lopez... jusqu'aux comédies musicales d'aujourd'hui, qui en réutilisent les recettes en les mêlant d'ailleurs à des invariants du... Grand Opéra !</p>\n\n\n<p>--</p>\n\n\n<p>Voilà pour un essai de schéma sur ce qu'a été l'opéra français et son évolution jusqu'à nos jours. On n'a pas mis tous les compositeurs traités ici en lien, mais vous pouvez effectuer une recherche par le moteur de la colonne de droite et fouiner un peu...</p>",
+ "notesHtml": "",
+ "extrait": "On parle beaucoup du sujet sur CSS, mais finalement, on n'a pas encore dressé de point de vue surplombant pour reclasser tous ces gens dans leur époque et leur style. Voici donc une très rapide nomenclature, proposée sur un site voisin, avec un ton un peu informel.",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

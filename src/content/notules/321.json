@@ -1,0 +1,52 @@
+{
+ "postId": 321,
+ "titre": "Nouveauté Google",
+ "slug": "nouveaute-google",
+ "url": "/css/2006/07/27/321-nouveaute-google/",
+ "date": "2006-07-27T19:33:55",
+ "modifie": "2006-07-27T19:33:55",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Saviez-vous que Google faisait aussi agence matrimoniale ?</p>\n\n\n<p>Quelqu'un est arrivé ici en tapant la requête \"hochzeit DavidLeMarrec\".</p>\n\n\n<p>Déchaîner les foules ainsi. Oui, très flatté je suis.</p>",
+ "notesHtml": "",
+ "extrait": "Saviez-vous que Google faisait aussi agence matrimoniale ? Quelqu'un est arrivé ici en tapant la requête \"hochzeit DavidLeMarrec\". Déchaîner les foules ainsi. Oui, très flatté je suis.",
+ "nbCommentaires": 4,
+ "commentaires": [
+  {
+   "id": 835,
+   "auteur": "Ouf",
+   "site": "",
+   "date": "2006-07-28T22:09:08",
+   "contenu": "<p>Qyelque chose me dit que ce devait avoir un petit rapport avec Wagner....<br />\r\n(mais c'est pas moi ! lol)</p>"
+  },
+  {
+   "id": 836,
+   "auteur": "Ouf",
+   "site": "",
+   "date": "2006-07-28T22:10:26",
+   "contenu": "<p>Daviiiiiiiiiiiiiiiid !!!! (sur un ton de midinette adolescente - pléonasme).</p>"
+  },
+  {
+   "id": 839,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-07-28T22:52:37",
+   "contenu": "<p>Si ça a rapport avec Wagner, je suis <em>très</em> déçu. <br />\r\n<br />\r\nIl est vrai que ça venait de Google.fr et non .de .<br />\r\n<br />\r\n...<br />\r\n<br />\r\nC'est trop injuste.</p>"
+  },
+  {
+   "id": 840,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-07-28T22:55:56",
+   "contenu": "<p>[Ce que je ne pige pas, c'est pourquoi venir chercher quelque chose sur Hochzeit alors que je venais précisément de dire qu'il n'existait ni disque, ni partition accessible, et qu'il a été convenu que seules des esquisses de trois numéros existaient ?  Mystère mystère...]</p>"
+  }
+ ],
+ "epingle": false
+}

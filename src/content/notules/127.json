@@ -1,0 +1,52 @@
+{
+ "postId": 127,
+ "titre": "Informations techniques",
+ "slug": "informations-techniques",
+ "url": "/css/2006/01/09/127-informations-techniques/",
+ "date": "2006-01-09T16:55:55",
+ "modifie": "2006-01-12T08:27:17",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Free a corrompu les tables de ma base MySQL. J'ai dû commencer par m'occuper de celles qui n'engageaient pas que moi - grâces soient rendues à Alx de Giocosie ! -, et je tâche à présent de régler le problème pour ce carnet. Dans l'attente, je poursuis ici. J'espère que ça sera réglé d'ici la fin de la semaine.</p>\n\n\n<p>Tout sera ensuite transféré sur l'ancien carnet, naturellement.\n<br /> <br /></p>\n\n\n\n<p>[Edit : J'oubliais : aucune donnée n'a été perdue, y compris les commentaires.]</p>",
+ "notesHtml": "",
+ "extrait": "Free a corrompu les tables de ma base MySQL. J'ai dû commencer par m'occuper de celles qui n'engageaient pas que moi - grâces soient rendues à Alx de Giocosie ! -, et je tâche à présent de régler le problème pour ce carnet. Dans l'attente, je poursuis ici. J'espère que ça sera réglé d'ici la fin de la semaine. Tout…",
+ "nbCommentaires": 4,
+ "commentaires": [
+  {
+   "id": 155,
+   "auteur": "Inactuel",
+   "site": "",
+   "date": "2006-01-12T08:28:38",
+   "contenu": "<p>bon courage avec la technique !<br />\r\nD.</p>"
+  },
+  {
+   "id": 156,
+   "auteur": "Sylvie Eusèbe",
+   "site": "",
+   "date": "2006-01-12T08:29:04",
+   "contenu": "<p>Bonjour et bonne année, même si la technique n'est pas au rendez-vous !<br />\r\nJ'ai eu très peur que vous soyez perdu dans les limbes informatiques !!! Je travaille à mon compte-rendu de Xerxes et reprendrai prochainement avec grand plaisir nos échanges.<br />\r\nA + S. Eusèbe</p>"
+  },
+  {
+   "id": 157,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-01-12T09:01:42",
+   "contenu": "<p>Merci à tous ! <br />\r\n<br />\r\nExcellente année à vous aussi, Sylvie, très heureux de vous relire, particulièrement en ces périodes d'adversité phpépiques !<br />\r\n<br />\r\nJ'attends de lire ce compte-rendu sur Xerxès non sans impatience, je dois dire.</p>"
+  },
+  {
+   "id": 181,
+   "auteur": "kfigaro",
+   "site": "",
+   "date": "2006-01-12T10:34:41",
+   "contenu": "<p>bon courage pour la remise en forme de tous ça... nous sommes de tout coeur avec toi.</p>"
+  }
+ ],
+ "epingle": false
+}

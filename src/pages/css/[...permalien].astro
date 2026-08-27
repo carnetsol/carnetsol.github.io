@@ -1,0 +1,215 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { slugifier, chargerCorrections, appliquerCorrection } from '../../lib/notules';
+
+/**
+ * Une seule route sert trois choses :
+ *   1. les archives      -> /css/AAAA/MM/JJ/<id>-<slug>/  (permalien Dotclear)
+ *   2. les nouvelles     -> /css/AAAA/MM/JJ/<slug>/
+ *   3. les ALIAS         -> toute autre écriture du même permalien
+ *
+ * Le point 3 est indispensable : Dotclear résolvait une notule par son
+ * IDENTIFIANT et se moquait de la suite du slug. Ces trois adresses
+ * menaient donc à la même page :
+ *     /css/2013/04/04/2230-michelangelo-falvetti-le-deluge-universel-...
+ *     /css/2013/04/04/2230-michelangelo-falvetti
+ *     /css/2013/04/04/2230
+ * Vingt ans de liens internes (et externes) utilisent ces formes abrégées.
+ * Sans alias, elles deviendraient autant de liens morts.
+ */
+export async function getStaticPaths() {
+  const archives = await getCollection('notules');
+  const nouvelles = await getCollection('nouvelles', ({ data }) => !data.brouillon);
+  const cats = await getCollection('categories');
+  const parNom = new Map(cats.map((c) => [c.data.nom.toLowerCase(), c.data.slug]));
+  const correctifs = await chargerCorrections();
+
+  const chemins = [];
+  const pris = new Set();
+
+  const ajouter = (param, props) => {
+    if (pris.has(param)) return;   // Astro refuse deux routes identiques
+    pris.add(param);
+    chemins.push({ params: { permalien: param }, props });
+  };
+
+  // --- 1. les permaliens réels ---------------------------------------
+  const parIdentifiant = new Map();
+  for (const notule of archives) {
+    const param = notule.data.url.replace(/^\/css\//, '').replace(/\/$/, '');
+    parIdentifiant.set(notule.data.postId, notule.data.url);
+    ajouter(param, {
+      archive: { ...notule, data: appliquerCorrection(notule.data, correctifs.get(notule.data.postId)) },
+      nouvelle: null,
+      redirection: null,
+    });
+  }
+
+  for (const n of nouvelles) {
+    const d = n.data.date;
+    const an = d.getFullYear();
+    const mois = String(d.getMonth() + 1).padStart(2, '0');
+    const jour = String(d.getDate()).padStart(2, '0');
+    ajouter(`${an}/${mois}/${jour}/${slugifier(n.data.titre)}`, {
+      archive: null,
+      nouvelle: n,
+      redirection: null,
+      categories: n.data.categories.map((nom) => ({
+        nom,
+        slug: parNom.get(nom.toLowerCase()) ?? slugifier(nom),
+      })),
+    });
+  }
+
+  // --- 2. les alias ---------------------------------------------------
+  // a) forme nue : /css/AAAA/MM/JJ/<id>
+  for (const notule of archives) {
+    const m = notule.data.url.match(/^\/css\/(\d{4})\/(\d{2})\/(\d{2})\/(\d+)-/);
+    if (m) {
+      ajouter(`${m[1]}/${m[2]}/${m[3]}/${m[4]}`, {
+        archive: null, nouvelle: null, redirection: notule.data.url,
+      });
+    }
+  }
+
+  // b) toute forme abrégée réellement rencontrée dans le corpus
+  const motif = /\/css\/(\d{4})\/(\d{2})\/(\d{2})\/(\d+)(-[^"'\s>)#]*)?/g;
+  for (const notule of archives) {
+    const textes = [
+      notule.data.corpsHtml ?? '',
+      notule.data.chapoHtml ?? '',
+      notule.data.notesHtml ?? '',
+      ...(notule.data.commentaires ?? []).map((c) => c.contenu ?? ''),
+    ];
+    for (const texte of textes) {
+      for (const m of texte.matchAll(motif)) {
+        const cible = parIdentifiant.get(Number(m[4]));
+        if (!cible) continue;   // notule jamais publiée : rien à viser
+
+        // Supprime les caractères interdits sous Windows dans le slug d'alias (ex: | ] ? *)
+        const slugNettoye = (m[5] ?? '')
+          .replace(/\/$/, '')
+          .replace(/[|?:*<>"\\\]\[]+/g, '');
+
+        const param = `${m[1]}/${m[2]}/${m[3]}/${m[4]}${slugNettoye}`;
+        ajouter(param, { archive: null, nouvelle: null, redirection: cible });
+      }
+    }
+  }
+
+  return chemins;
+}
+
+const { archive, nouvelle, categories: catsNouvelle, redirection } = Astro.props;
+
+const d = archive?.data;
+const titre = archive ? d.titre : nouvelle?.data.titre;
+const date = archive ? d.date : nouvelle?.data.date;
+const auteur = archive ? d.auteur : nouvelle?.data.auteur;
+const categories = archive ? d.categories : catsNouvelle;
+const extrait = archive ? d.extrait : nouvelle?.data.chapo;
+
+const Contenu = nouvelle ? (await render(nouvelle)).Content : null;
+
+const dateLongue = date?.toLocaleDateString('fr-FR', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+});
+---
+{redirection ? (
+  <html lang="fr">
+    <head>
+      <meta charset="utf-8" />
+      <title>Redirection</title>
+      {/* canonical : les moteurs rattachent cette adresse à la vraie notule */}
+      <link rel="canonical" href={new URL(redirection, Astro.site)} />
+      <meta http-equiv="refresh" content={`0; url=${redirection}`} />
+      <meta name="robots" content="noindex, follow" />
+    </head>
+    <body>
+      <p>Cette notule se trouve désormais ici : <a href={redirection}>{redirection}</a></p>
+    </body>
+  </html>
+) : (
+<Base titre={titre} description={extrait}>
+
+  <div class="contenu" data-pagefind-body>
+    <div class="day-date">{dateLongue}</div>
+
+    <article class="post">
+      <div class="post-header">
+        <h1 class="post-title">{titre}</h1>
+      </div>
+
+      {archive && d.chapoHtml?.trim() && (
+        <div class="post-chapo" set:html={d.chapoHtml} />
+      )}
+      {nouvelle && nouvelle.data.chapo && (
+        <p class="post-chapo">{nouvelle.data.chapo}</p>
+      )}
+
+      {archive
+        ? <div class="notule-corps" set:html={d.corpsHtml} />
+        : <div class="notule-corps"><Contenu /></div>}
+
+      {archive && d.notesHtml?.trim() && (
+        <div class="notule-notes" set:html={d.notesHtml} />
+      )}
+
+      <p class="post-info">
+        Écrit par {auteur}
+        {categories?.length > 0 && (
+          <>
+            , dans {categories.map((c, i) => (
+              <>{i > 0 && ', '}<a href={`/categorie/${c.slug}/`}>{c.nom}</a></>
+            ))}
+          </>
+        )}
+      </p>
+    </article>
+
+    {archive && d.commentaires.length > 0 && (
+      <section id="commentaires">
+        <h2 class="section-head">{d.commentaires.length} indiscrets</h2>
+        {d.commentaires.map((c) => (
+          <article class="commentaire" id={`c${c.id}`}>
+            <p class="commentaire-info">
+              {c.site
+                ? <a href={c.site} rel="nofollow noopener">{c.auteur}</a>
+                : c.auteur}
+              {c.date && (
+                <> — {new Date(c.date).toLocaleDateString('fr-FR', {
+                  day: 'numeric', month: 'long', year: 'numeric',
+                })}</>
+              )}
+            </p>
+            <div class="commentaire-corps" set:html={c.contenu} />
+          </article>
+        ))}
+        <p class="commentaires-clos">
+          Les commentaires sont clos sur le site archivé.
+        </p>
+      </section>
+    )}
+  </div>
+
+</Base>
+)}
+
+<style>
+  .commentaire {
+    border-left: 2px solid var(--parch-dark);
+    background: var(--frame-bg);
+    padding: .1em 1em .3em;
+    margin-bottom: 1em;
+    font-size: .95em;
+  }
+  .commentaire-info {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .8em; color: var(--muted); margin: .8em 0 .2em;
+  }
+  .commentaires-clos {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .8em; color: var(--muted); font-style: italic;
+  }
+</style>

@@ -1,0 +1,38 @@
+{
+ "postId": 210,
+ "titre": "Confort",
+ "slug": "confort",
+ "url": "/css/2006/05/02/210-confort/",
+ "date": "2006-05-02T16:57:14",
+ "modifie": "2006-05-03T19:03:47",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Mise en place de plusieurs fonctionnalités, dont, pour celles que vous pourrez constater :</p>\n<ul>\n<li>derniers commentaires apparents, pour éviter de fouiner compulsivement lorsqu'on n'a pas de flux RSS ;</li>\n<li>nombre de lectures, pour me faire une idée sur les vieilles contributions (donc activée à partir de ce jour) ;</li>\n<li>ajout d'une fonction d'exhumation des anciennes contributions ;</li>\n<li>ajout d'une fonction d'affichage de la contrée d'origine des touristes ;</li>\n<li>réagencement de la colonne de droite, pour plus d'accessibilité.</li>\n</ul>",
+ "notesHtml": "",
+ "extrait": "Mise en place de plusieurs fonctionnalités, dont, pour celles que vous pourrez constater : derniers commentaires apparents, pour éviter de fouiner compulsivement lorsqu'on n'a pas de flux RSS ; nombre de lectures, pour me faire une idée sur les vieilles contributions (donc activée à partir de ce jour) ; ajout d'une…",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 414,
+   "auteur": "kfigaro",
+   "site": "chantsetheres.over-blog.com/",
+   "date": "2006-05-02T19:10:37",
+   "contenu": "<p>sympa effectivement et c'est pratique pour pouvoir lire rapidement les commentaires... si j'avais pas peur que ça devienne un peu une usine à gaz, je ferais pareil sur mon site...</p>"
+  },
+  {
+   "id": 417,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2006-05-02T20:09:42",
+   "contenu": "<p>Tu as peur de quoi ?  <br />\r\n<br />\r\nC'est vrai que j'ai relativement peu de commentaires, et sur des sujets ciblés.<br />\r\n<br />\r\nJe ne sais pas si over-blog le propose ; ce sont des plug-ins additifs de dotclear que j'utilise.</p>"
+  }
+ ],
+ "epingle": false
+}

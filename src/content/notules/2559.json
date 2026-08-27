@@ -1,0 +1,115 @@
+{
+ "postId": 2559,
+ "titre": "… wirst du, mein Herz",
+ "slug": "wirst-du-mein-herz",
+ "url": "/css/2014/11/15/2559-wirst-du-mein-herz/",
+ "date": "2014-11-15T11:49:26",
+ "modifie": "2014-11-19T15:27:47",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "<p><br />\nLors de la disparition de <em>Carnet sur sol</em>, les quelques mots d'explication postés sur <a href=\"http://www.carnetsol.fr/css/\">http://www.carnetsol.fr/css/</a> (qui deviendra à terme l'adresse définitive et mobile du site, mais pas pour l'instant).\n<br /> <br /></p>\n\n\n<blockquote><p>Bonjour à vous, aimable lecteur ;</p>\n<p>\nVous voici sur la page temporaire de <em>Carnets sur sol</em>. Beaucoup de témoignages de sympathie et d'offres d'aide ont afflué, sensiblement plus que ce que mérite un bac à sable personnel — ce dont je ne saurais trop remercier mes lecteurs d'une part, mes amis de l'autre (certains appartiennent aux deux catégories, pas de panique).</p>\n<p>\nBeaucoup étaient curieux de ce qui s'était passé, aussi, je vais centraliser dans cette notule quelques informations (et considérations profondes, n'en doutez pas) pour votre édification. Bien qu'ici encore, cela concerne davantage l'emploi de mon loisir dans la ou les prochaines semaines que les lecteurs de <em>Carnets sur sol</em>, qui trouveront ailleurs leur compte, et qui devraient de toute façon voire une large partie du site reparaître. En principe.</p></blockquote>",
+ "corpsHtml": "<p><br /></p>\n\n<h5><ins>Pourquoi cette disparition ?</ins></h5>\n\n\n<p>Toute trace du domaine operacritiques.free.fr a purement et simplement disparu : site en PHP, site en HTML, accès aux bases MySQL, accès au FTP. L'accès au compte est impossible dans l'interface de l'hébergeur, et le compte principal (Free étant aussi mon fournisseur d'accès) ne mentionne même pas le domaine, comme s'il n'avait jamais existé.</p>\n\n\n<p>Après quelques heures d'enquête, il apparaît que cela fait partie d'une politique plus générale de Free : tout ce qui prend de la place est considéré comme spam, fermé et détruit. Peut-être y avait-il un pirate qui avait secrètement installé une application dans un coin de CSS — mais, pour vérifier certains détails régulièrement, je n'en suis pas persuadé — ; peut-être la quantité de commentaires, relativement conséquente pour un hébergement gratuit, a-t-elle été considérée comme parasite. L'explication ne sera jamais fournie, et je n'ai toujours pas accès à ce qui reste du site.</p>\n\n\n<p>Je crois tout simplement (mais peut-être est-ce pur procès d'intention) que l'hébergement n'est plus vraiment un produit d'appel, et que cela prend beaucoup d'espace à Free, qui cherche à dégoûter les utilisateurs les plus coûteux sans renier officiellement ses engagements.</p>\n\n\n<p>Pourquoi pas, mais ce qui m'est moins sympathique est qu'il faut, pour récupérer les données non incriminées, soumettre un dossier expliquant les modifications à apporter à sa page. Passer un entretien, plus ou moins. Et si ce n'est pas bon, inutile d'attendre une réponse. De ce fait, je ne suis pas encore en mesure de restaurer CSS, car je ne suis pas sûr de ce que je peux récupérer et de ce que je dois réparer.\n<br /> <br /></p>\n\n\n<h5><ins>Pourquoi n'y a-t-il pas de sauvegarde complète de <em>Carnets sur sol</em> ? </ins></h5>\n\n\n<p>Un site de ce genre comprend plusieurs parties :</p>\n\n\n<p>¶ les textes, stockés dans la base MySQL ; en principe, si celle-ci n'est pas corrompue lors des sauvegardes chez Free (pas toujours de bonne qualité), il ne doit pas manquer grand'chose (simplement les notules des deux dernières semaines à remettre en forme) ;</p>\n\n\n<p>¶ les images et sons (qui sont une partie importante des notules « pédagogiques ») ; là aussi, sauvegardés, mais c'est malcommode, donc plutôt tous les ans… et, en juin, mon PC ayant fondu, j'ai une copie sur un serveur (malcommode pour récupérer des dossiers entiers), mais du printemps 2014. L'essentiel devrait être récupérable avec un peu de patience ;</p>\n\n\n<p>¶ l'architecture du site : feuille de style, lecteurs flash (je ne suis même pas sûr d'avoir le nom du second utilisé !), multi-catégories… là, je n'ai pas de sauvegarde récente, donc il y a un peu de travail, et certains outils ne sont plus disponibles (CSS est sur du Dotclear 1.2, qui n'est plus développé depuis des années, donc beaucoup de ces additifs ne sont plus en ligne).</p>\n\n\n<p>À cela, il faut ajouter les liens et peut-être les accents (c'est bricolable dans la base, mais un peu fastidieux, et il restera forcément du déchet).</p>\n\n\n<p>Vient ensuite la question du référencement : ce n'était pas prévu, mais au fil des années CSS a été cité dans pas mal d'endroits inattendus, et où les liens ne sont pas susceptibles d'être mis à jour. Changer d'hébergeur, cela signifie se retrouver au fond de Google pendant des années ; certes, désormais, des lecteurs ont pris leurs habitudes, mais il est frustrant de constater que tel lien sur tel site institutionnel ne débouchera plus sur rien.</p>\n\n\n<p>Bref, remettre tout cela en route ne se fait pas en un instant.\n<br /> <br /></p>\n\n\n<h5><ins>Prévisible. Pourquoi s'être confié imprudemment à Free dès le départ, alors ?</ins></h5>\n\n\n<p><em>Carnets sur sol</em> est issu d'une double expérimentation. À l'origine le site <em>Operacritiques</em> (2002-2004), un exercice de jeunesse (entièrement codé à la main en vieux html à frames) où je me suis essayé à parler de musique. Puis <em>Carnets sur sol</em> (2005-2014) : c'était la mode des carnets, j'étais simplement de curieux de voir comment ça fonctionnait techniquement. Et puis l'outil ayant ses charmes, je me suis laissé prendre au jeu.</p>\n\n\n<p>La difficulté étant que rien n'était prévu pour la longue durée :</p>\n\n\n<p>¶ le nom de domaine n'avait plus de rapport avec son contenu. Le projet de CSS était à l'origine de s'amuser avec des sites interactifs plus faciles à mettre en place de façon automatique, nul besoin de changer de domaine pour ce qui devait me divertir quelques semaines et de loin en loin. Puis ce fut le partage de simples instantanés (avec la maîtrise des données, pas sûr que j'aurais pour autant cédé à Facebook ?)… et depuis pas mal d'années à présent, le choix de mettre en lumière des œuvres ou des répertoires moins courus, d'expliquer grâce aux facilités multimédias quelques notions difficiles à explorer dans les livres… C'est devenu un passe-temps d'ampleur relativement respectable.</p>\n\n\n<p>¶ l'hébergeur, gratuit (à l'époque où avoir un site, était déjà à la pointe du progrès), répondait à ce qui était à peine un projet. Il n'était pas question que le site soit mentionné en dehors éventuellement de quelques autres carnets où j'aimais converser.</p>\n\n\n<p>Quand CSS a fini par être relativement fréquenté et bien référencé, il était impossible de changer sans briser tout le travail de référencement. Sans parler du temps dépensé en bidouille au lieu d'écouter des disques, de lire des ouvrages, de proposer des notules. J'ai donc accepté la situation, tout en tremblant chaque jour de ce qui arriverait lorsque… eh bien, lorsque ce serait aujourd'hui.\n<br /> <br /></p>\n\n\n<h5><ins>Dans ce cas, il aurait fallu redoubler de précautions</ins></h5>\n\n\n<p>Grande question aux confins de la philosophie. Le format numérique est à la fois duplicable à l'infini, résistant donc aux destructions localisées de type incendie, et infiniment fragile : une fois corrompu, il n'en reste rien. C'est vertigineux, et je crois que tout webmestre, et même tout abondant utilisateur du traitement de texte, des photos numériques (tout le monde, en somme) en frémit tous les jours. Une ogive nucléaire dans la stratosphère au-dessus de l'Europe, et hop, tout ce que nous avons écrit (les maniaques du papier étant toujours moins nombreux) depuis quinze ans disparaît à tout jamais. Saine paranoïa oblige, j'ai tout de même un serveur de sauvegarde en Amérique, même si dans l'absolu j'aurais peut-être dû choisir une nation moins « alliée ».</p>\n\n\n<p>Il reste deux solutions : soit on passe un temps important à tout sauvegarder systématiquement (ce qui finit par alourdir considérablement ce qui n'est qu'un loisir), soit on embrasse l'Anitya de notre Saá¹ƒsĀra, et à la suite d'Épictète, on chérit nos données numériques, mais comme données impermanentes et mortelles.</p>\n\n\n<p>Fatalement, la plupart des gens sains (non pas que je me flatte de l'être, moi je veux un « -t » ou rien) choisiront la seconde solution. Bref, pas de trépignements : le cycle vital va nécessairement dans ce sens-là. Et quel que soit le support, impossible de garantir la permanence… Sauf à se consacrer à la sauvegarde à temps plein (un écrit ? hop, un double sur le serveur, sur le DD, en impression papier, dont un envoyé par coursier au Chili), ce qui par essence ne fait pas vraiment sens.\n<br /> <br /></p>\n\n\n<h5><ins>Prospective</ins></h5>\n\n\n<p>Malgré la légitime tentation d'élever des carottes dans les prés verdoyants de Lozère (ou de planter des chèvres au soleil de Bretagne), il reste probable que <em>Carnets sur sol</em> aura un avenir. Le nom de domaine est encore incertain : selon ce qui restera des vestiges d'operacritiques.free.fr, selon ce qui sera transportable… Il est un peu rageant de devoir renoncer à tous les fignolages accumulés au fil des ans, mais il n'y a pas forcément de solution simple — c'est-à-dire en dehors de passer des semaines à restaurer le vieux au lieu de bâtir du neuf.</p>\n\n\n<p>Pour l'heure, <em>Carnets sur sol</em> mettra ses nouvelles notules ici, sur le nouveau domaine <a href=\"http://www.carnetsol.fr/css/\">http://www.carnetsol.fr/css/</a> , hébergé chez OVH qui a fait en quelques instants ce qui était toujours long et pénible chez Free. Une fois récupéré les anciennes données, il faudra aviser sur un nécessaire retour chez Free, ou sur une mise à jour ici.</p>\n\n\n<p>Encore une fois, je voudrais dire combien les témoignages compatissants et les offres de service m'ont touché, merci.</p>\n\n\n<p>Si certains lecteurs ont des suggestions en matière de transfert (considérant que Free interdit les redirections franches), et plus largement de sauvegarde de données (sur serveur à distance, avec synchronisation automatique, consultable sur PC comme un dossier sans l'interface web, assez vaste et pas complètement ruineuse), je suis bien sûr très curieux.</p>",
+ "notesHtml": "",
+ "extrait": "Lors de la disparition de Carnet sur sol , les quelques mots d'explication postés sur http://www.carnetsol.fr/css/ (qui deviendra à terme l'adresse définitive et mobile du site, mais pas pour l'instant). Bonjour à vous, aimable lecteur ; Vous voici sur la page temporaire de Carnets sur sol . Beaucoup de témoignages de…",
+ "nbCommentaires": 13,
+ "commentaires": [
+  {
+   "id": 10255,
+   "auteur": "Olivier",
+   "site": "",
+   "date": "2014-11-19T14:52:21",
+   "contenu": "<p>Bonjour</p>\r\n\r\n\r\n<p>Quel emm... pour vous qui avez consacré autant de VOTRE temps à distiller de si intéressantes notes pour notre instruction. Un véritable sabotage de la part de free(pouille) comme lu ailleurs.\r\nBon courage.</p>"
+  },
+  {
+   "id": 10256,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-11-19T14:52:52",
+   "contenu": "<p>Bonjour Olivier,</p>\r\n\r\n\r\n<p>Merci beaucoup pour ce petit mot. En principe, peu de choses devraient être perdues, mais le risque est de me retrouver avec une base durablement bancale. Ça fait partie des contraintes du support à distance. Sauf à avoir un serveur dédié (et son double à l'autre bout de la planète), possédé en propre et pas par une entreprise… Mais ça devient un travail d'informaticien à temps partiel.</p>\r\n\r\n\r\n<p>À bientôt.</p>"
+  },
+  {
+   "id": 10257,
+   "auteur": "Benedictus",
+   "site": "",
+   "date": "2014-11-19T14:53:45",
+   "contenu": "Bonsoir, cher David. Je viens seulement de constater le carnage. J'en suis sincèrement navré pour toi, et même scandalisé quand je pense à tes notules les plus pédagogiques - à la fois au temps que tu as dû y passer, et à l'aide précieuse pour qui cherchait des synthèses fiables sur des sujets comme les techniques vocales, l'histoire des genres lyriques, etc. Permets-moi de t'assurer de toute ma sympathie."
+  },
+  {
+   "id": 10258,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-11-19T14:54:30",
+   "contenu": "<p>Bonsoir Benoît,</p>\r\n\r\n\r\n<p>Merci beaucoup. Oui, effectivement, ce sont les notules les plus pédagogiques qui sont en danger, dans la mesure où je ne suis pas sûr de parvenir à rétablir tous les liens exactement vers les illustrations visuelles ou sonores. (Et puis, franchement, le reste a beaucoup moins d'intérêt, mon avis sur tel spectacle ou tel disque, c'est plus de la discussion entre copains…)</p>\r\n\r\n\r\n<p><i>A priori</i>, j'ai quand même fait des sauvegardes suffisantes, on verra ensuite l'énergie nécessaire pour restituer tout ça.</p>\r\n\r\n\r\n<p>Merci à toi. :)</p>"
+  },
+  {
+   "id": 10259,
+   "auteur": "Faust",
+   "site": "",
+   "date": "2014-11-19T14:55:25",
+   "contenu": "<p>Bonjour,</p>\r\n\r\n\r\n<p>Je suis atterré à la lecture de ce billet ! J'espère que vous pourrez récupérer tout ce que vous aviez écrit et mis en ligne. Me trouvant renvoyé sur une page de Free, j'ai pensé que ce n'était qu'un petit incident temporaire. Finalement, en utilisant Google, je me suis retrouvé ici ! Si je puis vous apporter un peu d'aide ... n'hésitez pas ! Je vois, en tout cas, que vous n'êtes pas décidé à abandonner.</p>\r\n\r\n\r\n<p>Ne sous-estimez pas ce que vous appelez \" le reste \" qui est tout aussi intéressant que les \" notules les plus pédagogiques \", même si ces dernières doivent vous prendre beaucoup de temps. Histoire de vous faire sourire (enfin, j'espère !) : sans vous, je ne serais pas allé écouter Dagmar Saskova au Centre culturel tchèque il y a quelques jours ...</p>\r\n\r\n\r\n<p>Longue vie à CSS et bon courage !</p>"
+  },
+  {
+   "id": 10260,
+   "auteur": "Diablotin",
+   "site": "latelierdediablotin.fr/WordPress3",
+   "date": "2014-11-19T14:59:17",
+   "contenu": "<p>C'est rageant ! Une mine de renseignements, dont parfois certains très pointus et toujours intéressants, vient de disparaître dans les tuyaux du net !\r\nBon courage pour la suite !!!</p>"
+  },
+  {
+   "id": 10261,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-11-19T15:01:49",
+   "contenu": "<p>Bonjour <strong>Faust</strong>,</p>\r\n\r\n\r\n<p>Merci beaucoup pour ce mot d'encouragement — qui n'est pas inutile, vu les étapes qui restent encore à accomplir, même si Free me rendait un site plus ou moins intact…</p>\r\n\r\n\r\n<p>Je vois avec plaisir que vous avez tiré parti de ma recommandation chaleureuse… c'était le concert de jazz ?  Je ne pouvais pas y être (<em>Scylla & Glaucus</em> à Versailles). À quoi ça ressemblait ?  Comment avez-vous trouvé Šašková ?</p>\r\n\r\n\r\n<p>Effectivement, cette nouvelle me fait très plaisir, quel qu'en soit le verdict.</p>"
+  },
+  {
+   "id": 10262,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-11-19T15:02:36",
+   "contenu": "<p>Bonsoir <strong>Diablotin</strong> !</p>\r\n\r\n\r\n<p>Je découvre l'existence du site, il y a plein de choses très intéressantes là-dedans, il ne fallait pas le garder secret comme ça !</p>\r\n\r\n\r\n<p>Merci pour ce mot de sympathie, je ne suis pas contre le stockage de cette denrée en ce moment. :)</p>"
+  },
+  {
+   "id": 10263,
+   "auteur": "Julia B",
+   "site": "",
+   "date": "2014-11-19T15:03:22",
+   "contenu": "<p>Bonjour,</p>\r\n\r\n\r\n<p>J'ai d'abord cru que le problème venait de moi et puis j'ai trouvé votre twitter. Je suis désolée que tant de travail soit (au moins provisoirement) perdu. Je suis ravie que vous n'abandonniez pas pour autant l'idée d'enrichir le net. Bon courage pour la suite !</p>"
+  },
+  {
+   "id": 10264,
+   "auteur": "Palimpseste",
+   "site": "",
+   "date": "2014-11-19T15:03:57",
+   "contenu": "<p>Bonjour David,</p>\r\n\r\n\r\n<p>Cela faisait plusieurs jours que ton site était inaccessible et ça commençait à m'énerver, surtout que le message d'erreur était peu informatif en dépit de sa longueur.</p>\r\n\r\n\r\n<p>En furetant ailleurs, j'ai fini par avoir le fin mot de l'histoire et le lien vers ici. Je suis content que tu aies pu trouver une solution, même temporaire.</p>\r\n\r\n\r\n<p>Bonne continuation sous cette nouvelle forme!</p>"
+  },
+  {
+   "id": 10265,
+   "auteur": "David Le Marrec",
+   "site": "",
+   "date": "2014-11-19T15:05:35",
+   "contenu": "<p>Bonjour !</p>\r\n\r\n\r\n<p>Merci à tous les deux pour ces encouragements. Comme précisé <em>ailleurs</em>, justement, vu l'ampleur de la tâche invisible ces derniers jours (et, même après cette restauration complète, dans les jours à venir), les encouragements donnent vraiment du sens à ce qui paraîtrait sinon une tâche un peu stérile, voire prétentieusement vaine.</p>\r\n\r\n\r\n<p>Merci !</p>"
+  },
+  {
+   "id": 10271,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2014-11-19T16:03:58",
+   "contenu": "<p>(informations complémentaires qui m'ont été demandées)<br><br>\r\n\r\nLe travail de ces derniers jours a manifestement satisfait l'administrateur Free, qui a débloqué le compte sensiblement plus tôt que prévu… et il s'est avéré que, contrairement à ce que laissait présager l'information reçue par mon fournisseur, rien de la base de CSS n'a été détruit, ce qui permet le retour en ligne aujourd'hui. <br><br>\r\n\r\nNéanmoins, je vais tâcher, dans les semaines à venir, de déménager CSS vers la nouvelle adresse <a href=\"http://carnetsol.fr\">http://carnetsol.fr</a>, qui me procure une autonomie appréciable — et franchement rassurante, après ce qui s'est produit. <br><br>\r\n\r\nSelon Free (exact ou non, je n'aurai jamais accès aux données techniques de toute façon), un spammeur s'était installé dans ma base MySQL. Si ça a été bref, j'ai pu ne pas remarquer l'enflement de la base, et cela expliquerait que les tables supprimées n'aient pas affecté CSS, qui était proprement entretenu. Je reste quand même dubitatif, mais il est vrai que j'avais un site de test en SPIP auquel je ne faisais plus attention, il doit être possible techniquement d'envoyer du spam par les formulaires ouverts, je suppose. Ça a été mon travail des derniers jours, en tout cas, essayer de trouver des failles potentielles (sans avoir accès à la base !) ; je n'ai donc pas encore rouvert <i><a href=\"http://operacritiques.free.fr/dss/\">Diaire sur sol</i></a>, j'attends de le sécuriser précisément.<br>\r\nJe ne suis toujours pas très convaincu par ce qui m'a été dit, mais en attendant, pas de délais supplémentaires de reconstruction, ni même de travail de restauration à opérer par leur PhpMyAdmin très bridé, c'est une bénédiction. </p>"
+  },
+  {
+   "id": 10277,
+   "auteur": "Julia B",
+   "site": "",
+   "date": "2014-11-20T09:49:43",
+   "contenu": "<p>ça c'est une bonne nouvelle ! </p>"
+  }
+ ],
+ "epingle": false
+}

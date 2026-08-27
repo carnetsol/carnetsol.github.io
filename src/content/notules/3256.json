@@ -1,0 +1,38 @@
+{
+ "postId": 3256,
+ "titre": "Le nouvel nouvel agenda de Carnets sur sol",
+ "slug": "le-nouvel-nouvel-agenda-de-carnets-sur-sol",
+ "url": "/css/2022/01/24/3256-le-nouvel-nouvel-agenda-de-carnets-sur-sol/",
+ "date": "2022-01-24T23:07:31",
+ "modifie": "2022-01-24T23:17:46",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<br><center><img src=\"/medias/agenda_sur_google_docs.png\" height=\"400\"></center><br><br>Toujours dans l'esprit de rendre l'agenda le plus souple, accessible et\r\nréactif possible, je tente une nouvelle adaptation : plutôt que de\r\nmettre à jour le fichier régulièrement (dans les faits, même une fois\r\npar semaine, c'est assez contraignant de transporter les données dans\r\nle fichier, de le remettre à charger…), je tente le format Google Docs.\r\n<br>\r\n<br>\r\nLe principe est toujours le même, format texte qui va beaucoup plus\r\nvite. Je délocalise mon agenda personnel sur un autre logiciel en\r\nsélectionnant seulement mes dates, et ce nouveau changement permet de\r\nvous faire voir les ajustements et nouveautés en <span\r\nstyle=\"font-style: italic;\">temps réel</span>, dès que je les ajoute.\r\nLes plus <span style=\"font-style: italic;\">geeks-purulents-de-concert</span>\r\nd'entre vous danseront de joie !<br>\r\n<br>\r\nL'adresse est évidemment beaucoup plus complexe, mais c'est le prix à\r\npayer. Je la change dans le haut de page qui apparaît sur tous les\r\narticles de CSS, vous y aurez ainsi un accès direct. <br>\r\n<br>\r\n→’ [<a\r\nhref=\"https://docs.google.com/document/d/1kOtsjhqjfrrxzMSmqp-_VFN6tVC2X03K_A2Isv30Ae0/edit?usp=sharing\"\r\ntarget=\"_blank\">agenda de <span style=\"font-style: italic;\">Carnets\r\nsur sol</span></a>]<br>\r\n<br>\r\nJe suis cette année, découragement des annulations aidant et évolution\r\nde mes pratiques commandant – de plus en plus de petits concerts et de\r\nmoins en moins de soirées à Bastille ou même la Philharmonie –, assez\r\nen retard sur mes relevés, il manque beaucoup de choses que je laisse\r\ndélibérément filer. Je n'ai pas noté la série des <span\r\nstyle=\"font-style: italic;\">Noces de Figaro </span>à Garnier, par\r\nexemple. Cela viendra plus tard si mon agenda se fait trop vide. <br>\r\n<br>\r\nToujours preneur de retours évidemment. J'espère que le fichier restera\r\nutile !<br><br>",
+ "notesHtml": "",
+ "extrait": "Toujours dans l'esprit de rendre l'agenda le plus souple, accessible et réactif possible, je tente une nouvelle adaptation : plutôt que de mettre à jour le fichier régulièrement (dans les faits, même une fois par semaine, c'est assez contraignant de transporter les données dans le fichier, de le remettre à charger…),…",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 14378,
+   "auteur": "sz",
+   "site": "",
+   "date": "2022-01-29T23:03:16",
+   "contenu": "<p>Bonjour,<br />\r\nles concerts de l'orchestre Elektra mentionnés dans l'agenda auront lieu à Sainte-Claire-d'Assise, comme les précédents (et seront dirigés uniquement par Samy Rachid, que j'adorais chez Arod, mais dont je ne sais ce qu'il sait faire à la baguette)</p>"
+  },
+  {
+   "id": 14379,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2022-01-30T12:22:20",
+   "contenu": "Merci beaucoup <b>Hessesaide</b> !<br><br>\r\n\r\nOn peut supposer que c'est justement l'occasion pour lui de s'exercer devant un orchestre – je n'ai pas du tout conscience s'il a un peu étudié la direction ou s'il se lance. (Mais d'une certaine façon, il arrive auréolé d'une notoriété supérieure à des chefs dont la carrière n'a pas éclos, ça aide peut-être à la visibilité de l'orchestre ?)<br><br>\r\n\r\n(Ou alors je m'abuse très fort sur la notoriété des violoncellistes de quatuor, ce qui est possible aussi.)"
+  }
+ ],
+ "epingle": false
+}

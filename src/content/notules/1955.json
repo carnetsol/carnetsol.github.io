@@ -1,0 +1,23 @@
+{
+ "postId": 1955,
+ "titre": "La partition dont voici la mélodie",
+ "slug": "la-partition-dont-voici-la-melodie",
+ "url": "/css/2012/04/11/1955-la-partition-dont-voici-la-melodie/",
+ "date": "2012-04-11T21:49:34",
+ "modifie": "2012-04-11T21:49:34",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p><br />\nJe ne suis pas totalement persuadé que le concept soit intrinsèquement opérant, mais voici un site remarquablement conçu qui permet d'effectuer ce type d'expérience :</p>",
+ "corpsHtml": "<p><a href=\"http://www.peachnote.com/\">Peachnote</a> opère en effet des recherches dans de vastes bases de données (<a href=\"http://imslp.org\">IMSLP</a> notamment) à partir des hauteurs et des rythmes entrés sur un clavier virtuel de la page web. Cela lui permet donc de trouver des correspondances entre mélodie entendue (voire, en théorie, des enchaînements harmoniques) et partition disponible,</p>\n<ul>\n<li>très au delà d'un répertoire de <em>tubes</em> présélectionnés, puisqu'il s'agit de fouiller dans des stocks très variés ;</li>\n<li>au delà même de la tonalité entrée dans le logiciel, si j'en crois les outils proposés.</li>\n</ul>\n<p><br />\nJe me demande si l'application va <em>réellement</em> transcrire un PDF (plus ou moins propre) en hauteurs musicales identifiables (et même transposables), mais le principe est en tout cas très sympathique.</p>\n\n\n<p>En revanche, je ne suis pas convaincu que ce soit réellement utile : les mélomanes occasionnels n'ont pas l'adresse de tels sites, et pas forcément les compétences solfégiques pour retranscrire correctement hauteurs et surtout rythmes, et les mélomanes plus chevronnés ont davantage l'habitude d'aller chercher des références dans des bases de données ou chez des amis spécialistes de telle ou telle période...</p>\n\n\n<p>En tout état de cause, indépendamment du fait que ce site touche ou pas une large cible, l'expérience mérite d'être signalée. J'y ai passé très peu de temps moi-même, aussi je serais très intéressé si des lecteurs de CSS touchaient quelques mots de leur usage de Peachnote...</p>",
+ "notesHtml": "",
+ "extrait": "Je ne suis pas totalement persuadé que le concept soit intrinsèquement opérant, mais voici un site remarquablement conçu qui permet d'effectuer ce type d'expérience :",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false
+}

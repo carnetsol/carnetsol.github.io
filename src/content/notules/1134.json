@@ -1,0 +1,42 @@
+{
+ "postId": 1134,
+ "titre": "Un bal masqué...",
+ "slug": "un-bal-masque",
+ "url": "/css/2009/02/08/1134-un-bal-masque/",
+ "date": "2009-02-08T19:19:55",
+ "modifie": "2009-02-08T19:36:55",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  },
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>...avec la réalité.</p>\n\n\n<p>Ô surprise, nous découvrons à l'instant que l'ambassadeur de Pologne se nomme... Tomasz Orlowski.</p>\n\n\n<p><img src=\"/medias/orlowski.jpg\" alt=\"\" /></p>\n\n\n<p>Le plus drôle, c'est que le chauve sourit.</p>\n\n\n<p>--</p>\n\n<object type=\"application/x-shockwave-flash\"\n data=\"http://operacritiques.free.fr/css/dewplayer.swf?son=http://operacritiques.free.fr/css/sons/orlowski.mp3\"\n height=\"20\" width=\"200\"><param name=\"movie\"\n value=\"http://operacritiques.free.fr/css/dewplayer.swf?mp3=http://operacritiques.free.fr/css/sons/orlowski.mp3\"></object>\n",
+ "notesHtml": "%%%\r\nOui, c'est une slave d'Europe centrale qui chante, je vous laisse deviner qui.",
+ "extrait": "...avec la réalité. Ô surprise, nous découvrons à l'instant que l'ambassadeur de Pologne se nomme... Tomasz Orlowski. Le plus drôle, c'est que le chauve sourit. --",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 4643,
+   "auteur": "Kia",
+   "site": "",
+   "date": "2009-02-09T08:36:06",
+   "contenu": "<p>En plus, il sait être drôle...un vrai homme accompli que ce David ;-)</p>"
+  },
+  {
+   "id": 4644,
+   "auteur": "Lavinie",
+   "site": "lavinie.blogspot.com",
+   "date": "2009-02-09T10:14:29",
+   "contenu": "<p>'s ist mal bei mir so Sitte, chacun à son goût :o)<br />\r\nAh, Mein Herr Marquis, ein Mann wie Sie...<br />\r\n<br />\r\nMerci pour la Fledermaus, ça passe assez bien un lundi matin gris-pourri!</p>"
+  }
+ ],
+ "epingle": false
+}

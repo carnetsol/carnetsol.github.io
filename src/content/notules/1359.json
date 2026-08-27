@@ -1,0 +1,42 @@
+{
+ "postId": 1359,
+ "titre": "Nouvelle catégorie : saison 2009-2010",
+ "slug": "nouvelle-categorie-saison-2009-2010",
+ "url": "/css/2009/09/19/1359-nouvelle-categorie-saison-2009-2010/",
+ "date": "2009-09-19T15:59:19",
+ "modifie": "2009-09-19T16:43:19",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  },
+  {
+   "nom": "Saison 2009-2010",
+   "slug": "Saison-2009-2010"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p>Pour plus de commodité, on pourra retrouver les commentaires sur cette saison sous l'intitulé <a href=\"/css/categorie/Saison-2009-2010/\">Saison 2009-2010</a> (dans la colonne de droite) et éventuellement en commentaires sous cette <a href=\"/css/2009/08/26/1342-une-saison-parisienne-2009-2010-10-theatres-operas-concerts-recitals-selections/\">notule-sélection</a>.</p>",
+ "notesHtml": "16 12 35\r\n",
+ "extrait": "Pour plus de commodité, on pourra retrouver les commentaires sur cette saison sous l'intitulé Saison 2009-2010 (dans la colonne de droite) et éventuellement en commentaires sous cette notule-sélection .",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 6851,
+   "auteur": "musique classique",
+   "site": "www.tutti-magazine.fr",
+   "date": "2011-06-29T20:45:09",
+   "contenu": "<p>Pas de MAJ depuis 1 an?</p>"
+  },
+  {
+   "id": 6857,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-06-30T03:42:23",
+   "contenu": "<p>Et par une coïncidence extraordinaire, la saison 2009-2010 est close depuis... un an. <br />\r\n<br />\r\nFaut-il y voir un rapport de cause à effet ? :) <br />\r\n<br />\r\nPour la saison qui s'achève, c'est <a href=\"http://operacritiques.free.fr/css/index.php?2010/09/11/1592-une-saison-notamment-parisienne-2010-2011\" target=\"_blank\">par ici</a>. </p>"
+  }
+ ],
+ "epingle": false
+}

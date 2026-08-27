@@ -1,0 +1,38 @@
+{
+ "postId": 1032,
+ "titre": "Rosserie",
+ "slug": "rosserie",
+ "url": "/css/2008/09/03/1032-rosserie/",
+ "date": "2008-09-03T14:29:00",
+ "modifie": "2008-09-03T14:29:00",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "En passant - brèves et jeux",
+   "slug": "En-passant"
+  }
+ ],
+ "chapoHtml": "<p>Juste manière de faire enrager <a href=\"http://nhofszandz.blogspot.com/2007/01/rene-fleming-autobiographie-heureuse.html\">Morloch</a>...</p>\n\n\n<p>[Pas d'image - c'est trop facile !]</p>",
+ "corpsHtml": "<object\n type=\"application/x-shockwave-flash\"\n data=\"http://operacritiques.free.fr/css/dewplayer.swf?son=http://musicontempo.free.fr/no_artist_renee_fleming.mp3\"\n height=\"20\" width=\"200\"> <param name=\"movie\" value=\"http://operacritiques.free.fr/css/dewplayer.swf?mp3=http://musicontempo.free.fr/no_artist_renee_fleming.mp3\"></object>\n\n\n<p><br />\nJe ne dis rien, moi, mais puisqu'elle le dit, il va bien falloir se rendre à l'évidence...\n<br /> <br /></p>\n\n\n<p>[Dans ma vidéo, les passages les plus lyriques que chante Fleming (et ceux-là seulement) sont opportunément sous-titrés. Mais pourquoi diable ?]</p>",
+ "notesHtml": "",
+ "extrait": "Juste manière de faire enrager Morloch ... [Pas d'image - c'est trop facile !]",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 4149,
+   "auteur": "Morloch",
+   "site": "",
+   "date": "2008-09-09T20:03:36",
+   "contenu": "<p>Tssssss...<br />\r\n<br />\r\nGrmbl.<br />\r\n<br />\r\nRenée a de l'humour, voilà. Et les gronchons ne peuvent pas comprendre :p</p>"
+  },
+  {
+   "id": 4152,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2008-09-09T20:33:51",
+   "contenu": "<p>Et gron, et gron, petipatapon.</p>"
+  }
+ ],
+ "epingle": false
+}

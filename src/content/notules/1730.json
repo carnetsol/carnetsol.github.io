@@ -1,0 +1,38 @@
+{
+ "postId": 1730,
+ "titre": "Mise à jour",
+ "slug": "mise-a-jour",
+ "url": "/css/2011/05/28/1730-mise-a-jour/",
+ "date": "2011-05-28T05:10:54",
+ "modifie": "2011-05-28T05:49:07",
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Intendance",
+   "slug": "General"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p><br />\n... très substantielle de l'<a href=\"http://operacritiques.free.fr/css/index_css.html\">index</a>. Toutes les entrées principales depuis fin 2010 sont désormais incluses. <br />\nIl n'est pas exhaustif pour les entrées plus anciennes, mais un certain nombre de choses s'y trouvent déjà.</p>\n\n\n<p>Vous pouvez y accéder aisément par le lien situé en haut à gauche de cette page.</p>",
+ "notesHtml": "5h47m54s",
+ "extrait": "... très substantielle de l' index . Toutes les entrées principales depuis fin 2010 sont désormais incluses. Il n'est pas exhaustif pour les entrées plus anciennes, mais un certain nombre de choses s'y trouvent déjà. Vous pouvez y accéder aisément par le lien situé en haut à gauche de cette page.",
+ "nbCommentaires": 2,
+ "commentaires": [
+  {
+   "id": 6786,
+   "auteur": "Olivier",
+   "site": "www.leshavrais.fr",
+   "date": "2011-05-28T08:38:25",
+   "contenu": "<p>j'avoue avoir toujours un peu de mal à m'y retrouver...<br />\r\nTu ne pouvais pas faire un classement par genre (époque) et par compositeur ?</p>"
+  },
+  {
+   "id": 6787,
+   "auteur": "DavidLeMarrec",
+   "site": "",
+   "date": "2011-05-28T13:16:04",
+   "contenu": "<p>C'est déjà le cas... <br />\r\n<br />\r\nClassement par genre, puis par langue pour la musique vocale, puis par ordre chronologique approximatif. <br />\r\n<br />\r\nAu besoin, on peut toujours faire une recherche sur la page si on veut un compositeur précis... ça reste plus commode que la consultation des chapitres parfois chargé ou que la fonction de recherche assez <em>généreuse</em>. </p>"
+  }
+ ],
+ "epingle": false
+}
