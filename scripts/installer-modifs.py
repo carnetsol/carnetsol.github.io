@@ -149,7 +149,14 @@ def lire_zip(chemin_zip):
             # Un zip ne doit jamais pouvoir écrire hors du projet.
             if nom.startswith('/') or '..' in Path(nom).parts:
                 abandonner(f'chemin suspect dans le zip : {nom}')
-            if not nom.startswith('src/'):
+            # Le zip peut porter du code (src/), des fichiers publics
+            # (public/), des outils (scripts/) et la configuration Astro.
+            # Rien d'autre : pas de node_modules, pas de dist, pas de .git.
+            autorise = (
+                nom.startswith(('src/', 'public/', 'scripts/'))
+                or nom in ('astro.config.mjs', 'package.json')
+            )
+            if not autorise:
                 abandonner(f'entrée inattendue dans le zip : {nom}')
 
             fichiers[nom] = z.read(info)

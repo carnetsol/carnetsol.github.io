@@ -3,19 +3,60 @@ import '../styles/global.css';
 
 interface Props {
   titre: string;
+  /** Texte de la balise <meta name="description"> et des métadonnées de partage. */
   description?: string;
+  /** Sous-titre AFFICHÉ sous le titre du site. Distinct de la description. */
+  soustitre?: string;
+  /** Affiche la devise sous le titre. Réservé à / et /css/. */
+  devise?: boolean;
+  /** 'website' pour les pages de rubrique, 'article' pour une notule. */
+  type?: 'website' | 'article';
+  /** Adresse canonique, si elle diffère de celle de la page courante. */
+  canonique?: string;
+  /** Date de publication, pour les métadonnées d'article. */
+  datePublication?: Date;
   /** Affiche le bandeau « retour au menu principal » (pages sous /css/). */
   lienMenu?: boolean;
   /** Affiche le menu horizontal des rubriques. */
   menu?: boolean;
 }
 
+/**
+ * SOUS-TITRE et DESCRIPTION sont deux choses différentes.
+ *
+ * Auparavant un seul champ servait aux deux : sur une page de notule, où
+ * `description` reçoit l'extrait de la notule, cet extrait s'affichait donc
+ * comme sous-titre du SITE, sous « Carnets sur sol ». Le sous-titre est
+ * désormais constant, la description reste propre à chaque page.
+ */
+const SOUSTITRE = 'Musiques interlopes depuis 2005. Placards de MH. '
+                + 'Balades sylvestres post-diurnes.';
+
+const DESCRIPTION = "Notules d'opéra, de disques et de promenades — depuis 2005.";
+
 const {
   titre,
-  description = "Notules d'opéra, de disques et de promenades — depuis 2004.",
+  description = DESCRIPTION,
+  soustitre = SOUSTITRE,
+  devise = false,
+  type = 'website',
+  canonique,
+  datePublication,
   lienMenu = true,
   menu = true,
 } = Astro.props;
+
+const urlCanonique = new URL(canonique ?? Astro.url.pathname, Astro.site);
+
+/**
+ * Image de partage. cello.jpg fait 161 x 121 px : c'est SOUS le minimum
+ * de 200 x 200 exigé par la plupart des réseaux, qui n'afficheront donc
+ * aucune vignette. La carte est réglée sur « summary » plutôt que
+ * « summary_large_image » en attendant une version plus grande.
+ */
+const imagePartage = new URL('/partage.jpg', Astro.site);
+const PARTAGE_L = 161;
+const PARTAGE_H = 121;
 
 const rubriques = [
   { href: '/index-general/',   label: 'Index (fragmentaire) & Linktree' },
@@ -30,10 +71,42 @@ const rubriques = [
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>{titre} — Carnets sur sol</title>
   <meta name="description" content={description} />
-  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  <link rel="canonical" href={urlCanonique} />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="alternate" type="application/rss+xml" title="Carnets sur sol" href="/css/rss.xml" />
+
+  {/* --- Partage sur les réseaux -----------------------------------------
+      Open Graph est lu par Facebook, Mastodon, Bluesky, LinkedIn, Discord,
+      Signal, WhatsApp, Slack. X lit les balises twitter: et retombe sur
+      Open Graph pour le reste : d'ou la redondance apparente.
+
+      og:image doit etre une adresse ABSOLUE, les reseaux ne resolvant pas
+      les chemins relatifs. D'ou le new URL() ci-dessus.                  */}
+  <meta property="og:site_name" content="Carnets sur sol" />
+  <meta property="og:type" content={type} />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:title" content={titre} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={urlCanonique} />
+  <meta property="og:image" content={imagePartage} />
+  <meta property="og:image:width" content={String(PARTAGE_L)} />
+  <meta property="og:image:height" content={String(PARTAGE_H)} />
+
+  {type === 'article' && datePublication && (
+    <meta property="article:published_time" content={datePublication.toISOString()} />
+  )}
+  {type === 'article' && (
+    <meta property="article:author" content="David Le Marrec" />
+  )}
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={titre} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={imagePartage} />
 </head>
 <body>
 
@@ -45,7 +118,7 @@ const rubriques = [
 
   <header id="top">
     <h1><a href="/css/">Carnets sur sol</a></h1>
-    <p class="tagline">{description}</p>
+    {devise && <p class="tagline">{soustitre}</p>}
   </header>
 
   {menu && (
@@ -63,7 +136,9 @@ const rubriques = [
   </main>
 
   <footer id="footer">
-    © Carnets sur sol — David Le Marrec — depuis 2004 ·
+    Carnets sur sol — David Le Marrec — depuis 2005 ·
+    ISSN <a href="https://catalogue.bnf.fr/ark:/12148/cb43668591m.public"
+            target="_blank" rel="noopener noreferrer">2269-2843</a> ·
     <a href="/css/rss.xml">Flux RSS</a> ·
     <a href="/archives/">Archives complètes</a>
   </footer>

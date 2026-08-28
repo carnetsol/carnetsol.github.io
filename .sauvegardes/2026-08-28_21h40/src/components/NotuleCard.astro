@@ -1,6 +1,4 @@
 ---
-import { ouvrirDehors } from '../lib/liens';
-
 interface Props {
   notule: {
     data: {
@@ -33,7 +31,7 @@ const chapo = d.chapoHtml?.trim();
   </div>
 
   {chapo
-    ? <div class="post-chapo" set:html={ouvrirDehors(chapo)} />
+    ? <div class="post-chapo" set:html={chapo} />
     : <p class="post-chapo">{d.extrait}</p>}
 
   <p class="post-info">

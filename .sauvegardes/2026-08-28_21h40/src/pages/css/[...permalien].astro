@@ -2,7 +2,6 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { slugifier, chargerCorrections, appliquerCorrection } from '../../lib/notules';
-import { ouvrirDehors } from '../../lib/liens';
 
 /**
  * Une seule route sert trois choses :
@@ -168,7 +167,7 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
     </body>
   </html>
 ) : (
-<Base titre={titre} description={extrait} type="article" datePublication={date}>
+<Base titre={titre} description={extrait}>
 
   <div class="contenu" data-pagefind-body>
     <div class="day-date">{dateLongue}</div>
@@ -179,18 +178,18 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
       </div>
 
       {archive && d.chapoHtml?.trim() && (
-        <div class="post-chapo" set:html={ouvrirDehors(d.chapoHtml)} />
+        <div class="post-chapo" set:html={d.chapoHtml} />
       )}
       {nouvelle && nouvelle.data.chapo && (
         <p class="post-chapo">{nouvelle.data.chapo}</p>
       )}
 
       {archive
-        ? <div class="notule-corps" set:html={ouvrirDehors(d.corpsHtml)} />
+        ? <div class="notule-corps" set:html={d.corpsHtml} />
         : <div class="notule-corps"><Contenu /></div>}
 
       {archive && d.notesHtml?.trim() && (
-        <div class="notule-notes" set:html={ouvrirDehors(d.notesHtml)} />
+        <div class="notule-notes" set:html={d.notesHtml} />
       )}
 
       <p class="post-info">
@@ -233,7 +232,7 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
           <article class="commentaire" id={`c${c.id}`}>
             <p class="commentaire-info">
               {c.site
-                ? <a href={c.site} target="_blank" rel="nofollow noopener noreferrer">{c.auteur}</a>
+                ? <a href={c.site} rel="nofollow noopener">{c.auteur}</a>
                 : c.auteur}
               {c.date && (
                 <> — {new Date(c.date).toLocaleDateString('fr-FR', {
@@ -241,7 +240,7 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
                 })}</>
               )}
             </p>
-            <div class="commentaire-corps" set:html={ouvrirDehors(c.contenu)} />
+            <div class="commentaire-corps" set:html={c.contenu} />
           </article>
         ))}
         <p class="commentaires-clos">

@@ -13,23 +13,10 @@ for (const n of notules) {
   }
 }
 
-/**
- * Ordre voulu, pas ordre alphabétique.
- *
- * Le champ « ordre » de categories.json est posé par
- * scripts/ordonner_categories.py selon la convention suivante :
- *      0 …  999   premier bloc
- *   1000 … 1999   second bloc
- *   2000 … 2999   catégories non encore classées, alphabétiques
- * Un filet est tracé chaque fois que le millier change : la structure de
- * la page vient donc entièrement des données, rien n'est codé ici.
- */
 const listees = categories
   .map((c) => ({ ...c.data, nb: compte.get(c.data.slug) ?? 0 }))
   .filter((c) => c.nb > 0 && c.nom !== '_')
-  .sort((a, b) => a.ordre - b.ordre || a.nom.localeCompare(b.nom, 'fr'));
-
-const bloc = (ordre: number) => Math.floor(ordre / 1000);
+  .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 ---
 <Base titre="Catégories" lienMenu={false}>
 
@@ -37,8 +24,8 @@ const bloc = (ordre: number) => Math.floor(ordre / 1000);
     <h2 class="section-head">{listees.length} catégories</h2>
 
     <ul class="cats">
-      {listees.map((c, i) => (
-        <li class={i > 0 && bloc(c.ordre) !== bloc(listees[i - 1].ordre) ? 'debut-bloc' : undefined}>
+      {listees.map((c) => (
+        <li>
           <a href={`/categorie/${c.slug}/`}>{c.nom}</a>
           <span class="nb">{c.nb}</span>
           {c.description && <span class="desc">{c.description}</span>}
@@ -56,12 +43,6 @@ const bloc = (ordre: number) => Math.floor(ordre / 1000);
     border-bottom: 1px dashed var(--parch-dark);
   }
   .cats li:last-child { border-bottom: none; }
-  /* Filet de séparation entre deux blocs de la liste voulue. */
-  .cats li.debut-bloc {
-    border-top: 1px solid var(--gold-line);
-    margin-top: 1.4em;
-    padding-top: 1.4em;
-  }
   .cats a { font-family: Georgia, serif; font-size: 1.05em; color: var(--ink); }
   .cats a:hover { color: #8d6e68; }
   .nb {

@@ -1,0 +1,17 @@
+# Généré par installer-modifs.py — ne pas modifier
+# 28/08/2026 à 21:40
+# source : C:\Users\PC\Downloads\carnetsol-modifs-lot3.zip
+
+REMPLACE	astro.config.mjs
+REMPLACE	public/favicon.ico
+REMPLACE	src/components/NotuleCard.astro
+REMPLACE	src/layouts/Base.astro
+REMPLACE	src/pages/categorie/index.astro
+REMPLACE	src/pages/css/[...permalien].astro
+REMPLACE	src/pages/css/index.astro
+REMPLACE	src/pages/index.astro
+CREE	public/partage.jpg
+CREE	scripts/diagnostic_webarchive.py
+CREE	scripts/importer_youtube.py
+CREE	scripts/ordonner_categories.py
+CREE	src/lib/liens.ts
