@@ -3,40 +3,31 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import NotuleCard from '../../components/NotuleCard.astro';
 import BoiteRecherche from '../../components/BoiteRecherche.astro';
+import Pagination from '../../components/Pagination.astro';
+
+const PAR_PAGE = 50;
 
 const toutes = await getCollection('notules');
 const triees = toutes.sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 
-const dernieres = triees.slice(0, 15);
+const premieres = triees.slice(0, PAR_PAGE);
 const total = triees.length;
+const nbPages = Math.max(1, Math.ceil(total / PAR_PAGE));
 ---
 <Base titre="Notules récentes">
 
   <BoiteRecherche />
 
   <div class="contenu">
-    {dernieres.map((notule) => <NotuleCard notule={notule} />)}
+    {/* #fil : le conteneur où le bouton « Charger les 50 suivantes »
+        recopie les notules de la page suivante. */}
+    <div id="fil">
+      {premieres.map((notule) => <NotuleCard notule={notule} />)}
+    </div>
 
-    <p class="suite">
-      Ces quinze dernières notules sur {total.toLocaleString('fr-FR')} publiées
-      depuis 2004. Le reste se trouve dans les
-      <a href="/archives/">archives</a> et les
-      <a href="/categorie/">catégories</a>.
-    </p>
+    <Pagination page={1} nbPages={nbPages} total={total} affichees={premieres.length} />
   </div>
 
 </Base>
-
-<style>
-  .suite {
-    margin: 2.5em 0 0;
-    padding-top: 1.2em;
-    border-top: 1px solid var(--gold-line);
-    font-family: "Lucida Grande", Verdana, sans-serif;
-    font-size: .85em;
-    color: var(--muted);
-    text-align: center;
-  }
-</style>

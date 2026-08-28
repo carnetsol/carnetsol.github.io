@@ -25,33 +25,6 @@ export async function getStaticPaths() {
   const parNom = new Map(cats.map((c) => [c.data.nom.toLowerCase(), c.data.slug]));
   const correctifs = await chargerCorrections();
 
-  // --- 0. voisinage chronologique -------------------------------------
-  // Archives et nouvelles confondues : le fil de lecture ne doit pas
-  // buter sur la frontière entre le corpus importé et les billets récents.
-  const urlNouvelle = (n) => {
-    const d = n.data.date;
-    return `/css/${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${slugifier(n.data.titre)}/`;
-  };
-
-  const chrono = [
-    ...archives.map((n) => ({ url: n.data.url, titre: n.data.titre, date: n.data.date })),
-    ...nouvelles.map((n) => ({ url: urlNouvelle(n), titre: n.data.titre, date: n.data.date })),
-  ].sort(
-    (a, b) => b.date.valueOf() - a.date.valueOf() || a.url.localeCompare(b.url)
-  );
-
-  // Liste triée du plus récent au plus ancien : l'index suivant est la
-  // notule PRÉCÉDENTE dans le temps, l'index antérieur la SUIVANTE.
-  const voisines = new Map();
-  chrono.forEach((n, i) => {
-    voisines.set(n.url, {
-      precedente: chrono[i + 1] ? { url: chrono[i + 1].url, titre: chrono[i + 1].titre } : null,
-      suivante:   chrono[i - 1] ? { url: chrono[i - 1].url, titre: chrono[i - 1].titre } : null,
-    });
-  });
-
-  const sansVoisines = { precedente: null, suivante: null };
-
   const chemins = [];
   const pris = new Set();
 
@@ -70,7 +43,6 @@ export async function getStaticPaths() {
       archive: { ...notule, data: appliquerCorrection(notule.data, correctifs.get(notule.data.postId)) },
       nouvelle: null,
       redirection: null,
-      ...(voisines.get(notule.data.url) ?? sansVoisines),
     });
   }
 
@@ -87,7 +59,6 @@ export async function getStaticPaths() {
         nom,
         slug: parNom.get(nom.toLowerCase()) ?? slugifier(nom),
       })),
-      ...(voisines.get(urlNouvelle(n)) ?? sansVoisines),
     });
   }
 
@@ -130,14 +101,7 @@ export async function getStaticPaths() {
   return chemins;
 }
 
-const {
-  archive,
-  nouvelle,
-  categories: catsNouvelle,
-  redirection,
-  precedente = null,
-  suivante = null,
-} = Astro.props;
+const { archive, nouvelle, categories: catsNouvelle, redirection } = Astro.props;
 
 const d = archive?.data;
 const titre = archive ? d.titre : nouvelle?.data.titre;
@@ -204,27 +168,6 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
       </p>
     </article>
 
-    {(precedente || suivante) && (
-      /* data-pagefind-ignore : sans cela, le titre des deux notules
-         voisines serait indexé dans le texte de celle-ci et la recherche
-         renverrait des faux positifs sur trois pages à chaque fois. */
-      <nav class="voisines" aria-label="Notules voisines" data-pagefind-ignore>
-        {precedente ? (
-          <a class="v-prec" href={precedente.url} rel="prev">
-            <span class="v-sens">Notule précédente</span>
-            <span class="v-titre">{precedente.titre}</span>
-          </a>
-        ) : <span class="v-vide" />}
-
-        {suivante ? (
-          <a class="v-suiv" href={suivante.url} rel="next">
-            <span class="v-sens">Notule suivante</span>
-            <span class="v-titre">{suivante.titre}</span>
-          </a>
-        ) : <span class="v-vide" />}
-      </nav>
-    )}
-
     {archive && d.commentaires.length > 0 && (
       <section id="commentaires">
         <h2 class="section-head">{d.commentaires.length} indiscrets</h2>
@@ -254,53 +197,6 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
 )}
 
 <style>
-  /* ---------- Notules voisines ---------- */
-  .voisines {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    margin: 2em 0 2.5em;
-    padding-top: 1.2em;
-    border-top: 1px solid var(--gold-line);
-  }
-  .voisines a {
-    display: block;
-    padding: .7em .9em;
-    background: var(--frame-bg);
-    border: 1px solid var(--parch-dark);
-    border-radius: 2px;
-  }
-  .voisines a:hover { border-color: var(--gold-frame); }
-  .v-suiv { text-align: right; }
-  .v-sens {
-    display: block;
-    font-family: "Lucida Grande", Verdana, sans-serif;
-    font-size: .72em;
-    letter-spacing: .06em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: .25em;
-  }
-  .v-prec .v-sens::before { content: "« "; }
-  .v-suiv .v-sens::after  { content: " »"; }
-  .v-titre {
-    display: block;
-    font-family: Georgia, serif;
-    font-size: .95em;
-    line-height: 1.35;
-    color: var(--ink);
-  }
-  .voisines a:hover .v-titre { color: #8d6e68; }
-
-  /* Une notule en bout de corpus n'a qu'un seul voisin : la cellule vide
-     maintient l'autre lien dans sa colonne. */
-  .v-vide { display: block; }
-
-  @media (max-width: 640px) {
-    .voisines { grid-template-columns: 1fr; }
-    .v-suiv { text-align: left; }
-  }
-
   .commentaire {
     border-left: 2px solid var(--parch-dark);
     background: var(--frame-bg);

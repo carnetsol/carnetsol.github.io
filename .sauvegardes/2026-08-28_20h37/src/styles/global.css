@@ -136,26 +136,7 @@ nav.menu a { color: #756435; }
 	line-height: 1.6;
 	text-align: justify;
 	padding: 0 1.2em 1.2em;
-
-	/* Sans césure, le français justifié sur 720 px se creuse de lézardes.
-	   Le `lang="fr"` de <html> fournit le dictionnaire au navigateur.
-	   hyphenate-limit-chars : mot d'au moins 6 lettres, 3 avant le tiret,
-	   3 après — évite les coupures ridicules du type « in-tér-êt ».
-	   Propriété récente : les navigateurs qui l'ignorent appliquent
-	   simplement leurs propres seuils, la césure fonctionne quand même. */
-	-webkit-hyphens: auto;
-	hyphens: auto;
-	hyphenate-limit-chars: 6 3 3;
-	/* Une URL nue ou un titre allemand ne débordera pas de la colonne. */
-	overflow-wrap: break-word;
 }
-
-/* Ni les titres ni les citations courtes ne gagnent à être coupés. */
-.notule-corps h3, .notule-corps h4,
-.post-title, .section-head { hyphens: manual; }
-
-/* Le code et les tableaux non plus. */
-.notule-corps pre, .notule-corps code { hyphens: none; }
 .notule-corps h3, .notule-corps h4 { color: #756435; font-family: Georgia, serif; }
 .notule-corps blockquote {
 	margin: 1.4em 0; padding: .2em 0 .2em 1.2em;

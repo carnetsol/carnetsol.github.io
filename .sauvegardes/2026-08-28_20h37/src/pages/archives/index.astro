@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const notules = await getCollection('notules');
+const triees = notules.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Regroupement année -> mois -> notules
+const parAnnee = new Map<number, Map<number, typeof triees>>();
+for (const n of triees) {
+  const a = n.data.date.getFullYear();
+  const m = n.data.date.getMonth();
+  if (!parAnnee.has(a)) parAnnee.set(a, new Map());
+  const mois = parAnnee.get(a)!;
+  if (!mois.has(m)) mois.set(m, []);
+  mois.get(m)!.push(n);
+}
+
+const nomMois = [
+  'janvier', 'février', 'mars', 'avril', 'mai', 'juin',
+  'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre',
+];
+---
+<Base titre="Archives" lienMenu={false}>
+
+  <div class="contenu">
+    <h2 class="section-head">Archives — {triees.length.toLocaleString('fr-FR')} notules</h2>
+
+    {[...parAnnee.entries()].map(([annee, mois]) => (
+      <section class="annee">
+        <h3>{annee}</h3>
+        {[...mois.entries()].map(([m, liste]) => (
+          <details>
+            <summary>
+              {nomMois[m]} <span class="compte">{liste.length}</span>
+            </summary>
+            <ul class="liste">
+              {liste.map((n) => (
+                <li>
+                  <span class="r-date">
+                    {n.data.date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}
+                  </span>
+                  <span class="r-title"><a href={n.data.url}>{n.data.titre}</a></span>
+                  <span class="r-cat">{n.data.categories[0]?.nom ?? ''}</span>
+                </li>
+              ))}
+            </ul>
+          </details>
+        ))}
+      </section>
+    ))}
+  </div>
+
+</Base>
+
+<style>
+  .annee { margin-bottom: 2em; }
+  .annee h3 {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    color: var(--gold-frame);
+    border-bottom: 1px solid var(--gold-line);
+    padding-bottom: .2em;
+    margin-bottom: .4em;
+  }
+  details { margin: .2em 0; }
+  summary {
+    cursor: pointer;
+    padding: .35em 0;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .88em;
+    color: #756435;
+  }
+  summary:hover { color: #8d6e68; }
+  .compte { color: #ada095; font-size: .85em; }
+  details ul { padding-left: 1.2em; }
+</style>

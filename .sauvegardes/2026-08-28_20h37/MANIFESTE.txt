@@ -1,0 +1,11 @@
+# Généré par installer-modifs.py — ne pas modifier
+# 28/08/2026 à 20:37
+# source : C:\Users\PC\Downloads\carnetsol-modifs.zip
+
+REMPLACE	src/pages/archives/index.astro
+REMPLACE	src/pages/css/[...permalien].astro
+REMPLACE	src/pages/css/index.astro
+REMPLACE	src/pages/index.astro
+REMPLACE	src/styles/global.css
+CREE	src/components/Pagination.astro
+CREE	src/pages/css/page/[page].astro

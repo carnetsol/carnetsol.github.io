@@ -1,0 +1,25 @@
+Installation des modifications de Carnets sur sol
+==================================================
+
+Téléchargez ces deux fichiers au même endroit :
+  - carnetsol-modifs.zip
+  - installer-modifs.py
+
+Mettez installer-modifs.py dans scripts/ de votre projet Carnets sur sol.
+(Ou gardez-le à la racine, ou n'importe où : le script trouve le projet
+tout seul.)
+
+Lancez :
+    python scripts/installer-modifs.py
+
+L'aide complète :
+    python scripts/installer-modifs.py --help
+
+Le script demande confirmation avant de changer quoi que ce soit,
+sauvegarde les fichiers qu'il remplace, compile pour vérifier,
+et peut tout restaurer à la demande.
+
+Pour revenir en arrière après une installation réussie :
+    python scripts/installer-modifs.py --annuler ".sauvegardes/2026-08-28_18h30"
+
+(L'adresse exacte est affichée après l'installation.)

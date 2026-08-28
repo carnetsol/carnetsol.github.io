@@ -1,0 +1,164 @@
+---
+/**
+ * Pagination du fil des notules.
+ *
+ * Deux mécanismes superposés, dans cet ordre :
+ *   1. des liens ordinaires vers /css/page/N/ — ils fonctionnent sans
+ *      JavaScript, sont suivis par les moteurs, et se partagent ;
+ *   2. par-dessus, un bouton « Charger les 50 suivantes » qui va chercher
+ *      la page suivante et en recopie les notules à la suite.
+ *
+ * Le bouton n'est révélé que par le script : si JavaScript échoue, il
+ * n'apparaît jamais et les liens restent seuls maîtres.
+ */
+interface Props {
+  page: number;
+  nbPages: number;
+  total: number;
+  /** Nombre de notules affichées sur cette page (pour le compteur). */
+  affichees: number;
+}
+
+const { page, nbPages, total, affichees } = Astro.props;
+
+const url = (n: number) => (n === 1 ? '/css/' : `/css/page/${n}/`);
+
+const urlPrec = page > 1 ? url(page - 1) : null;
+const urlSuiv = page < nbPages ? url(page + 1) : null;
+
+// Rang de la dernière notule affichée, avant tout déroulement dynamique.
+const rang = (page - 1) * 50 + affichees;
+---
+<nav class="pagination" aria-label="Pages du fil" data-suivante={urlSuiv ?? ''}>
+
+  <p class="p-compte" data-rang={rang}>
+    {rang.toLocaleString('fr-FR')} notules sur {total.toLocaleString('fr-FR')}
+    publiées depuis 2004. Le reste se trouve dans les
+    <a href="/archives/">archives</a>, les
+    <a href="/categorie/">catégories</a> et la
+    <a href="/css/recherche/">recherche</a>.
+  </p>
+
+  {urlSuiv && (
+    <button type="button" class="charger" hidden>Charger les 50 suivantes</button>
+  )}
+
+  <p class="p-liens">
+    {urlPrec
+      ? <a class="p-prec" href={urlPrec} rel="prev">50 précédentes</a>
+      : <span class="p-inerte">50 précédentes</span>}
+
+    <span class="p-page">page {page} sur {nbPages}</span>
+
+    {urlSuiv
+      ? <a class="p-suiv" href={urlSuiv} rel="next">50 suivantes</a>
+      : <span class="p-inerte">50 suivantes</span>}
+  </p>
+
+</nav>
+
+<script>
+  /**
+   * Déroulement dynamique. La page suivante est récupérée telle quelle et
+   * ses notules sont recopiées dans #fil. Aucune donnée n'est dupliquée
+   * dans le HTML : c'est la page de pagination qui sert de source.
+   */
+  const fil = document.getElementById('fil');
+  const nav = document.querySelector<HTMLElement>('.pagination');
+  const bouton = nav?.querySelector<HTMLButtonElement>('.charger');
+
+  if (fil && nav && bouton && nav.dataset.suivante) {
+    bouton.hidden = false;
+
+    bouton.addEventListener('click', async () => {
+      const cible = nav.dataset.suivante;
+      if (!cible) return;
+
+      bouton.disabled = true;
+      bouton.textContent = 'Chargement…';
+
+      try {
+        const reponse = await fetch(cible);
+        if (!reponse.ok) throw new Error(String(reponse.status));
+
+        const doc = new DOMParser().parseFromString(await reponse.text(), 'text/html');
+        const nouveau = doc.getElementById('fil');
+        const navSuivante = doc.querySelector<HTMLElement>('.pagination');
+        if (!nouveau) throw new Error('fil introuvable');
+
+        fil.append(...Array.from(nouveau.children));
+
+        // La suite de la chaîne vient de la page qu'on vient de charger.
+        const suite = navSuivante?.dataset.suivante ?? '';
+        nav.dataset.suivante = suite;
+
+        // Le lien de secours doit pointer plus loin, lui aussi.
+        const lien = nav.querySelector<HTMLAnchorElement>('.p-suiv');
+        const lienSuivant = navSuivante?.querySelector<HTMLAnchorElement>('.p-suiv');
+        if (lien) {
+          if (lienSuivant) lien.href = lienSuivant.getAttribute('href') ?? lien.href;
+          else lien.replaceWith(Object.assign(document.createElement('span'),
+                                { className: 'p-inerte', textContent: '50 suivantes' }));
+        }
+
+        // « page 1 sur 67 » devient faux dès le premier déroulement.
+        const compte = nav.querySelector<HTMLElement>('.p-page');
+        const affichees = fil.querySelectorAll('article.post').length;
+        if (compte) compte.textContent = `${affichees.toLocaleString('fr-FR')} notules affichées`;
+
+        if (suite) {
+          bouton.disabled = false;
+          bouton.textContent = 'Charger les 50 suivantes';
+        } else {
+          bouton.remove();
+        }
+      } catch {
+        bouton.disabled = false;
+        bouton.textContent = 'Échec du chargement — réessayer';
+      }
+    });
+  }
+</script>
+
+<style>
+  .pagination {
+    margin: 2.5em 0 0;
+    padding-top: 1.2em;
+    border-top: 1px solid var(--gold-line);
+    text-align: center;
+  }
+  .p-compte {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .85em;
+    color: var(--muted);
+    margin: 0 0 1.2em;
+  }
+  .charger {
+    padding: .6em 1.4em;
+    cursor: pointer;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .85em;
+    letter-spacing: .05em;
+    background: var(--gold-frame);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+  }
+  .charger:hover { background: #a07c33; }
+  .charger[disabled] { background: var(--parch-dark); cursor: default; }
+
+  .p-liens {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1em;
+    margin: 1.4em 0 0;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .82em;
+  }
+  .p-prec::before { content: "« "; color: var(--gold-line); }
+  .p-suiv::after  { content: " »"; color: var(--gold-line); }
+  .p-page { color: var(--muted); }
+  /* Bout de chaîne : le libellé reste en place pour ne pas décaler l'autre. */
+  .p-inerte { color: var(--parch-dark); }
+</style>

@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import NotuleCard from '../../../components/NotuleCard.astro';
+import BoiteRecherche from '../../../components/BoiteRecherche.astro';
+import Pagination from '../../../components/Pagination.astro';
+
+/**
+ * Ce fichier ne produit QUE les pages 2 et suivantes : la page 1 reste
+ * /css/, adresse historique du fil. Générer aussi /css/page/1/ créerait
+ * un doublon exact à l'autre bout du site.
+ *
+ * Le segment `page` est statique : cette route est plus spécifique que
+ * /css/[...permalien].astro et lui est donc préférée par Astro. Aucun
+ * permalien Dotclear ne commence par « page/ », il n'y a pas de collision.
+ */
+export async function getStaticPaths() {
+  // Déclaré ICI et non dans la portée du composant : Astro hisse
+  // getStaticPaths dans un module séparé, qui ne voit rien du frontmatter.
+  const PAR_PAGE = 50;
+
+  const toutes = await getCollection('notules');
+  const triees = toutes.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+
+  const total = triees.length;
+  const nbPages = Math.max(1, Math.ceil(total / PAR_PAGE));
+
+  const pages = [];
+  for (let p = 2; p <= nbPages; p++) {
+    pages.push({
+      params: { page: String(p) },
+      props: {
+        liste: triees.slice((p - 1) * PAR_PAGE, p * PAR_PAGE),
+        page: p,
+        nbPages,
+        total,
+      },
+    });
+  }
+  return pages;
+}
+
+const { liste, page, nbPages, total } = Astro.props;
+---
+<Base titre={`Notules — page ${page}`}>
+
+  <BoiteRecherche />
+
+  <div class="contenu">
+    <div id="fil">
+      {liste.map((notule) => <NotuleCard notule={notule} />)}
+    </div>
+
+    <Pagination page={page} nbPages={nbPages} total={total} affichees={liste.length} />
+  </div>
+
+</Base>
