@@ -235,3 +235,46 @@ nav.menu a { color: #756435; }
 @media (prefers-reduced-motion: reduce) {
 	* { animation: none !important; transition: none !important; }
 }
+
+
+/* ------------------------------------------------------------------
+   Notules importées (WordPress, fils X/Twitter)
+   ------------------------------------------------------------------ */
+
+/* Les articles WordPress portent leurs propres largeurs en ligne
+   (style="width:443px"). max-width prime toujours sur width : la largeur
+   voulue est respectée tant que la colonne suffit, l'image se réduit seule
+   en dessous. */
+
+.notule-corps figure.illustration { max-width: 100%; margin: 1.2em 0;
+                                    text-align: center; }
+.notule-corps figure.illustration img { max-width: 100%; height: auto; }
+
+.notule-corps figure.illustration.alignleft  { float: left;  margin: .4em 1.4em .8em 0; }
+.notule-corps figure.illustration.alignright { float: right; margin: .4em 0 .8em 1.4em; }
+.notule-corps figure.illustration.aligncenter { margin-left: auto; margin-right: auto; }
+
+.notule-corps .legende {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: .8em;
+  color: var(--muted);
+  margin-top: .3em;
+}
+
+.notule-corps figure.video {
+  position: relative; padding-bottom: 56.25%; height: 0; margin: 1.2em 0;
+}
+.notule-corps figure.video iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+}
+
+.notule-corps .renvoi { font-style: italic; }
+.motdiese { color: var(--muted); }
+
+/* Un flottant de 443 px ne laisse plus de place au texte sur téléphone. */
+@media (max-width: 600px) {
+  .notule-corps figure.illustration.alignleft,
+  .notule-corps figure.illustration.alignright { float: none; margin: 1.2em auto; }
+}
+
+.notule-corps::after { content: ""; display: block; clear: both; }

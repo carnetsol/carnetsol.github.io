@@ -824,5 +824,40 @@
   "description": "",
   "slug": "Musiques-du-vingtieme-siecle",
   "ordre": 117
+ },
+ {
+  "id": 122,
+  "nom": "Carnets sur sol (boueux)",
+  "description": "",
+  "slug": "carnets-sur-sol-boueux",
+  "ordre": 118
+ },
+ {
+  "id": 123,
+  "nom": "Carnets sur sol (disques)",
+  "description": "",
+  "slug": "carnets-sur-sol-disques",
+  "ordre": 119
+ },
+ {
+  "id": 124,
+  "nom": "Carnets sur sol (notules)",
+  "description": "",
+  "slug": "carnets-sur-sol-notules",
+  "ordre": 120
+ },
+ {
+  "id": 125,
+  "nom": "Carnets sur sol (concerts)",
+  "description": "",
+  "slug": "carnets-sur-sol-concerts",
+  "ordre": 121
+ },
+ {
+  "id": 126,
+  "nom": "Belle Hémiole",
+  "description": "",
+  "slug": "belle-hemiole",
+  "ordre": 122
  }
 ]
