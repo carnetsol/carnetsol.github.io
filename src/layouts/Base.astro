@@ -38,10 +38,14 @@ const {
 const urlCanonique = new URL(canonique ?? Astro.url.pathname, Astro.site);
 
 /**
- * Image de partage. cello.jpg fait 161 x 121 px, sous le minimum de
- * 200 x 200 exigé par la plupart des réseaux : aucune vignette ne
- * s'affichera tant qu'une version plus grande n'aura pas été fournie.
- * La carte reste donc sur « summary ».
+ * Image de partage : le ballet des nonnes de Robert le Diable.
+ *
+ * 1200 x 630 px, format exact d'Open Graph. Les réseaux ne redimensionnent
+ * pas, ils RECADRENT au centre ce qui n'est pas à leur rapport : la
+ * gravure d'origine, au rapport 1,35, y aurait perdu 29 % de sa hauteur —
+ * le plafond et les premiers rangs. Elle est donc posée entière sur un
+ * fond parchemin, aux couleurs du site, qui comble la différence. Rien
+ * n'est rogné nulle part, et le cadrage reste choisi plutôt que subi.
  */
 const imagePartage = new URL('/partage.jpg', Astro.site);
 
@@ -78,18 +82,19 @@ const contact = `mailto:${COURRIEL}`
   <meta property="og:description" content={description} />
   <meta property="og:url" content={urlCanonique} />
   <meta property="og:image" content={imagePartage} />
-  <meta property="og:image:width" content="161" />
-  <meta property="og:image:height" content="121" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
   {type === 'article' && datePublication && (
     <meta property="article:published_time" content={datePublication.toISOString()} />
   )}
   {type === 'article' && <meta property="article:author" content="David Le Marrec" />}
 
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={titre} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={imagePartage} />
+  <meta property="og:image:alt" content="Le ballet des nonnes de Robert le Diable, à l'Opéra" />
 
   {/* Mesure d'audience. Sans identifiant dans src/config.ts, rien n'est
       émis : pas de script, pas de requête, pas de cookie. GoatCounter ne

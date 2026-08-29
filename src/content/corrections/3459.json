@@ -1,5 +1,5 @@
 {
  "postId": 3459,
- "note": "Illustration ajoutée à la reprise depuis operacritiques — ce correctif la préserve d'une future migration Dotclear",
- "corpsHtml": "<p class=\"illustration\"><img src=\"/medias/putti_baiser_san_lorenzo.png\" alt=\"Putti enlacés, San Lorenzo\" /></p>\n\n<p>Comme annoncé dans la précédente notule, Carnets sur sol a, pour la première fois en plus de vingt ans, changé de livrée et de structure. L'obsolescence a fini par rattraper le joli cocon dans lequel nous partagions ensemble ces moments ineffables.</p>\n\n<p>J'espère que vous vous trouverez à votre aise dans les nouveaux murs, plus légers, moins touffus, plus complets avec l'agrégation des vidéos, des autres sites et des archives perdues ; pour finir, conformes aux normes de sécurité et adaptables aux lectures sur mobile.</p>\n\n<p>Vous pouvez bien sûr écrire votre retour si vous avez des remarques ou des souhaits. J'ai réglé beaucoup de problèmes d'affichage, mais il reste encore quelques doublons, quelques brouillons importés par erreur, etc.</p>\n\n<p>L'aventure continue ainsi dans la nouvelle maison des putti.</p>\n\n</p>"
+ "note": "Version JSON dépubliée : cette notule est tenue à jour en Markdown dans src/content/nouvelles/. Le correctif survit aux migrations et empêche le doublon de revenir.",
+ "depublier": true
 }

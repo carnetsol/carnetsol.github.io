@@ -25,6 +25,8 @@ public/medias/carnets_sur_sol_programme_salle_pleyel_2013_2014.pdf
 public/medias/medee_euripide.pdf
 public/medias/nuitduquatuor2017.pdf
 public/medias/tce_2024-2025.pdf
+.sauvegardes/
+.doublons-retires/
 
 # Dump de la base : contient adresses IP et courriels des commentateurs.
 *.sql
