@@ -20,12 +20,13 @@ interface Props {
 }
 
 const SOUSTITRE = 'Musiques interlopes depuis 2005.';
-const DESCRIPTION = "Notules d'opéra, de disques et de promenades — depuis 2005.";
+const DESCRIPTION = 'Musiques interlopes depuis 2005.';
 
 const {
   titre,
   description = DESCRIPTION,
   soustitre = SOUSTITRE,
+  titrePartage,
   devise = false,
   type = 'website',
   canonique,
@@ -36,6 +37,8 @@ const {
 } = Astro.props;
 
 const urlCanonique = new URL(canonique ?? Astro.url.pathname, Astro.site);
+
+const titreOuvert = titrePartage ?? titre;
 
 /**
  * Image de partage : le ballet des nonnes de Robert le Diable.
@@ -78,7 +81,7 @@ const contact = `mailto:${COURRIEL}`
   <meta property="og:site_name" content="Carnets sur sol" />
   <meta property="og:type" content={type} />
   <meta property="og:locale" content="fr_FR" />
-  <meta property="og:title" content={titre} />
+  <meta property="og:title" content={titreOuvert} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={urlCanonique} />
   <meta property="og:image" content={imagePartage} />
@@ -91,7 +94,7 @@ const contact = `mailto:${COURRIEL}`
   {type === 'article' && <meta property="article:author" content="David Le Marrec" />}
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={titre} />
+  <meta name="twitter:title" content={titreOuvert} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={imagePartage} />
   <meta property="og:image:alt" content="Le ballet des nonnes de Robert le Diable, à l'Opéra" />
