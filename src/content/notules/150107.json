@@ -1,0 +1,24 @@
+{
+ "postId": 150107,
+ "titre": "Nouveautés disques #5 (24 juillet 2025)",
+ "slug": "nouveautes-disques-5-24-juillet-2025",
+ "url": "/css/2025/07/23/150107-nouveautes-disques-5-24-juillet-2025/",
+ "date": "2025-07-23T23:33:44+00:00",
+ "modifie": null,
+ "auteur": "DavidLeMarrec",
+ "langue": "fr",
+ "categories": [
+  {
+   "nom": "Les vidéos de Carnets sur sol",
+   "slug": "Les-videos-de-carnets-sur-sol"
+  }
+ ],
+ "chapoHtml": "",
+ "corpsHtml": "<p class=\"recuperation\">Nouvelle publication de la chaîne YouTube de Carnets sur sol</p>\n<figure class=\"video\">\n  <iframe src=\"https://www.youtube-nocookie.com/embed/R5vCaucgjVc\"\n          title=\"Nouveautés disques #5 (24 juillet 2025)\" loading=\"lazy\"\n          allow=\"accelerometer; clipboard-write; encrypted-media; picture-in-picture\" allowfullscreen></iframe>\n</figure>\n",
+ "notesHtml": "",
+ "extrait": "",
+ "nbCommentaires": 0,
+ "commentaires": [],
+ "epingle": false,
+ "youtubeId": "R5vCaucgjVc"
+}
