@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import { slugifier, chargerCorrections, appliquerCorrection, notulesPubliees } from '../../lib/notules';
 import { ouvrirDehors, avertirMp3 } from '../../lib/liens';
 import { GOATCOUNTER, METTRE_LES_CHIFFRES_EN_PUBLIC } from '../../config';
+import { texteLisible } from '../../lib/texte';
 
 /**
  * Une seule route sert trois choses :
@@ -158,7 +159,9 @@ const titre = archive ? d.titre : nouvelle?.data.titre;
 const date = archive ? d.date : nouvelle?.data.date;
 const auteur = archive ? d.auteur : nouvelle?.data.auteur;
 const categories = archive ? d.categories : catsNouvelle;
-const extrait = archive ? d.extrait : nouvelle?.data.chapo;
+// Nettoyé ici aussi : cet extrait part dans <meta description> et
+// dans les aperçus de partage, où une entité visible ferait tache.
+const extrait = texteLisible(archive ? d.extrait : nouvelle?.data.chapo);
 
 const Contenu = nouvelle ? (await render(nouvelle)).Content : null;
 

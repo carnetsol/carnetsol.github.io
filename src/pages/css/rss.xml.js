@@ -1,6 +1,7 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import { notulesPubliees } from '../../lib/notules';
+import { texteLisible } from '../../lib/texte';
 
 export async function GET(context) {
   const notules = await notulesPubliees(await getCollection('notules'));
@@ -17,7 +18,7 @@ export async function GET(context) {
       title: n.data.titre,
       link: n.data.url,
       pubDate: n.data.date,
-      description: n.data.extrait,
+      description: texteLisible(n.data.extrait),
       content: n.data.chapoHtml || n.data.corpsHtml,
       categories: n.data.categories.map((c) => c.nom),
     })),

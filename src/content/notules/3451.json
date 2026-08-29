@@ -19,5 +19,6 @@
  "extrait": "Discographie .entry { background-color: white; margin-bottom: 20px; padding: 15px; border-left: 4px solid #333; } .composer { font-weight: bold; margin-bottom: 5px; } .work { margin-left: 20px; margin-bottom: 10px; } .note { font-style: italic; color: #666; margin-left: 20px; margin-top: 5px; } Pour cette…",
  "nbCommentaires": 0,
  "commentaires": [],
- "epingle": false
+ "epingle": false,
+ "vignette": "/medias/youtube/1S9AvAJSKaU.jpg"
 }

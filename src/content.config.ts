@@ -1,6 +1,28 @@
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 
+/**
+ * NORMALISATION UNICODE — forme composée (NFC).
+ *
+ * Une même chaîne s'écrit de deux façons en Unicode. « ὲ » peut être un
+ * seul caractère (U+1F72), ou deux : un epsilon suivi d'un accent grave
+ * combinant (U+03B5 U+0300). Les deux sont valides et devraient s'afficher
+ * pareil — mais beaucoup de polices placent mal l'accent combinant, qui
+ * apparaît alors décalé à côté de la lettre. D'où « Μηδὲ`ν » au lieu de
+ * « Μηδὲν » : ce n'est pas une coquille, c'est un défaut de rendu.
+ *
+ * Le grec ancien polytonique est le cas le plus visible, parce qu'il
+ * empile jusqu'à trois signes sur une voyelle, mais le français accentué
+ * est concerné de la même façon.
+ *
+ * On normalise donc à la lecture, une fois pour toutes et pour toutes les
+ * pages, plutôt que d'écrire un correctif par notule. L'opération est sans
+ * risque sur du HTML — elle ne touche ni les balises ni les entités — et
+ * elle est idempotente : la relancer ne change rien.
+ */
+const nfc = (s: string) => s.normalize('NFC');
+const texteNfc = () => z.string().transform(nfc);
+
 const categorieRef = z.object({
   nom: z.string(),
   slug: z.string(),
@@ -11,7 +33,7 @@ const commentaire = z.object({
   auteur: z.string(),
   site: z.string().optional().default(''),
   date: z.string().nullable(),
-  contenu: z.string(),
+  contenu: z.string().transform((s) => s.normalize('NFC')),
 });
 
 /**
@@ -32,18 +54,18 @@ const notules = defineCollection({
   }),
   schema: z.object({
     postId: z.coerce.number(),
-    titre: z.string(),
-    slug: z.string(),
+    titre: texteNfc(),
+    slug: texteNfc(),
     url: z.string(),
     date: z.coerce.date(),
     modifie: z.coerce.date().nullable().optional(),
     auteur: z.string().default('DavidLeMarrec'),
     langue: z.string().default('fr'),
     categories: z.array(categorieRef).default([]),
-    chapoHtml: z.string().default(''),
-    corpsHtml: z.string().default(''),
-    notesHtml: z.string().default(''),
-    extrait: z.string().default(''),
+    chapoHtml: z.string().default('').transform(nfc),
+    corpsHtml: z.string().default('').transform(nfc),
+    notesHtml: z.string().default('').transform(nfc),
+    extrait: z.string().default('').transform(nfc),
     // Image d'illustration explicite, posée par un import (la vignette
     // d'une vidéo YouTube, par exemple). Quand elle est vide, le fil
     // cherche la première image du corps.
@@ -62,12 +84,12 @@ const notules = defineCollection({
 const nouvelles = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/nouvelles' }),
   schema: z.object({
-    titre: z.string(),
+    titre: texteNfc(),
     date: z.coerce.date(),
     // Noms de catégories tels qu'ils apparaissent sur le site,
     // ex. ["Disques et représentations", "L'horrible Richard Wagner"]
     categories: z.array(z.string()).default([]),
-    chapo: z.string().default(''),
+    chapo: z.string().default('').transform(nfc),
     auteur: z.string().default('DavidLeMarrec'),
     // Passer à true pour garder la notule hors du site.
     brouillon: z.boolean().default(false),
@@ -119,7 +141,7 @@ const categories = defineCollection({
     id: z.coerce.number(),
     nom: z.string(),
     description: z.string().default(''),
-    slug: z.string(),
+    slug: texteNfc(),
     ordre: z.coerce.number().catch(999).default(999),
   }),
 });

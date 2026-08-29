@@ -1,6 +1,7 @@
 ---
 import { ouvrirDehors } from '../lib/liens';
 import { origine } from '../lib/origine';
+import { texteLisible } from '../lib/texte';
 
 interface Props {
   notule: {
@@ -84,7 +85,7 @@ const chapo = d.chapoHtml?.trim();
       </a>
     : chapo
       ? <div class="post-chapo" set:html={ouvrirDehors(chapo)} />
-      : <p class="post-chapo">{d.extrait}</p>}
+      : <p class="post-chapo">{texteLisible(d.extrait)}</p>}
 
   <p class="post-info">
     Écrit par {d.auteur}
@@ -118,22 +119,27 @@ const chapo = d.chapoHtml?.trim();
     font-weight: normal;
     letter-spacing: .06em;
     text-transform: uppercase;
-    color: #6b5220;
-    background: #efe4c9;
-    border: 1px solid #d8c69a;
+    color: #5e4718;
+    background: #ecdcb0;
+    border: 1px solid #d4bd85;
     border-radius: 2px;
   }
   /* Les vidéos se repèrent d'un coup d'œil dans le fil. */
+  /* Violet nettement plus pâle : l'étiquette signale sans crier.
+     Contraste du texte sur ce fond : 7,7 pour 1, très au-delà du
+     minimum de 4,5 exigé pour un texte de cette taille. */
   .provenance-video {
     color: #55407a;
-    background: #e9e2f2;
-    border-color: #cabfe0;
+    background: #f2eefa;
+    border-color: #ddd4ec;
   }
-  /* Le fonds d'origine, plus discret : c'est le cas ordinaire. */
+  /* Le fonds d'origine garde le doré de base, plus franc qu'auparavant :
+     l'étiquette « Notule » était presque invisible sur le parchemin.
+     Contraste : 6,5 pour 1. */
   .provenance-notule {
-    color: var(--muted);
-    background: transparent;
-    border-color: var(--parch-dark);
+    color: #5e4718;
+    background: #ecdcb0;
+    border-color: #d4bd85;
   }
 
   .post-illustration img {
