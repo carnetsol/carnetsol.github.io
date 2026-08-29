@@ -117,6 +117,83 @@ export function appliquerCorrection(data: any, corr: any) {
   return out;
 }
 
+/**
+ * Adresse d'une notule écrite en Markdown.
+ *
+ * Avec un postId, on reproduit exactement la forme de Dotclear, pour que
+ * les liens de l'ancien site continuent de tomber juste. Sans lui,
+ * l'adresse se passe de numéro.
+ */
+export function urlDeNouvelle(
+  data: { titre: string; date: Date; postId?: number; slug?: string }
+) {
+  const d = data.date;
+  const an = d.getFullYear();
+  const mois = String(d.getMonth() + 1).padStart(2, '0');
+  const jour = String(d.getDate()).padStart(2, '0');
+  const slug = data.slug || slugifier(data.titre);
+  const segment = data.postId ? `${data.postId}-${slug}` : slug;
+  return `/css/${an}/${mois}/${jour}/${segment}/`;
+}
+
+/**
+ * TOUTES les notules à lister, archives ET markdown confondues.
+ *
+ * C'est la fonction que doivent appeler le fil, les archives, les
+ * chapitres, le flux RSS et l'encart Antiquités. Auparavant chacun lisait
+ * la seule collection « notules » : une notule écrite en Markdown avait sa
+ * page, mais n'apparaissait dans AUCUNE liste. Elle n'existait, en
+ * pratique, que pour qui en connaissait déjà l'adresse.
+ *
+ * Les entrées Markdown reçoivent ici la même forme que les archives —
+ * même champ `data`, mêmes noms — pour que NotuleCard et les pages de
+ * liste n'aient pas à distinguer les deux origines.
+ *
+ * Une réserve à connaître : `corpsHtml` reste vide pour le Markdown, dont
+ * le rendu ne se fait qu'à l'ouverture de la page. Le fil ne peut donc pas
+ * y pêcher une illustration ; renseignez `vignette` dans l'en-tête si vous
+ * en voulez une.
+ */
+export async function notulesPourListe() {
+  const masquees = await chargerDepubliees();
+  const correctifs = await chargerCorrections();
+  const resoudre = await resolveurCategories();
+
+  const archives = (await getCollection('notules'))
+    .filter((e) => !masquees.has(e.data.postId))
+    .map((e) => ({
+      id: e.id,
+      data: appliquerCorrection(e.data, correctifs.get(e.data.postId)),
+    }));
+
+  const recentes = (await getCollection('nouvelles', ({ data }) => !data.brouillon))
+    .map((e) => ({
+      id: e.id,
+      data: {
+        postId: e.data.postId ?? 0,
+        titre: e.data.titre,
+        slug: e.data.slug || slugifier(e.data.titre),
+        url: urlDeNouvelle(e.data),
+        date: e.data.date,
+        auteur: e.data.auteur,
+        langue: 'fr',
+        categories: e.data.categories.map(resoudre),
+        chapoHtml: e.data.chapo ? `<p>${e.data.chapo}</p>` : '',
+        corpsHtml: '',
+        notesHtml: '',
+        extrait: e.data.chapo || texteBrut(e.body ?? '').slice(0, 300),
+        vignette: e.data.vignette ?? '',
+        nbCommentaires: 0,
+        commentaires: [],
+        epingle: false,
+      },
+    }));
+
+  return [...archives, ...recentes].sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+}
+
 /** Toutes les notules publiées, de la plus récente à la plus ancienne. */
 export async function toutesLesNotules(): Promise<NotuleUnifiee[]> {
   const resoudre = await resolveurCategories();

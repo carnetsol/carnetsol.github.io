@@ -86,6 +86,28 @@ const nouvelles = defineCollection({
   schema: z.object({
     titre: texteNfc(),
     date: z.coerce.date(),
+    /**
+     * Identifiant facultatif, à ne renseigner QUE pour une notule reprise
+     * de l'ancien site : l'adresse devient alors
+     * /css/AAAA/MM/JJ/<id>-<slug>/ comme sur Dotclear, et les alias
+     * courts /css/<id> et /css/AAAA/MM/JJ/<id> sont produits. Sans lui,
+     * l'adresse est simplement /css/AAAA/MM/JJ/<slug>/.
+     *
+     * Une notule neuve n'en a pas besoin. Une reprise en a besoin, sans
+     * quoi les liens de l'ancien site tomberont à côté.
+     */
+    postId: z.coerce.number().optional(),
+    /**
+     * Slug imposé, facultatif. À renseigner pour une REPRISE : le slug
+     * calculé à partir du titre ne redonne pas toujours celui de
+     * Dotclear — « C'est le calme » donne « cest-le-calme » ici et
+     * « c-est-le-calme » là-bas, l'apostrophe étant traitée autrement.
+     * Sans ce champ, l'adresse serait proche mais pas identique, et les
+     * liens anciens tomberaient à côté.
+     */
+    slug: z.string().optional(),
+    /** Image d'illustration pour le fil, ex. « /medias/cygnes.png ». */
+    vignette: z.string().default(''),
     // Noms de catégories tels qu'ils apparaissent sur le site,
     // ex. ["Disques et représentations", "L'horrible Richard Wagner"]
     categories: z.array(z.string()).default([]),

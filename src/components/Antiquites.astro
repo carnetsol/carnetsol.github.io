@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { notulesPubliees } from '../lib/notules';
+import { notulesPourListe } from '../lib/notules';
 
 /**
  * ANTIQUITÉS — une notule ancienne tirée au sort.
@@ -19,12 +19,21 @@ import { notulesPubliees } from '../lib/notules';
  *
  * La première candidate est écrite en dur dans le HTML : sans JavaScript,
  * l'encart affiche quand même une notule et son lien.
+ *
+ * RENOUVELLEMENT D'UNE VISITE À L'AUTRE
+ * Une page statique sert le même HTML à tout le monde et à chaque fois :
+ * l'encart figé afficherait éternellement la même notule à qui revient
+ * chaque matin. Au chargement, le script tire donc au sort parmi les
+ * douze, en écartant celles qu'il a montrées lors des dernières visites —
+ * la mémoire tient dans localStorage. Sur un tirage de douze, garder
+ * trace des six dernières suffit à ce qu'on ne retombe jamais deux fois
+ * de suite sur la même sans pour autant épuiser la réserve.
  */
 
 const RESERVE = 12;
 const ANCIENNETE_ANS = 5;
 
-const toutes = await notulesPubliees(await getCollection('notules'));
+const toutes = await notulesPourListe();
 
 const limite = new Date();
 limite.setFullYear(limite.getFullYear() - ANCIENNETE_ANS);
@@ -71,20 +80,53 @@ const premiere = tirage[0];
     }
 
     if (liste.length > 1) {
-      bouton.hidden = false;
-      let rang = 0;
       const date = encart.querySelector('.ant-date');
       const lien = encart.querySelector('.ant-titre a');
+      const MEMOIRE = 'carnetsol:antiquites';
+      const A_RETENIR = 6;
 
-      bouton.addEventListener('click', () => {
-        rang = (rang + 1) % liste.length;
-        const n = liste[rang];
+      const lues = () => {
+        try {
+          return JSON.parse(localStorage.getItem(MEMOIRE) || '[]');
+        } catch {
+          return [];   // navigation privée, stockage refusé : tant pis
+        }
+      };
+      const retenir = (url) => {
+        try {
+          const v = [url, ...lues().filter((u) => u !== url)].slice(0, A_RETENIR);
+          localStorage.setItem(MEMOIRE, JSON.stringify(v));
+        } catch {
+          /* sans mémoire, le tirage reste aléatoire : dégradation douce */
+        }
+      };
+
+      let rang = 0;
+      const afficher = (i) => {
+        rang = i;
+        const n = liste[i];
         if (date) date.textContent = n.date;
         if (lien) {
           lien.textContent = n.titre;
           lien.setAttribute('href', n.url);
         }
-      });
+        retenir(n.url);
+      };
+
+      const tirer = () => {
+        const vues = lues();
+        // On écarte d'abord les notules déjà montrées ; s'il ne reste
+        // rien, c'est que la réserve est épuisée et on repart du tout.
+        let libres = liste.filter((n) => !vues.includes(n.url));
+        if (!libres.length) libres = liste.filter((n) => n.url !== liste[rang].url);
+        if (!libres.length) libres = liste;
+        return liste.indexOf(libres[Math.floor(Math.random() * libres.length)]);
+      };
+
+      afficher(tirer());
+
+      bouton.hidden = false;
+      bouton.addEventListener('click', () => afficher(tirer()));
     }
   }
 </script>

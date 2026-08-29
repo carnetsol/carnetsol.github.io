@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { slugifier, chargerCorrections, appliquerCorrection, notulesPubliees } from '../../lib/notules';
+import { slugifier, chargerCorrections, appliquerCorrection, notulesPubliees, urlDeNouvelle } from '../../lib/notules';
 import { ouvrirDehors, avertirMp3 } from '../../lib/liens';
 import { GOATCOUNTER, METTRE_LES_CHIFFRES_EN_PUBLIC } from '../../config';
 import { texteLisible } from '../../lib/texte';
@@ -32,10 +32,9 @@ export async function getStaticPaths() {
   // --- 0. voisinage chronologique -------------------------------------
   // Archives et nouvelles confondues : le fil de lecture ne doit pas
   // buter sur la frontière entre le corpus importé et les billets récents.
-  const urlNouvelle = (n) => {
-    const d = n.data.date;
-    return `/css/${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${slugifier(n.data.titre)}/`;
-  };
+  // Une seule définition de l'adresse, partagée avec les pages de liste :
+  // deux formules divergentes produiraient des liens morts silencieux.
+  const urlNouvelle = (n) => urlDeNouvelle(n.data);
 
   const chrono = [
     ...archives.map((n) => ({ url: n.data.url, titre: n.data.titre, date: n.data.date })),
@@ -83,7 +82,10 @@ export async function getStaticPaths() {
     const an = d.getFullYear();
     const mois = String(d.getMonth() + 1).padStart(2, '0');
     const jour = String(d.getDate()).padStart(2, '0');
-    ajouter(`${an}/${mois}/${jour}/${slugifier(n.data.titre)}`, {
+    const slug = n.data.slug || slugifier(n.data.titre);
+    const segment = n.data.postId ? `${n.data.postId}-${slug}` : slug;
+
+    ajouter(`${an}/${mois}/${jour}/${segment}`, {
       archive: null,
       nouvelle: n,
       redirection: null,
@@ -93,6 +95,19 @@ export async function getStaticPaths() {
       })),
       ...(voisines.get(urlNouvelle(n)) ?? sansVoisines),
     });
+
+    // Une notule Markdown REPRISE de l'ancien site porte un postId : elle
+    // mérite les mêmes alias qu'une notule d'archive, sans quoi les liens
+    // anciens — et le rattrapage du 404, qui vise la forme nue —
+    // tomberaient à côté.
+    if (n.data.postId) {
+      ajouter(`${an}/${mois}/${jour}/${n.data.postId}`, {
+        archive: null, nouvelle: null, redirection: urlNouvelle(n),
+      });
+      ajouter(String(n.data.postId), {
+        archive: null, nouvelle: null, redirection: urlNouvelle(n),
+      });
+    }
   }
 
   // --- 2. les alias ---------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { notulesPubliees } from '../../../lib/notules';
+import { notulesPourListe } from '../../../lib/notules';
 import Base from '../../../layouts/Base.astro';
 import NotuleCard from '../../../components/NotuleCard.astro';
 import Pagination from '../../../components/Pagination.astro';
@@ -19,7 +19,7 @@ export async function getStaticPaths() {
   // getStaticPaths dans un module séparé, qui ne voit rien du frontmatter.
   const PAR_PAGE = 50;
 
-  const toutes = await notulesPubliees(await getCollection('notules'));
+  const toutes = await notulesPourListe();
   const triees = toutes.sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
   );

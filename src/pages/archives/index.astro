@@ -1,9 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { notulesPubliees } from '../../lib/notules';
+import { notulesPourListe } from '../../lib/notules';
 
-const notules = await notulesPubliees(await getCollection('notules'));
+const notules = await notulesPourListe();
 const triees = notules.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 // Regroupement année -> mois -> notules

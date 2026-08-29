@@ -1,10 +1,10 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
-import { notulesPubliees } from '../../lib/notules';
+import { notulesPourListe } from '../../lib/notules';
 import { texteLisible } from '../../lib/texte';
 
 export async function GET(context) {
-  const notules = await notulesPubliees(await getCollection('notules'));
+  const notules = await notulesPourListe();
   const dernieres = notules
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
     .slice(0, 30);
