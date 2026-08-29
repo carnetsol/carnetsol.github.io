@@ -1,5 +1,6 @@
 ---
 import { ouvrirDehors } from '../lib/liens';
+import { origine } from '../lib/origine';
 
 interface Props {
   notule: {
@@ -9,6 +10,8 @@ interface Props {
       date: Date;
       chapoHtml: string;
       corpsHtml?: string;
+      vignette?: string;
+      postId: number;
       extrait: string;
       categories: { nom: string; slug: string }[];
       nbCommentaires: number;
@@ -48,7 +51,15 @@ function premiereImage(html: string | undefined) {
   return null;
 }
 
-const image = illustration ? premiereImage(d.corpsHtml) : null;
+/* Une vignette explicite (import YouTube) prime sur la fouille du corps :
+   l'iframe d'une vidéo ne contient aucune image à extraire. */
+const image = !illustration
+  ? null
+  : d.vignette
+    ? { src: d.vignette, alt: '' }
+    : premiereImage(d.corpsHtml);
+
+const prov = origine(d.postId);
 
 const dateLongue = d.date.toLocaleDateString('fr-FR', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
@@ -61,7 +72,10 @@ const chapo = d.chapoHtml?.trim();
 
 <article class="post">
   <div class="post-header">
-    <h2 class="post-title"><a href={d.url}>{d.titre}</a></h2>
+    <h2 class="post-title">
+      <span class:list={['provenance', prov.variante]}>{prov.label}</span>
+      <a href={d.url}>{d.titre}</a>
+    </h2>
   </div>
 
   {image
@@ -92,7 +106,36 @@ const chapo = d.chapoHtml?.trim();
     display: block;
     padding: .4em 1.2em 0;
     line-height: 0;
+    text-align: center;
   }
+  .provenance {
+    display: inline-block;
+    vertical-align: .18em;
+    margin-right: .55em;
+    padding: .1em .55em .15em;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .52em;
+    font-weight: normal;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: #6b5220;
+    background: #efe4c9;
+    border: 1px solid #d8c69a;
+    border-radius: 2px;
+  }
+  /* Les vidéos se repèrent d'un coup d'œil dans le fil. */
+  .provenance-video {
+    color: #55407a;
+    background: #e9e2f2;
+    border-color: #cabfe0;
+  }
+  /* Le fonds d'origine, plus discret : c'est le cas ordinaire. */
+  .provenance-notule {
+    color: var(--muted);
+    background: transparent;
+    border-color: var(--parch-dark);
+  }
+
   .post-illustration img {
     max-height: 320px;
     width: auto;

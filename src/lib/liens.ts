@@ -70,3 +70,31 @@ export function ouvrirDehors(html: string): string {
     return `<a${attributs} target="_blank" rel="noopener noreferrer">`;
   });
 }
+
+/**
+ * Renvoi vers l'ancienne version d'une notule, quand elle contient un mp3.
+ *
+ * Les lecteurs audio hérités de Dotclear ne fonctionnent pas tous sur le
+ * nouveau site. En attendant, on place à côté du lecteur un renvoi vers la
+ * notule d'origine, restée en ligne sur operacritiques.free.fr.
+ *
+ * L'avertissement n'est posé qu'UNE fois : après le premier lecteur s'il y
+ * en a un balisé <audio>, sinon en fin de corps. Répéter la phrase à chaque
+ * occurrence de « .mp3 » encombrerait les notules qui en citent dix.
+ */
+export function avertirMp3(html: string, urlAncienne: string | null): string {
+  if (!html || !urlAncienne) return html;
+  if (!/\.mp3\b/i.test(html) && !/<audio\b/i.test(html)) return html;
+
+  const note =
+    '\n<p class="note-mp3">Si le mp3 n\'est pas encore fonctionnel, voyez '
+    + `<a href="${urlAncienne}" target="_blank" rel="noopener noreferrer">`
+    + 'cette ancienne version de la notule</a>.</p>\n';
+
+  const fin = html.search(/<\/audio\s*>/i);
+  if (fin !== -1) {
+    const apres = html.indexOf('>', fin) + 1;
+    return html.slice(0, apres) + note + html.slice(apres);
+  }
+  return html + note;
+}

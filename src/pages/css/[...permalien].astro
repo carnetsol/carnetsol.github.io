@@ -2,7 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { slugifier, chargerCorrections, appliquerCorrection, notulesPubliees } from '../../lib/notules';
-import { ouvrirDehors } from '../../lib/liens';
+import { ouvrirDehors, avertirMp3 } from '../../lib/liens';
+import { GOATCOUNTER, METTRE_LES_CHIFFRES_EN_PUBLIC } from '../../config';
 
 /**
  * Une seule route sert trois choses :
@@ -104,6 +105,17 @@ export async function getStaticPaths() {
     }
   }
 
+  // a bis) forme la plus courte : /css/<id>
+  // Permet de taper « carnetsol.fr/css/3457 » dans la barre d'adresse.
+  // Un identifiant à quatre chiffres crée /css/2013/, qui cohabite sans
+  // heurt avec /css/2013/01/… : l'un est un fichier index.html, l'autre
+  // un dossier. Aucun permalien réel n'a cette forme, donc pas de conflit.
+  for (const notule of archives) {
+    ajouter(String(notule.data.postId), {
+      archive: null, nouvelle: null, redirection: notule.data.url,
+    });
+  }
+
   // b) toute forme abrégée réellement rencontrée dans le corpus
   const motif = /\/css\/(\d{4})\/(\d{2})\/(\d{2})\/(\d+)(-[^"'\s>)#]*)?/g;
   for (const notule of archives) {
@@ -158,6 +170,23 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
    Le lien compose donc un courriel prérempli. Le titre et l'adresse de la
    notule sont glissés dans le corps du message pour savoir de quoi il
    retourne sans avoir à chercher. */
+/**
+ * Adresse de la notule sur l'ancien site, encore en ligne.
+ *
+ * Les notules au-delà de 90000 viennent des blogs compagnons (WordPress,
+ * fil Twitter) : elles n'ont jamais eu de page sur /css/, le renvoi n'aurait
+ * aucun sens pour elles.
+ */
+const urlAncienne = archive && d.postId < 90000
+  ? 'http://operacritiques.free.fr/css/index.php?'
+    + `${d.date.getFullYear()}/`
+    + `${String(d.date.getMonth() + 1).padStart(2, '0')}/`
+    + `${String(d.date.getDate()).padStart(2, '0')}/`
+    + `${d.postId}-${d.slug}`
+  : null;
+
+const compteurVisible = Boolean(GOATCOUNTER) && METTRE_LES_CHIFFRES_EN_PUBLIC;
+
 const lienCommentaire =
   'mailto:carnetsol1598@gmail.com'
   + '?subject=' + encodeURIComponent('Nouveau commentaire sur Carnets sur sol')
@@ -181,7 +210,7 @@ const lienCommentaire =
     </body>
   </html>
 ) : (
-<Base titre={titre} description={extrait} type="article" datePublication={date}>
+<Base titre={titre} description={extrait} type="article" datePublication={date} antiquites>
 
   <div class="contenu" data-pagefind-body>
     <div class="day-date">{dateLongue}</div>
@@ -199,7 +228,7 @@ const lienCommentaire =
       )}
 
       {archive
-        ? <div class="notule-corps" set:html={ouvrirDehors(d.corpsHtml)} />
+        ? <div class="notule-corps" set:html={avertirMp3(ouvrirDehors(d.corpsHtml), urlAncienne)} />
         : <div class="notule-corps"><Contenu /></div>}
 
       {archive && d.notesHtml?.trim() && (
@@ -216,6 +245,13 @@ const lienCommentaire =
           </>
         )}
       </p>
+    {compteurVisible && (
+      /* Le compteur est demandé APRÈS l'affichage, par le navigateur.
+         Tant que la réponse n'arrive pas, rien ne s'affiche : mieux vaut
+         un blanc qu'un « 0 lecture » qui serait faux. */
+      <p class="lectures" data-lectures hidden data-pagefind-ignore></p>
+    )}
+
     </article>
 
     {(precedente || suivante) && (
@@ -241,7 +277,10 @@ const lienCommentaire =
 
     {archive && d.commentaires.length > 0 && (
       <section id="commentaires">
-        <h2 class="section-head">{d.commentaires.length} indiscrets</h2>
+        <h2 class="section-head">
+          {d.commentaires.length}
+          {d.commentaires.length > 1 ? ' roulades' : ' portamento'}
+        </h2>
         {d.commentaires.map((c) => (
           <article class="commentaire" id={`c${c.id}`}>
             <p class="commentaire-info">
@@ -272,11 +311,52 @@ const lienCommentaire =
       <p>
         Pour ajouter votre commentaire,
         <a href={lienCommentaire}>envoyez-le ici</a>.
+        Je le publierai à réception. (Sauf mention contraire, bien sûr.)
       </p>
     </section>
   </div>
 
 </Base>
+)}
+
+{compteurVisible && (
+  <script is:inline define:vars={{ code: GOATCOUNTER }}>
+    /**
+     * Nombre de lectures, demandé à GoatCounter après affichage de la page.
+     *
+     * L'appel ne bloque rien : si GoatCounter est injoignable, si un
+     * bloqueur l'arrête, ou si l'option « Allow adding visitor counts » n'a
+     * pas été cochée dans les réglages, la ligne reste simplement cachée.
+     * Un échec silencieux vaut mieux qu'un zéro, qui serait un mensonge.
+     *
+     * Le compteur n'est demandé QUE sur les pages de notule : dans le fil,
+     * cinquante notules affichées feraient cinquante requêtes.
+     */
+    (async function () {
+      if (!code) return;
+      const cible = document.querySelector('[data-lectures]');
+      if (!cible) return;
+  
+      const chemin = encodeURIComponent(location.pathname);
+      const adresse = `https://${code}.goatcounter.com/counter/${chemin}.json`;
+  
+      try {
+        const reponse = await fetch(adresse);
+        if (!reponse.ok) return;
+        const donnees = await reponse.json();
+        const brut = String(donnees.count ?? '').replace(/[^0-9]/g, '');
+        const n = Number(brut);
+        if (!n) return;
+  
+        cible.textContent = n === 1
+          ? '1 lecture'
+          : `${n.toLocaleString('fr-FR')} lectures`;
+        cible.hidden = false;
+      } catch {
+        /* rien : la ligne reste cachée */
+      }
+    })();
+  </script>
 )}
 
 <style>
@@ -338,6 +418,24 @@ const lienCommentaire =
     font-family: "Lucida Grande", Verdana, sans-serif;
     font-size: .8em; color: var(--muted); margin: .8em 0 .2em;
   }
+  .lectures {
+    max-width: var(--largeur-texte);
+    margin: .8em auto 0;
+    padding: 0 1.2em;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .78em;
+    color: var(--muted);
+  }
+
+  .note-mp3 {
+    background: var(--parch-mid);
+    border-left: 3px solid var(--gold-frame);
+    padding: .6em .9em;
+    margin: 1em 0;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .84em;
+  }
+
   .ecrire {
     max-width: var(--largeur-texte);
     margin: 2em auto 0;

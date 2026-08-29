@@ -33,6 +33,8 @@ import sys
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import URLError, HTTPError
+from urllib.request import Request, urlopen
 
 for flux in (sys.stdout, sys.stderr):
     try:
@@ -47,6 +49,12 @@ CATEGORIES = Path('src/content/categories.json')
 # Plage réservée aux vidéos. Assez haute pour que la numérotation des
 # notules ordinaires (~3 500 aujourd'hui) ne la rattrape jamais.
 PREMIER_ID = 150001
+
+# Les vignettes sont rapatriées ici plutôt que servies depuis
+# i.ytimg.com : une image en http:// depuis une page https serait bloquée
+# par le navigateur, et une image distante disparaît le jour où la chaîne
+# change. On la télécharge donc une fois pour toutes.
+VIGNETTES = Path('public/medias/youtube')
 
 CATEGORIE = {'nom': 'Les vidéos de Carnets sur sol',
              'slug': 'Les-videos-de-carnets-sur-sol'}
@@ -114,6 +122,50 @@ def corps_html(video):
         f'</figure>\n'
         f'{description_en_html(video["description"])}'
     )
+
+
+def choisir_vignette(brut):
+    """
+    Meilleure vignette disponible. yt-dlp donne `thumbnail` (son choix) et
+    `thumbnails` (toutes, avec largeurs). On prend la plus large, en
+    écartant les images animées et les formats exotiques.
+    """
+    candidates = []
+    for t in brut.get('thumbnails') or []:
+        url = t.get('url') or ''
+        if not url.startswith('http'):
+            continue
+        if '.webp' in url or 'animated' in url:
+            continue
+        candidates.append((t.get('width') or 0, url))
+    if candidates:
+        return max(candidates)[1]
+    return brut.get('thumbnail') or ''
+
+
+def telecharger_vignette(url, identifiant):
+    """
+    Renvoie le chemin public de la vignette, ou '' en cas d'échec.
+    Un échec n'interrompt PAS l'import : la notule est créée sans image,
+    ce qui vaut mieux que de perdre la vidéo pour un fichier manquant.
+    """
+    if not url:
+        return ''
+    VIGNETTES.mkdir(parents=True, exist_ok=True)
+    cible = VIGNETTES / f'{identifiant}.jpg'
+    if cible.is_file():
+        return f'/medias/youtube/{identifiant}.jpg'
+    try:
+        requete = Request(url, headers={'User-Agent': 'carnetsol-import'})
+        with urlopen(requete, timeout=30) as reponse:
+            donnees = reponse.read()
+        if len(donnees) < 1000:
+            raise ValueError('image suspecte, trop petite')
+        cible.write_bytes(donnees)
+        return f'/medias/youtube/{identifiant}.jpg'
+    except (URLError, HTTPError, OSError, ValueError) as erreur:
+        print(f"      vignette non récupérée ({erreur})")
+        return ''
 
 
 def date_video(brut):
@@ -223,6 +275,8 @@ def main():
     ap.add_argument('--depuis-json', help='fichier .jsonl produit par yt-dlp')
     ap.add_argument('--max', type=int, help='ne traiter que les N plus récentes')
     ap.add_argument('--duree-short', type=int, default=DUREE_SHORT)
+    ap.add_argument('--sans-vignettes', action='store_true',
+                    help="ne pas télécharger les vignettes des vidéos")
     ap.add_argument('--ecrire', action='store_true')
     args = ap.parse_args()
 
@@ -309,6 +363,7 @@ def main():
             'titre': (b.get('title') or 'Sans titre').strip(),
             'description': b.get('description') or '',
             'date': d,
+            'vignette_url': choisir_vignette(b),
         })
 
     # De la plus ancienne à la plus récente : les identifiants de notule
@@ -345,6 +400,7 @@ def main():
             'corpsHtml': corps,
             'notesHtml': '',
             'extrait': texte_brut(description_en_html(v['description']))[:300],
+            'vignette': '',   # rempli à l'écriture, si le téléchargement réussit
             'nbCommentaires': 0,
             'commentaires': [],
             'epingle': False,
@@ -380,6 +436,10 @@ def main():
         if cible.exists():
             print(f"   IGNORÉ (existe déjà) : {cible}")
             continue
+        if not args.sans_vignettes:
+            url = next((v['vignette_url'] for v in videos
+                        if v['id'] == f['youtubeId']), '')
+            f['vignette'] = telecharger_vignette(url, f['youtubeId'])
         cible.write_text(json.dumps(f, ensure_ascii=False, indent=1) + '\n',
                          encoding='utf-8')
     print(f"\n{len(fiches)} notule(s) écrite(s) dans {NOTULES}")

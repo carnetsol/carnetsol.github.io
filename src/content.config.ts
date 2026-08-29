@@ -44,6 +44,10 @@ const notules = defineCollection({
     corpsHtml: z.string().default(''),
     notesHtml: z.string().default(''),
     extrait: z.string().default(''),
+    // Image d'illustration explicite, posée par un import (la vignette
+    // d'une vidéo YouTube, par exemple). Quand elle est vide, le fil
+    // cherche la première image du corps.
+    vignette: z.string().default(''),
     nbCommentaires: z.coerce.number().catch(0).default(0),
     commentaires: z.array(commentaire).default([]),
     epingle: z.coerce.boolean().catch(false).default(false),

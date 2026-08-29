@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import BoiteRecherche from '../components/BoiteRecherche.astro';
 import Antiquites from '../components/Antiquites.astro';
+import { GOATCOUNTER, COURRIEL } from '../config';
 
 interface Props {
   titre: string;
@@ -11,16 +12,15 @@ interface Props {
   type?: 'website' | 'article';
   canonique?: string;
   datePublication?: Date;
-  /** Barre d'outils (Recherche + Antiquités). Coupée sur /css/recherche/. */
-  outils?: boolean;
+  /** Encart de recherche. Réservé aux Chapitres et aux Archives. */
+  recherche?: boolean;
+  /** Encart Antiquités. Réservé à l'accueil et aux pages de notule. */
+  antiquites?: boolean;
   menu?: boolean;
 }
 
 const SOUSTITRE = 'Musiques interlopes depuis 2005.';
 const DESCRIPTION = "Notules d'opéra, de disques et de promenades — depuis 2005.";
-
-/** Adresse de contact, commune au pied de page et aux commentaires. */
-export const COURRIEL = 'carnetsol1598@gmail.com';
 
 const {
   titre,
@@ -30,7 +30,8 @@ const {
   type = 'website',
   canonique,
   datePublication,
-  outils = true,
+  recherche = false,
+  antiquites = false,
   menu = true,
 } = Astro.props;
 
@@ -89,6 +90,18 @@ const contact = `mailto:${COURRIEL}`
   <meta name="twitter:title" content={titre} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={imagePartage} />
+
+  {/* Mesure d'audience. Sans identifiant dans src/config.ts, rien n'est
+      émis : pas de script, pas de requête, pas de cookie. GoatCounter ne
+      pose aucun cookie et respecte Do Not Track de lui-même. */}
+  {GOATCOUNTER && (
+    <script
+      is:inline
+      data-goatcounter={`https://${GOATCOUNTER}.goatcounter.com/count`}
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+  )}
 </head>
 <body>
 
@@ -117,10 +130,10 @@ const contact = `mailto:${COURRIEL}`
     </nav>
   )}
 
-  {outils && (
+  {(recherche || antiquites) && (
     <div class="outils">
-      <BoiteRecherche encart />
-      <Antiquites />
+      {recherche && <BoiteRecherche encart />}
+      {antiquites && <Antiquites />}
     </div>
   )}
 
@@ -129,8 +142,8 @@ const contact = `mailto:${COURRIEL}`
   </main>
 
   <footer id="footer">
-    ISSN <a href="https://catalogue.bnf.fr/ark:/12148/cb43668591m.public"
-            target="_blank" rel="noopener noreferrer">2269-2843</a> ·
+    <a href="https://catalogue.bnf.fr/ark:/12148/cb43668591m.public"
+       target="_blank" rel="noopener noreferrer">ISSN 2269-2843</a> ·
     Carnets sur sol — <a href={contact}>David Le Marrec</a> — depuis 2005 ·
     <a href="/css/rss.xml">Flux RSS</a>
   </footer>

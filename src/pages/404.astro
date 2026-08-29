@@ -38,6 +38,25 @@ import Base from '../layouts/Base.astro';
    * servi par Free qui transmet le référencement.
    */
   (function () {
+    var aller = function (cible) {
+      document.getElementById('vraie-404').hidden = true;
+      document.getElementById('ancienne-url').hidden = false;
+      location.replace(cible);
+    };
+
+    /* Adresse SANS chaîne de requête, mais de forme reconnaissable :
+       /css/2007/11/21/776-un-vieux-slug/ dont le slug ne correspond plus.
+       On retombe sur l'alias nu, qui lui existe toujours. */
+    var p = location.pathname.match(
+      /^\/css\/(\d{4})\/(\d{2})\/(\d{2})\/(\d+)(?:-[^/]*)?\/?$/);
+    if (p && !location.search) {
+      var nu = '/css/' + p[1] + '/' + p[2] + '/' + p[3] + '/' + p[4] + '/';
+      if (nu !== location.pathname) {
+        aller(nu + (location.hash || ''));
+        return;
+      }
+    }
+
     var q = decodeURIComponent(location.search.replace(/^\?/, ''));
     if (!q) return;
 
@@ -49,9 +68,18 @@ import Base from '../layouts/Base.astro';
       cible = '/css/recherche/?q=' + encodeURIComponent(m[1].replace(/\+/g, ' '));
 
     } else if ((m = q.match(/^(\d{4})\/(\d{2})\/(\d{2})\/(\d+)(-[^&#]*)?/))) {
-      // Permalien. Le slug est FACULTATIF : Dotclear résolvait par
-      // l'identifiant seul, et beaucoup de liens anciens sont tronqués.
-      cible = '/css/' + m[1] + '/' + m[2] + '/' + m[3] + '/' + m[4] + (m[5] || '') + '/';
+      // Permalien.
+      //
+      // ON JETTE LE SLUG VOLONTAIREMENT. Les slugs de Dotclear et ceux du
+      // nouveau site ne coïncident pas toujours : apostrophes, ligatures,
+      // ponctuation sont normalisées différemment. Reconstruire l'adresse
+      // avec l'ancien slug menait donc à un second 404, cette fois sans
+      // chaîne de requête, donc sans rattrapage possible : l'impasse.
+      //
+      // L'alias nu /css/AAAA/MM/JJ/<id>/ est produit pour CHAQUE notule et
+      // ne dépend d'aucun slug. Il renvoie ensuite vers l'adresse
+      // canonique. Un saut de plus, mais qui ne peut pas échouer.
+      cible = '/css/' + m[1] + '/' + m[2] + '/' + m[3] + '/' + m[4] + '/';
       if (location.hash) cible += location.hash;
 
     } else if (q.match(/^\d{4}\/\d{2}(\/\d{2})?\/?$/)) {
@@ -67,10 +95,6 @@ import Base from '../layouts/Base.astro';
       cible = '/categorie/' + m[1] + '/';
     }
 
-    if (cible) {
-      document.getElementById('vraie-404').hidden = true;
-      document.getElementById('ancienne-url').hidden = false;
-      location.replace(cible);
-    }
+    if (cible) aller(cible);
   })();
 </script>

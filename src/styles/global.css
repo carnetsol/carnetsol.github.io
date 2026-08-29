@@ -33,16 +33,11 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	color: var(--ink);
 
-	/* Bande de texture le long du bord gauche, comme sur l'ancien site.
-	   L'image fait 180x20 : elle se répète verticalement (repeat-y) et
-	   se fond dans le parchemin par son bord droit. */
-	background: url("/bg-sidebar.jpg") repeat-y left top, var(--parch);
+	background: var(--parch);
 
-	/* Colonne : permet de renvoyer la barre d'outils sous le contenu
-	   sur écran étroit, par un simple `order` (voir plus bas). */
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -86,12 +81,11 @@ a:focus-visible { outline: 2px solid var(--gold-frame); outline-offset: 2px; }
 /* Une ligne d'écart de plus entre le titre et la devise. */
 #top .tagline { margin: 1.1em 0 0; color: #999; font-style: italic; font-size: .95em; }
 
-/* Vignette en haut à gauche, calée sur le bord du cadre. */
+/* Vignette centrée au-dessus du titre, à toutes les largeurs. */
 .vignette {
-	position: absolute;
-	left: max(2em, calc((100% - var(--largeur)) / 2 + 1em));
-	top: 1em;
 	display: block;
+	width: 161px;
+	margin: 0 auto .9em;
 	line-height: 0;
 }
 .vignette img {
@@ -106,9 +100,12 @@ a:focus-visible { outline: 2px solid var(--gold-frame); outline-offset: 2px; }
 	margin: 1.6em auto 0;
 	padding: 0 2em;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	/* Une seule colonne : l'encart occupe une demi-largeur, centré.
+	   Deux encarts sur la même page se partageraient la ligne. */
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 22em), 1fr));
 	gap: 1.6em;
 	align-items: start;
+	max-width: 34em;
 }
 
 
@@ -130,7 +127,7 @@ nav.menu a { color: #756435; }
 /* ---------- Contenu ---------- */
 .contenu {
 	font-family: Georgia, "Times New Roman", "New York", serif;
-	font-size: 1.05em;
+	font-size: 1.1em;
 	max-width: var(--largeur);
 	margin: 0 auto;
 	padding: 0 2em;
@@ -292,27 +289,6 @@ nav.menu a { color: #756435; }
 #footer a { color: var(--gold-line); }
 
 /* ---------- Responsive ---------- */
-/* ---------- Écrans étroits ---------- */
-@media (max-width: 900px) {
-	/* La vignette repasse dans le flux, centrée, vraiment en haut. */
-	.vignette { position: static; margin: 0 auto .9em; }
-	#top { padding-top: 1.2em; }
-
-	/* Recherche et Antiquités l'une sous l'autre… */
-	.outils { grid-template-columns: 1fr; }
-	/* …et renvoyées sous le contenu : sur un téléphone, on veut lire les
-	   notules d'abord, pas traverser deux encarts avant d'y arriver.
-	   Les `order` portent sur les enfants directs de body (flex column). */
-	#top    { order: 1; }
-	nav.menu { order: 2; }
-	main    { order: 3; }
-	.outils { order: 4; }
-	#footer { order: 5; }
-
-	/* Pas de bande de texture : elle mangerait la largeur utile. */
-	body { background-image: none; }
-}
-
 @media (max-width: 640px) {
 	nav.menu, .contenu, .recherche, .outils, #footer { padding-left: 1.2em; padding-right: 1.2em; }
 	.liste li { grid-template-columns: 1fr; gap: .1em; }

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist --glob \"css/**/*.html\"",
     "preview": "astro preview",
     "astro": "astro",
     "migrer": "python3 scripts/migrate_dotclear.py dump.sql --out src/content --avec-commentaires"
