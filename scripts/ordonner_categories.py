@@ -1,6 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Remet src/content/categories.json en état après une migration.
+
+DEUX TÂCHES, à faire ensemble :
+  1. rétablir l'ordre voulu (le dump réimpose celui de Dotclear) ;
+  2. rendre les catégories que le dump ne connaît pas.
+
+Pourquoi la seconde : migrate_dotclear.py RÉÉCRIT categories.json de fond en
+comble, à partir du seul dump SQL. Tout ce qui n'y figure pas disparaît —
+« Les vidéos de Carnets sur sol », ajoutée par l'import YouTube, et toute
+catégorie propre aux blogs compagnons. Les notules, elles, survivent (le
+script n'efface rien dans notules/), si bien qu'elles se retrouvent
+rattachées à une catégorie inexistante : plus de page de chapitre, plus de
+lien, et aucun message d'erreur.
+
+Le script relit donc les catégories réellement citées par les notules et
+recrée celles qui manquent.
+
 Ordonne src/content/categories.json selon l'ordre voulu.
 
     python scripts/ordonner_categories.py                # simulation
@@ -150,6 +167,31 @@ Musiques du vingtième siècle
 """
 
 
+NOTULES = Path('src/content/notules')
+
+
+def categories_citees():
+    """
+    Catégories réellement employées par les notules, telles qu'elles y sont
+    inscrites. C'est la source de vérité : une catégorie citée par une
+    notule doit exister, sans quoi la notule devient inaccessible par ce
+    chemin.
+    """
+    vues = {}
+    if not NOTULES.is_dir():
+        return vues
+    for f in NOTULES.glob('*.json'):
+        try:
+            d = json.loads(f.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            continue
+        for c in d.get('categories') or []:
+            slug = c.get('slug')
+            if slug and slug not in vues:
+                vues[slug] = c.get('nom') or slug
+    return vues
+
+
 def cle(nom):
     """
     Clef d'appariement insensible aux accents, à la casse et à la
@@ -187,6 +229,22 @@ def main():
         sys.exit(1)
 
     cats = json.loads(chemin.read_text(encoding='utf-8'))
+
+    # --- rendre ce que la migration a effacé ------------------------------
+    connus = {c['slug'] for c in cats}
+    rendues = []
+    for slug, nom in sorted(categories_citees().items()):
+        if slug in connus:
+            continue
+        cats.append({
+            'id': max([0] + [int(c['id']) for c in cats]) + 1,
+            'nom': nom,
+            'description': '',
+            'slug': slug,
+            'ordre': 2000,
+        })
+        rendues.append(nom)
+
     index = {}
     for c in cats:
         index.setdefault(cle(c['nom']), []).append(c)
@@ -230,6 +288,13 @@ def main():
     cats.sort(key=lambda c: (c['ordre'], tri_francais(c['nom'])))
 
     # Rapport
+    if rendues:
+        print("CATÉGORIES RENDUES (citées par des notules, absentes du "
+              "fichier) :")
+        for nom in rendues:
+            print("   +", nom)
+        print()
+
     print(f"catégories dans le fichier : {len(cats)}")
     print(f"noms listés appariés       : {len(lignes) - 1 - len(introuvables)}")
     print(f"rejetées en fin de page    : {len(restantes)}")
