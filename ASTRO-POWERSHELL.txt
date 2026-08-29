@@ -1,0 +1,372 @@
+════════════════════════════════════════════════════════════════════════════════
+  ASTRO & GIT — Carnets sur sol
+  Commandes essentielles pour tester, valider et publier en local
+════════════════════════════════════════════════════════════════════════════════
+
+RÉPERTOIRE DE TRAVAIL
+═════════════════════
+
+C:\Users\PC\Documents\__notepad\docs\css statique\
+
+PowerShell : cd "C:\Users\PC\Documents\__notepad\docs\css statique"
+
+
+DÉVELOPPEMENT
+═════════════
+
+Compilation locale (statique) : npm run build
+    → crée dist/ avec tout le site en HTML/CSS/JS
+    → prend 4-10 secondes selon le nombre de notules
+
+Serveur de développement : npm run dev
+    → écoute sur http://localhost:4321 (recharge auto à chaque changement)
+    → arrêt : Ctrl+C
+
+Aperçu du site compilé : npm run preview
+    → lance le contenu de dist/ pour vérifier avant publication
+
+
+ARCHITECTURE DES FICHIERS MODIFIÉS
+═══════════════════════════════════
+
+Notules archives (JSON) :
+    src/content/notules/2000.json, 2001.json, … (~3 300 fichiers)
+    → générées par la migration Dotclear, ne pas éditer à la main
+    → remplacées à chaque nouvelle migration
+
+Notules récentes (Markdown) :
+    src/content/nouvelles/*.md
+    → écrivez-les directement ici
+    → format : en-tête YAML (titre, date, categories, chapo) + contenu
+
+Correctifs (JSON, optionnel) :
+    src/content/corrections/2030.json
+    → appliqués lors du rendu, survivent aux migrations
+    → peuvent remplacer un champ entier ou faire des find/replace
+
+Catégories (JSON unique) :
+    src/content/categories.json
+    → liste des rubriques, slug, ordre, description
+
+Pages web :
+    src/pages/*.astro
+    src/pages/css/*.astro
+    src/pages/archives/index.astro
+    src/pages/categorie/*.astro
+    etc.
+
+Styles CSS :
+    src/styles/global.css
+    → charte Keepsake (or, parchemin, Georgia/Lucida)
+    → y compris la césure et les voisines
+
+Composants réutilisables :
+    src/components/*.astro
+    → NotuleCard.astro (affichage d'une notule)
+    → BoiteRecherche.astro (formulaire de recherche)
+    → Pagination.astro (fil à 50 notules + pagination)
+
+
+AJOUT D'UNE NOTULE RÉCENTE
+══════════════════════════
+
+1. Créer src/content/nouvelles/mon-titre.md
+
+    ---
+    titre: "Mon titre"
+    date: 2026-08-28
+    categories: ["Intendance"]
+    chapo: "Chapô court pour le fil."
+    ---
+
+    Texte de la notule en Markdown.
+    
+    Paragraphes, **gras**, *italique*, [lien](url), images, etc.
+
+2. npm run build
+
+3. Vérifier dans dist/css/2026/08/28/mon-titre/index.html
+
+4. Si c'est bon : git add src/content/nouvelles/mon-titre.md
+
+
+MODIFICATION D'UNE NOTULE D'ARCHIVE
+═══════════════════════════════════
+
+NE PAS éditer src/content/notules/*.json directement (régénération à chaque
+migration). Créer un correctif à la place :
+
+1. Créer src/content/corrections/POSTID.json (POSTID = numero de la notule)
+
+    {
+      "postId": 2030,
+      "note": "Correctif appliqué le 28/08/2026",
+      "titre": "Titre corrigé",
+      "remplacements": [
+        {
+          "chercher": "vieux texte",
+          "remplacer": "nouveau texte",
+          "regex": false
+        }
+      ]
+    }
+
+2. npm run build
+
+3. git add src/content/corrections/POSTID.json
+
+
+DÉPUBLIER
+===============================
+
+python scripts/depublier.py 97004 --motif "Doublon contenant du brouillon"
+python scripts/depublier.py --liste
+python scripts/depublier.py 97004 --republier
+
+
+VÉRIFICATIONS AVANT PUBLICATION
+════════════════════════════════
+
+npm run build
+    Si ✓ Completed : c'est bon, vous pouvez pousser.
+    Si [ERROR] : arrêtez, corrigez, recompiilez.
+
+git status
+    Montre les fichiers modifiés et non validés.
+
+git diff src/content/nouvelles/mon-titre.md
+    Affiche ce qui a changé en détail (utile avant de valider).
+
+git log --oneline -5
+    Affiche les 5 derniers commits locaux (pour vérifier qu'on est à jour).
+
+
+GIT — FLUX DE TRAVAIL
+═════════════════════
+
+Vérifier où vous êtes :
+    git branch
+    git status
+    → Vous devez être sur 'main' ou 'master' et aucun changement en cours
+
+Récupérer les modifs publiées par ailleurs :
+    git pull
+
+Préparer un commit :
+    git add src/content/nouvelles/mon-titre.md
+    git add src/content/corrections/2030.json
+    git add src/styles/global.css
+
+Ou tout d'un coup (attention : ajoute tout ce qui a changé) :
+    git add -A
+
+Validez vos changements localement :
+    git commit -m "Nouvelle notule : Mon titre"
+    git commit -m "Correctif notule 2030"
+    git commit -m "Césure et voisines dans le CSS"
+
+Puis publiez sur GitHub :
+    git push
+
+Voir votre travail en ligne (quelques secondes) :
+    https://carnetsol.netlify.app
+    Netlify compile et publie à chaque push.
+
+
+GESTION DE L'HISTORIQUE
+═══════════════════════
+
+Voir ce qu'on a fait :
+    git log --oneline
+    git log --oneline -10   (les 10 derniers)
+    git log --oneline --graph
+
+Annuler le dernier commit (pas encore poussé) :
+    git reset --soft HEAD~1
+    (Les changements restent dans git add, le commit est défait.)
+
+Abandonner complètement une branche de travail :
+    git reset --hard HEAD
+    (Revient à l'état du commit précédent ; DESTRUCTIF.)
+
+Voir les différences :
+    git diff
+    (Comparer la version locale avec le dernier commit.)
+
+    git diff HEAD~1
+    (Comparer avec l'avant-dernier commit.)
+
+
+PAGINATION ET NOTULES
+═════════════════════
+
+Le fil affiche 50 notules par page.
+
+Pages générées automatiquement :
+    /css/                    → page 1 (50 premières)
+    /css/page/2/             → page 2 (50 suivantes)
+    /css/page/3/             → etc.
+
+Navigation :
+    Liens « 50 précédentes / 50 suivantes »
+    Bouton « Charger les 50 suivantes » (JavaScript)
+    → pas de rechargement de page, contenu recopié en bas
+
+
+VOISINES (navigation entre notules)
+═══════════════════════════════════
+
+Chaque notule affiche le lien vers la précédente et la suivante en bas.
+
+Ordre : par date décroissante (plus récente d'abord).
+
+Archives et notules récentes : fusionnées dans le même ordre chronologique.
+
+Pas de voisines sur :
+    - les pages d'alias/redirection (pages sans slug ou with partial slug)
+    - les pages créées avant la modification
+
+
+ARCHIVES
+════════
+
+Liste complète par année, puis mois (tous les mois affichés à la fois).
+
+Index d'années cliquable en haut.
+
+Lien « haut » par année pour remonter vite.
+
+Pas de chargement dynamique : tout le HTML d'un coup (~55-60 Ko pour 3 300
+notules sur 20 ans).
+
+
+RECHERCHE
+═════════
+
+Page : /css/recherche/
+
+Moteur : Pagefind (client-side, pas de serveur).
+
+Index : construit à la compilation (npm run build).
+
+Cherche dans : titre, chapô, corps, catégories.
+
+Résultats : affichage immédiat dans la page, sans rechargement.
+
+
+MEDIA & IMAGES
+══════════════
+
+Dossier : public/medias/ (flat, pas de sous-dossiers)
+
+Accès : /medias/nom-du-fichier.mp3 (ou .mp4, .jpg, etc.)
+
+Formats gérés : mp3, mp4, webm, jpg, png, svg, pdf, etc.
+
+Note : environ 8,7 Go de médias ; pas versionnés dans Git (cf. .gitignore).
+
+
+STYLES & DESIGN
+═══════════════
+
+Fichier maître : src/styles/global.css
+
+Palette :
+    --parch:       #f5ede0    (fond de page, parchemin)
+    --frame-bg:    #f5f0e8    (fond des cartes de notule)
+    --gold-line:   #C3A758    (liens, or clair)
+    --gold-frame:  #8c6a2a    (bordures, or foncé)
+    --muted:       #6b5c4a    (texte gris sourd)
+    --ink:         #333       (texte principal)
+
+Typographie :
+    Corps       : Georgia, Times New Roman, serif
+    Interface   : Lucida Grande, Verdana, sans-serif
+    Titres      : Georgia, serif, italic
+
+Responsive : breakpoint 640px (mobile).
+
+Minification : Astro fait tout automatiquement.
+
+
+PERFORMANCE
+═════════════
+
+Compilation moyenne : 4-10 sec (dépend du nombre de notules).
+
+Poids du site statique : ~630 MB (JS/CSS minifiés), ~50 Mo le reste compressé.
+
+Poids d'une page notule : ~40-60 Ko (HTML+CSS+JS).
+
+Poids d'archives.html : ~57 Ko (3 300 notules, 20 ans).
+
+Archives : content-visibility:auto pour éviter de rendre ce qu'on ne voit pas.
+
+
+TROUBLESHOOTING
+═════════════════
+
+Erreur de compilation : [ERROR] [...] Failed to call getStaticPaths
+    → Vérifier qu'une constante n'est pas utilisée hors de getStaticPaths
+    → Les constantes du frontmatter ne remontent pas jusqu'à getStaticPaths
+
+Liaison qui ne marche pas :
+    → Vérifier le slug : pas d'accents, pas de ponctuation, tirets seulement
+    → Vérifier le chemin : /css/AAAA/MM/JJ/slug/ avec slash final
+
+Git refuse de commiter :
+    → git config user.email "vos@mails.com"
+    → git config user.name "Votre Nom"
+
+Netlify ne déploie pas après le push :
+    → Attendre quelques secondes et recharger la page
+    → Vérifier que le dernier commit est bien passé : git log --oneline -1
+    → Consulter https://app.netlify.com (onglet "Deploys")
+
+
+RACCOURCIS POWERSHELL UTILES
+═════════════════════════════
+
+# Compilez et affichez l'aperçu
+npm run build; npm run preview
+
+# Compilez et montrez le dernier message d'erreur s'il y en a
+npm run build 2>&1 | tail -30
+
+# Affichez tous vos changements non validés
+git diff
+
+# Listez les fichiers à commiter
+git status
+
+# Commit rapide avec message d'une ligne
+git commit -am "Votre message"
+(Ajoute tous les fichiers modifiés et commite en une seule commande.)
+
+# Dernier commit + changements non encore commités
+git log --oneline -1; git diff --stat
+
+# Comptes de notules
+(ls src/content/notules/*.json).Count      # archives
+(ls src/content/nouvelles/*.md).Count      # récentes
+(ls src/content/corrections/*.json).Count  # correctifs
+
+
+RESSOURCES
+══════════
+
+Astro docs :           https://docs.astro.build
+Astro content layer :  https://docs.astro.build/en/guides/content-collections/
+Pagefind (recherche) : https://pagefind.app
+GitHub :               https://github.com/carnetsol/carnetsol
+
+Votre site :           https://carnetsol.netlify.app
+Repo :                 https://github.com/carnetsol/carnetsol.github.io (ou .github.io)
+
+
+════════════════════════════════════════════════════════════════════════════════
+  Besoin d'aide ? Les fichiers essentiels sont :
+  - astro.config.mjs (configuration du site)
+  - src/content.config.ts (schéma des collections)
+  - src/lib/notules.ts (fusion archives/nouvelles)
+════════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,11 @@
+{
+  "postId": 3328,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://classik.forumactif.com/",
+      "remplacer": "https://classik.forumactif.com/",
+      "regex": false
+    }
+  ]
+}

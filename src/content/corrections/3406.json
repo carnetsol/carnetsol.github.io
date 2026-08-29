@@ -1,0 +1,11 @@
+{
+  "postId": 3406,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20160811074409/http://www.lucianochailly.eu/operista/",
+      "remplacer": "http://www.lucianochailly.eu/operista/",
+      "regex": false
+    }
+  ]
+}

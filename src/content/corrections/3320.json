@@ -1,0 +1,16 @@
+{
+  "postId": 3320,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20220129234013/https://van-magazine.com/mag/daniel-barenboim-staatsoper-2022/",
+      "remplacer": "https://van-magazine.com/mag/daniel-barenboim-staatsoper-2022/",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://x.com/lonelypainter",
+      "remplacer": "https://x.com/lonelypainter",
+      "regex": false
+    }
+  ]
+}

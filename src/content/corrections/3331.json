@@ -1,0 +1,11 @@
+{
+  "postId": 3331,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20250314121520if_/https://open.spotify.com/embed/playlist/1QtmAdddJylLFp4UunjzgU?utm_source=generator",
+      "remplacer": "https://open.spotify.com/embed/playlist/1QtmAdddJylLFp4UunjzgU?utm_source=generator",
+      "regex": false
+    }
+  ]
+}

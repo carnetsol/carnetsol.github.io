@@ -1,8 +1,9 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import { notulesPubliees } from '../../lib/notules';
 
 export async function GET(context) {
-  const notules = await getCollection('notules');
+  const notules = await notulesPubliees(await getCollection('notules'));
   const dernieres = notules
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
     .slice(0, 30);

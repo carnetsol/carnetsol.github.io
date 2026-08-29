@@ -1,0 +1,16 @@
+{
+  "postId": 3335,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20241005145544/http://operacritiques.free.fr/dss/index.php/2008/06/19/116-concert-d-improvisation-reussi-xavier-busatto-cine-concerts",
+      "remplacer": "http://operacritiques.free.fr/dss/index.php/2008/06/19/116-concert-d-improvisation-reussi-xavier-busatto-cine-concerts",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20241005145544/https://classik.forumactif.com/t10075-10-09-23-wagner-koechlin-scriabine-mompou-impros-busatto",
+      "remplacer": "https://classik.forumactif.com/t10075-10-09-23-wagner-koechlin-scriabine-mompou-impros-busatto",
+      "regex": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "postId": 3360,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20231201165535im_/http://piloris.free.fr/css/images/dagmar_saskova.jpg",
+      "remplacer": "http://piloris.free.fr/css/images/dagmar_saskova.jpg",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201165535if_/https://open.spotify.com/embed/playlist/7CxeioFzn6gweWXsVFlBSo?utm_source=generator",
+      "remplacer": "https://open.spotify.com/embed/playlist/7CxeioFzn6gweWXsVFlBSo?utm_source=generator",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201165535/https://www.youtube.com/watch?v=db7IM-iLYDI",
+      "remplacer": "https://www.youtube.com/watch?v=db7IM-iLYDI",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201165535/https://www.youtube.com/watch?v=jAdbzJFQWuw",
+      "remplacer": "https://www.youtube.com/watch?v=jAdbzJFQWuw",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201165535/https://www.facebook.com/reel/332179046007233",
+      "remplacer": "https://www.facebook.com/reel/332179046007233",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201165535/https://www.youtube.com/watch?v=8u5lM2qRL7M",
+      "remplacer": "https://www.youtube.com/watch?v=8u5lM2qRL7M",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201165535im_/http://piloris.free.fr/css/images/pasteur_wagner_mezzanine_enfants.jpg",
+      "remplacer": "http://piloris.free.fr/css/images/pasteur_wagner_mezzanine_enfants.jpg",
+      "regex": false
+    }
+  ]
+}

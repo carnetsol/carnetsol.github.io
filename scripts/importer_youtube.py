@@ -133,12 +133,48 @@ def date_video(brut):
 
 # ------------------------------------------------------------- yt-dlp
 
+# Emplacements fouillés quand yt-dlp n'est pas dans le PATH. Sous Windows
+# on l'installe souvent en posant l'exécutable quelque part sans toucher au
+# PATH : inutile de faire échouer le script pour si peu.
+EMPLACEMENTS = [
+    r'C:\yt-dlp.exe',
+    r'C:\yt-dlp\yt-dlp.exe',
+    r'C:\Program Files\yt-dlp\yt-dlp.exe',
+    r'C:\Users\PC\yt-dlp.exe',
+    '/usr/local/bin/yt-dlp',
+]
+
+_binaire_trouve = None
+
+
+def trouver_ytdlp(indique=None):
+    global _binaire_trouve
+    if _binaire_trouve:
+        return _binaire_trouve
+
+    pistes = []
+    if indique:
+        pistes.append(indique)
+    pistes += [shutil.which('yt-dlp'), shutil.which('yt-dlp.exe')]
+    pistes += EMPLACEMENTS
+    pistes.append(str(Path.home() / 'yt-dlp.exe'))
+
+    for piste in pistes:
+        if piste and Path(piste).is_file():
+            _binaire_trouve = str(piste)
+            return _binaire_trouve
+
+    print("ARRÊT — yt-dlp introuvable.")
+    print("        Cherché dans le PATH puis à ces emplacements :")
+    for piste in EMPLACEMENTS:
+        print("          " + piste)
+    print("        Indiquez le chemin exact :")
+    print('          python scripts/importer_youtube.py --ytdlp "C:\\yt-dlp.exe"')
+    sys.exit(1)
+
+
 def lancer_ytdlp(arguments):
-    binaire = shutil.which('yt-dlp') or shutil.which('yt-dlp.exe')
-    if not binaire:
-        print("ARRÊT — yt-dlp introuvable dans le PATH.")
-        print("        pip install -U yt-dlp")
-        sys.exit(1)
+    binaire = trouver_ytdlp()
 
     resultat = subprocess.run([binaire] + arguments,
                               capture_output=True, text=True,
@@ -183,6 +219,7 @@ def detailler(identifiants):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--chaine', default=CHAINE)
+    ap.add_argument('--ytdlp', help='chemin de yt-dlp.exe si absent du PATH')
     ap.add_argument('--depuis-json', help='fichier .jsonl produit par yt-dlp')
     ap.add_argument('--max', type=int, help='ne traiter que les N plus récentes')
     ap.add_argument('--duree-short', type=int, default=DUREE_SHORT)
@@ -193,6 +230,10 @@ def main():
         print(f"ARRÊT — {NOTULES} introuvable. Lancez le script depuis la "
               "racine du projet.")
         sys.exit(1)
+
+    # Vérifié tout de suite : mieux vaut échouer avant de lire 3 500 fichiers.
+    if not args.depuis_json:
+        print(f"yt-dlp : {trouver_ytdlp(args.ytdlp)}")
 
     # --- état actuel du site --------------------------------------------
     deja, ids_pris, urls_prises = {}, set(), set()

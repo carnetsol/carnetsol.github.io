@@ -1,0 +1,16 @@
+{
+  "postId": 3355,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20250318063340if_/https://open.spotify.com/embed/album/3GAJKG9MhgGPIE5ACtsd3r?utm_source=generator",
+      "remplacer": "https://open.spotify.com/embed/album/3GAJKG9MhgGPIE5ACtsd3r?utm_source=generator",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250318063340/https://www.youtube.com/watch?v=SR9E0lRh-1Y&pp=ygUlZm91Y2jDqWNvdXJ0IHBsYW5lcyBzY2h1YmVydCBtdWxsZXJpbg%3D%3D",
+      "remplacer": "https://www.youtube.com/watch?v=SR9E0lRh-1Y&pp=ygUlZm91Y2jDqWNvdXJ0IHBsYW5lcyBzY2h1YmVydCBtdWxsZXJpbg%3D%3D",
+      "regex": false
+    }
+  ]
+}

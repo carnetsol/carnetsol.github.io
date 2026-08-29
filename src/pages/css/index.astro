@@ -1,13 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
+import { notulesPubliees } from '../../lib/notules';
 import Base from '../../layouts/Base.astro';
 import NotuleCard from '../../components/NotuleCard.astro';
-import BoiteRecherche from '../../components/BoiteRecherche.astro';
 import Pagination from '../../components/Pagination.astro';
 
 const PAR_PAGE = 50;
 
-const toutes = await getCollection('notules');
+const toutes = await notulesPubliees(await getCollection('notules'));
 const triees = toutes.sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
@@ -18,7 +18,6 @@ const nbPages = Math.max(1, Math.ceil(total / PAR_PAGE));
 ---
 <Base titre="Notules récentes" devise>
 
-  <BoiteRecherche />
 
   <div class="contenu">
     {/* #fil : le conteneur où le bouton « Charger les 50 suivantes »

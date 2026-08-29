@@ -62,6 +62,30 @@ export async function chargerCorrections() {
   return new Map(liste.map((c) => [c.data.postId, c.data]));
 }
 
+/**
+ * Identifiants des notules dépubliées, d'après les correctifs.
+ * Un seul endroit pour la vérité : toutes les pages passent par là.
+ */
+export async function chargerDepubliees(): Promise<Set<number>> {
+  const liste = await getCollection('corrections');
+  return new Set(
+    liste.filter((c) => c.data.depublier).map((c) => c.data.postId)
+  );
+}
+
+/**
+ * Retire d'une liste de notules celles qui sont dépubliées.
+ * À appeler dans TOUTE page qui liste ou génère des notules : fil,
+ * archives, catégories, RSS, permaliens. Une notule oubliée quelque part
+ * resterait accessible, ce qui viderait la dépublication de son sens.
+ */
+export async function notulesPubliees<T extends { data: { postId: number } }>(
+  notules: T[]
+): Promise<T[]> {
+  const masquees = await chargerDepubliees();
+  return notules.filter((n) => !masquees.has(n.data.postId));
+}
+
 /** Échappe une chaîne destinée à être utilisée dans une expression régulière. */
 function echapper(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -99,7 +123,11 @@ export async function toutesLesNotules(): Promise<NotuleUnifiee[]> {
 
   const correctifs = await chargerCorrections();
 
-  const archives = (await getCollection('notules')).map((e) => {
+  const masquees = await chargerDepubliees();
+
+  const archives = (await getCollection('notules'))
+    .filter((e) => !masquees.has(e.data.postId))
+    .map((e) => {
     const d = appliquerCorrection(e.data, correctifs.get(e.data.postId));
     return {
       titre: d.titre,

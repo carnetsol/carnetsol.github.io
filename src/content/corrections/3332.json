@@ -1,0 +1,46 @@
+{
+  "postId": 3332,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://docs.google.com/spreadsheets/d/1cWpth1yxcfWZKkWR_CMKIw6rEpKmjrVuqjZbX7DzVFo/edit?usp=sharing",
+      "remplacer": "https://docs.google.com/spreadsheets/d/1cWpth1yxcfWZKkWR_CMKIw6rEpKmjrVuqjZbX7DzVFo/edit?usp=sharing",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520if_/https://www.youtube.com/embed/k-PM8JBkRfE?si=WUnGMbAEv-cY32-o",
+      "remplacer": "https://www.youtube.com/embed/k-PM8JBkRfE?si=WUnGMbAEv-cY32-o",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://drive.google.com/drive/folders/1U_RX_k55_XmrOou6xtCOr12yfsc9C-vr",
+      "remplacer": "https://drive.google.com/drive/folders/1U_RX_k55_XmrOou6xtCOr12yfsc9C-vr",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://carnetsolconcerts.wordpress.com/2024/12/02/la-vue-ecoute-la-musique/",
+      "remplacer": "https://carnetsolconcerts.wordpress.com/2024/12/02/la-vue-ecoute-la-musique/",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://www.youtube.com/watch?v=7-YNsEVZ2zw&t=2s",
+      "remplacer": "https://www.youtube.com/watch?v=7-YNsEVZ2zw&t=2s",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://www.youtube.com/watch?v=x-QGnHRj5Zs&t=75s",
+      "remplacer": "https://www.youtube.com/watch?v=x-QGnHRj5Zs&t=75s",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://www.youtube.com/watch?v=f4Ae1mx6w2Q",
+      "remplacer": "https://www.youtube.com/watch?v=f4Ae1mx6w2Q",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/https://www.youtube.com/@carnetsol/videos",
+      "remplacer": "https://www.youtube.com/@carnetsol/videos",
+      "regex": false
+    }
+  ]
+}

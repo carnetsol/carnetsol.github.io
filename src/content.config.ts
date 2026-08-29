@@ -88,6 +88,11 @@ const corrections = defineCollection({
   schema: z.object({
     postId: z.coerce.number(),
     note: z.string().optional(),
+    // true = la notule disparaît du site (fil, archives, catégories, RSS,
+    // page propre). Le fichier d'origine reste en place : c'est le moyen
+    // de dépublier sans rien détruire, et sans que la prochaine migration
+    // ne ressuscite la notule.
+    depublier: z.boolean().default(false),
     titre: z.string().optional(),
     chapoHtml: z.string().optional(),
     corpsHtml: z.string().optional(),

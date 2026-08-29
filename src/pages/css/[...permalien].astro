@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { slugifier, chargerCorrections, appliquerCorrection } from '../../lib/notules';
+import { slugifier, chargerCorrections, appliquerCorrection, notulesPubliees } from '../../lib/notules';
 import { ouvrirDehors } from '../../lib/liens';
 
 /**
@@ -20,7 +20,8 @@ import { ouvrirDehors } from '../../lib/liens';
  * Sans alias, elles deviendraient autant de liens morts.
  */
 export async function getStaticPaths() {
-  const archives = await getCollection('notules');
+  // Dépubliées : ni page, ni alias, ni place dans la chaîne des voisines.
+  const archives = await notulesPubliees(await getCollection('notules'));
   const nouvelles = await getCollection('nouvelles', ({ data }) => !data.brouillon);
   const cats = await getCollection('categories');
   const parNom = new Map(cats.map((c) => [c.data.nom.toLowerCase(), c.data.slug]));
@@ -152,6 +153,18 @@ const Contenu = nouvelle ? (await render(nouvelle)).Content : null;
 const dateLongue = date?.toLocaleDateString('fr-FR', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
 });
+
+/* Le site est statique : aucun serveur ne peut recevoir un formulaire.
+   Le lien compose donc un courriel prérempli. Le titre et l'adresse de la
+   notule sont glissés dans le corps du message pour savoir de quoi il
+   retourne sans avoir à chercher. */
+const lienCommentaire =
+  'mailto:carnetsol1598@gmail.com'
+  + '?subject=' + encodeURIComponent('Nouveau commentaire sur Carnets sur sol')
+  + '&body=' + encodeURIComponent(
+      `\n\n---\nÀ propos de : ${titre ?? ''}\n`
+      + new URL(Astro.url.pathname, Astro.site).href + '\n'
+    );
 ---
 {redirection ? (
   <html lang="fr">
@@ -249,6 +262,18 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
         </p>
       </section>
     )}
+
+    {/* Le site est statique : aucun serveur ne peut recevoir un
+        formulaire. Le lien compose donc un courriel prérempli, que
+        David recopie ensuite dans le corps de la notule. Le titre et
+        l'adresse de la notule sont glissés dans le message pour qu'il
+        sache de quoi il retourne sans avoir à chercher. */}
+    <section class="ecrire" data-pagefind-ignore>
+      <p>
+        Pour ajouter votre commentaire,
+        <a href={lienCommentaire}>envoyez-le ici</a>.
+      </p>
+    </section>
   </div>
 
 </Base>
@@ -313,6 +338,17 @@ const dateLongue = date?.toLocaleDateString('fr-FR', {
     font-family: "Lucida Grande", Verdana, sans-serif;
     font-size: .8em; color: var(--muted); margin: .8em 0 .2em;
   }
+  .ecrire {
+    max-width: var(--largeur-texte);
+    margin: 2em auto 0;
+    padding: 1em 1.2em;
+    background: var(--parch-mid);
+    border-left: 3px solid var(--gold-frame);
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .88em;
+  }
+  .ecrire p { margin: 0; }
+
   .commentaires-clos {
     font-family: "Lucida Grande", Verdana, sans-serif;
     font-size: .8em; color: var(--muted); font-style: italic;

@@ -1,38 +1,26 @@
 ---
 import '../styles/global.css';
+import BoiteRecherche from '../components/BoiteRecherche.astro';
+import Antiquites from '../components/Antiquites.astro';
 
 interface Props {
   titre: string;
-  /** Texte de la balise <meta name="description"> et des métadonnées de partage. */
   description?: string;
-  /** Sous-titre AFFICHÉ sous le titre du site. Distinct de la description. */
   soustitre?: string;
-  /** Affiche la devise sous le titre. Réservé à / et /css/. */
   devise?: boolean;
-  /** 'website' pour les pages de rubrique, 'article' pour une notule. */
   type?: 'website' | 'article';
-  /** Adresse canonique, si elle diffère de celle de la page courante. */
   canonique?: string;
-  /** Date de publication, pour les métadonnées d'article. */
   datePublication?: Date;
-  /** Affiche le bandeau « retour au menu principal » (pages sous /css/). */
-  lienMenu?: boolean;
-  /** Affiche le menu horizontal des rubriques. */
+  /** Barre d'outils (Recherche + Antiquités). Coupée sur /css/recherche/. */
+  outils?: boolean;
   menu?: boolean;
 }
 
-/**
- * SOUS-TITRE et DESCRIPTION sont deux choses différentes.
- *
- * Auparavant un seul champ servait aux deux : sur une page de notule, où
- * `description` reçoit l'extrait de la notule, cet extrait s'affichait donc
- * comme sous-titre du SITE, sous « Carnets sur sol ». Le sous-titre est
- * désormais constant, la description reste propre à chaque page.
- */
-const SOUSTITRE = 'Musiques interlopes depuis 2005. Placards de MH. '
-                + 'Balades sylvestres post-diurnes.';
-
+const SOUSTITRE = 'Musiques interlopes depuis 2005.';
 const DESCRIPTION = "Notules d'opéra, de disques et de promenades — depuis 2005.";
+
+/** Adresse de contact, commune au pied de page et aux commentaires. */
+export const COURRIEL = 'carnetsol1598@gmail.com';
 
 const {
   titre,
@@ -42,29 +30,32 @@ const {
   type = 'website',
   canonique,
   datePublication,
-  lienMenu = true,
+  outils = true,
   menu = true,
 } = Astro.props;
 
 const urlCanonique = new URL(canonique ?? Astro.url.pathname, Astro.site);
 
 /**
- * Image de partage. cello.jpg fait 161 x 121 px : c'est SOUS le minimum
- * de 200 x 200 exigé par la plupart des réseaux, qui n'afficheront donc
- * aucune vignette. La carte est réglée sur « summary » plutôt que
- * « summary_large_image » en attendant une version plus grande.
+ * Image de partage. cello.jpg fait 161 x 121 px, sous le minimum de
+ * 200 x 200 exigé par la plupart des réseaux : aucune vignette ne
+ * s'affichera tant qu'une version plus grande n'aura pas été fournie.
+ * La carte reste donc sur « summary ».
  */
 const imagePartage = new URL('/partage.jpg', Astro.site);
-const PARTAGE_L = 161;
-const PARTAGE_H = 121;
 
 const rubriques = [
-  { href: '/index-general/',   label: 'Index (fragmentaire) & Linktree' },
-  { href: '/categorie/',       label: 'Catégories' },
-  { href: '/archives/',        label: 'Archives' },
-  { href: '/multimedia/',      label: 'Multimédia' },
-  { href: '/css/recherche/',   label: 'Recherche' },
+  { href: '/categorie/', label: 'Chapitres' },
+  { href: '/archives/',  label: 'Archives' },
+  // L'agenda est une notule comme une autre : son adresse changera à
+  // chaque nouvelle saison. C'est la seule ligne à modifier alors.
+  { href: '/css/2026/08/16/3457-l-agenda-de-francilie-2026-2027-rentree-de-septembre/',
+    label: 'Agenda' },
+  { href: 'https://linktr.ee/carnetsol', label: 'Linktree', externe: true },
 ];
+
+const contact = `mailto:${COURRIEL}`
+  + '?subject=' + encodeURIComponent('Contact — Carnets sur sol');
 ---
 <!doctype html>
 <html lang="fr">
@@ -79,13 +70,6 @@ const rubriques = [
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="alternate" type="application/rss+xml" title="Carnets sur sol" href="/css/rss.xml" />
 
-  {/* --- Partage sur les réseaux -----------------------------------------
-      Open Graph est lu par Facebook, Mastodon, Bluesky, LinkedIn, Discord,
-      Signal, WhatsApp, Slack. X lit les balises twitter: et retombe sur
-      Open Graph pour le reste : d'ou la redondance apparente.
-
-      og:image doit etre une adresse ABSOLUE, les reseaux ne resolvant pas
-      les chemins relatifs. D'ou le new URL() ci-dessus.                  */}
   <meta property="og:site_name" content="Carnets sur sol" />
   <meta property="og:type" content={type} />
   <meta property="og:locale" content="fr_FR" />
@@ -93,15 +77,13 @@ const rubriques = [
   <meta property="og:description" content={description} />
   <meta property="og:url" content={urlCanonique} />
   <meta property="og:image" content={imagePartage} />
-  <meta property="og:image:width" content={String(PARTAGE_L)} />
-  <meta property="og:image:height" content={String(PARTAGE_H)} />
+  <meta property="og:image:width" content="161" />
+  <meta property="og:image:height" content="121" />
 
   {type === 'article' && datePublication && (
     <meta property="article:published_time" content={datePublication.toISOString()} />
   )}
-  {type === 'article' && (
-    <meta property="article:author" content="David Le Marrec" />
-  )}
+  {type === 'article' && <meta property="article:author" content="David Le Marrec" />}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content={titre} />
@@ -110,13 +92,11 @@ const rubriques = [
 </head>
 <body>
 
-  {lienMenu && (
-    <div class="vers-menu">
-      <a href="/">Menu principal : index, catégories, multimédia, archives</a>
-    </div>
-  )}
-
   <header id="top">
+    <a class="vignette" href="/css/" aria-label="Accueil de Carnets sur sol">
+      <img src="/cello.jpg" alt="" width="161" height="121" />
+    </a>
+
     <h1><a href="/css/">Carnets sur sol</a></h1>
     {devise && <p class="tagline">{soustitre}</p>}
   </header>
@@ -125,10 +105,23 @@ const rubriques = [
     <nav class="menu" aria-label="Rubriques">
       <ul>
         {rubriques.map((r) => (
-          <li><a href={r.href}>{r.label}</a></li>
+          <li>
+            <a
+              href={r.href}
+              target={r.externe ? '_blank' : undefined}
+              rel={r.externe ? 'noopener noreferrer' : undefined}
+            >{r.label}</a>
+          </li>
         ))}
       </ul>
     </nav>
+  )}
+
+  {outils && (
+    <div class="outils">
+      <BoiteRecherche encart />
+      <Antiquites />
+    </div>
   )}
 
   <main>
@@ -136,11 +129,10 @@ const rubriques = [
   </main>
 
   <footer id="footer">
-    Carnets sur sol — David Le Marrec — depuis 2005 ·
     ISSN <a href="https://catalogue.bnf.fr/ark:/12148/cb43668591m.public"
             target="_blank" rel="noopener noreferrer">2269-2843</a> ·
-    <a href="/css/rss.xml">Flux RSS</a> ·
-    <a href="/archives/">Archives complètes</a>
+    Carnets sur sol — <a href={contact}>David Le Marrec</a> — depuis 2005 ·
+    <a href="/css/rss.xml">Flux RSS</a>
   </footer>
 
 </body>

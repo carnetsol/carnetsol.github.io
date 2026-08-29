@@ -1,8 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { notulesPubliees } from '../../lib/notules';
 
-const notules = await getCollection('notules');
+const notules = await notulesPubliees(await getCollection('notules'));
 const triees = notules.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 // Regroupement année -> mois -> notules
@@ -41,7 +42,7 @@ const hauteurEstimee = (mois: Map<number, typeof triees>) => {
   return 60 + mois.size * 38 + nbNotules * 34;
 };
 ---
-<Base titre="Archives" lienMenu={false}>
+<Base titre="Archives">
 
   <div class="contenu">
     <h2 class="section-head">Archives — {triees.length.toLocaleString('fr-FR')} notules</h2>
@@ -64,7 +65,12 @@ const hauteurEstimee = (mois: Map<number, typeof triees>) => {
 
         {[...mois.entries()].map(([m, liste]) => (
           <section class="mois">
-            <h4>{nomMois[m]} <span class="compte">{liste.length}</span></h4>
+            <h4>
+              {nomMois[m]} {annee}
+              <span class="compte">
+                ({liste.length} {liste.length > 1 ? 'notules' : 'notule'})
+              </span>
+            </h4>
             <ul class="liste">
               {liste.map((n) => (
                 <li>

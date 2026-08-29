@@ -13,7 +13,18 @@
 	--gold-frame: #8c6a2a;  /* bordure des cadres */
 	--muted:      #6b5c4a;
 	--ink:        #333;
-	--largeur:    720px;
+
+	/* LARGEURS
+	   --largeur       : le cadre général de la page.
+	   --largeur-texte : la colonne de lecture d'une notule, à l'intérieur.
+
+	   Les deux diffèrent volontairement. Le cadre passe de 720 à 1080 px
+	   pour occuper l'écran, mais une ligne de texte de 1080 px ferait
+	   environ 140 signes : l'œil perd le début de la ligne suivante. Le
+	   corps des notules reste donc à 900 px, soit ~75 signes, la mesure
+	   confortable. C'est l'espace autour qui s'élargit, pas la ligne. */
+	--largeur:       1080px;
+	--largeur-texte:  900px;
 }
 
 * { box-sizing: border-box; }
@@ -24,8 +35,19 @@ body {
 	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif;
 	font-size: 16px;
 	color: var(--ink);
-	background: var(--parch);
+
+	/* Bande de texture le long du bord gauche, comme sur l'ancien site.
+	   L'image fait 180x20 : elle se répète verticalement (repeat-y) et
+	   se fond dans le parchemin par son bord droit. */
+	background: url("/bg-sidebar.jpg") repeat-y left top, var(--parch);
+
+	/* Colonne : permet de renvoyer la barre d'outils sous le contenu
+	   sur écran étroit, par un simple `order` (voir plus bas). */
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
+main { flex: 1 0 auto; }
 
 /* Grain de papier */
 body::before {
@@ -52,27 +74,43 @@ a:focus-visible { outline: 2px solid var(--gold-frame); outline-offset: 2px; }
 
 /* ---------- En-tête ---------- */
 #top {
+	position: relative;
 	font-family: Georgia, "New Century Schoolbook", Times, serif;
-	padding: 2.2em 2em 1.6em;
+	/* Titre relevé : 1em au lieu de 2,2em au-dessus. */
+	padding: 1em 2em 1.5em;
 	text-align: center;
 	border-bottom: 1px solid var(--gold-line);
 }
 #top h1 { margin: 0; letter-spacing: 2px; }
 #top h1 a { color: var(--gold-line); font-weight: normal; }
-#top .tagline { margin: .3em 0 0; color: #999; font-style: italic; font-size: .95em; }
+/* Une ligne d'écart de plus entre le titre et la devise. */
+#top .tagline { margin: 1.1em 0 0; color: #999; font-style: italic; font-size: .95em; }
 
-/* Lien de retour vers le menu principal (racine du site) */
-.vers-menu {
+/* Vignette en haut à gauche, calée sur le bord du cadre. */
+.vignette {
+	position: absolute;
+	left: max(2em, calc((100% - var(--largeur)) / 2 + 1em));
+	top: 1em;
 	display: block;
-	text-align: center;
-	font-size: .82em;
-	padding: .5em 2em;
-	background: var(--parch-mid);
-	border-bottom: 1px solid var(--parch-dark);
-	letter-spacing: .04em;
+	line-height: 0;
 }
-.vers-menu a { color: #756435; }
-.vers-menu a::before { content: "« "; color: var(--gold-line); }
+.vignette img {
+	width: 161px; height: 121px;
+	border: 1px solid var(--gold-frame);
+}
+
+/* ---------- Barre d'outils : recherche à gauche, Antiquités à droite ---- */
+.outils {
+	max-width: var(--largeur);
+	width: 100%;
+	margin: 1.6em auto 0;
+	padding: 0 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.6em;
+	align-items: start;
+}
+
 
 /* ---------- Menu ---------- */
 nav.menu {
@@ -92,9 +130,18 @@ nav.menu a { color: #756435; }
 /* ---------- Contenu ---------- */
 .contenu {
 	font-family: Georgia, "Times New Roman", "New York", serif;
+	font-size: 1.05em;
 	max-width: var(--largeur);
 	margin: 0 auto;
 	padding: 0 2em;
+	width: 100%;
+}
+
+/* La colonne de lecture reste étroite à l'intérieur du cadre large. */
+.notule-corps, .notule-notes, .post-chapo {
+	max-width: var(--largeur-texte);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .day-date {
@@ -118,7 +165,7 @@ nav.menu a { color: #756435; }
 .post-title { font-weight: normal; font-size: 1.5em; color: var(--ink); margin: 0; }
 .post-title a { color: #000; }
 .post-title a:hover { color: #8d6e68; }
-.post-chapo { padding: 0 1.2em; margin-top: .25em; color: #4a4136; font-style: italic; line-height: 1.5; }
+.post-chapo { padding: 0 1.2em; margin-top: .25em; color: #4a4136; font-style: normal; line-height: 1.5; }
 .post-info {
 	padding: .4em 1.2em 1.1em; margin: 0; color: #999;
 	font-family: "Lucida Grande", Verdana, sans-serif; font-size: .82em;
@@ -245,8 +292,29 @@ nav.menu a { color: #756435; }
 #footer a { color: var(--gold-line); }
 
 /* ---------- Responsive ---------- */
+/* ---------- Écrans étroits ---------- */
+@media (max-width: 900px) {
+	/* La vignette repasse dans le flux, centrée, vraiment en haut. */
+	.vignette { position: static; margin: 0 auto .9em; }
+	#top { padding-top: 1.2em; }
+
+	/* Recherche et Antiquités l'une sous l'autre… */
+	.outils { grid-template-columns: 1fr; }
+	/* …et renvoyées sous le contenu : sur un téléphone, on veut lire les
+	   notules d'abord, pas traverser deux encarts avant d'y arriver.
+	   Les `order` portent sur les enfants directs de body (flex column). */
+	#top    { order: 1; }
+	nav.menu { order: 2; }
+	main    { order: 3; }
+	.outils { order: 4; }
+	#footer { order: 5; }
+
+	/* Pas de bande de texture : elle mangerait la largeur utile. */
+	body { background-image: none; }
+}
+
 @media (max-width: 640px) {
-	nav.menu, .contenu, .recherche, #footer, .vers-menu { padding-left: 1.2em; padding-right: 1.2em; }
+	nav.menu, .contenu, .recherche, .outils, #footer { padding-left: 1.2em; padding-right: 1.2em; }
 	.liste li { grid-template-columns: 1fr; gap: .1em; }
 	.notule-corps { text-align: left; }
 }

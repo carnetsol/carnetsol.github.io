@@ -2,10 +2,14 @@
 interface Props {
   valeur?: string;
   autofocus?: boolean;
+  /** true dans la barre d'outils (encadré, titré), false sur /css/recherche/. */
+  encart?: boolean;
 }
-const { valeur = '', autofocus = false } = Astro.props;
+const { valeur = '', autofocus = false, encart = false } = Astro.props;
 ---
-<div class="recherche">
+<div class={encart ? 'recherche recherche-encart' : 'recherche'}>
+  {encart && <h2 class="outil-titre">Recherche</h2>}
+
   <form action="/css/recherche/" method="get" role="search">
     <label for="q" class="sr-only">Chercher dans les notules</label>
     <input
@@ -14,9 +18,9 @@ const { valeur = '', autofocus = false } = Astro.props;
       name="q"
       value={valeur}
       autofocus={autofocus}
-      placeholder="Chercher une œuvre, un compositeur, une salle…"
+      placeholder="Moteur à notules incroyables"
     />
-    <button type="submit">Chercher</button>
+    <button type="submit">Trouver à coup sûr</button>
   </form>
 </div>
 
@@ -28,4 +32,26 @@ const { valeur = '', autofocus = false } = Astro.props;
     overflow: hidden; clip: rect(0 0 0 0);
     white-space: nowrap; border: 0;
   }
+
+  /* Version encadrée, dans la barre d'outils, en face d'Antiquités. */
+  .recherche-encart {
+    max-width: none;
+    margin: 0;
+    padding: .9em 1.1em 1.1em;
+    background: var(--frame-bg);
+    border: 1px solid var(--parch-dark);
+    border-top: 3px solid var(--gold-frame);
+    border-radius: 2px;
+  }
+  .recherche-encart .outil-titre {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    font-style: italic;
+    letter-spacing: .05em;
+    color: var(--gold-frame);
+    margin: 0 0 .5em;
+  }
+  /* Sur une colonne étroite, le bouton passe sous le champ. */
+  .recherche-encart form { flex-wrap: wrap; }
+  .recherche-encart input { min-width: 12em; }
 </style>

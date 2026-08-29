@@ -1,9 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { notulesPubliees } from '../../lib/notules';
 
 export async function getStaticPaths() {
-  const notules = await getCollection('notules');
+  const notules = await notulesPubliees(await getCollection('notules'));
   const categories = await getCollection('categories');
 
   return categories
@@ -24,7 +25,7 @@ export async function getStaticPaths() {
 
 const { categorie, liste } = Astro.props;
 ---
-<Base titre={categorie.nom} description={categorie.description} lienMenu={false}>
+<Base titre={categorie.nom} description={categorie.description}>
 
   <div class="contenu">
     <h2 class="section-head">{categorie.nom}</h2>

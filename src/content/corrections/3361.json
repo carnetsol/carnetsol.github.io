@@ -1,0 +1,56 @@
+{
+  "postId": 3361,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20231201172441im_/http://piloris.free.fr/css/images/arabella_tuilage.png",
+      "remplacer": "http://piloris.free.fr/css/images/arabella_tuilage.png",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441im_/http://piloris.free.fr/css/images/arabella_mepris.png",
+      "remplacer": "http://piloris.free.fr/css/images/arabella_mepris.png",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/https://youtu.be/VGnLjjdLSNM?t=259",
+      "remplacer": "https://youtu.be/VGnLjjdLSNM?t=259",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/https://youtu.be/VGnLjjdLSNM?t=3309",
+      "remplacer": "https://youtu.be/VGnLjjdLSNM?t=3309",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/https://youtu.be/VGnLjjdLSNM?t=3490",
+      "remplacer": "https://youtu.be/VGnLjjdLSNM?t=3490",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/https://youtu.be/VGnLjjdLSNM?t=3793",
+      "remplacer": "https://youtu.be/VGnLjjdLSNM?t=3793",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/https://youtu.be/VGnLjjdLSNM?t=599",
+      "remplacer": "https://youtu.be/VGnLjjdLSNM?t=599",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/http://piloris.free.fr/css/images/arabella_mepris.png",
+      "remplacer": "http://piloris.free.fr/css/images/arabella_mepris.png",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/http://piloris.free.fr/css/images/arabella_tuilage.png",
+      "remplacer": "http://piloris.free.fr/css/images/arabella_tuilage.png",
+      "regex": false
+    },
+    {
+      "chercher": "https://web.archive.org/web/20231201172441/https://youtu.be/VGnLjjdLSNM?t=3820",
+      "remplacer": "https://youtu.be/VGnLjjdLSNM?t=3820",
+      "regex": false
+    }
+  ]
+}

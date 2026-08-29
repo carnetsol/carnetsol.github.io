@@ -1,0 +1,11 @@
+{
+  "postId": 93042,
+  "note": "Liens web.archive.org réparés",
+  "remplacements": [
+    {
+      "chercher": "https://web.archive.org/web/20250314121520/http://operacritiques.free.fr/css/index.php?2009/04/17/1208-le-livre-linformatique-la-toile-la-nouvelle-hierarchie-et-les-nouveaux-dangers-d-internet",
+      "remplacer": "/css/2009/04/17/1208-le-livre-linformatique-la-toile-la-nouvelle-hierarchie-et-les-nouveaux-dangers-d-internet/",
+      "regex": false
+    }
+  ]
+}

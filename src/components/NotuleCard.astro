@@ -8,6 +8,7 @@ interface Props {
       url: string;
       date: Date;
       chapoHtml: string;
+      corpsHtml?: string;
       extrait: string;
       categories: { nom: string; slug: string }[];
       nbCommentaires: number;
@@ -15,8 +16,39 @@ interface Props {
     };
   };
 }
-const { notule } = Astro.props;
+interface PropsSuite { illustration?: boolean; }
+
+const { notule, illustration = true } = Astro.props;
 const d = notule.data;
+
+/**
+ * ILLUSTRATION — la première image de la notule remplace le chapô.
+ *
+ * On lit le HTML du corps plutôt que de fabriquer une vignette : les
+ * images sont déjà dans /medias/ et servies telles quelles. Le srcset
+ * n'existe pas dans ce fonds hérité, on se contente donc de contraindre
+ * la hauteur en CSS.
+ *
+ * Les images de très petite taille (puces, filets, icônes de notation)
+ * sont écartées : une notule illustrée d'une puce de 12 px n'apporterait
+ * rien. Faute de dimensions déclarées, on ne peut filtrer que sur celles
+ * qui annoncent leur largeur.
+ */
+function premiereImage(html: string | undefined) {
+  if (!html) return null;
+  const balises = html.match(/<img\b[^>]*>/gi) ?? [];
+  for (const balise of balises) {
+    const src = balise.match(/\bsrc\s*=\s*["']([^"']+)["']/i)?.[1];
+    if (!src) continue;
+    const largeur = Number(balise.match(/\bwidth\s*=\s*["']?(\d+)/i)?.[1] ?? 0);
+    if (largeur && largeur < 80) continue;
+    const alt = balise.match(/\balt\s*=\s*["']([^"']*)["']/i)?.[1] ?? '';
+    return { src, alt };
+  }
+  return null;
+}
+
+const image = illustration ? premiereImage(d.corpsHtml) : null;
 
 const dateLongue = d.date.toLocaleDateString('fr-FR', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
@@ -32,9 +64,13 @@ const chapo = d.chapoHtml?.trim();
     <h2 class="post-title"><a href={d.url}>{d.titre}</a></h2>
   </div>
 
-  {chapo
-    ? <div class="post-chapo" set:html={ouvrirDehors(chapo)} />
-    : <p class="post-chapo">{d.extrait}</p>}
+  {image
+    ? <a class="post-illustration" href={d.url}>
+        <img src={image.src} alt={image.alt} loading="lazy" />
+      </a>
+    : chapo
+      ? <div class="post-chapo" set:html={ouvrirDehors(chapo)} />
+      : <p class="post-chapo">{d.extrait}</p>}
 
   <p class="post-info">
     Écrit par {d.auteur}
@@ -50,3 +86,17 @@ const chapo = d.chapoHtml?.trim();
     )}
   </p>
 </article>
+
+<style>
+  .post-illustration {
+    display: block;
+    padding: .4em 1.2em 0;
+    line-height: 0;
+  }
+  .post-illustration img {
+    max-height: 320px;
+    width: auto;
+    max-width: 100%;
+    border: 1px solid var(--parch-dark);
+  }
+</style>

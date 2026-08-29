@@ -1,0 +1,134 @@
+---
+import { getCollection } from 'astro:content';
+import { notulesPubliees } from '../lib/notules';
+
+/**
+ * ANTIQUITÉS — une notule ancienne tirée au sort.
+ *
+ * Un site statique n'a pas de serveur pour tirer au hasard à chaque visite.
+ * Deux solutions existaient :
+ *   - télécharger la liste des 3 300 notules et tirer côté navigateur :
+ *     250 Ko à charger sur chaque page, pour un encart de quatre lignes ;
+ *   - inscrire dans la page une petite poignée de candidates, tirées à la
+ *     compilation, et tourner entre elles au clic.
+ *
+ * C'est la seconde qui est retenue. Chaque page du site reçoit son propre
+ * tirage : le lecteur qui navigue voit donc changer l'encart de page en
+ * page, et le bouton « Une autre » fait défiler les douze réserves locales.
+ * Chaque nouvelle compilation redistribue tout.
+ *
+ * La première candidate est écrite en dur dans le HTML : sans JavaScript,
+ * l'encart affiche quand même une notule et son lien.
+ */
+
+const RESERVE = 12;
+const ANCIENNETE_ANS = 5;
+
+const toutes = await notulesPubliees(await getCollection('notules'));
+
+const limite = new Date();
+limite.setFullYear(limite.getFullYear() - ANCIENNETE_ANS);
+
+// À défaut d'assez d'anciennes (site jeune, ou corpus d'essai), on retombe
+// sur l'ensemble du fonds plutôt que d'afficher un encart vide.
+const anciennes = toutes.filter((n) => n.data.date < limite);
+const bassin = anciennes.length >= RESERVE ? anciennes : toutes;
+
+const tirage = [...bassin]
+  .sort(() => Math.random() - 0.5)
+  .slice(0, RESERVE)
+  .map((n) => ({
+    url: n.data.url,
+    titre: n.data.titre,
+    date: n.data.date.toLocaleDateString('fr-FR', {
+      day: 'numeric', month: 'long', year: 'numeric',
+    }),
+  }));
+
+const premiere = tirage[0];
+---
+{premiere && (
+  <aside class="antiquites" data-tirage={JSON.stringify(tirage)}>
+    <h2 class="outil-titre">Antiquités</h2>
+
+    <p class="ant-date">{premiere.date}</p>
+    <p class="ant-titre"><a href={premiere.url}>{premiere.titre}</a></p>
+
+    <button type="button" class="ant-autre" hidden>Une autre</button>
+  </aside>
+)}
+
+<script>
+  const encart = document.querySelector('.antiquites');
+  const bouton = encart?.querySelector('.ant-autre');
+
+  if (encart && bouton) {
+    let liste = [];
+    try {
+      liste = JSON.parse(encart.dataset.tirage || '[]');
+    } catch {
+      liste = [];
+    }
+
+    if (liste.length > 1) {
+      bouton.hidden = false;
+      let rang = 0;
+      const date = encart.querySelector('.ant-date');
+      const lien = encart.querySelector('.ant-titre a');
+
+      bouton.addEventListener('click', () => {
+        rang = (rang + 1) % liste.length;
+        const n = liste[rang];
+        if (date) date.textContent = n.date;
+        if (lien) {
+          lien.textContent = n.titre;
+          lien.setAttribute('href', n.url);
+        }
+      });
+    }
+  }
+</script>
+
+<style>
+  .antiquites {
+    background: var(--frame-bg);
+    border: 1px solid var(--parch-dark);
+    border-top: 3px solid var(--gold-frame);
+    border-radius: 2px;
+    padding: .9em 1.1em 1.1em;
+  }
+  .outil-titre {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    font-style: italic;
+    letter-spacing: .05em;
+    color: var(--gold-frame);
+    margin: 0 0 .5em;
+  }
+  .ant-date {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .74em;
+    color: var(--muted);
+    margin: 0;
+  }
+  .ant-titre {
+    font-family: Georgia, serif;
+    font-size: .98em;
+    line-height: 1.35;
+    margin: .25em 0 .8em;
+  }
+  .ant-titre a { color: var(--ink); }
+  .ant-titre a:hover { color: #8d6e68; }
+  .ant-autre {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .74em;
+    letter-spacing: .04em;
+    padding: .35em .9em;
+    cursor: pointer;
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--parch-dark);
+    border-radius: 2px;
+  }
+  .ant-autre:hover { border-color: var(--gold-frame); color: var(--gold-frame); }
+</style>
