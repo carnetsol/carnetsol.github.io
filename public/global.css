@@ -1,0 +1,361 @@
+/* ==========================================================
+   Carnets sur sol — charte validée (maquette v4)
+   Fond parchemin + grain, typographie Keepsake (Georgia /
+   Lucida Grande), cadres de billets en une seule teinte or.
+   ========================================================== */
+
+:root {
+	--parch:      #f5ede0;  /* fond de page */
+	--frame-bg:   #f5f0e8;  /* fond des cadres de notule */
+	--parch-mid:  #ede5d4;
+	--parch-dark: #d4c9b0;
+	--gold-line:  #C3A758;  /* liens */
+	--gold-frame: #8c6a2a;  /* bordure des cadres */
+	--muted:      #6b5c4a;
+	--ink:        #333;
+
+	/* LARGEURS
+	   --largeur       : le cadre général de la page.
+	   --largeur-texte : la colonne de lecture d'une notule, à l'intérieur.
+
+	   Les deux diffèrent volontairement. Le cadre passe de 720 à 1080 px
+	   pour occuper l'écran, mais une ligne de texte de 1080 px ferait
+	   environ 140 signes : l'œil perd le début de la ligne suivante. Le
+	   corps des notules reste donc à 900 px, soit ~75 signes, la mesure
+	   confortable. C'est l'espace autour qui s'élargit, pas la ligne. */
+	--largeur:       1080px;
+	--largeur-texte:  900px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif;
+	font-size: 17px;
+	color: var(--ink);
+
+	background: var(--parch);
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main { flex: 1 0 auto; }
+
+/* Grain de papier */
+body::before {
+	content: '';
+	position: fixed; inset: 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+	pointer-events: none;
+	z-index: 9999;
+	opacity: .4;
+}
+
+p { margin: 1em 0; }
+img { border: none; max-width: 100%; height: auto; }
+
+h1, h2, h3 { font-family: Georgia, "New Century Schoolbook", Times, serif; }
+h1 { font-size: 2.1em; margin: .4em 0; font-style: italic; }
+h2 { font-size: 1.4em; margin: .7em 0; font-weight: normal; }
+h3 { font-size: 1.1em; margin: 1em 0; color: #666; font-weight: normal; }
+
+a:link    { color: var(--gold-line); text-decoration: none; }
+a:visited { color: #999;             text-decoration: none; }
+a:hover   { color: #8d6e68; }
+a:focus-visible { outline: 2px solid var(--gold-frame); outline-offset: 2px; }
+
+/* ---------- En-tête ---------- */
+#top {
+	position: relative;
+	font-family: Georgia, "New Century Schoolbook", Times, serif;
+	/* Titre relevé : 1em au lieu de 2,2em au-dessus. */
+	padding: 1em 2em 1.5em;
+	text-align: center;
+	border-bottom: 1px solid var(--gold-line);
+}
+#top h1 { margin: 0; letter-spacing: 2px; }
+#top h1 a { color: var(--gold-line); font-weight: normal; }
+/* Une ligne d'écart de plus entre le titre et la devise. */
+#top .tagline { margin: 1.1em 0 0; color: #999; font-style: italic; font-size: .95em; }
+
+/* Vignette centrée au-dessus du titre, à toutes les largeurs. */
+.vignette {
+	display: block;
+	width: 161px;
+	margin: 0 auto .9em;
+	line-height: 0;
+}
+.vignette img {
+	width: 161px; height: 121px;
+	border: 1px solid var(--gold-frame);
+}
+
+/* ---------- Barre d'outils : recherche à gauche, Antiquités à droite ---- */
+.outils {
+	max-width: var(--largeur);
+	width: 100%;
+	margin: 1.6em auto 0;
+	padding: 0 2em;
+	display: grid;
+	/* Une seule colonne : l'encart occupe une demi-largeur, centré.
+	   Deux encarts sur la même page se partageraient la ligne. */
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 22em), 1fr));
+	gap: 1.6em;
+	align-items: start;
+	max-width: 34em;
+}
+
+
+/* ---------- Menu ---------- */
+nav.menu {
+	border-bottom: 1px dashed var(--parch-dark);
+	padding: .6em 2em;
+	text-align: center;
+}
+nav.menu ul {
+	list-style: none; margin: 0; padding: 0;
+	display: flex; flex-wrap: wrap; justify-content: center; gap: 0 1.4em;
+	font-size: .86em;
+}
+nav.menu li { padding-left: 12px; position: relative; }
+nav.menu li::before { content: "»"; position: absolute; left: 0; color: var(--gold-line); }
+nav.menu a { color: #756435; }
+
+/* ---------- Contenu ---------- */
+.contenu {
+	font-family: Georgia, "Times New Roman", "New York", serif;
+	font-size: 1.1em;
+	max-width: var(--largeur);
+	margin: 0 auto;
+	padding: 0 2em;
+	width: 100%;
+}
+
+/* La colonne de lecture reste étroite à l'intérieur du cadre large. */
+.notule-corps, .notule-notes, .post-chapo {
+	max-width: var(--largeur-texte);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.day-date {
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: .9em;
+	color: #ada095;
+	text-transform: lowercase;
+	margin: 2.2em 0 .6em;
+}
+
+/* ---------- Cadre de notule ---------- */
+.post {
+	border-left: 4px solid var(--gold-frame);
+	background: var(--frame-bg);
+	border-radius: 2px;
+	margin-bottom: 1.6em;
+	box-shadow: 0 1px 3px rgba(51,43,30,.07);
+	overflow: hidden;
+}
+.post-header { padding: .9em 1.2em .2em; }
+.post-title { font-weight: normal; font-size: 1.5em; color: var(--ink); margin: 0; }
+.post-title a { color: #000; }
+.post-title a:hover { color: #8d6e68; }
+.post-chapo { padding: 0 1.2em; margin-top: .25em; color: #4a4136; font-style: normal; line-height: 1.5; }
+.post-info {
+	padding: .4em 1.2em 1.1em; margin: 0; color: #999;
+	font-family: "Lucida Grande", Verdana, sans-serif; font-size: .82em;
+}
+.post-info a { color: #999; border-bottom: 1px dotted #999; }
+
+.section-head {
+	font-family: Georgia, serif; font-style: italic; font-size: 1.2em;
+	color: #756435; border-bottom: 1px solid var(--gold-line);
+	padding-bottom: .3em; margin: 2.6em 0 1.2em;
+}
+
+/* ---------- Corps d'une notule (HTML hérité de Dotclear) ---------- */
+.notule-corps {
+	line-height: 1.6;
+	text-align: justify;
+	padding: 0 1.2em 1.2em;
+
+	/* Sans césure, le français justifié sur 720 px se creuse de lézardes.
+	   Le `lang="fr"` de <html> fournit le dictionnaire au navigateur.
+	   hyphenate-limit-chars : mot d'au moins 6 lettres, 3 avant le tiret,
+	   3 après — évite les coupures ridicules du type « in-tér-êt ».
+	   Propriété récente : les navigateurs qui l'ignorent appliquent
+	   simplement leurs propres seuils, la césure fonctionne quand même. */
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	hyphenate-limit-chars: 6 3 3;
+	/* Une URL nue ou un titre allemand ne débordera pas de la colonne. */
+	overflow-wrap: break-word;
+}
+
+/* Ni les titres ni les citations courtes ne gagnent à être coupés. */
+.notule-corps h3, .notule-corps h4,
+.post-title, .section-head { hyphens: manual; }
+
+/* Le code et les tableaux non plus. */
+.notule-corps pre, .notule-corps code { hyphens: none; }
+.notule-corps h3, .notule-corps h4 { color: #756435; font-family: Georgia, serif; }
+.notule-corps blockquote {
+	margin: 1.4em 0; padding: .2em 0 .2em 1.2em;
+	border-left: 2px solid var(--parch-dark); color: var(--muted); font-style: italic;
+}
+.notule-corps pre {
+	background: var(--parch-mid); padding: .6em; overflow-x: auto;
+	font-family: "Courier New", monospace; font-size: .9em; white-space: pre-wrap;
+}
+.notule-corps table { border-collapse: collapse; width: 100%; font-size: .92em; }
+.notule-corps td, .notule-corps th { border: 1px solid var(--parch-dark); padding: .35em .5em; }
+.notule-corps iframe, .notule-corps video, .notule-corps audio { max-width: 100%; }
+
+.notule-notes {
+	font-size: .88em; color: var(--muted);
+	border-top: 1px dashed var(--parch-dark);
+	margin: 0 1.2em; padding: .8em 0 1.2em;
+}
+
+/* Bandeau des notules récupérées après le crash */
+.recuperation {
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: .75em;
+	letter-spacing: .05em;
+	color: var(--muted);
+	background: var(--parch-mid);
+	border-left: 3px solid var(--parch-dark);
+	padding: .4em .8em;
+	margin: 0 0 1.2em;
+}
+
+/* ---------- Recherche ---------- */
+.recherche {
+	max-width: var(--largeur); margin: 1.8em auto 0; padding: 0 2em;
+}
+.recherche form { display: flex; gap: .5em; }
+.recherche input[type="search"] {
+	flex: 1; padding: .55em .7em;
+	font-family: Georgia, serif; font-size: 1em;
+	background: var(--frame-bg);
+	border: 1px solid var(--parch-dark); border-radius: 2px; color: var(--ink);
+}
+.recherche input[type="search"]:focus {
+	outline: none; border-color: var(--gold-frame);
+}
+.recherche button {
+	padding: .55em 1.1em; cursor: pointer;
+	font-family: "Lucida Grande", Verdana, sans-serif; font-size: .85em;
+	letter-spacing: .05em;
+	background: var(--gold-frame); color: #fff;
+	border: none; border-radius: 2px;
+}
+.recherche button:hover { background: #a07c33; }
+
+/* ---------- Listes (archives, catégories, menu racine) ---------- */
+.liste { list-style: none; margin: 0; padding: 0; }
+.liste li {
+	display: grid; grid-template-columns: 90px 1fr auto;
+	gap: .3em 1em; align-items: baseline;
+	font-size: .92em; padding: .5em 0;
+	border-bottom: 1px dashed var(--parch-dark);
+}
+.liste li:last-child { border-bottom: none; }
+.liste .r-date { color: #999; font-family: "Lucida Grande", Verdana, sans-serif; font-size: .85em; }
+.liste .r-title a { color: var(--ink); }
+.liste .r-title a:hover { color: #8d6e68; }
+.liste .r-cat {
+	font-family: "Lucida Grande", Verdana, sans-serif; font-size: .7em;
+	letter-spacing: .06em; text-transform: uppercase; color: var(--muted);
+	white-space: nowrap;
+}
+
+.cadre {
+	border-left: 4px solid var(--gold-frame); background: var(--frame-bg);
+	border-radius: 2px; padding: 1.2em 1.4em 1.4em;
+	box-shadow: 0 1px 3px rgba(51,43,30,.07);
+}
+.cadre h2 { font-size: 1.05em; font-style: italic; color: var(--gold-frame); margin: 0 0 .7em; }
+
+/* ---------- Pied de page ---------- */
+#footer {
+	font-size: .9em; border-top: 1px solid #999;
+	margin: 3em auto 0; padding: 1em 2em;
+	color: #666; text-align: right;
+	max-width: var(--largeur);
+}
+#footer a { color: var(--gold-line); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+	nav.menu, .contenu, .recherche, .outils, #footer { padding-left: 1.2em; padding-right: 1.2em; }
+	.liste li { grid-template-columns: 1fr; gap: .1em; }
+	.notule-corps { text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* { animation: none !important; transition: none !important; }
+}
+
+
+/* ------------------------------------------------------------------
+   Notules importées (WordPress, fils X/Twitter)
+   ------------------------------------------------------------------ */
+
+/* Les articles WordPress portent leurs propres largeurs en ligne
+   (style="width:443px"). max-width prime toujours sur width : la largeur
+   voulue est respectée tant que la colonne suffit, l'image se réduit seule
+   en dessous. */
+
+/* ---------- Retraits de paragraphe (posés par public/editeur.html) ----------
+   Ces classes DOIVENT exister ici. Sans elles, un paragraphe mis en retrait
+   dans l'éditeur s'afficherait au ras de la marge une fois publié : le HTML
+   porterait bien la classe, la feuille de style l'ignorerait — panne
+   silencieuse, et introuvable si l'on ne pense pas à regarder le CSS. */
+.notule-corps p.retrait1 { margin-left: 2em; }
+.notule-corps p.retrait2 { margin-left: 4em; }
+.notule-corps p.retrait3 { margin-left: 6em; }
+.notule-corps p.alinea   { text-indent: 1.6em; }
+.notule-corps p.serre    { margin-bottom: .25em; }
+
+@media (max-width: 640px) {
+	/* Six em de marge sur un téléphone ne laisseraient plus de colonne. */
+	.notule-corps p.retrait1 { margin-left: 1em; }
+	.notule-corps p.retrait2 { margin-left: 2em; }
+	.notule-corps p.retrait3 { margin-left: 3em; }
+}
+
+.notule-corps figure.illustration { max-width: 100%; margin: 1.2em 0;
+                                    text-align: center; }
+.notule-corps figure.illustration img { max-width: 100%; height: auto; }
+
+.notule-corps figure.illustration.alignleft  { float: left;  margin: .4em 1.4em .8em 0; }
+.notule-corps figure.illustration.alignright { float: right; margin: .4em 0 .8em 1.4em; }
+.notule-corps figure.illustration.aligncenter { margin-left: auto; margin-right: auto; }
+
+.notule-corps .legende {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: .8em;
+  color: var(--muted);
+  margin-top: .3em;
+}
+
+.notule-corps figure.video {
+  position: relative; padding-bottom: 56.25%; height: 0; margin: 1.2em 0;
+}
+.notule-corps figure.video iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+}
+
+.notule-corps .renvoi { font-style: italic; }
+.motdiese { color: var(--muted); }
+
+/* Un flottant de 443 px ne laisse plus de place au texte sur téléphone. */
+@media (max-width: 600px) {
+  .notule-corps figure.illustration.alignleft,
+  .notule-corps figure.illustration.alignright { float: none; margin: 1.2em auto; }
+}
+
+.notule-corps::after { content: ""; display: block; clear: both; }
