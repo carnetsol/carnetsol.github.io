@@ -17,7 +17,3 @@ vignette: "/medias/putti_baiser_san_lorenzo.png"
 <p>Vous pouvez bien sûr écrire votre retour si vous avez des remarques ou des souhaits. J'ai réglé beaucoup de problèmes d'affichage, mais il reste encore quelques doublons, quelques brouillons importés par erreur, etc.</p>
 
 <p>L'aventure continue ainsi dans la nouvelle maison des putti.</p>
-
-<p>--</p>
-
-<p>Si vous lisez ceci sur operacritiques.free.fr, rendez-vous sur <a href="http://carnetsol.fr/css/">carnetsol.fr</a> !</p>
