@@ -11,7 +11,7 @@ export async function GET(context) {
 
   return rss({
     title: 'Carnets sur sol',
-    description: "Notules d'opéra, de disques et de promenades — depuis 2004.",
+    description: "Notules d'opéra, de disques et de promenades — depuis 2005.",
     site: context.site,
     customData: '<language>fr-FR</language>',
     items: dernieres.map((n) => ({
