@@ -5,11 +5,11 @@ postId: 3460
 slug: "requiem-de-verdi-de-chambre-calligrammes-sorbonne-singularites"
 categories: ["Saison 2025-2026"]
 chapo: "."
-vignette: "medias/calligrammes_zaicik.jpg"
+vignette: "/medias/calligrammes_zaicik.jpg"
 ---
 
 <div style="text-align: center;">
-  <img src="https://carnetsol.fr/css/public/medias/calligrammes_zaicik.jpg" alt="Eva Zaïcik et l'ensemble Calligrammes">
+  <img src="/medias/calligrammes_zaicik.jpg" alt="Eva Zaïcik devant le chœur">
   <br>
   <small>(Photo due à Mayeul Laroche-Joubert, tirée du <a href="https://www.facebook.com/Calligrammes" target="_blank">Facebook de l'ensemble</a>.)</small>
 </div>
