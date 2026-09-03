@@ -4,7 +4,6 @@ date: 2026-09-02
 postId: 3461
 slug: "generosite-van-den-heever-met-nezet-seguin-paris"
 categories: ["Saison 2026-2027", "Brèves"]
-breve: true
 vignette: "/medias/heever_zueignung.png"
 ---
 
@@ -14,4 +13,10 @@ Au concert du Met de New York en ouverture de saison à la Philharmonie, ce mard
 
 Je n'avais jamais vu un soliste faire ça, et j'avoue avoir été assez ému par la générosité du geste — qui, dans son métier, attendrait une heure trente dans sa tenue de travail (pas de démaquillage, pas de grignotage, pas forcément non plus de papotage pour préserver la voix, un éventuel ré-échauffement…) pour livrer gracieusement un complément à sa prestation déjà achevé ?  Même dans un métier passion, ça force le respect — voilà une artiste à laquelle on ne pourra pas reprocher de mépriser son public ! 
 
-Sur le reste du concert, j'ai été moins impressionné par l'orchestre que lorsque je l'ai entendu pour la première fois en salle il y a quelques années (où j'avais été renversé par – orchestre fabuleux également, leur insolence théâtrale y est 
+Dans *Salomé*, orchestre fabuleux également, d'une insolence théâtrale qui trahit l'expérience hallucinante de cet orchestre de fosse surhumain, capable de jouer *Elektra* le soir même sans répétitions avec un nouveau chef ! <br>
+Sur le reste du concert straussien (Suite du *Rosenkavalier* d'Artur Rodziński, *Ein Heldenleben*), j'ai été moins impressionné par l'orchestre que lorsque je l'ai entendu pour la première fois en salle il y a quelques années (où j'avais été renversé par leur acte IV d'*Otello* de Verdi). J'ai des hypothèses, sur les deux phénomènes. <br>
+Si j'ai été très impressionné initialement, c'est que je m'en faisais une image liée aux disques, aux vidéos, aux bandes radio, captés pour l'immense majorité en situation de direct, et donc avec le très peu de répétitions qui caractérisent le fonctionnement de la maison. 
+
+(Je remarque aussi beaucoup de prises 
+
+– orchestre fabuleux également, leur insolence théâtrale y est 

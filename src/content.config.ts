@@ -117,13 +117,6 @@ const nouvelles = defineCollection({
     vignette: z.string().default(''),
     /** BRÈVE : le texte entier paraît dans le fil, pas seulement le chapô. */
     breve: z.boolean().default(false),
-    /**
-     * BRÈVE — la notule s'affiche en entier dans le fil, au lieu de son
-     * seul chapô. Pour une notule d'archive, ce drapeau ne se pose pas
-     * ici (le JSON est régénéré à chaque migration) mais dans son fichier
-     * de src/content/corrections/.
-     */
-    breve: z.boolean().default(false),
     // Noms de catégories tels qu'ils apparaissent sur le site,
     // ex. ["Disques et représentations", "L'horrible Richard Wagner"]
     categories: z.array(z.string()).default([]),
