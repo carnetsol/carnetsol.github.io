@@ -370,3 +370,19 @@ Repo :                 https://github.com/carnetsol/carnetsol.github.io (ou .git
   - src/content.config.ts (schéma des collections)
   - src/lib/notules.ts (fusion archives/nouvelles)
 ════════════════════════════════════════════════════════════════════════════════
+
+CHANGER AGENDA
+
+C'est dans src/layouts/Base.astro, dans le tableau rubriques. Cherchez le commentaire qui l'accompagne :
+
+js
+// À CONFIRMER : « Agenda » pointe faute de mieux sur la saison en
+// cours. Dites-moi la bonne adresse et je la corrige.
+{ href: '/categorie/Saison-2026-2027/', label: 'Agenda' },
+
+C'est la ligne href qu'il faut changer. Deux cas typiques :
+
+Vers une notule précise (comme l'agenda de rentrée) : href: '/css/2026/08/16/3457-l-agenda-de-francilie-2026-2027-rentree-de-septembre/'
+Vers un chapitre : href: '/categorie/<slug-du-chapitre>/'
+
+Chaque nouvelle saison, c'est cette seule ligne à modifier.

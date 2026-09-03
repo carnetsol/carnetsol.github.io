@@ -4,12 +4,14 @@ date: 2026-09-02
 postId: 3461
 slug: "generosite-van-den-heever-met-nezet-seguin-paris"
 categories: ["Saison 2026-2027", "Brèves"]
-chapo: "Je n'avais jamais vu un soliste faire ça, et j'avoue avoir été assez ému par la générosité du geste — qui, dans son métier, attendrait…"
+chapo: "Je n'avais jamais vu une soliste faire ça, et j'avoue avoir été assez ému par la générosité du geste — qui, dans son métier, attendrait…"
 ---
+
+--
 
 #### L'ANECDOTE
 
-Au concert du Met de New York en ouverture de saison à la Philharmonie, ce mardi, un dispositif auquel je n'avais jamais assisté. La soprane, Elza van den Heever, livre une scène finale de *Salomé* particulièrement engagée. S'ensuit l'entracte de pas loin de trente minutes. Puis la seconde partie du concert, les cinquante minutes d'*Ein Heldenleben*. Les applaudissements. 
+Au concert du Met de New York en ouverture de saison à la Philharmonie, ce mardi, un dispositif auquel je n'avais jamais assisté. La soprane, Elza van den Heever, livre une scène finale de *Salomé* particulièrement engagée. S'ensuit l'entracte de pas loin de trente minutes. Puis la seconde partie du concert, les cinquante minutes d'*Ein Heldenleben*. Et les applaudissements. 
 
 À ce moment précis, advient quelque chose que je n'avais jamais vu : la soprano, qui avait fini sa journée depuis une heure et demie, revient sur scène, et *chante*. Simplement *Zueignung*, le tube de Richard Strauss, deux minutes trente de musique, mais avec un ambitus suffisamment large pour nécessiter une re-chauffe, et en tout cas pour ne pas faire descendre la tension du concert. 
 

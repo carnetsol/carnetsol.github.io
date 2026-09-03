@@ -4,10 +4,10 @@ date: 2026-09-03
 postId: 3462
 slug: "agenda-2026-2027"
 categories: ["Saison 2026-2027"]
-chapo: "Nouvelle mouture de l'agenda des concerts, incluant la salle Cortot, le festival de la salle Érard, l'ouverture de la saison de la Nouvelle Athènes (Château de la Malmaison et Villa Viardot) et le mirifique Rungis Piano-piano Festival. D'autres arrivent. Les fichiers sont désormais stockés de façon permanente sur le serveur, "
+chapo: "Nouvelle mouture de l'agenda des concerts, incluant la salle Cortot, le festival de la salle Érard, l'ouverture de la saison de la Nouvelle Athènes (Château de la Malmaison et Villa Viardot), les pléthoriques (et excitants) spectacles des conservatoires d'arrondissement, du CRR, du CNSM, les fascinants programmes de chambre de la Compagnie Winterreise et le mirifique Rungis Piano-piano Festival."
 ---
 
-Nouvelle mouture de l'agenda des concerts, incluant la salle Cortot, le festival de la salle Érard, l'ouverture de la saison de la Nouvelle Athènes (Château de la Malmaison et Villa Viardot) et le mirifique Rungis Piano-piano Festival. D'autres arrivent. 
+D'autres arrivent.
 
 Les fichiers sont désormais stockés de façon permanente sur le serveur, il suffira de les recharger à la même adresse pour la mise à jour : 
 
