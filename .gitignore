@@ -21,6 +21,7 @@ css svgd free/
 test-brouillons/
 public/medias/betharram_1.pdf
 public/medias/betharram_2.pdf
+public/medias/tous_concerts.xlsx
 public/medias/carnets_sur_sol_programme_salle_pleyel_2013_2014.pdf
 public/medias/medee_euripide.pdf
 public/medias/nuitduquatuor2017.pdf
@@ -79,7 +80,6 @@ zone_decalage.txt
 # ---------------------------------------------------------------
 # Sauvegardes locales
 # ---------------------------------------------------------------
-*.zip
 *.whtt
 css-statique-sauvegarde-*
 
