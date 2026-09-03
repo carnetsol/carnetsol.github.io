@@ -100,7 +100,7 @@ export function appliquerCorrection(data: any, corr: any) {
   const out = { ...data };
 
   for (const champ of ['titre', 'chapoHtml', 'corpsHtml', 'notesHtml',
-                       'extrait', 'categories', 'date'] as const) {
+                       'extrait', 'categories', 'date', 'breve'] as const) {
     if (corr[champ] !== undefined) out[champ] = corr[champ];
   }
 
@@ -163,12 +163,20 @@ export async function notulesPourListe() {
     .filter((e) => !masquees.has(e.data.postId))
     .map((e) => ({
       id: e.id,
+      // `source` et `entree` servent aux BRÈVES : le corps d'une notule
+      // Markdown n'existe pas sous forme de chaîne, il faut demander son
+      // rendu à Astro depuis la page de fil, laquelle a donc besoin de
+      // l'entrée d'origine.
+      source: 'archive' as const,
+      entree: e,
       data: appliquerCorrection(e.data, correctifs.get(e.data.postId)),
     }));
 
   const recentes = (await getCollection('nouvelles', ({ data }) => !data.brouillon))
     .map((e) => ({
       id: e.id,
+      source: 'markdown' as const,
+      entree: e,
       data: {
         postId: e.data.postId ?? 0,
         titre: e.data.titre,
@@ -183,6 +191,7 @@ export async function notulesPourListe() {
         notesHtml: '',
         extrait: e.data.chapo || texteBrut(e.body ?? '').slice(0, 300),
         vignette: e.data.vignette ?? '',
+        breve: e.data.breve ?? false,
         nbCommentaires: 0,
         commentaires: [],
         epingle: false,

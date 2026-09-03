@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { notulesPourListe } from '../../lib/notules';
 import Base from '../../layouts/Base.astro';
 import NotuleCard from '../../components/NotuleCard.astro';
@@ -15,6 +15,25 @@ const triees = toutes.sort(
 const premieres = triees.slice(0, PAR_PAGE);
 const total = triees.length;
 const nbPages = Math.max(1, Math.ceil(total / PAR_PAGE));
+
+/**
+ * Corps des brèves écrites en Markdown.
+ *
+ * Astro ne rend le Markdown qu'à travers un composant, jamais sous forme
+ * de chaîne : on ne peut donc pas le glisser dans NotuleCard comme une
+ * propriété. On demande ici le rendu de chaque brève — elles sont peu
+ * nombreuses, le coût est négligeable — et on passe le composant obtenu
+ * en contenu d'élément. Les brèves d'archive, elles, portent déjà leur
+ * HTML et n'ont pas besoin de ce détour.
+ */
+const corpsDeBreve = new Map();
+for (const n of premieres) {
+  if (n.data.breve && n.source === 'markdown') {
+    const { Content } = await render(n.entree);
+    corpsDeBreve.set(n.data.url, Content);
+  }
+}
+
 ---
 <Base titre="Notules récentes" devise titrePartage="Carnets sur sol">
 
@@ -23,7 +42,12 @@ const nbPages = Math.max(1, Math.ceil(total / PAR_PAGE));
     {/* #fil : le conteneur où le bouton « Charger les 50 suivantes »
         recopie les notules de la page suivante. */}
     <div id="fil">
-      {premieres.map((notule) => <NotuleCard notule={notule} />)}
+      {premieres.map((notule) => {
+        const Corps = corpsDeBreve.get(notule.data.url);
+        return Corps
+          ? <NotuleCard notule={notule}><Corps /></NotuleCard>
+          : <NotuleCard notule={notule} />;
+      })}
     </div>
 
     <Pagination page={1} nbPages={nbPages} total={total} affichees={premieres.length} />

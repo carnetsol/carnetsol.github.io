@@ -70,6 +70,13 @@ const notules = defineCollection({
     // d'une vidéo YouTube, par exemple). Quand elle est vide, le fil
     // cherche la première image du corps.
     vignette: z.string().default(''),
+    /**
+     * BRÈVE — la notule s'affiche en entier dans le fil, au lieu de son
+     * seul chapô. Pour une notule d'archive, ce drapeau ne se pose pas
+     * ici (le JSON est régénéré à chaque migration) mais dans son fichier
+     * de src/content/corrections/.
+     */
+    breve: z.boolean().default(false),
     nbCommentaires: z.coerce.number().catch(0).default(0),
     commentaires: z.array(commentaire).default([]),
     epingle: z.coerce.boolean().catch(false).default(false),
@@ -108,6 +115,15 @@ const nouvelles = defineCollection({
     slug: z.string().optional(),
     /** Image d'illustration pour le fil, ex. « /medias/cygnes.png ». */
     vignette: z.string().default(''),
+    /** BRÈVE : le texte entier paraît dans le fil, pas seulement le chapô. */
+    breve: z.boolean().default(false),
+    /**
+     * BRÈVE — la notule s'affiche en entier dans le fil, au lieu de son
+     * seul chapô. Pour une notule d'archive, ce drapeau ne se pose pas
+     * ici (le JSON est régénéré à chaque migration) mais dans son fichier
+     * de src/content/corrections/.
+     */
+    breve: z.boolean().default(false),
     // Noms de catégories tels qu'ils apparaissent sur le site,
     // ex. ["Disques et représentations", "L'horrible Richard Wagner"]
     categories: z.array(z.string()).default([]),
@@ -141,6 +157,8 @@ const corrections = defineCollection({
     // de dépublier sans rien détruire, et sans que la prochaine migration
     // ne ressuscite la notule.
     depublier: z.boolean().default(false),
+    /** Passe la notule en brève : affichée en entier dans le fil. */
+    breve: z.boolean().optional(),
     titre: z.string().optional(),
     chapoHtml: z.string().optional(),
     corpsHtml: z.string().optional(),

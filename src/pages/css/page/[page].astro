@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { notulesPourListe } from '../../../lib/notules';
 import Base from '../../../layouts/Base.astro';
 import NotuleCard from '../../../components/NotuleCard.astro';
@@ -43,13 +43,37 @@ export async function getStaticPaths() {
 }
 
 const { liste, page, nbPages, total } = Astro.props;
+
+/**
+ * Corps des brèves écrites en Markdown.
+ *
+ * Astro ne rend le Markdown qu'à travers un composant, jamais sous forme
+ * de chaîne : on ne peut donc pas le glisser dans NotuleCard comme une
+ * propriété. On demande ici le rendu de chaque brève — elles sont peu
+ * nombreuses, le coût est négligeable — et on passe le composant obtenu
+ * en contenu d'élément. Les brèves d'archive, elles, portent déjà leur
+ * HTML et n'ont pas besoin de ce détour.
+ */
+const corpsDeBreve = new Map();
+for (const n of liste) {
+  if (n.data.breve && n.source === 'markdown') {
+    const { Content } = await render(n.entree);
+    corpsDeBreve.set(n.data.url, Content);
+  }
+}
+
 ---
 <Base titre={`Notules — page ${page}`}>
 
 
   <div class="contenu">
     <div id="fil">
-      {liste.map((notule) => <NotuleCard notule={notule} />)}
+      {liste.map((notule) => {
+        const Corps = corpsDeBreve.get(notule.data.url);
+        return Corps
+          ? <NotuleCard notule={notule}><Corps /></NotuleCard>
+          : <NotuleCard notule={notule} />;
+      })}
     </div>
 
     <Pagination page={page} nbPages={nbPages} total={total} affichees={liste.length} />

@@ -1,6 +1,7 @@
 ---
 import { ouvrirDehors } from '../lib/liens';
 import { origine } from '../lib/origine';
+import { avertirMp3 } from '../lib/liens';
 import { texteLisible } from '../lib/texte';
 
 interface Props {
@@ -54,13 +55,31 @@ function premiereImage(html: string | undefined) {
 
 /* Une vignette explicite (import YouTube) prime sur la fouille du corps :
    l'iframe d'une vidéo ne contient aucune image à extraire. */
-const image = !illustration
+/**
+ * BRÈVE — le texte entier paraît dans le fil.
+ *
+ * Deux provenances, deux traitements. Une notule d'archive porte son corps
+ * en HTML dans `corpsHtml`, on l'injecte. Une notule Markdown n'a pas de
+ * corps sous forme de chaîne : il est rendu par Astro à l'ouverture de la
+ * page. C'est donc la page de fil qui en demande le rendu et le passe ici
+ * en contenu d'élément — d'où le <slot/>.
+ */
+const estBreve = Boolean(d.breve);
+const corpsDirect = estBreve && d.corpsHtml ? d.corpsHtml : '';
+
+// L'étiquette « Brève » remplace celle de provenance : cumuler les deux
+// alourdirait un fil dont l'intérêt est justement d'être léger.
+const prov = estBreve
+  ? { label: 'Brève', variante: 'provenance-breve' }
+  : origine(d.postId);
+
+const image = estBreve
+  ? null
+  : !illustration
   ? null
   : d.vignette
     ? { src: d.vignette, alt: '' }
     : premiereImage(d.corpsHtml);
-
-const prov = origine(d.postId);
 
 const dateLongue = d.date.toLocaleDateString('fr-FR', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
@@ -79,7 +98,13 @@ const chapo = d.chapoHtml?.trim();
     </h2>
   </div>
 
-  {image
+  {estBreve
+    ? <div class="notule-corps breve-corps">
+        {corpsDirect
+          ? <Fragment set:html={avertirMp3(ouvrirDehors(corpsDirect), null)} />
+          : <slot />}
+      </div>
+    : image
     ? <a class="post-illustration" href={d.url}>
         <img src={image.src} alt={image.alt} loading="lazy" />
       </a>
@@ -136,6 +161,16 @@ const chapo = d.chapoHtml?.trim();
   /* Le fonds d'origine garde le doré de base, plus franc qu'auparavant :
      l'étiquette « Notule » était presque invisible sur le parchemin.
      Contraste : 6,5 pour 1. */
+  /* Bleu très pâle, inspiré des motifs de Pelléas. Son détachement sur le
+     parchemin est de 1,17 pour 1, exactement celui de l'étiquette dorée :
+     les trois étiquettes pèsent ainsi le même poids à l'œil. Le texte y
+     est à 5,96 pour 1, au-delà du seuil de 4,5 exigé à cette taille. */
+  .provenance-breve {
+    color: #2f5468;
+    background: #d0dfeb;
+    border-color: #aec3d6;
+  }
+
   .provenance-notule {
     color: #5e4718;
     background: #ecdcb0;
@@ -148,4 +183,17 @@ const chapo = d.chapoHtml?.trim();
     max-width: 100%;
     border: 1px solid var(--parch-dark);
   }
+</style>
+
+<style is:global>
+  /* Le corps d'une brève, dans le fil. Le fond de la carte ne change pas :
+     seule l'étiquette signale la nature du texte. */
+  .breve-corps {
+    padding: .2em 1.2em .4em;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+  }
+  .breve-corps > :first-child { margin-top: 0; }
+  .breve-corps > :last-child  { margin-bottom: 0; }
 </style>
