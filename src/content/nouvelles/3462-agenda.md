@@ -13,7 +13,7 @@ D'autres arrivent.
 
 Les fichiers sont désormais stockés de façon permanente sur le serveur, il suffira de les recharger à la même adresse pour la mise à jour : 
 
-¶ [Au format tableau xlsx](/medias/agenda/tousconcerts.zip) pour ceux qui veulent l'amender à leur goût.<br>
-¶ [Au format brochure pdf](/medias/agenda/tousconcerts.pdf) pour la meilleure lisibilité. 
+¶ [Au format tableau xlsx](/medias/agenda/tous_concerts.zip) pour ceux qui veulent l'amender à leur goût.<br>
+¶ [Au format brochure pdf](/medias/agenda/tous_concerts.pdf) pour la meilleure lisibilité. 
 
 À compléter avec [celui de Peredovitch](https://ressources.peredovitch.eu/events/), notre maître à tous en matière de vigie de concerts rares — et à qui je dois l'idée de refaire le site en html statique plutôt qu'avec CMS, un grand merci à lui pour son aide !
