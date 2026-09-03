@@ -2,12 +2,13 @@
 titre: "Générosité"
 date: 2026-09-02
 postId: 3461
+breve: true
 slug: "generosite-van-den-heever-met-nezet-seguin-paris"
 categories: ["Saison 2026-2027", "Brèves"]
-vignette: "/medias/heever_zueignung.png"
+chapo: "Je n'avais jamais vu un soliste faire ça, et j'avoue avoir été assez ému par la générosité du geste — qui, dans son métier, attendrait…"
 ---
 
-# L'ANECDOTE
+#### L'ANECDOTE
 
 Au concert du Met de New York en ouverture de saison à la Philharmonie, ce mardi, un dispositif auquel je n'avais jamais assisté. La soprane, Elza van den Heever, livre une scène finale de *Salomé* particulièrement engagée. S'ensuit l'entracte de pas loin de trente minutes. Puis la seconde partie du concert, les cinquante minutes d'*Ein Heldenleben*. Les applaudissements. 
 
@@ -17,10 +18,12 @@ Je n'avais jamais vu un soliste faire ça, et j'avoue avoir été assez ému par
 
 --
 
-# LE RESTE POUR LES CURIEUX
+#### RENCONTRER « LE MET »
 
-Dans *Salomé*, orchestre fabuleux également, d'une insolence théâtrale qui trahit l'expérience hallucinante de cet orchestre de fosse surhumain, capable de jouer *Elektra* le soir même sans répétitions avec un nouveau chef ! <br>
-Sur le reste du concert straussien (Suite du *Rosenkavalier* d'Artur Rodziński, *Ein Heldenleben*), j'ai été moins impressionné par l'orchestre que lorsque je l'ai entendu pour la première fois en salle il y a quelques années (où j'avais été renversé par leur acte IV d'*Otello* de Verdi). J'ai des hypothèses, sur les deux phénomènes. <br>
+Dans *Salomé*, orchestre fabuleux également, d'une insolence théâtrale qui trahit l'expérience hallucinante de cet orchestre de fosse surhumain, capable de jouer *Elektra* le soir même sans répétitions avec un nouveau chef !
+
+Sur le reste du concert straussien (Suite du *Rosenkavalier* d'Artur Rodziński, *Ein Heldenleben*), j'ai été moins impressionné par l'orchestre que lorsque je l'ai entendu pour la première fois en salle il y a quelques années (où j'avais été renversé par leur acte IV d'*Otello* de Verdi). J'ai des hypothèses, sur les deux phénomènes.
+
 Si j'ai été très impressionné initialement, c'est que je m'en faisais une image liée aux disques, aux vidéos, aux bandes radio, captés pour l'immense majorité en situation de direct, et donc avec le très peu de répétitions qui caractérisent le fonctionnement de la maison. Or, le niveau des musiciens – et leur entraînement en situations dégradées – sont tels que leur niveau et leur talent explosent dans un programme de tournée dûment répété. <br>
 Pour cette fois-ci, indépendamment du niveau individuel hallucinant (violon solo et trompette solo, notamment), j'ai trouvé la conception un peu uniment forte en volume, extravertie, et je crois surtout que leur appétence pour le répertoire lyrique éclate : les poèmes symphoniques sont certes très bien, mais dès qu'il y a scène dramatique et interaction avec des chanteurs (comme pour *Otello* ou *Salomé*), leur implication, leur sens du drame et leur pouvoir magnétique se révèlent. Ce sont des œuvres qu'ils jouent souvent, également. 
 

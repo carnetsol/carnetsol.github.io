@@ -1,0 +1,205 @@
+════════════════════════════════════════════════════════════════════════════
+  EN-TÊTE DES NOTULES  —  src/content/nouvelles/*.md
+  Carnets sur sol — mémo de rédaction
+════════════════════════════════════════════════════════════════════════════
+
+L'en-tête est encadré par deux lignes de trois tirets, tout en haut du
+fichier, sans ligne vide avant. Le texte de la notule commence après.
+
+    ---
+    titre: "Mon titre"
+    date: 2026-09-03
+    categories: ["Intendance"]
+    ---
+
+    Le texte commence ici.
+
+
+────────────────────────────────────────────────────────────────────────────
+  LES CATÉGORIES  —  la question qui vous a arrêté
+────────────────────────────────────────────────────────────────────────────
+
+La virgule ne suffit pas : il faut des CROCHETS. Sans eux, la ligne est
+lue comme une simple chaîne de caractères, et la compilation échoue avec
+« InvalidContentEntryDataError ».
+
+CE QUI MARCHE
+-------------
+
+    categories: ["Intendance", "Genres"]          <- la forme à retenir
+
+    categories: [Intendance, Genres]              <- marche, mais fragile :
+                                                     à proscrire dès qu'un nom
+                                                     contient : ou # ou ,
+
+    categories:                                   <- forme longue, pratique
+      - "Intendance"                                 au-delà de trois ou
+      - "Genres"                                     quatre catégories
+      - "Vaste monde et gentils"
+
+CE QUI NE MARCHE PAS
+--------------------
+
+    categories: "Intendance, Genres"    ÉCHEC — une seule chaîne, pas une liste
+    categories: Intendance, Genres      ÉCHEC — pas de crochets
+    categories: [Vampires: Byron]       ÉCHEC — un deux-points sans guillemets
+
+NOMS CONTENANT UNE APOSTROPHE OU UN DEUX-POINTS
+-----------------------------------------------
+Mettez-les entre GUILLEMETS DOUBLES, et tout passe :
+
+    categories: ["L'horrible Richard Wagner", "Faust"]
+    categories: ["Vampires d'été : Byron, Marschner, Stoker"]
+
+Avec des apostrophes simples il faudrait doubler l'apostrophe interne
+('L''horrible'), ce qui marche mais se relit mal. Préférez les guillemets
+doubles partout : une seule règle à retenir.
+
+CATÉGORIE INÉDITE
+-----------------
+Un nom absent de categories.json ne crée PAS la catégorie. La notule
+affichera un lien vers une page qui n'existe pas, sans le moindre
+avertissement à la compilation. Après avoir employé un nom nouveau :
+
+    python scripts/ordonner_categories.py            (simulation)
+    python scripts/ordonner_categories.py --ecrire
+
+Le nom doit être écrit EXACTEMENT comme dans categories.json — accents et
+majuscules compris. « intendance » ne rejoint pas « Intendance » : le
+script refuse de créer un doublon, mais la notule reste orpheline.
+
+
+────────────────────────────────────────────────────────────────────────────
+  TOUS LES CHAMPS
+────────────────────────────────────────────────────────────────────────────
+
+OBLIGATOIRES
+------------
+titre        Entre guillemets doubles.
+             titre: "Trois mesures de Debussy retrouvées"
+             titre: "C'est le calme… avant le départ…"
+
+date         AAAA-MM-JJ, sans guillemets. Détermine l'adresse de la notule
+             et sa place dans le fil.
+             date: 2026-09-03
+
+FACULTATIFS
+-----------
+categories   Voir plus haut. Absent = aucune catégorie.
+             categories: ["Intendance"]
+
+chapo        Une phrase, affichée sous le titre et dans le fil. Sert aussi
+             de description dans les aperçus de partage.
+             chapo: "Ce que révèle un manuscrit retrouvé à Lille."
+
+vignette     Image d'illustration DANS LE FIL. Nécessaire pour une notule
+             Markdown : le fil ne sait pas aller chercher une image dans
+             le corps, qui n'est rendu qu'à l'ouverture de la page.
+             vignette: "/medias/cygnes.png"
+
+breve        true = le texte entier paraît dans le fil, avec l'étiquette
+             bleue « Brève », au lieu du seul chapô.
+             breve: true
+
+brouillon    true = la notule reste hors du site. Rien n'est publié, mais
+             le fichier est conservé.
+             brouillon: true
+
+auteur       Par défaut DavidLeMarrec.
+             auteur: "DavidLeMarrec"
+
+RÉSERVÉS AUX REPRISES DE L'ANCIEN SITE
+--------------------------------------
+N'y touchez pas pour une notule neuve.
+
+postId       Rend l'adresse identique à celle de Dotclear
+             (/css/AAAA/MM/JJ/3458-slug/) et crée les alias courts
+             /css/3458 et /css/AAAA/MM/JJ/3458.
+             postId: 3458
+
+slug         Impose le fragment d'adresse. Nécessaire dès que le titre
+             contient une apostrophe : le site calcule « cest-le-calme »
+             là où Dotclear écrivait « c-est-le-calme ». Sans ce champ,
+             l'adresse serait PRESQUE la bonne — le pire des cas.
+             slug: "c-est-le-calme-avant-le-depart"
+
+
+────────────────────────────────────────────────────────────────────────────
+  QUATRE EXEMPLES COMPLETS
+────────────────────────────────────────────────────────────────────────────
+
+1. NOTULE ORDINAIRE
+
+    ---
+    titre: "Un Pelléas de chambre à Tourcoing"
+    date: 2026-09-03
+    categories: ["Autour de Pelléas et Mélisande", "Saison 2026-2027"]
+    chapo: "Douze instruments, et rien ne manque."
+    ---
+
+    Le texte de la notule, en Markdown ou en HTML au choix.
+
+2. BRÈVE
+
+    ---
+    titre: "Trois mesures de Debussy retrouvées"
+    date: 2026-09-03
+    breve: true
+    categories: ["Intendance"]
+    ---
+
+    Deux ou trois phrases, qui paraîtront en entier sur la page d'accueil.
+
+3. NOTULE ILLUSTRÉE DANS LE FIL
+
+    ---
+    titre: "Le vol des cygnes"
+    date: 2026-09-03
+    categories: ["Vaste monde et gentils"]
+    vignette: "/medias/vol_cygnes.png"
+    ---
+
+    <p class="illustration"><img src="/medias/vol_cygnes.png" alt="Cygnes" /></p>
+
+    Le texte.
+
+4. REPRISE DE L'ANCIEN SITE
+
+    ---
+    titre: "C'est le calme… avant le départ…"
+    date: 2026-08-27
+    postId: 3458
+    slug: "c-est-le-calme-avant-le-depart"
+    categories: ["Intendance"]
+    vignette: "/medias/vol_cygnes.png"
+    ---
+
+    Le texte repris.
+
+
+────────────────────────────────────────────────────────────────────────────
+  PIÈGES
+────────────────────────────────────────────────────────────────────────────
+
+·  Pas de tabulation dans l'en-tête. Des espaces uniquement.
+
+·  Après « - » dans une liste, une espace est obligatoire :
+   « - "Intendance" » et non « -"Intendance" ».
+
+·  Un deux-points suivi d'une espace dans une valeur non protégée coupe la
+   ligne en deux. Guillemets doubles dès qu'un titre en contient un.
+
+·  Les trois tirets de fermeture doivent être seuls sur leur ligne.
+
+·  true et false s'écrivent sans guillemets. « breve: "true" » ne marche pas.
+
+·  Le nom du fichier n'a aucune importance pour le site : l'adresse vient
+   de la date et du titre. Mais 2026-09-03-pelleas-tourcoing.md se retrouve
+   plus vite dans un dossier qu'un simple pelleas.md.
+
+·  Après toute catégorie nouvelle : ordonner_categories.py --ecrire
+
+·  En cas de doute, « npm run build » vous dira quel fichier pose problème :
+   le message nomme la notule fautive et le champ en cause.
+
+════════════════════════════════════════════════════════════════════════════

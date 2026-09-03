@@ -1,0 +1,156 @@
+# Guide Récapitulatif de la Syntaxe Markdown
+
+Ce document rassemble les fonctionnalités essentielles et avancées du Markdown, ainsi que l'intégration du HTML au besoin.
+
+---
+
+## 1. Titres (Headings)
+
+Utilisez le symbole `#` suivi d'un espace. Le nombre de `#` indique le niveau de titre (de 1 à 6).
+
+# Titre Niveau 1
+## Titre Niveau 2
+### Titre Niveau 3
+#### Titre Niveau 4
+##### Titre Niveau 5
+###### Titre Niveau 6
+
+Alternative HTML :
+<h1>Titre 1</h1>
+<h2>Titre 2</h2>
+
+---
+
+## 2. Formatage du Texte (Typographie)
+
+- **Gras** : `**texte**` ou `__texte__` -> **texte**
+- *Italique* : `*texte*` ou `_texte_` -> *texte*
+- ***Gras et Italique*** : `***texte***` -> ***texte***
+- ~~Barré~~ : `~~texte~~` -> ~~texte~~
+- Texte en `Surligné / Code inline` : `` `code` `` -> `code`
+
+---
+
+## 3. Paragraphes, Retraits et Espacements
+
+- **Nouveau paragraphe** : Laissez une ligne vide entre deux blocs de texte.
+- **Saut de ligne simple** : Ajoutez deux espaces à la fin d'une ligne, ou utilisez la balise `<br>` :
+  Ligne 1<br>Ligne 2
+- **Retrait en début de ligne (Alinea)** :
+  Le Markdown standard ne possède pas de touche Tabulation. Utilisez des espaces incassables HTML :
+  &nbsp;&nbsp;&nbsp;&nbsp;Voici un paragraphe avec retrait initial.
+  - `&nbsp;` : espace simple
+  - `&ensp;` : espace moyen (2 espaces)
+  - `&emsp;` : grand espace (4 espaces)
+
+---
+
+## 4. Citations (Blockquotes) et Retraits dans les Citations
+
+Pour créer un bloc de citation, utilisez le chevron `>`.
+
+```markdown
+> Ceci est une citation.
+> Elle peut s'étendre sur plusieurs lignes.
+>
+> > On peut aussi imbriquer des citations.
+```
+
+**Retrait de première ligne dans une citation :**
+Puisque le Markdown n'indente pas automatiquement, combinez `>` et `&nbsp;` :
+
+```markdown
+> &nbsp;&nbsp;&nbsp;&nbsp;« Première phrase de la citation avec un retrait initial. »
+> 
+> &nbsp;&nbsp;&nbsp;&nbsp;Deuxième paragraphe avec retrait dans la même citation.
+```
+
+---
+
+## 5. Listes
+
+### Listes à puces (Non ordonnées)
+Utilisez `-`, `*` ou `+` :
+- Élément 1
+- Élément 2
+  - Sous-élément A (4 espaces d'indentation)
+  - Sous-élément B
+
+### Listes numérotées (Ordonnées)
+Utilisez un chiffre suivi d'un point :
+1. Premier élément
+2. Deuxième élément
+   1. Sous-élément 2.1
+
+### Listes de tâches (Checklists)
+- [x] Tâche accomplie
+- [ ] Tâche à faire
+
+---
+
+## 6. Tableaux
+
+Les tableaux se construisent avec des barres verticales `|` et des tirets `-`.
+
+```markdown
+| Colonne 1 | Colonne 2 | Colonne 3 |
+| :--- | :---: | ---: |
+| Gauche | Centre | Droite |
+| Valeur A | Valeur B | Valeur C |
+```
+
+- `:---` : Aligné à gauche
+- `:---:` : Centré
+- `---:` : Aligné à droite
+
+---
+
+## 7. Liens et Images
+
+- **Lien hypertexte** : `[Texte du lien](https://exemple.com)`
+- **Lien avec titre survolé** : `[Texte](https://exemple.com "Titre au survol")`
+- **Image** : `![Texte alternatif](https://exemple.com/image.png)`
+- **Image cliquable** : `[![Alt](url_image)](url_lien)`
+
+---
+
+## 8. Blocs de Code
+
+Pour insérer du code sur plusieurs lignes, entourez-le de trois backticks (```) en précisant éventuellement le langage pour la coloration syntaxique :
+
+```python
+def saluer(nom):
+    print(f"Bonjour, {nom} !")
+```
+
+---
+
+## 9. Séparateurs Horizontaux
+
+Pour créer une ligne de séparation horizontale, utilisez trois tirets `---`, astérisques `***` ou tirets bas `___` sur une ligne isolée.
+
+---
+
+## 10. Insérer du HTML au besoin
+
+Le Markdown autorise l'intégration directe de balises HTML si le parseur le permet. C'est très pratique pour enrichir la mise en page.
+
+### Exemples d'usage HTML courant :
+
+1. **Centrer du texte ou un élément** :
+   <p align="center">Texte centré</p>
+
+2. **Modifier la couleur du texte** :
+   <span style="color: #c0392b;">Texte en rouge</span>
+
+3. **Gérer les images avec dimensions précises** :
+   <img src="https://via.placeholder.com/150" alt="Exemple" width="200" height="100">
+
+4. **Info-bulles / Détails repliables** :
+   <details>
+     <summary>Cliquez pour afficher les détails</summary>
+     Voici du contenu caché qui s'affiche au clic.
+   </details>
+
+5. **Indice et Exposant** :
+   H<sub>2</sub>O et E = mc<sup>2</sup>
