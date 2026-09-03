@@ -2,7 +2,6 @@
 titre: "Générosité"
 date: 2026-09-02
 postId: 3461
-breve: true
 slug: "generosite-van-den-heever-met-nezet-seguin-paris"
 categories: ["Saison 2026-2027", "Brèves"]
 chapo: "Je n'avais jamais vu un soliste faire ça, et j'avoue avoir été assez ému par la générosité du geste — qui, dans son métier, attendrait…"
