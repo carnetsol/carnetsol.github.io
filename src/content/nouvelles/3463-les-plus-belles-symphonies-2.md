@@ -1,38 +1,41 @@
 ---
 titre: "Les plus belles symphonies (2)"
-date: 2026-09-03
+date: 2026-09-04
 postId: 3463
 slug: "les-plus-belles-symphonies-2"
-categories: ["Saison 2026-2027"]
+categories: ["Domaine symphonique", "Goblin Awards, Sélection Lutins & Putti d'incarnat"]
 vignette: "/medias/putto_arts_poussin_concert_amours.png"
-chapo: "- 1723 — Beck — Op.4 n°4,5,6
-- 1731 — Cannabich — 57 (en mi bémol)
-- 1731 — Haydn — \*\*6,\*\*22,\*\*39,48,59,82,94,\*95
-- 1734 — Gossec — Op.6 n°3 (« 15e »), Op.13 n°3
-- 1737 — M. Haydn — 20,21,23,25,26,33,34
-- 1739 — Vaňhal — Bryan e1, Bryan A2 (Op.18 n°2, « 14e »)
-- 1743 — Boccherini — Op.12 n°4
-- 1750 — Wanczura — \*\*Symphonie russe en ré, \*\*Symphonie russe sur l'airs ukrainiennes \[sic\] en ut
-- 1756 — (Pavel) Vranický — utm Op.11, ré P.17, \*\*ré Op.36 (19e), \*ré Op.52 (23e)
-- 1756 — Mozart — 25,\*\*30,35,36,37,\*\*38,40,\*41
-- 1760 — (Johann Evangelist) Brandl — concertante en ré
-- 1763 — Méhul — 1,\*3,4
-- 1765 — Eberl — Op.33 (en mi bémol)
-- 1767 — (Bernhard) Romberg — 2,\*3,4
-- 1770 — Witt — 1,\*2,3, \*\*en ut "Jena", \*\*en la « ça ira »
-- 1770 — Beethoven — \*1,\*\*2,\*\*3,4,\*\*5,\*7,\*8,9"
+chapo: |
+  - 1723 — Beck — Op.4 n°4,5,6
+  - 1731 — Cannabich — 57 (en mi bémol)
+  - 1731 — Haydn — \*\*6,\*\*22,\*\*39,48,59,82,94,\*95
+  - 1734 — Gossec — Op.6 n°3 (« 15e »), Op.13 n°3
+  - 1737 — M. Haydn — 20,21,23,25,26,33,34
+  - 1739 — Vaňhal — Bryan e1, Bryan A2 (Op.18 n°2, « 14e »)
+  - 1743 — Boccherini — Op.12 n°4
+  - 1750 — Wanczura — \*\*Symphonie russe en ré, \*\*Symphonie russe sur l'airs ukrainiennes \[sic\] en ut
+  - 1756 — (Pavel) Vranický — utm Op.11, ré P.17, \*\*ré Op.36 (19e), \*ré Op.52 (23e)
+  - 1756 — Mozart — 25,\*\*30,35,36,37,\*\*38,40,\*41
+  - 1760 — (Johann Evangelist) Brandl — concertante en ré
+  - 1763 — Méhul — 1,\*3,4
+  - 1765 — Eberl — Op.33 (en mi bémol)
+  - 1767 — (Bernhard) Romberg — 2,\*3,4
+  - 1770 — Witt — 1,\*2,3, \*\*en ut "Jena", \*\*en la « ça ira »
+  - 1770 — Beethoven — \*1,\*\*2,\*\*3,4,\*\*5,\*7,\*8,9
 
 ---
 
 #### 1. PRINCIPE
 
-Comme quelques changements et pas mal d'ajouts — merci CPO, DUX, Capriccio et les autres ! — sont intervenus, je ne reprends pas [la notule de 2011](https://carnetsol.fr/css/2016/07/28/2835-mise-a-jour-annuelle-les-plus-belles-symphonies/), qui n'avait plus été mise à jour [depuis 2016](https://carnetsol.fr/css/2011/08/10/1801-selection-lutins-les-plus-belles-symphonies/) et dont les annexes commencent à être un peu chargées.
+Comme quelques changements et pas mal d'ajouts — merci CPO, DUX, Capriccio et les autres ! — sont intervenus, je ne reprends pas [la notule de 2011](https://carnetsol.fr/css/2011/08/10/1801-selection-lutins-les-plus-belles-symphonies/), qui n'avait plus été mise à jour [depuis 2016](https://carnetsol.fr/css/2016/07/28/2835-mise-a-jour-annuelle-les-plus-belles-symphonies/) et dont les annexes commencent à être un peu chargées.
 
 Je rappelle le principe : liste purement subjective (les symphonies qui me donnent du plaisir, tout simplement), qui a pour seul but de donner des idées d'écoute aux mélomanes qui souhaitent renouveler leurs fréquentations ou prolonger l'exploration d'une période, d'un style… (Typiquement, si l'on veut écouter autre chose que Mozart et Beethoven, Wranitzky et Witt sont là.)
 
 Les astérisques distinguent les symphonies qui me séduisent le plus sur un corpus donné. Les doubles astérisques sont évidemment là pour attirer l'attention sur les œuvres que je trouve les plus exaltantes. (Mais je ne garantis pas que l'expérience soit transposable, je ne suis pas sûr que quiconque partage mon hystérie pour les très sages deux premières symphonies d'Asger Hamerik !)
 
 --
+
+#### 2. LISTE
 
 - 1723 — Beck — Op.4 n°4,5,6
 - 1731 — Cannabich — 57 (en mi bémol)
@@ -162,14 +165,14 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1875 — Alfano — 1,\*\*2
 - 1876 — (Ludolf) Nielsen — 3
 - 1876 — Børresen — \*1,2
-- 1877 — Mielck — *en fam
+- 1877 — Mielck — \*en fam
 - 1878 — Schreker — \*Kammersymphonie
 - 1878 — (Fritz) Brun — 8
 - 1879 — Gaubert — \*en fa
 - 1879 — (Otto) Olsson — sol mineur
 - 1879 — (Cyril) Scott — 1,2,3,4
 - 1879 — (Johanna) Senfter — 1,9
-- 1881 — Weigl — \*3,5
+- 1881 — Weigl — \*3
 - 1881 — van Gilse — \*1,\*\*2,\*3,4
 - 1881 — Kallstenius — 1
 - 1881 — Miaskovski — 6,21,\*27
@@ -192,7 +195,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1891 — Prokofiev — \*1,\*2,3
 - 1892 — H. Andriessen — 1,2,3,\*Concertante
 - 1893 — A. Merikanto — 1,2,3
-- 1893 — Langgaard — \**1,4,\*5a,5b,6,9
+- 1893 — Langgaard — \*\*1,4,\*5a,5b,6,9
 - 1894 — Irgens-Jensen — en ré mineur
 - 1894 — Moeran — \*en solm, \*Sinfonietta
 - 1894 — Schulhoff – 2
@@ -211,6 +214,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1899 — (Randall) Thompson — 1,\*2
 - 1899 — Poulenc — Sinfonietta
 - 1899 — (Pavel) Haas – Inachevée
+- 1899 — Vladigerov — \*1,\*2
 - 1900 — Ferroud — en la
 - 1900 — Copland — \*3
 - 1900 — Křenek — 2,\*3
@@ -243,10 +247,75 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1939 — Tichtchenko — \*6
 - 1944 — Nordgren — 4,\*7
 - 1944 — Gunning — 8,\*9
-- 1945 — Zhurbin — 1,\*\*2
+- 1945 — (Alexander) Zhurbin — 1,\*\*2
+– 1947 – Tabakov – 
 - 1949 — Rouse — 2,5
 - 1954 — (Adam) Pounds — 3
 - 1958 — Kleiberg — 3
 
 … Parmi ceux qui devraient figurer dans la liste, Herzogenberg ou Röntgen n'ont hélas pas écrit de symphonies qui m'aient convaincu, alors que ce sont des chambristes de tout premier niveau. Il y en a d'autres qu'il faudrait que je réécoute pour m'éclaircir les idées (Arnold, Piston, Schuman, typiquement). 
 
+--
+
+#### 3. NEUF SYMPHONIES, PAR NUMÉRO
+
+Réponse à un jeu, il y a quelques années : « neuf symphonies, un compositeur différent par numéro », voici ce que j'avais proposé : 
+
+<blockquote>
+En laissant de côté Beethoven-Brahms-Tchaïkovski-Mahler (certes tout aussi méritants) :
+
+- Czerny 1
+- van Gilse 2
+- Magnard 3
+- Alfvén 4
+- Melartin 5
+- Tishchenko 6
+- Nordgren 7
+- Rubbra 8
+- Henze 9
+
+--
+
+Quelques autres numéros : 
+
+- Bruckner 0
+- Chostakovitch 10
+- Boccherini 13 (Op.12 n°4)
+- Vaňhal 14 (Op.18 n°2, Bryan A2)
+- Gossec 15 (Op.6 n°3)
+- Vranický 23 (Op.52)
+- Miaskovsky 27
+- Mozart 30
+- Cannabich 57
+- Haydn 95
+- …
+
+--
+
+Et pour ceux qui ne savent pas compter : 
+
+- Bliss, Colour Symphony
+</blockquote>
+
+Aujourd'hui, je répondrais sans doute différemment (tout en évitant les corpus trop célèbres, on va éviter les Mahler 2 et Sibelius 7) : 
+- Czerny 1
+- van Gilse 2
+- Alfvén 3
+- Gade 4
+- Ries 5
+- Lachner 6
+- Dopper 7
+- Rubbra 8
+- Gunning 9
+
+Mais c'est en réalité très contraignant pour les numéros hauts, et donc peu représentatifs. 
+
+--
+
+#### 4. DIX SYMPHONIES ?
+
+Il serait peut-être plus révélateur que je choisisse neuf ou dix symphonies moins connues et particulièrement exaltantes, pour les rendre plus visibles. Mais le choix est si arbitraire au sein d'un corpus si vaste qu'il faudrait opérer des groupements par époque, j'imagine. Car picorer la plus belle de chaque style, quel calvaire à décider ! 
+
+Comme j'ai par ailleurs du travail qui m'attend – et une notule sur les péripéties de la prononciation latine, entre Verdi et nous, à finir –, je me réserve cela pour une prochaine fois. 
+
+Mais sentez-vous libre de m'envoyer vos suggestions et vos propres listes à carnetsol1598 chez gmail.com ou davidlemarrec chez online.fr, je me ferai un plaisir de les publier (ou de vous y répondre en privé, selon votre souhait). 

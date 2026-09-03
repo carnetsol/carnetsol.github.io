@@ -7,8 +7,6 @@ categories: ["Saison 2026-2027", "Brèves"]
 chapo: "Je n'avais jamais vu une soliste faire ça, et j'avoue avoir été assez ému par la générosité du geste — qui, dans son métier, attendrait…"
 ---
 
---
-
 #### L'ANECDOTE
 
 Au concert du Met de New York en ouverture de saison à la Philharmonie, ce mardi, un dispositif auquel je n'avais jamais assisté. La soprane, Elza van den Heever, livre une scène finale de *Salomé* particulièrement engagée. S'ensuit l'entracte de pas loin de trente minutes. Puis la seconde partie du concert, les cinquante minutes d'*Ein Heldenleben*. Et les applaudissements. 

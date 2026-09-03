@@ -241,9 +241,6 @@ const lienCommentaire =
       {archive && d.chapoHtml?.trim() && (
         <div class="post-chapo" set:html={ouvrirDehors(d.chapoHtml)} />
       )}
-      {nouvelle && nouvelle.data.chapo && (
-        <p class="post-chapo">{nouvelle.data.chapo}</p>
-      )}
 
       {archive
         ? <div class="notule-corps" set:html={avertirMp3(ouvrirDehors(d.corpsHtml), urlAncienne)} />
