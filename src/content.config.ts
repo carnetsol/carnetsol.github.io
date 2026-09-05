@@ -89,7 +89,17 @@ const notules = defineCollection({
  * titre, la date et les catégories, le reste du fichier est le texte.
  */
 const nouvelles = defineCollection({
-  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/nouvelles' }),
+  loader: glob({
+    pattern: '**/*.{md,mdx}',
+    base: './src/content/nouvelles',
+    // IMPÉRATIF, pour la même raison que dans la collection « notules » :
+    // sans cela, Astro prend le champ « slug » de l'en-tête comme
+    // identifiant d'entrée. Deux notules au même slug s'écrasent alors
+    // l'une l'autre et DISPARAISSENT du site, avec pour seule trace un
+    // avertissement « Duplicate id » noyé dans le journal.
+    // Le nom du fichier, lui, est unique par construction.
+    generateId: ({ entry }) => entry.replace(/\.mdx?$/, ''),
+  }),
   schema: z.object({
     titre: texteNfc(),
     date: z.coerce.date(),

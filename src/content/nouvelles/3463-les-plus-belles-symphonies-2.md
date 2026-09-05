@@ -39,7 +39,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 
 - 1723 — Beck — Op.4 n°4,5,6
 - 1731 — Cannabich — 57 (en mi bémol)
-- 1731 — Haydn — \*\*6,\*\*22,\*\*39,48,59,82,94,\*95
+- 1731 — Haydn — \*\*6,\*\*22,\*\*39,48,59,82,92,94,\*95,104
 - 1734 — Gossec — Op.6 n°3 (« 15e »), Op.13 n°3
 - 1737 — M. Haydn — 20,21,23,25,26,33,34
 - 1739 — Vaňhal — Bryan e1, Bryan A2 (Op.18 n°2, « 14e »)
@@ -69,7 +69,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1797 — Schubert-Weingartner — \*D.729
 - 1797 — Schubert-Gülke — \*D.708a, \*D936a
 - 1801 — Kalliwoda — \*1,\*2
-- 1803 — Lachner — \*4,6
+- 1803 — Lachner — 3,\*4,6
 - 1804 — Farrenc — 1,2,3
 - 1806 — Arriaga — \*\*en ré
 - 1807 — Dobrzyński — \*\*2
@@ -131,6 +131,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1864 — Halvorsen — \*1,2,3
 - 1864 — d'Albert — \*en fa Op.4
 - 1864 — (Louis) Glass — 3
+- 1864 — R. Strauss — \*Eine Alpensinfonie
 - 1865 — Magnard — \*2,\*\*3,4
 - 1865 — Glazounov — 1,2,\*4,6,\*7,\*8
 - 1865 — Dukas — en ut
@@ -145,7 +146,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1869 — Roussel — 2,4
 - 1870 — Stojowski — \*en rém
 - 1870 — Dopper — \*2, 7 « Zuidersee »
-- 1870 — Młynarski — en fa "Polonia"
+- 1870 — Młynarski — en fa « Polonia »
 - 1870 — (Paul) Büttner — 3,\*4
 - 1871 — Stenhammar — 1,2
 - 1872 — Hausegger — \*Natursymphonie
@@ -194,6 +195,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1891 — Bliss — \*\*A Colour Symphony
 - 1891 — Prokofiev — \*1,\*2,3
 - 1892 — H. Andriessen — 1,2,3,\*Concertante
+- 1893 — Tyberg — \*2,\*3
 - 1893 — A. Merikanto — 1,2,3
 - 1893 — Langgaard — \*\*1,4,\*5a,5b,6,9
 - 1894 — Irgens-Jensen — en ré mineur
@@ -246,6 +248,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1938 — Corigliano — 1,2
 - 1939 — Tichtchenko — \*6
 - 1944 — Nordgren — 4,\*7
+- 1944 — Segerstam —
 - 1944 — Gunning — 8,\*9
 - 1945 — (Alexander) Zhurbin — 1,\*\*2
 – 1947 – Tabakov – 
@@ -276,31 +279,80 @@ En laissant de côté Beethoven-Brahms-Tchaïkovski-Mahler (certes tout aussi m�
 
 --
 
-Quelques autres numéros : 
+Quelques autres numéros, même si leur rareté ne permet pas du tout d'attribuer une quelconque valeur à ce palmarès : <br>
+(j'ai complété à l'occasion de la republication, je ne suis plus sûr des premiers Segerstam vs. Miaskovski en deçà de 20, mais ça me permet de frimer avec une liste plus étoffée)
 
 - Bruckner 0
 - Chostakovitch 10
+- Miakovski 11
+- Segerstam 12
 - Boccherini 13 (Op.12 n°4)
 - Vaňhal 14 (Op.18 n°2, Bryan A2)
 - Gossec 15 (Op.6 n°3)
+- Miakovski 16 
+- Segerstam 17
+- Segerstam 18
+- Vranický 19 (Op.36)
+- Miaskovski 20
+- M. Haydn 21
+- Haydn 22
 - Vranický 23 (Op.52)
+- M. Haydn 25
+- M. Haydn 26
 - Miaskovsky 27
 - Mozart 30
+- M. Haydn 33
+- M. Haydn 34
+- Mozart 35
+- Mozart 36
+- Mozart 37
+- Mozart 38
+- Haydn 39
+- Mozart 40
+- Mozart 41
+- Haydn 48
 - Cannabich 57
+- Haydn 59
+- Segerstam 81
+- Haydn 82
+- Haydn 92
+- Haydn 94
 - Haydn 95
+- Haydn 104
+- Segerstam 162
+- Segerstam 181
+- Segerstam 288
+- Segerstam 289
+- Segerstam 294
+- Segerstam 295
 - …
 
 --
 
 Et pour ceux qui ne savent pas compter : 
 
+- Wanczura, Symphonie russe sur l'airs ukrainiennes \[sic\]
+- Witt, Symphonie « Ah, ça ira »
+- Antoine & Max Bohrer, Grande symphonie militaire
+- Dubois, Symphonie française
+- Bizet, Symphonie « Roma »
+- d'Indy, Symphonie « Italienne »
+- Kralik, Hymnische Symphonie
+- R. Strauss, Eine Alpensinfonie
+- Strohl, Symphonie de la Forêt
+- Beach, Symphonie gaélique
+- Młynarski, Symphonie « Polonia »
+- Hausegger, Natursymphonie
+- Holst, Symphonie « Cotswolds »
+- Marx, Herbstsymphonie
 - Bliss, Colour Symphony
+– (Virgil) Thomson, Symphony « On a Hymn Tune »
 </blockquote>
 
 Aujourd'hui, je répondrais sans doute différemment (tout en évitant les corpus trop célèbres, on va éviter les Mahler 2 et Sibelius 7) : 
 - Czerny 1
 - van Gilse 2
-- Alfvén 3
+- Noskowski 3
 - Gade 4
 - Ries 5
 - Lachner 6
