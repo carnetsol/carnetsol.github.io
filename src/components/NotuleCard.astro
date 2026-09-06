@@ -104,14 +104,17 @@ const chapo = d.chapoHtml?.trim();
           ? <Fragment set:html={avertirMp3(ouvrirDehors(corpsDirect), null)} />
           : <slot />}
       </div>
-    : image
-    ? <a class="post-illustration" href={d.url}>
-        <img src={image.src} alt={image.alt} loading="lazy" />
-      </a>
-    : chapo
-      ? <div class="post-chapo" set:html={ouvrirDehors(chapo)} />
-      : <p class="post-chapo">{texteLisible(d.extrait)}</p>}
-
+    : (chapo || image)
+    ? <>
+        {chapo && <div class="post-chapo" set:html={ouvrirDehors(chapo)} />}
+        {image && (
+          <a class="post-illustration" href={d.url}>
+            <img src={image.src} alt={image.alt} loading="lazy" />
+          </a>
+        )}
+      </>
+    : <p class="post-chapo">{texteLisible(d.extrait)}</p>}
+	
   <p class="post-info">
     Écrit par {d.auteur}
     {d.categories.length > 0 && (

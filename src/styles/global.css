@@ -203,7 +203,7 @@ nav.menu a { color: #756435; }
 .notule-corps h3, .notule-corps h4 { color: #756435; font-family: Georgia, serif; }
 .notule-corps blockquote {
 	margin: 1.4em 0; padding: .2em 0 .2em 1.2em;
-	border-left: 2px solid var(--parch-dark); color: var(--muted); font-style: italic;
+	border-left: 2px solid var(--parch-dark); color: var(--muted); font-style: normal;
 }
 .notule-corps pre {
 	background: var(--parch-mid); padding: .6em; overflow-x: auto;

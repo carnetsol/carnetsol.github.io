@@ -10,6 +10,8 @@ vignette: "/medias/putti_baiser_san_lorenzo.png"
 
 <p class="illustration"><center><img src="/medias/putti_baiser_san_lorenzo.png" alt="Putti enlacés, San Lorenzo" /></center></p>
 
+<p>Non pas adieu mais… bienvenue !</p>
+
 <p>Comme annoncé dans la précédente notule, Carnets sur sol a, pour la première fois en plus de vingt ans, changé de livrée et de structure. L'obsolescence a fini par rattraper le joli cocon dans lequel nous partagions ensemble ces moments ineffables.</p>
 
 <p>J'espère que vous vous trouverez à votre aise dans les nouveaux murs, plus légers, moins touffus, plus complets avec l'agrégation des vidéos, des autres sites et des archives perdues ; pour finir, conformes aux normes de sécurité et adaptables aux lectures sur mobile.</p>

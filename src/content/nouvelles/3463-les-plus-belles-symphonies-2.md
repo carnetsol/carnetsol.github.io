@@ -5,23 +5,7 @@ postId: 3463
 slug: "les-plus-belles-symphonies-2"
 categories: ["Domaine symphonique", "Goblin Awards, Sélection Lutins & Putti d'incarnat"]
 vignette: "/medias/putto_arts_poussin_concert_amours.png"
-chapo: |
-  - 1723 — Beck — Op.4 n°4,5,6
-  - 1731 — Cannabich — 57 (en mi bémol)
-  - 1731 — Haydn — \*\*6,\*\*22,\*\*39,48,59,82,94,\*95
-  - 1734 — Gossec — Op.6 n°3 (« 15e »), Op.13 n°3
-  - 1737 — M. Haydn — 20,21,23,25,26,33,34
-  - 1739 — Vaňhal — Bryan e1, Bryan A2 (Op.18 n°2, « 14e »)
-  - 1743 — Boccherini — Op.12 n°4
-  - 1750 — Wanczura — \*\*Symphonie russe en ré, \*\*Symphonie russe sur l'airs ukrainiennes \[sic\] en ut
-  - 1756 — (Pavel) Vranický — utm Op.11, ré P.17, \*\*ré Op.36 (19e), \*ré Op.52 (23e)
-  - 1756 — Mozart — 25,\*\*30,35,36,37,\*\*38,40,\*41
-  - 1760 — (Johann Evangelist) Brandl — concertante en ré
-  - 1763 — Méhul — 1,\*3,4
-  - 1765 — Eberl — Op.33 (en mi bémol)
-  - 1767 — (Bernhard) Romberg — 2,\*3,4
-  - 1770 — Witt — 1,\*2,3, \*\*en ut "Jena", \*\*en la « ça ira »
-  - 1770 — Beethoven — \*1,\*\*2,\*\*3,4,\*\*5,\*7,\*8,9
+chapo: "Beck, Cannabich, Haydn, Gossec, M. Haydn, Vaňhal, Boccherini, Wanczura, P. Vranický, Mozart, Brandl, Méhul, Eberl, B. Romberg, Witt, Beethoven… et tout ce qui s'ensuit : "
 
 ---
 
@@ -69,7 +53,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1797 — Schubert-Weingartner — \*D.729
 - 1797 — Schubert-Gülke — \*D.708a, \*D936a
 - 1801 — Kalliwoda — \*1,\*2
-- 1803 — Lachner — 3,\*4,6
+- 1803 — Lachner — \*3,4,6
 - 1804 — Farrenc — 1,2,3
 - 1806 — Arriaga — \*\*en ré
 - 1807 — Dobrzyński — \*\*2
@@ -128,6 +112,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1861 — Volbach — en sim
 - 1863 — Weingartner — \*1,2,3,4,5
 - 1863 — Hugo Kaun — 2
+- 1864 — Nepomuceno  en solm
 - 1864 — Halvorsen — \*1,2,3
 - 1864 — d'Albert — \*en fa Op.4
 - 1864 — (Louis) Glass — 3
@@ -147,6 +132,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1870 — Stojowski — \*en rém
 - 1870 — Dopper — \*2, 7 « Zuidersee »
 - 1870 — Młynarski — en fa « Polonia »
+- 1870 — Tournemire — 3,4,\*6,7
 - 1870 — (Paul) Büttner — 3,\*4
 - 1871 — Stenhammar — 1,2
 - 1872 — Hausegger — \*Natursymphonie
@@ -188,7 +174,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1885 — Klemperer — 2
 - 1887 — Atterberg — \*1,\*2,3,\*4,5,\*6,9
 - 1887 — Madetoja — 1,\*\*2,3
-- 1887 — Villa-Lobos — 10
+- 1887 — Villa-Lobos — 1,\*10
 - 1888 — Vermeulen — \*1
 - 1889 — Chtcherbatchov — \*\*2
 - 1890 — Martinů — \*1,\*2,3,\*4
@@ -240,7 +226,9 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1911 — Pettersson — 8
 - 1915 — Diamond — \*1,2,\*3,4
 - 1916 — Englund — 1,2
+- 1919 — Santoro — \*4,5,6,7,13,14
 - 1921 — (Ruth) Gipps — 1
+- 1924 — Braga Santos — 1,\*4,5
 - 1926 — Henze — 9
 - 1932 — Lemeland — 6
 - 1935 — Sallinen — 5,6
@@ -251,7 +239,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1944 — Segerstam —
 - 1944 — Gunning — 8,\*9
 - 1945 — (Alexander) Zhurbin — 1,\*\*2
-– 1947 – Tabakov – 
+- 1947 — Tabakov — 10
 - 1949 — Rouse — 2,5
 - 1954 — (Adam) Pounds — 3
 - 1958 — Kleiberg — 3

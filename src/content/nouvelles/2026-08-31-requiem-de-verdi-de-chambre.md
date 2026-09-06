@@ -58,3 +58,5 @@ Dernier émerveillement : les solistes et le chœur adoptaient une prononciation
 (Comme vous le voyez, aller à un concert de Calligrammes, c'est toujours une expérience singulière.)
 
 Vous aussi vous êtes intrigués sur la raison de cette divergence ? Elle nous mène ([à nouveau](https://carnetsol.fr/css/2025/12/08/3419--enquete-le-concile-de-trente-a-t-il-interdit-la-polyphonie-iv-applications-et-desobeissances-16-17/)) sur les chemins de l'histoire vaticane. Rendez-vous dans la prochaine notule, j'ai été un peu trop bavard sur le sujet pour ne pas déséquilibrer celle-ci !
+
+[La voici](/css/2026/09/06/3466-verdi-voise-latin-prononciations-romantiques/). 
