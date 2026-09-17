@@ -125,6 +125,11 @@ const nouvelles = defineCollection({
     slug: z.string().optional(),
     /** Image d'illustration pour le fil, ex. « /medias/cygnes.png ». */
     vignette: z.string().default(''),
+    /**
+     * Commentaires reçus par courriel et recopiés ici. Même forme que dans
+     * les notules d'archive : id, auteur, site, date, contenu (HTML).
+     */
+    commentaires: z.array(commentaire).default([]),
     /** BRÈVE : le texte entier paraît dans le fil, pas seulement le chapô. */
     breve: z.boolean().default(false),
     // Noms de catégories tels qu'ils apparaissent sur le site,

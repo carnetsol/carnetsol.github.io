@@ -386,3 +386,31 @@ Vers une notule précise (comme l'agenda de rentrée) : href: '/css/2026/08/16/3
 Vers un chapitre : href: '/categorie/<slug-du-chapitre>/'
 
 Chaque nouvelle saison, c'est cette seule ligne à modifier.
+
+
+*************************
+
+commentaires:
+  - id: 1
+    auteur: "Un lecteur"
+    date: "2026-08-30"
+    contenu: "<p>Bravo pour la nouvelle maison !</p>"
+  - id: 2
+    auteur: "Une lectrice"
+    site: "https://exemple.fr"
+    date: "2026-08-31"
+    contenu: "<p>Les putti sont charmants.</p>"
+
+************************
+
+python scripts/importer_youtube.py --ecrire
+python scripts/vignettes_youtube.py --ecrire
+python scripts/ordonner_categories.py --ecrire
+python scripts/verifier_json.py
+npm run build
+git add -A
+git commit -m "3 videos dt fin tosca"
+git push
+
+
+******************

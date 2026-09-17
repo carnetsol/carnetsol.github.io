@@ -6,6 +6,16 @@ slug: "adieu-fiere-cite"
 categories: ["Intendance"]
 chapo: "Non pas adieu mais… bienvenue !"
 vignette: "/medias/putti_baiser_san_lorenzo.png"
+commentaires:
+  - id: 14649
+    auteur: "Olivier"
+    date: "2026-09-05"
+    contenu: "<p>Bonsoir,</p><p>Très beau nouveau site, plus lisible et plus coloré.</p><p>Longue vie !</p>"
+  - id: 14650
+    auteur: "DavidLeMarrec"
+    date: "2026-09-10"
+    contenu: "<p>Merci <b>Olivier</b>(-qui-dit-bonsoir) !</p>"
+
 ---
 
 <p class="illustration"><center><img src="/medias/putti_baiser_san_lorenzo.png" alt="Putti enlacés, San Lorenzo" /></center></p>

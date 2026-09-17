@@ -180,6 +180,10 @@ const extrait = texteLisible(archive ? d.extrait : nouvelle?.data.chapo);
 
 const Contenu = nouvelle ? (await render(nouvelle)).Content : null;
 
+const commentaires = archive
+  ? (d.commentaires ?? [])
+  : (nouvelle?.data.commentaires ?? []);
+
 const dateLongue = date?.toLocaleDateString('fr-FR', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
 });
@@ -290,13 +294,13 @@ const lienCommentaire =
       </nav>
     )}
 
-    {archive && d.commentaires.length > 0 && (
+    {commentaires.length > 0 && (
       <section id="commentaires">
         <h2 class="section-head">
-          {d.commentaires.length}
-          {d.commentaires.length > 1 ? ' roulades' : ' portamento'}
+          {commentaires.length}
+          {commentaires.length > 1 ? ' roulades' : ' portamento'}
         </h2>
-        {d.commentaires.map((c) => (
+        {commentaires.map((c) => (
           <article class="commentaire" id={`c${c.id}`}>
             <p class="commentaire-info">
               {c.site
@@ -311,9 +315,11 @@ const lienCommentaire =
             <div class="commentaire-corps" set:html={ouvrirDehors(c.contenu)} />
           </article>
         ))}
-        <p class="commentaires-clos">
-          Les commentaires sont clos sur le site archivé.
-        </p>
+        {archive && (
+          <p class="commentaires-clos">
+            Les commentaires sont clos sur le site archivé.
+          </p>
+        )}
       </section>
     )}
 

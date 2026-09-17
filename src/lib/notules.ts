@@ -192,8 +192,8 @@ export async function notulesPourListe() {
         extrait: e.data.chapo || texteBrut(e.body ?? '').slice(0, 300),
         vignette: e.data.vignette ?? '',
         breve: e.data.breve ?? false,
-        nbCommentaires: 0,
-        commentaires: [],
+		nbCommentaires: e.data.commentaires?.length ?? 0,
+		commentaires: e.data.commentaires ?? [],
         epingle: false,
       },
     }));
