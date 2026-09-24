@@ -409,7 +409,7 @@ python scripts/ordonner_categories.py --ecrire
 python scripts/verifier_json.py
 npm run build
 git add -A
-git commit -m "3 videos dt fin tosca"
+git commit -m "dame blanche et ajout module comms"
 git push
 
 

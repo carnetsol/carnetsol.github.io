@@ -1,5 +1,5 @@
 ---
-titre: "L'an 1899 — 23 — Les Victoires de l'Opéra-Comique"
+titre: "Les Victoires de l'Opéra-Comique — (La Dame Blanche)"
 date: 2026-09-17
 postId: 3468
 slug: "l-an-1899-23-les-victoires-de-l-opera-comique-la-dame-blanche-boieldieu"
