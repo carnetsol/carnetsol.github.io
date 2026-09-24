@@ -1,6 +1,6 @@
 ---
 titre: "Les disques du jour, n°104 — Trio Smetana et Symphonies de Bruch"
-date: 2026-09-24T22:38
+date: 2026-09-24T18:38
 postId: 3469
 slug: "trio-smetana-mendelssohn-2-symphonies-bruch-bamberg-trevino"
 breve: true
