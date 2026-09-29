@@ -42,10 +42,10 @@ L'œuvre en elle-même, déjà, a eu peine à voir le jour. Avec des ténors app
 >— Pardon, M. Auber ! oh ! pardon... Je n’ai pas voulu dire..
 >— Sans doute, mais vous l’avez dit. C’est bien ; vous ne me devez pas d’excuses. La vérité sort quelquefois involontairement de la bouche... des régisseurs. Vite ! répétons !
 >
->L’ouverture était magnifique. Elle fut bissée le lendemain.
+>L’ouverture était magnifique. Elle fut bissée le lendemain. 
 >La Sirène obtint le plus brillant succès. »
-> --
-> <small><span style="font-family: Arial, sans-serif;">(Extrait de l'entrée consacrée à <i>La Sirène</i> dans <i>Scribe et son théâtre, études sur la comédie au XIXe s.</i>, où l'auteur propose une courte présentation à chaque drame de Scribe. Très utiles, mais les informations n'y sont pas toujours très fiables, beaucoup de bouche à oreille.)</span></small>
+
+<blockquote><small><span style="font-family: Arial, sans-serif;">(Extrait de l'entrée consacrée à <i>La Sirène</i> dans <i>Scribe et son théâtre, études sur la comédie au XIXe s.</i>, où l'auteur propose une courte présentation à chaque drame de Scribe. Très utiles, mais les informations n'y sont pas toujours très fiables, beaucoup de bouche à oreille.)</span></small></blockquote>
 
 (À titre personnel, je ne trouve pas cette ouverture, pourtant enregistrée de multiples fois, particulièrement édifiante.)
 
@@ -156,12 +156,12 @@ Musicalement, passé ma première impression de relative homogénéité, je retr
 <div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
 ¶ Je salue <b>le très joli air « Dieu des Flibustiers, / Dieu de la Contrebande »</b>, particulièrement entraînant, qui innerve tout le final du I et… <b>se trouve repris à la fin de l'opéra</b>, lorsque tout le monde retient son souffle, pour manifester la survie – et la victoire – du brigand, qui a réchappé aux derniers périls mortels après avoir risqué sa vie pour accomplir deux actions morales. <br>
 On doit en réalité cette idée à Scribe, qui suggère à Auber de trouver une idée bien frappée qui puisse être ainsi réutilisée — tout en se déclarant à la disposition du compositeur pour remanier complètement les proportions et même l'intrigue du dénouement, d'une façon qui soit favorable à la musique.
-</div>
+</div><br>
 
 <hr>
 <hr>
 
-## <u>7. <i>Ite Sirena est</i></u>
+## <u>7. <i>Ite sirena est</i></u>
 
 À défaut qu'il y ait aucune vraisemblance que mon *de profundis clamavi* soit entendu par Naxos, je vous engage donc à cette découverte, et à tous les autres titres de la série (notamment *Le Philtre* qui sert de source à *L'Elisir d'amore*, bien chanté lui aussi)… si vous avez la patience de vous aménager les conditions d'écoute favorables ! 
 
