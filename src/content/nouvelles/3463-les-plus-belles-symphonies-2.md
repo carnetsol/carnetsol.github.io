@@ -70,6 +70,7 @@ Les astérisques distinguent les symphonies qui me séduisent le plus sur un cor
 - 1824 — Bruckner — 0,1,2,\*4,\*5,\*6,7,9
 - 1824 — Reinecke — 2,3
 - 1824 — (Bengt Wilhelm) Hallberg — \*en fa
+- 1826 — (Hugo) Stähle — \*1
 - 1827 — (Julius Otto) Grimm — en ré
 - 1829 — (Anton) Rubinstein — 2
 - 1830 — Goldmark — 1
