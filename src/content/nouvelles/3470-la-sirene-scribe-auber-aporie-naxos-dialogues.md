@@ -107,7 +107,7 @@ Mais comme il n'y a pas de musique, alors on fait comme on veut — manifestemen
 
 Cet enregistrement, en l'état, est donc à peu près inutilisable. Mais pour les plus motivés, il est possible cependant d'en tirer le meilleur. 
 
-En allant récupérer le livret (il faut un peu fouiner, aussi je vous en mets ici [à disposition]((https://drive.google.com/file/d/17w85VIIxSiZO3DfC2MGZo6qbECoL1cf-/view?usp=sharing)) une des rares éditions proprement scannées et mises en page), il est possible de lire l'intrigue et de laisser tourner le disque lorsque apparaissent des vers. On dispose ainsi de l'œuvre dans son contexte, et là, le charme opère. 
+En allant récupérer le livret (il faut un peu fouiner, aussi je vous en mets ici [à disposition](https://drive.google.com/file/d/17w85VIIxSiZO3DfC2MGZo6qbECoL1cf-/view?usp=sharing) ) une des rares éditions proprement scannées et mises en page), il est possible de lire l'intrigue et de laisser tourner le disque lorsque apparaissent des vers. On dispose ainsi de l'œuvre dans son contexte, et là, le charme opère. 
 
 Il faut être suffisamment motivé pour aller chercher dans les bibliothèques en ligne (Archive.org, Gallica, Google Books…) le livret de chaque opéra comique, et de prendre le temps de lire plutôt que d'écouter les dialogues, et cela interdit clairement l'écoute distraite — sans quoi les numéros s'enchaînent très vite, sans queue ni tête jusqu'à l'acte suivant voire la fin de l'opéra. Mais il est alors possible d'accéder à l'émotion du genre opéra comique, d'autant que les livrets de Scribe comme celui de *La Sirène* sont des bijoux bâtis avec beaucoup d'esprit — et de sentiment, aurait-on dit en 1844. 
 
