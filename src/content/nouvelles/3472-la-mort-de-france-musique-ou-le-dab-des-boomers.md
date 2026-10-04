@@ -19,7 +19,7 @@ France Musique va mourir. Voici comment. Voici pourquoi.
 
 ## <u>1. France Mu</u>
 
-France Musique naît en 1954. Karine Le Bail rapporte[^1] – est-ce vérifiable, est-ce une légende urbaine, je ne sais – que son premier nom « programme musical à modulation de fréquence » est dû à Jean Tardieu (oui, le poète). Dès la même année, la station, d'abord uniquement diffusée en soirée, devient France IV, puis (après quelques ajustements de nom) France Musique en 1963. 
+France Musique naît en 1954. Karine Le Bail rapporte \[1] – est-ce vérifiable, est-ce une légende urbaine, je ne sais – que son premier nom « programme musical à modulation de fréquence » est dû à Jean Tardieu (oui, le poète). Dès la même année, la station, d'abord uniquement diffusée en soirée, devient France IV, puis (après quelques ajustements de nom) France Musique en 1963. 
 
 La station est donc, dès sa naissance, liée à la FM, et les habitudes des auditeurs sont donc façonnées par cette contingence. 
 
@@ -82,7 +82,7 @@ Sauf. Que. <br><br>
 Avec le retrait massif de fréquences FM de France Musique, il reste 13% d'auditeurs qui ne sont pas couverts ni par DAB+… et plus non plus par FM. <br>En conséquence, plus de France Mu dans la voiture ou sur le poste de la maison. <br><br>
 
 Par ailleurs, des auditeurs rapportent des coupures ou interférences dans les nouvelles fréquences DAB+ de certaines régions, ce qui va vite se révéler frustrant également. 
-</div>
+</div><br>
 
 <hr>
 
@@ -92,7 +92,7 @@ Cette situation, à son tour soulève, pour le dire poliment, des *enjeux nouvea
 <small>Je veux dire par là : on veut tout cramer.</small>
 
 <div style="border: 2px solid #ccc; padding: 10px; border-radius: 5px;">
-¶ Les auditeurs concernés se sentent évidemment laissés pour compte — et ce sont évidemment les populations déjà isolées, loin des hôpitaux, des salles de concert, et à présent de la radio. 
+¶ Les auditeurs concernés se sentent évidemment laissés pour compte — et ce sont immanquablement les populations déjà isolées, loin des hôpitaux, des salles de concert, et à présent de la radio. 
 
 <blockquote>« Des fréquences en moins, le DAB+ qui ne fonctionne pas partout, une couverture loin d'être totale, des messages par milliers, tristes et de colère, une sensation d'abandon, faille du service public, peine de ne plus accéder à nos programmes comme à la retransmission des concerts de nos quatre formations musicales, une sensation d'humiliation aussi des auditeurs, auditrices en territoires ruraux et surtout un sentiment grave sur la façon dont tout cela a été présenté avant l'été et le résultat. »</blockquote> 
 
@@ -105,7 +105,7 @@ Cette situation, à son tour soulève, pour le dire poliment, des *enjeux nouvea
 
 <div style="border: 2px solid #ccc; padding: 10px; border-radius: 5px;">
 ¶ En interne, <a href="https://classik.forumactif.com/t10448-changement-de-frequence-france-musique#1287762">on redoute que France Mu ne devienne qu'une webradio</a>. (Et donc, vraisemblablement, que sa voilure ne soit très réduite ou qu'elle ne disparaisse.)
-</div>
+</div><br>
 
 <hr>
 
@@ -143,7 +143,7 @@ Si l'on veut de l'expertise, de la pédagogie, de l'éducation à l'écoute, il 
 
 Si l'on veut plutôt de la musique en continu, rien n'empêche, dans l'immensité de ce qui est disponible, de construire des fresques qui donnent à appréhender l'histoire de la composition (par époques, zones géographique, genres musicaux, langues, styles…) ou de l'interprétation à travers des disques ou des concerts…
 
-Par exemple, tout le fonds historique de la RTF et de l'INA reste largement inexploité et s'échange sous le manteau entre connaisseurs. Que fait France Musique de tous les opéras français inédit du patrimoine qui dorment dans ses tiroirs, que des initiatives de mélomanes doivent recenser elles-mêmes ?  (voyez par exemple [la mirifique ECMF](https://www.ecmf.fr/cm/indexcbca.html)) 
+Par exemple, tout le fonds historique de la RTF et de l'INA reste largement inexploité et s'échange sous le manteau entre connaisseurs. Que fait France Musique de tous les opéras français inédit du patrimoine qui dorment dans ses tiroirs, que des initiatives de mélomanes doivent recenser elles-mêmes ?  (Voyez par exemple [la mirifique ECMF](https://www.ecmf.fr/cm/indexcbca.html).) 
 
 Je ne parle même pas d'utiliser les deux orchestres de radio qui passent leur temps à rejouer Beethoven et Brahms devant une salle à moitié vide, pour ensuite radiodiffuser confidentiellement des versions globalement moins bonnes des œuvres rebattues que les radios allemandes ?<br>
 Ne serait-il pas du devoir de ces orchestres de documenter, par exemple, le patrimoine local ?  Les opéras que personne d'autre ne peut remonter vu la prise de risque que cela implique ? Les symphonies françaises avec des musiciens formés dans les même institutions que leurs compositeurs ?<br>
@@ -160,62 +160,76 @@ Bref, si France Musique meurt et si les orchestres de Radio France finissent par
 
 Si vous voulez davantage de détail, tout est généreusement documenté chez de respectables institutions. 
 
-[^1]: Karine Le Bail, article « France-Musique, France-Musiques », dans Jean-Noël Jeanneney, *L'écho du siècle : dictionnaire historique de la radio et de la télévision en France*, Paris, Hachette Littératures, 2001, p. 143. J'en ai lu la mention, et non l'ouvrage. 
+\[1] Karine Le Bail, article « France-Musique, France-Musiques », dans Jean-Noël Jeanneney, *L'écho du siècle : dictionnaire historique de la radio et de la télévision en France*, Paris, Hachette Littératures, 2001, p. 143. J'en ai lu la mention, et non l'ouvrage. 
+
+--
 
 #### Contexte général
-- [Radio France — Histoire des radios de Radio France](https://www.radiofrance.com/histoire-des-radios-de-radio-france)
-- [Radio France — France Musique](https://www.radiofrance.com/professionnels/regie-publicitaire/france-musique)
-- [WorldDAB — France : histoire et situation actuelle du DAB+](https://www.worlddab.org/why-dab-plus/countries/france/history/current-situation?page=19)
-- [Arcom — « Le DAB+, c’est quoi ? »](https://www.csa.fr/Mes-services/Foire-aux-questions/Informer/La-reception-de-la-radio/Le-DAB-c-est-quoi)
-- [Arcom — « Écouter la radio en DAB+ »](https://www.csa.fr/Informer/Comment-recevoir-la-television-et-la-radio/Comment-ecouter-la-radio/Ecouter-la-radio-en-DAB)
-- [UIT — Eureka 147 / Digital Audio Broadcasting](https://www.itu.int/dms_pub/itu-r/opb/hdb/R-HDB-20-2002-OAS-PDF-F.pdf) (à l'origine de la RNT)
-- [EBU — Documentation technique sur le DAB](https://tech.ebu.ch/fr/publications/bpn002)
-- [Arcom — « Comment recevoir la radio numérique terrestre en DAB+ ? »](https://www.csa.fr/Informer/Comment-recevoir-la-television-et-la-radio/DAB-tout-savoir-sur-la-radio-numerique-terrestre/Comment-recevoir-la-radio-numerique-terrestre-en-DAB)
-- [Radio France — « Radio numérique terrestre : toutes les stations de Radio France seront disponibles en DAB+ » (6 mars 2019)](https://www.radiofrance.com/presse/radio-numerique-terrestre-toutes-les-stations-de-radio-france-seront-disponibles-en-dab)
-- [Radio France — « Radio France, radio numérique terrestre : le lancement du déploiement du DAB+ »](https://www.radiofrance.com/presse/radio-france-radio-numerique-terrestre-le-lancement-du-deploiement-du-dab)
-- [Radio France — « Radio France et la Radio Numérique Terrestre DAB+ »](https://www.radiofrance.com/radio-france-et-la-radio-numerique-terrestre-dab)
-- [Radio France — « Dans la nuit du 21 au 22 juillet, les fréquences FM de Radio France évoluent » (2026)](https://www.radiofrance.com/presse/dans-la-nuit-du-21-au-22-juillet-les-frequences-fm-de-radio-france-evoluent)
+→ [Radio France — Histoire des radios de Radio France](https://www.radiofrance.com/histoire-des-radios-de-radio-france)<br>
+→ [Radio France — France Musique](https://www.radiofrance.com/professionnels/regie-publicitaire/france-musique)<br>
+→ [WorldDAB — France : histoire et situation actuelle du DAB+](https://www.worlddab.org/why-dab-plus/countries/france/history/current-situation?page=19)<br>
+→ [Arcom — « Le DAB+, c’est quoi ? »](https://www.csa.fr/Mes-services/Foire-aux-questions/Informer/La-reception-de-la-radio/Le-DAB-c-est-quoi)<br>
+→ [Arcom — « Écouter la radio en DAB+ »](https://www.csa.fr/Informer/Comment-recevoir-la-television-et-la-radio/Comment-ecouter-la-radio/Ecouter-la-radio-en-DAB)<br>
+→ [UIT — Eureka 147 / Digital Audio Broadcasting](https://www.itu.int/dms_pub/itu-r/opb/hdb/R-HDB-20-2002-OAS-PDF-F.pdf) (à l'origine de la RNT)<br>
+→ [EBU — Documentation technique sur le DAB](https://tech.ebu.ch/fr/publications/bpn002)<br>
+→ [Arcom — « Comment recevoir la radio numérique terrestre en DAB+ ? »](https://www.csa.fr/Informer/Comment-recevoir-la-television-et-la-radio/DAB-tout-savoir-sur-la-radio-numerique-terrestre/Comment-recevoir-la-radio-numerique-terrestre-en-DAB)<br>
+→ [Radio France — « Radio numérique terrestre : toutes les stations de Radio France seront disponibles en DAB+ » (6 mars 2019)](https://www.radiofrance.com/presse/radio-numerique-terrestre-toutes-les-stations-de-radio-france-seront-disponibles-en-dab)<br>
+→ [Radio France — « Radio France, radio numérique terrestre : le lancement du déploiement du DAB+ »](https://www.radiofrance.com/presse/radio-france-radio-numerique-terrestre-le-lancement-du-deploiement-du-dab)<br>
+→ [Radio France — « Radio France et la Radio Numérique Terrestre DAB+ »](https://www.radiofrance.com/radio-france-et-la-radio-numerique-terrestre-dab)<br>
+→ [Radio France — « Dans la nuit du 21 au 22 juillet, les fréquences FM de Radio France évoluent » (2026)](https://www.radiofrance.com/presse/dans-la-nuit-du-21-au-22-juillet-les-frequences-fm-de-radio-france-evoluent)
+
+--
 
 #### La règlementation
-- [EUR-Lex — Directive (UE) 2018/1972 établissant le Code des communications électroniques européen](https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:02018L1972-20181217) (imposition du DAB+ dans les nouveaux véhicules, notamment)
-- [Légifrance — Loi n° 2007-309 du 5 mars 2007 relative à la modernisation de la diffusion audiovisuelle et à la télévision du futur](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000248397)
-- [Légifrance — Décision n° 2013-769 du CSA relative au lancement de la RNT](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028340238)
-- [Légifrance — Arrêté du 14 février 2019 modifiant les normes techniques de diffusion de la radio numérique](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038149660)
-- [Légifrance — Décision CSA n° 2018-626 du 25 juillet 2018 : appel aux candidatures pour les deux multiplex métropolitains](https://www.legifrance.gouv.fr/jorf/id/JORFSCTA000037291691)
-- [Légifrance — Décisions du 24 avril 2019 relatives aux autorisations des radios nationales en DAB+](https://www.legifrance.gouv.fr/jorf/jo/2019/05/10/0108)
-- [Légifrance — Autorisation de France Musique en DAB+](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038457033)
-- [Légifrance — Article relatif aux obligations concernant les récepteurs de radio numérique](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043545640)
-- [Légifrance — Décisions relatives à l'évolution des fréquences FM de France Musique en 2026](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054442599)
-- [Légifrance — Nouvelles autorisations FM de France Musique](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054443009)
+→ [EUR-Lex — Directive (UE) 2018/1972 établissant le Code des communications électroniques européen](https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:02018L1972-20181217) (imposition du DAB+ dans les nouveaux véhicules, notamment)<br>
+→ [Légifrance — Loi n° 2007-309 du 5 mars 2007 relative à la modernisation de la diffusion audiovisuelle et à la télévision du futur](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000248397)<br>
+→ [Légifrance — Décision n° 2013-769 du CSA relative au lancement de la RNT](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028340238)<br>
+→ [Légifrance — Arrêté du 14 février 2019 modifiant les normes techniques de diffusion de la radio numérique](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038149660)<br>
+→ [Légifrance — Décision CSA n° 2018-626 du 25 juillet 2018 : appel aux candidatures pour les deux multiplex métropolitains](https://www.legifrance.gouv.fr/jorf/id/JORFSCTA000037291691)<br>
+→ [Légifrance — Décisions du 24 avril 2019 relatives aux autorisations des radios nationales en DAB+](https://www.legifrance.gouv.fr/jorf/jo/2019/05/10/0108)<br>
+→ [Légifrance — Autorisation de France Musique en DAB+](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038457033)<br>
+→ [Légifrance — Article relatif aux obligations concernant les récepteurs de radio numérique](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043545640)<br>
+→ [Légifrance — Décisions relatives à l'évolution des fréquences FM de France Musique en 2026](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054442599)<br>
+→ [Légifrance — Nouvelles autorisations FM de France Musique](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054443009)
+
+--
 
 #### QAG de l'Assemblée : choix gouvernementaux
-- [Assemblée nationale — Question écrite sur la radio numérique terrestre et Radio France](https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE9396) (réponse explicite du Gouvernement sur le choix de ne pas réserver de fréquences numériques à Radio France)
+→ [Assemblée nationale — Question écrite sur la radio numérique terrestre et Radio France](https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE9396) (réponse explicite du Gouvernement sur le choix de ne pas réserver de fréquences numériques à Radio France)
+
+--
 
 #### Rapports institutionnels
-- [Cour des comptes — Radio France : rapport de 2015](https://www.ccomptes.fr/sites/default/files/EzPublish/20150401-rapport-Radio-France.pdf) (le précieux rapport, écrit par des gens qui en comprennent manifestement assez bien les enjeux ; vue générale de la stratégie et des coûts)
-- [Sénat — Rapport sur le contrat d'objectifs et de moyens de Radio France 2010-2014](https://www.senat.fr/rap/r09-645/r09-645.html) (ça parle des expérimentations de RNT, des coûts de diffusion et des choix de Radio France)
-- [Sénat — Avis sur le projet de contrat d'objectifs et de moyens de Radio France](https://www.senat.fr/rap/a14-112-411/a14-112-4118.html) (sur les retards)
-- [Sénat — Travaux sur la radio numérique terrestre](https://www.senat.fr/rap/a07-092-6/a07-092-6_mono.html) (le choix français de T-DMB vs. DAB)
-- - [David Kessler — Rapport sur l'avenir de la radio numérique terrestre, 2011](https://www.vie-publique.fr/files/rapport/pdf/104000632.pdf) (rapport de l'ancien directeur de France Culture, qui fonde le moratoire et la prise de retard dans le déploiement de la radio numérique)
-- - [Arcom — DAB à Lyon : une nouvelle étape pour le déploiement métropolitain](https://www.csa.fr/Informer/Comment-recevoir-la-television-et-la-radio/DAB-tout-savoir-sur-la-radio-numerique-terrestre/DAB-a-Lyon-Une-nouvelle-etape-franchie-pour-le-deploiement-metropolitain)
-- [CSA — Rapport annuel 2013](https://www.vie-publique.fr/files/rapport/pdf/144000217.pdf)
-- [CSA — Rapport annuel 2021](https://www.csa.fr/index.php/content/download/265865/858070/version/1/file/Rapport%20annuel%202021%20du%20CSA.pdf)
+→ [Cour des comptes — Radio France : rapport de 2015](https://www.ccomptes.fr/sites/default/files/EzPublish/20150401-rapport-Radio-France.pdf) (le précieux rapport, écrit par des gens qui en comprennent manifestement assez bien les enjeux ; vue générale de la stratégie et des coûts)<br>
+→ [Sénat — Rapport sur le contrat d'objectifs et de moyens de Radio France 2010-2014](https://www.senat.fr/rap/r09-645/r09-645.html) (ça parle des expérimentations de RNT, des coûts de diffusion et des choix de Radio France)<br>
+→ [Sénat — Avis sur le projet de contrat d'objectifs et de moyens de Radio France](https://www.senat.fr/rap/a14-112-411/a14-112-4118.html) (sur les retards)<br>
+→ [Sénat — Travaux sur la radio numérique terrestre](https://www.senat.fr/rap/a07-092-6/a07-092-6_mono.html) (le choix français de T-DMB vs. DAB)<br>
+→ [David Kessler — Rapport sur l'avenir de la radio numérique terrestre, 2011](https://www.vie-publique.fr/files/rapport/pdf/104000632.pdf) (rapport de l'ancien directeur de France Culture, qui fonde le moratoire et la prise de retard dans le déploiement de la radio numérique)<br>
+→ [Arcom — DAB à Lyon : une nouvelle étape pour le déploiement métropolitain](https://www.csa.fr/Informer/Comment-recevoir-la-television-et-la-radio/DAB-tout-savoir-sur-la-radio-numerique-terrestre/DAB-a-Lyon-Une-nouvelle-etape-franchie-pour-le-deploiement-metropolitain)<br>
+→ [CSA — Rapport annuel 2013](https://www.vie-publique.fr/files/rapport/pdf/144000217.pdf)<br>
+→ [CSA — Rapport annuel 2021](https://www.csa.fr/index.php/content/download/265865/858070/version/1/file/Rapport%20annuel%202021%20du%20CSA.pdf)
+
+--
 
 #### Les explications de Radio France
-- [La Médiatrice de Radio France — « La radio numérique terrestre en France »](https://mediateur.radiofrance.com/infos-infos/la-radio-numerique-terrestre-en-france/)
-- [La Médiatrice de Radio France — « L'évolution des fréquences FM de Radio France »](https://mediateur.radiofrance.com/chaines/radio-france/levolution-des-frequences-fm-de-radio-france/)
-- [La Médiatrice de Radio France — « Évolution des fréquences et de la diffusion de France Musique »](https://mediateur.radiofrance.com/chaines/radio-france/evolution-des-frequences-et-de-la-diffusion-de-france-musique/)
-- [Au fil de l'actu](https://www.radiofrance.fr/francemusique/podcasts/au-fil-de-l-actu/sibyle-veil-nous-sommes-la-pour-trouver-une-solution-a-chaque-auditeur-3498642) (Émission de France Musique où la présentatrice et la médiatrice tamponnent violemment la présidente de Radio France en relayant la colère des auditeurs. J'en ai réalisé une retranscription que vous pourrez trouver en fin de notule.)
+→ [La Médiatrice de Radio France — « La radio numérique terrestre en France »](https://mediateur.radiofrance.com/infos-infos/la-radio-numerique-terrestre-en-france/)<br>
+→ [La Médiatrice de Radio France — « L'évolution des fréquences FM de Radio France »](https://mediateur.radiofrance.com/chaines/radio-france/levolution-des-frequences-fm-de-radio-france/)<br>
+→ [La Médiatrice de Radio France — « Évolution des fréquences et de la diffusion de France Musique »](https://mediateur.radiofrance.com/chaines/radio-france/evolution-des-frequences-et-de-la-diffusion-de-france-musique/)<br>
+→ [Au fil de l'actu](https://www.radiofrance.fr/francemusique/podcasts/au-fil-de-l-actu/sibyle-veil-nous-sommes-la-pour-trouver-une-solution-a-chaque-auditeur-3498642) (Émission de France Musique où la présentatrice et la médiatrice tamponnent violemment la présidente de Radio France en relayant la colère des auditeurs. J'en ai réalisé une retranscription que vous pourrez trouver en fin de notule.)
+
+--
 
 #### Quelques articles de presse
-- [Diapason — «  France Musique a perdu près de 300 émetteurs FM » (11 août 2026)](https://www.diapasonmag.fr/a-la-une/france-musique-a-perdu-pres-de-300-emetteurs-fm-66233.html)
-- [Le Monde — « La radio se convertit au numérique terrestre » (12 octobre 2021)](https://www.lemonde.fr/economie/article/2021/10/12/la-radio-se-convertit-au-numerique-terrestre_6097999_3234.html)
-- [La Tribune — « Radio numérique : les conclusions du rapport Kessler » (2011)](https://www.latribune.fr/technos-medias/medias/20110322trib000609864/radio-numerique-les-conclusions-du-rapport-kessler.html)
-- [France Culture — « Quel avenir pour la radio numérique terrestre (RNT) ? » (2015)](https://www.radiofrance.fr/franceculture/podcasts/le-choix-de-la-redaction-14-15/quel-avenir-pour-la-radio-numerique-terrestre-rnt-2420972)
-- [Que Choisir — « Radio et DAB+ : de l'analogique au numérique »](https://www.quechoisir.org/decryptage-radio-et-dab-de-l-analogique-au-numerique-n91494/)
+→ [Diapason — «  France Musique a perdu près de 300 émetteurs FM » (11 août 2026)](https://www.diapasonmag.fr/a-la-une/france-musique-a-perdu-pres-de-300-emetteurs-fm-66233.html)<br>
+→ [Le Monde — « La radio se convertit au numérique terrestre » (12 octobre 2021)](https://www.lemonde.fr/economie/article/2021/10/12/la-radio-se-convertit-au-numerique-terrestre_6097999_3234.html)<br>
+→ [La Tribune — « Radio numérique : les conclusions du rapport Kessler » (2011)](https://www.latribune.fr/technos-medias/medias/20110322trib000609864/radio-numerique-les-conclusions-du-rapport-kessler.html)<br>
+→ [France Culture — « Quel avenir pour la radio numérique terrestre (RNT) ? » (2015)](https://www.radiofrance.fr/franceculture/podcasts/le-choix-de-la-redaction-14-15/quel-avenir-pour-la-radio-numerique-terrestre-rnt-2420972)<br>
+→ [Que Choisir — « Radio et DAB+ : de l'analogique au numérique »](https://www.quechoisir.org/decryptage-radio-et-dab-de-l-analogique-au-numerique-n91494/)
+
+--
 
 #### Conversation de mélomanes concernés
-- [Autour de la musique classique](https://classik.forumactif.com/t10448-changement-de-frequence-france-musique#1287762) (où vous aurez la joie ineffable de me lire avec mes compères)
+→ [Autour de la musique classique](https://classik.forumactif.com/t10448-changement-de-frequence-france-musique#1287762) (où vous aurez la joie ineffable de me lire avec mes compères)
 
 <hr>
 
