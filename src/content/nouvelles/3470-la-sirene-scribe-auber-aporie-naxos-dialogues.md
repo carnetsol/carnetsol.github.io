@@ -75,7 +75,7 @@ C'est un désavantage substantiel pour suivre une œuvre dont les mérites sont 
 Surtout que…
 
 <div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-3 – Naxos a pris la tragique habitude de <b>ne pas enregistrer les dialogues parlés</b> dans les opéras comiques qu’il enregistre — que ce soit pour du Monsigny, du Grétry, ou déjà pour Auber avec <i>Le Philtre</i>, oeuvre-source de <i>L’Elisir d’amore</i>. </div>
+3 – Naxos a pris la tragique habitude de <b>ne pas enregistrer les dialogues parlés</b> dans les opéras comiques qu’il enregistre — y compris pour du Grétry ou du Monsigny ! </div>
 
 Ce n’est pas simplement un choix éditorial ou une petite frustration : **tout l’équilibre du genre <i>opéra comique</i>** repose sur l’alternance du parlé et du chanté. Certaines œuvres, où les dialogues sont courts, où peu d’action se déroule entre les numéros, où les morceaux musicaux sont très contrastés, peuvent survivre à ce traitement, même si cela demeure une profonde aberration par rapport à la pensée même des créateurs — *Fidelio* de Beethoven est suffisamment dense, étrange et *typé* pour assez bien s’accommoder de dialogues réduits à deux phrases entre chaque numéro vocal ou orchestral.
 
@@ -163,6 +163,6 @@ On doit en réalité cette idée à Scribe, qui suggère à Auber de trouver une
 
 ## <u>7. <i>Ite sirena est</i></u>
 
-À défaut qu'il y ait aucune vraisemblance que mon *de profundis clamavi* soit entendu par Naxos, je vous engage donc à cette découverte, et à tous les autres titres de la série (notamment *Le Philtre* qui sert de source à *L'Elisir d'amore*, bien chanté lui aussi)… si vous avez la patience de vous aménager les conditions d'écoute favorables ! 
+À défaut qu'il y ait aucune vraisemblance que mon *de profundis clamavi* soit entendu par Naxos, je vous engage donc à cette découverte, et à tous les autres titres de la série (notamment *Le Philtre* qui sert de source à *L'Elisir d'amore*, bien chanté lui aussi, et qui est intégral puisque conçu pour l'Opéra de Paris sur le modèle des succès de l'opéra comique, mais sans dialogues parlés)… si vous avez la patience de vous aménager les conditions d'écoute favorables ! 
 
 À bientôt, l'actualité de la série 1899 vous conduira bientôt à la rencontre plus détaillée d'autres Scribe-Auber : *Haÿdée* dans deux ou trois semaines, et un peu plus tard l'immortel *Les Diamants de la Couronne* !
