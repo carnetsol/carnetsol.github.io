@@ -1,6 +1,6 @@
 ---
 titre: "Agenda complété"
-date: 2026-10-07
+date: 2026-10-07T19:59
 postId: 3473
 slug: "agenda-2026-2027-complete"
 categories: ["Saison 2026-2027"]
@@ -9,7 +9,7 @@ chapo: "Nouvelle mouture de l'agenda des concerts, incluant la salle Cortot, le 
 
 ---
 
-J'ai ajouté, dans un fichier plus léger, plusieurs salles et institutions qui manquaient, dont le CMBV, le Musée d'Orsay, la Bibliothèque La Grange - Fleuret, le Théâtre de Saint-Quentin-en-Yvelines, le Bal Blomet, les orchestres municipaux Colonne, Lamoureux, Pasdeloup, l'orchestre amateur (de haut niveau) Ondes Plurielles… 
+<br>J'ai ajouté, dans un fichier plus léger, plusieurs salles et institutions qui manquaient, dont le CMBV, le Musée d'Orsay, la Bibliothèque La Grange - Fleuret, le Théâtre de Saint-Quentin-en-Yvelines, le Bal Blomet, les orchestres municipaux Colonne, Lamoureux, Pasdeloup, l'orchestre amateur (de haut niveau) Ondes Plurielles… 
 
 [Format tableau xlsx](/medias/agenda/tous_concerts.zip) et [format brochure pdf](/medias/agenda/tous_concerts.pdf), selon les goûts. 
 
