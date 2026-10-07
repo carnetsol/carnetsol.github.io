@@ -154,3 +154,11 @@ Le Markdown autorise l'intégration directe de balises HTML si le parseur le per
 
 5. **Indice et Exposant** :
    H<sub>2</sub>O et E = mc<sup>2</sup>
+
+********
+
+Notes de bas de Page
+
+blablabl [^1]
+
+[^1]: note
