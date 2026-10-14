@@ -633,23 +633,3 @@ On voit les essais d'humour, c'est bien vu dans le geste mais ce n'est pas encor
 ## <u>12. La suite</u>
 
 Nous verrons ce que l'avenir nous réserve (si nous survivons). En tout cas, sur CSS, beaucoup de rédaction humaine et sans doute un peu de facilitation dans les retranscriptions et la recherche de source. Guère plus qu'un secrétaire, et pas aussi créatif que Polidori. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
