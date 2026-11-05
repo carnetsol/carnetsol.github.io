@@ -402,14 +402,16 @@ commentaires:
     contenu: "<p>Les putti sont charmants.</p>"
 
 ************************
+npm run dev
+npm run build
+python scripts/verifier_json.py
 
 python scripts/importer_youtube.py --ecrire
 python scripts/vignettes_youtube.py --ecrire
 python scripts/ordonner_categories.py --ecrire
-python scripts/verifier_json.py
-npm run build
+
 git add -A
-git commit -m "haydee video n 1"
+git commit -m "breve adjectifs et robert orgue"
 git push
 
 
