@@ -9,7 +9,7 @@ chapo: |
   La mort de Herbert Blomstedt m'a donné l'impulsion de faire un tour de la presse germanophone, de proposer un bilan subjectif de son legs en concert et au disque, mais aussi de rechercher la trace du répertoire suédois, de s'interroger sur le prochain doyen des chefs d'orchestre (je l'ai trouvé) et de proposer une discographie la plus complète possible. 
 
 ---
-<br><br>
+<br>
 
 <center><img src="/medias/blomstedt_jeune_bras_leve.png" alt="/medias/blomstedt_jeune_bras_leve.png"><br><small></small></center>
 
