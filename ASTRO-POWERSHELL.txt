@@ -411,7 +411,7 @@ python scripts/vignettes_youtube.py --ecrire
 python scripts/ordonner_categories.py --ecrire
 
 git add -A
-git commit -m "breve adjectifs et robert orgue"
+git commit -m "blomstedt"
 git push
 
 

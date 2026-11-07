@@ -3,7 +3,9 @@ titre: "Après Blomstedt"
 date: 2026-11-05T08:49
 postId: 3478
 slug: "blomstedt-discographie-et-legs-doyens"
-categories: ["Discographies, Portraits"]
+categories: 
+  - Discographies
+  - Portraits
 vignette: "/medias/blomstedt_jeune_bras_leve.png"
 chapo: |
   La mort de Herbert Blomstedt m'a donné l'impulsion de faire un tour de la presse germanophone, de proposer un bilan subjectif de son legs en concert et au disque, mais aussi de rechercher la trace du répertoire suédois, de s'interroger sur le prochain doyen des chefs d'orchestre (je l'ai trouvé) et de proposer une discographie la plus complète possible. 
