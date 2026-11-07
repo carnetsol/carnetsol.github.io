@@ -1,6 +1,6 @@
 ---
 titre: "Vit de Scarron"
-date: 2026-11-09T18:43
+date: 2026-11-07T18:43
 postId: 3479
 slug: fin-morale-de-scarron-elisir-d-amore-donizetti-philtre-scribe-auber-stendhal.md
 categories: 
@@ -8,13 +8,13 @@ categories:
   - Opéra-comique (et opérette)
 vignette: /medias/scarron_00.png
 chapo: |
-  En fouinant autour de fausses pistes quant aux sources littéraires de </i>L'Elisir d'amore</i> de Romani-Donizetti — c'était en réalité plutôt autour du <i>Philtre</i> de Scribe-Auber, dont le livret italien représente essentiellement une traduction, et dont je reparle en fin de notule —, je me retrouve à lire un récit de Scarron, 
+  En fouinant autour de fausses pistes quant aux sources littéraires de <i>L'Elisir d'amore</i> de <b>Romani-Donizetti</b> — c'était en réalité plutôt autour du <i>Philtre</i> de <b>Scribe-Auber</b>, dont le livret italien représente essentiellement une traduction, et dont je reparle en fin de notule —, je me retrouve à lire un récit de <b>Scarron</b>, 
 ---
 <br>
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/-uExVdp9tTw?si=B1JfZPHM5XjLLWQL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
-En fouinant autour de fausses pistes quant aux sources littéraires de </i>L'Elisir d'amore</i> de **Romani-Donizetti** — c'était en réalité plutôt autour du <i>Philtre</i> de **Scribe-Auber**, dont le livret italien représente essentiellement une traduction, et dont je reparle en fin de notule —, je me retrouve à lire un récit de **Scarron**, tiré des <i>Nouvelles tragi-comiques</i> : « L'Adultère Innocent ». Et en effet, toute la structure du <i>Philtre</i> de **Stendhal** est déjà là : la femme énigmatique et désespérée, secourue par un jeune homme de passage qui l'héberge en honnête homme, tout en nourrissant une immédiate passion pour elle ; la structure de récit enchâssé ; le mobile de l'adultère honnêtement confessé…
+En fouinant autour de fausses pistes quant aux sources littéraires de <i>L'Elisir d'amore</i> de **Romani-Donizetti** — c'était en réalité plutôt autour du <i>Philtre</i> de **Scribe-Auber**, dont le livret italien représente essentiellement une traduction, et dont je reparle en fin de notule —, je me retrouve à lire un récit de **Scarron**, tiré des <i>Nouvelles tragi-comiques</i> : « L'Adultère Innocent ». Et en effet, toute la structure du <i>Philtre</i> de **Stendhal** est déjà là : la femme énigmatique et désespérée, secourue par un jeune homme de passage qui l'héberge en honnête homme, tout en nourrissant une immédiate passion pour elle ; la structure de récit enchâssé ; le mobile de l'adultère honnêtement confessé…
 
 Pas le plus ténu rapport avec l'intrigue concoctée par **Scribe**, vraiment les exégètes (assez nombreux) qui ont inclus cette œuvre comme source n'ont regardé que le titre (et la date), sans en avoir ouvert la première page — dès le début, on ne voit pas comment on peut connecter les fils de la comédie du nigaud champêtre amoureux épris de la schtroumpfette du village… avec cette rencontre en pleine ville d'une aristocrate fuyant éperdue les conséquences de son adultère, prête à chercher refuge auprès d'un jeune officier dans un logement de garnison. 
 
