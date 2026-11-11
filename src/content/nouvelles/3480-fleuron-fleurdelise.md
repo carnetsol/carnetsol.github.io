@@ -14,7 +14,7 @@ chapo: |
 
 <center><img src="/medias/werther_dejaure.png"></center>
 
-## 1. Sérendipité de la vie
+## <u>1. Sérendipité de la vie</u>
 
 Dans deux jours, nous montons une schubwerthiade avec deux amis : ils chanteront tous les rôles de *Werther* de Massenet, tandis que j'accompagnerai l'ensemble — il se pourrait même que je sois mandaté au contrechant des « Noël !  Noël !  Noëëëëël ! » à trois voix — mais soyez discrets s'il vous plaît, ce n'est pas encore décidé. 
 
@@ -31,7 +31,7 @@ J'en parlerai plus tard, car d'abord je vous partage un étonnement d'ordre plus
 
 <hr>
 
-## 2. Albert et les Lys de France
+## <u>2. Albert et les Lys de France</u>
 
 J'ai donc lu, avec beaucoup d'intérêt et même une certaine dose d'émotion ce *Werther et Charlotte* de Dejaure. L'édition originale de l'année de la création (1792) contient même deux des trois fins essayées par l'auteur pour complaire au public (avec un succès mitigé). 
 
@@ -49,7 +49,7 @@ Je m'interroge donc : les privilèges n'ont-ils donc pas été abolis ?
 
 <hr>
 
-## 3. La règle du jeu en 1792
+## <u>3. La règle du jeu en 1792</u>
 
 Pendant l'Ancien Régime, les imprimeurs devaient solliciter un privilège royal pour avoir le droit d'exercer. Il existait aussi une censure *a priori* ; celle-ci s'assouplit énormément au fil du XVIIIe siècle (et notamment sous Louis XVI). Je me rappelle (*via* [Darnton](https://catalogue.bnf.fr/rechercher.do?motRecherche=robert+darnton&critereRecherche=0&depart=0&facetteModifiee=ok)) avoir été très amusé par le fait que les censeurs, en général auteurs eux-mêmes (par exemple Fontenelle ou les deux Crébillon) autorisaient les ouvrages selon leur solidité argumentative (qui devait faire honneur au Roi) et non selon leur positionnement idéologique, avec par conséquent des livres très critiques des institutions qui pouvaient être publiés. 
 
@@ -85,7 +85,7 @@ Mais quelle peut en être la raison ?
 
 <hr>
 
-## 4. L'éditeur Cailleau
+## <u>4. L'éditeur Cailleau</u>
 
 La monarchie constitutionnelle a encore cours en février 1792. C'est une période d'intense activité politique hostile aux aristocrates, en particulier envers les émigrés — Monsieur est déchu, pour cette raison, de ses droits à la Régence en cas de mort du roi. La suite de l'année, avec les menaces extérieures, va dégénérer jusqu'à la prise des Tuileries en août et la proclamation de la République en septembre (avec dans l'intervalle l'arrestation du roi). 
 
@@ -108,7 +108,7 @@ Voilà qui ne laisse pas penser à un parti pris éditorial très vif.
 
 <hr>
 
-## 5. L'avis du bon Ockham
+## <u>5. L'avis du bon Ockham</u>
   
  Alors pourquoi cette fleur de lys ? 
  
