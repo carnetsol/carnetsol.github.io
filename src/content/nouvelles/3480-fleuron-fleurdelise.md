@@ -108,7 +108,7 @@ Voilà qui ne laisse pas penser à un parti pris éditorial très vif.
 
 <hr>
 
-## 5. L'éditeur Cailleau
+## 5. L'avis du bon Ockham
   
  Alors pourquoi cette fleur de lys ? 
  
