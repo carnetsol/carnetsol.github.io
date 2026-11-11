@@ -411,7 +411,7 @@ python scripts/vignettes_youtube.py --ecrire
 python scripts/ordonner_categories.py --ecrire
 
 git add -A
-git commit -m "blomstedt"
+git commit -m "scarron images"
 git push
 
 
