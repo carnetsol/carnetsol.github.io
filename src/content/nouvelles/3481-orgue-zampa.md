@@ -6,13 +6,13 @@ slug: zampa-orgue
 categories: 
   - Opéra-comique (et opérette)
   - Opéra romantique français et Grand Opéra
-vignette: /medias/orgue_zampa.png
+vignette: /medias/zampa_orgue.png
 chapo: |
   L'histoire folle de la course à l'orgue entre Hérold et Meyerbeer.  
 ---
 <br>
 
-<center><img src="/mediasorgue_zampa.png"><br><small>Illustration pour un quadrille de Juliano sur des thèmes de <i>Zampa</i>.</small></center>
+<center><img src="/medias/zampa_orgue.png"><br><small>Illustration pour un quadrille de Juliano sur des thèmes de <i>Zampa</i>.</small></center>
 
 ## <u>1. La bonne question</u>
 
@@ -34,7 +34,7 @@ Mais vous allez voir que ce n'est pas si simple, et qu'il y a quelques histoires
 
 <hr>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1owf9gGb6Co?si=j2B3oW9lNgPSL25C&amp;start=6825" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/1owf9gGb6Co?si=j2B3oW9lNgPSL25C&amp;start=6825" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
 <hr>
 
@@ -86,7 +86,7 @@ Le redoutable **Hanslick**, dans la [Neue Freie Presse](https://hanslick-online.
 **Joseph d'Ortigue** parle rétrospectivement de son expérience lors des soirées de création de *Zampa* dans *[Le Ménestrel](https://sas-space.sas.ac.uk/2688/1/Le_Menestrel_14_juin_1863.pdf)* du 14 juin 1863. Il y souligne la parenté avec *Robert* et développe un peu la question de la couleur religieuse, qui est à distinguer de la religion véritable, mais qu'il considère néanmoins comme réussie et touchante.  
 > Il y a de tout dans *Zampa* ; l’auteur y a rencontré diverses inspirations, jusqu’à l’inspiration religieuse, et, à un moment où, ainsi que j’ai eu ailleurs l’occasion de le faire remarquer, il y avait quelque mérite de la part des compositeurs à puiser à cette source de l’inspiration chrétienne. Il est vrai que Hérold n’est pas allé aussi loin que M. Meyerbeer dans cette voie. Mais il est juste aussi de remarquer que *Zampa* a précédé de plusieurs mois *Robert le Diable*. La prière à trois voix de femmes qui ouvre le second acte, et mieux encore l’introduction instrumentale qui la précède, la ballade même du premier acte sont empreintes de couleur religieuse, de cette couleur religieuse, du moins qui n’est pas incompatible avec les conventions théâtrales, bien qu’à l’église, elle fût très-peu compatible avec les convenances liturgiques.
 
-Enfin, dans le *[Nouveauté Traité d'Instrumentation(https://archive.org/details/nouveautraitedin00geva/page/312/mode/2up)]* de **Gevaert** (1885, cf. p. 313), *Zampa* et *Robert* sont cités comme exemples d'usage de l'orgue, mais il souligne d'une part que son rôle est toujours intra-diégétique (il y a réellement un orgue un dans l'histoire), et d'autre part loue l'effet de vérité de l'évocation produite par l'instrument d'église pour figurer une atmosphère religieuse : c'est-à-dire tout l'inverse des critiques qui avaient trouvé impie l'usage de l'instrument lié au sacré dans une salle de théâtre. 
+Enfin, dans le [*Nouveauté Traité d'Instrumentation*](https://archive.org/details/nouveautraitedin00geva/page/312/mode/2up) de **Gevaert** (1885, cf. p. 313), *Zampa* et *Robert* sont cités comme exemples d'usage de l'orgue, mais il souligne d'une part que son rôle est toujours intra-diégétique (il y a réellement un orgue un dans l'histoire), et d'autre part loue l'effet de vérité de l'évocation produite par l'instrument d'église pour figurer une atmosphère religieuse : c'est-à-dire tout l'inverse des critiques qui avaient trouvé impie l'usage de l'instrument lié au sacré dans une salle de théâtre. 
 > Lorsque le nouvel orchestre de symphonie, avec ses nombreux instruments à vent et son style coloré, eut été adopté dans la musique religieuse de l'Église catholique, l'accompagnement du *continuo* devint un remplissage insipide. À côté des timbres chauds de la clarinette, du cor, le son inerte des jeux de l'orgue n'eut plus de raison d'être. Isolée, chacune des deux sonorités hétérogènes a ses beautés ; réunies, loin de se fondre, elles se contrarient, et l'effet total est déplaisant, sans caractère. Aussi dès ce jour les deux grandes puissances musicales se séparèrent définitivement. Quand désormais l'orchestre eut à prendre la parole dans l'église, l'orgue se tut. 
 >
 > S'il en a été ainsi dans le sanctuaire même, où le vieil instrument est chez lui, à plus forte raison au dehors. Les orgues magnifiques que l'on rencontre aujourd'hui dans nos grandes salles de concert s'y élèvent à la gloire de l'Art ancien, et mêlent rarement leurs sons à ceux de l'orchestre moderne. À la vérité l'opéra français s'est servi assez volontiers de l'orgue depuis un demi-siècle (*Zampa* 1831, 3 mai ; *Robert le Diable*, 1831, 21 novembre ; *la Juive*, 1835 ; *la Favorite*, 1840 ; *Faust* 1859), mais uniquement pour des scènes d'église : non pas dans l'orchestre, mais sur le théâtre, et comme un élément de la représentation dramatique. Ainsi motivé, le contraste des deux orchestres rivaux produit un grand effet : effet d'autant plus grand que l'orgue garde mieux son caractère naïf et hiératique.
@@ -158,7 +158,7 @@ qui contient davantage de détails sur l'orgue de *Robert* ; je n'ai pas encore 
 
 **Dernière trouvaille** que *tous* les moteurs de recherche m'ont renvoyé pour souligner l'importance de l'orgue dans *Zampa*, et qui, sans contredit, parle réellement de l'effet musical de cette séquence d'orgue sur le public… [la voici](https://carnetsol.fr/css/2016/07/03/2828-reponse-devinette-de-juin/) !
 
-<br>
+<hr>
 
 ## <u>5. L'anecdote !  L'anecdote ! </u>
 
@@ -186,7 +186,7 @@ Elle est rapportée par **Benoît Jouvin** dans sa biographie d'Hérold, [_Héro
 
 Je vous ai gardé tout le texte d'époque plutôt que d'en fournir un résumé ; d'abord parce que c'est toujours plus exact et parlant ; ensuite parce que je suis assez *fan* de la métaphore du civet. 
 
-<br>
+<hr>
 
 ## <u>6. Une (absence de) réponse à la question</u>
 

@@ -13,7 +13,7 @@ commentaires:
   - id: 14654
     auteur: "David Le Marrec"
     date: "2026-11-15"
-    contenu: "Je suis allé lire la presse de 1831 (et un peu au delà), j'ai des anecdotes et quelques réponses !  Tout est dans cette <a href='https://carnetsol.fr/css/2026/11/15/3481-orgue_zampa/'>nouvelle notule</a>, merci pour l'inspiration !"
+    contenu: "Je suis allé lire la presse de 1831 (et un peu au delà), j'ai des anecdotes et quelques réponses !  Tout est dans cette <a href='https://carnetsol.fr/css/2026/11/15/3481-zampa-orgue/'>nouvelle notule</a>, merci pour l'inspiration !"
 chapo: |
   Dans mes lectures (qui se poursuivent doucettement) autour de l'absence de scandale de <i>Robert le Diable</i>, et qui restent peu probantes malgré la lecture minutieuse de la presse d'époque et des meilleurs spécialistes – jusqu'à une thèse sur la réception de l'œuvre ! –, je fais une découverte inattendue. 
 
