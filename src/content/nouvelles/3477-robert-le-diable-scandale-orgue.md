@@ -10,7 +10,7 @@ commentaires:
     auteur: "Grégoire"
     date: "2026-11-06"
     contenu: "L'utilisation de l'orgue dans le final de l'acte II de Zampa, à peu près contemporain (créé même quelques mois avant <i>Robert<i> si j'en crois Wiki), dans un livret surement moins cru mais assez peu moral (même si <i>ça ne finit pas trop mal</i>) a-t-il eu d'aussi bruyantes répercussions ? ou comme formellement l'opéra-comique est moins noble que le grand opéra, alors c'est toléré dans cette maison de la décadence ?"
-	- id: 14654
+  - id: 14654
     auteur: "David Le Marrec"
     date: "2026-11-15"
     contenu: "Je suis allé lire la presse de 1831 (et un peu au delà), j'ai des anecdotes et quelques réponses !  Tout est dans cette <a href="https://carnetsol.fr/css/2026/11/15/3481-orgue_zampa/">nouvelle notule</a>, merci pour l'inspiration !"
