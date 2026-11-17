@@ -9,7 +9,7 @@ categories:
   - Discourir
 vignette: /medias/werther_panorama_wetzlar_noel.jpg
 chapo: |
-  Un Werther 25% plus rapide. <br><br>Comment et pourquoi on fait ça ? 
+  Un Werther 25% plus rapide. Comment et pourquoi on fait ça ? 
 ---
 <br>
 
